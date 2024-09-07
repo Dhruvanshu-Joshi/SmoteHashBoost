@@ -28,6 +28,8 @@ def prepare_rus(X: np.array, y: np.array, minority=None, verbose: bool = False):
 
     # Get classes and number of them
     classes, counts = np.unique(y, return_counts=True)
+    print(classes)
+    print(counts)
 
     if minority is None:
         # Find minority class

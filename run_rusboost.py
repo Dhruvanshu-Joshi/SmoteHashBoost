@@ -89,7 +89,7 @@ DATASETS.update({
     'Glass': {
         'data': [data.values[:, :-1], data.values[:, -1]],
         'extra': {
-            'minority_class': 7
+            'minority_class': '7'
         }
     }
 })
