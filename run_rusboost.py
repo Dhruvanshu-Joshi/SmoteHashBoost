@@ -43,48 +43,48 @@ DATASETS = dict()
 #     }
 # })
 
-"""Car vGood"""
-data = pd.read_csv('data/raw/car.data', header=None)
-DATASETS.update({
-    'CarvGood': {
-        'data': [
-            OrdinalEncoder().fit_transform(data.values[:, :-1]),
-            data.values[:, -1]
-        ],
-        'extra': {
-            'minority_class': 'vgood'
-        }
-    }
-})
+# """Car vGood"""
+# data = pd.read_csv('data/raw/car.data', header=None)
+# DATASETS.update({
+#     'CarvGood': {
+#         'data': [
+#             OrdinalEncoder().fit_transform(data.values[:, :-1]),
+#             data.values[:, -1]
+#         ],
+#         'extra': {
+#             'minority_class': 'vgood'
+#         }
+#     }
+# })
 
 
-"""Car Good"""
-data = pd.read_csv('data/raw/car.data', header=None)
-DATASETS.update({
-    'CarGood': {
-        'data': [
-            OrdinalEncoder().fit_transform(data.values[:, :-1]),
-            data.values[:, -1]
-        ],
-        'extra': {
-            'minority_class': 'good'
-        }
-    }
-})
+# """Car Good"""
+# data = pd.read_csv('data/raw/car.data', header=None)
+# DATASETS.update({
+#     'CarGood': {
+#         'data': [
+#             OrdinalEncoder().fit_transform(data.values[:, :-1]),
+#             data.values[:, -1]
+#         ],
+#         'extra': {
+#             'minority_class': 'good'
+#         }
+#     }
+# })
 
-"""Seed"""
-data = pd.read_csv('data/raw/seeds_dataset.txt', header=None)
-DATASETS.update({
-    'Seed': {
-        'data': [data.values[:, :-1], data.values[:, -1]],
-        'extra': {
-            'minority_class': 2
-        }
-    }
-})
+# """Seed"""
+# data = pd.read_csv('data/raw/seeds_dataset.txt', header=None)
+# DATASETS.update({
+#     'Seed': {
+#         'data': [data.values[:, :-1], data.values[:, -1]],
+#         'extra': {
+#             'minority_class': 2
+#         }
+#     }
+# })
 
 """Glass"""
-data = pd.read_csv('data/raw/glass.data', header=None)
+data = pd.read_csv('data/raw/glass.csv', header=None)
 DATASETS.update({
     'Glass': {
         'data': [data.values[:, :-1], data.values[:, -1]],
