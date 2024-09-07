@@ -7,41 +7,41 @@ import pandas as pd
 
 DATASETS = dict()
 
-"""Wine Dataset"""
-X, y = load_wine(return_X_y=True)
-DATASETS.update({
-    'Wine': {
-        'data': [X, y],
-        'extra': {
-        }
-    }
-})
+# """Wine Dataset"""
+# X, y = load_wine(return_X_y=True)
+# DATASETS.update({
+#     'Wine': {
+#         'data': [X, y],
+#         'extra': {
+#         }
+#     }
+# })
 
-"""Flare-F"""
-data = pd.read_csv('data/raw/flare-F.dat', header=None)
-objects = data.select_dtypes(include=['object'])
-for col in objects.columns:
-    if col == len(data.columns) - 1:
-        continue
-    data.iloc[:, col] = LabelEncoder().fit_transform(data.values[:, col])
+# """Flare-F"""
+# data = pd.read_csv('data/raw/flare-F.dat', header=None)
+# objects = data.select_dtypes(include=['object'])
+# for col in objects.columns:
+#     if col == len(data.columns) - 1:
+#         continue
+#     data.iloc[:, col] = LabelEncoder().fit_transform(data.values[:, col])
 
-DATASETS.update({
-    'Flare-F': {
-        'data': [data.values[:, :-1], data.values[:, -1]],
-        'extra': {
+# DATASETS.update({
+#     'Flare-F': {
+#         'data': [data.values[:, :-1], data.values[:, -1]],
+#         'extra': {
 
-        }
-    }
-})
+#         }
+#     }
+# })
 
-"""Yeast5"""
-data = pd.read_csv('data/raw/yeast5.dat', header=None)
-DATASETS.update({
-    'Yeast5': {
-        'data': [data.values[:, :-1], data.values[:, -1]],
-        'extra': {}
-    }
-})
+# """Yeast5"""
+# data = pd.read_csv('data/raw/yeast5.dat', header=None)
+# DATASETS.update({
+#     'Yeast5': {
+#         'data': [data.values[:, :-1], data.values[:, -1]],
+#         'extra': {}
+#     }
+# })
 
 """Car vGood"""
 data = pd.read_csv('data/raw/car.data', header=None)
