@@ -83,7 +83,7 @@ DATASETS.update({
 })
 
 """Glass"""
-data = pd.read_csv('data/raw/glass.data', header=None)
+data = pd.read_csv('data/raw/glass.csv', header=None)
 DATASETS.update({
     'Glass': {
         'data': [data.values[:, :-1], data.values[:, -1]],
@@ -119,25 +119,25 @@ DATASETS.update({
     }
 })
 
-"""Skin"""
-data = pd.read_csv('data/raw/Skin_NonSkin.txt', delimiter='\t', header=None)
-DATASETS.update({
-    'Skin': {
-        'data': [data.values[:, :-1], data.values[:, -1]],
-        'extra': {}
-    }
-})
+# """Skin"""
+# data = pd.read_csv('data/raw/Skin_NonSkin.txt', delimiter='\t', header=None)
+# DATASETS.update({
+#     'Skin': {
+#         'data': [data.values[:, :-1], data.values[:, -1]],
+#         'extra': {}
+#     }
+# })
 
-"""Letter Dataset"""
-data = pd.read_csv('data/raw/letter-recognition.data', header=None)
-DATASETS.update({
-    'Letter': {
-        'data': [data.values[:, 1:], data.values[:, 0]],
-        'extra': {
-            'minority_class': 'A'
-        }
-    }
-})
+# """Letter Dataset"""
+# data = pd.read_csv('data/raw/letter-recognition.data', header=None)
+# DATASETS.update({
+#     'Letter': {
+#         'data': [data.values[:, 1:], data.values[:, 0]],
+#         'extra': {
+#             'minority_class': 'A'
+#         }
+#     }
+# })
 
 # """MNIST"""
 # data = pd.read_csv('data/raw/mnist_784.csv', header=0)

@@ -1,9 +1,9 @@
 from sklearn.preprocessing import LabelEncoder, OrdinalEncoder
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.datasets import load_wine
-from imblearn.ensemble import RUSBoostClassifier  # Import RUSBoost from imbalanced-learn library
-from utils_rusboost import evaluate_rus
+from utils import evaluate
 import pandas as pd
+from auc_compare import evaluate_boost_with_plots
 
 DATASETS = dict()
 
@@ -89,7 +89,7 @@ DATASETS.update({
     'Glass': {
         'data': [data.values[:, :-1], data.values[:, -1]],
         'extra': {
-            'minority_class': '7'
+            'minority_class': 7
         }
     }
 })
@@ -120,52 +120,13 @@ DATASETS.update({
     }
 })
 
-# """Skin"""
-# data = pd.read_csv('data/raw/Skin_NonSkin.txt', delimiter='\t', header=None)
-# DATASETS.update({
-#     'Skin': {
-#         'data': [data.values[:, :-1], data.values[:, -1]],
-#         'extra': {}
-#     }
-# })
-
-# """Letter Dataset"""
-# data = pd.read_csv('data/raw/letter-recognition.data', header=None)
-# DATASETS.update({
-#     'Letter': {
-#         'data': [data.values[:, 1:], data.values[:, 0]],
-#         'extra': {
-#             'minority_class': 'A'
-#         }
-#     }
-# })
-
-# """MNIST"""
-# data = pd.read_csv('data/raw/mnist_784.csv', header=0)
-# DATASETS.update({
-#     'DIGITS': {
-#         'data': [data.values[:, :-1], data.values[:, -1]],
-#         'extra': {
-#             'minority_class': 4,
-#             'n_runs': 1
-#         }
-#     }
-# })
-
 for name, value in DATASETS.items():
-    # for method in [
-    #     'reciprocal',
-    #     'random',
-    #     'linearity',
-    #     'negexp',
-    #     'limit'
-    # ]:
-    evaluate_rus(
-        "{} - Method: {}".format(name, name),
-        RUSBoostClassifier(base_estimator=DecisionTreeClassifier()),  # Use RUSBoostClassifier
+    evaluate_boost_with_plots(
+        "{} - Method: {}".format(name, ""),
+        DecisionTreeClassifier(),
         *value.get('data'),
         **value.get('extra'),
         k=5,
-        verbose=True,
+        verbose=True
     )
     print("*"*50)
