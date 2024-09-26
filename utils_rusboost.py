@@ -1,4 +1,4 @@
-from sklearn.metrics import accuracy_score, roc_auc_score
+from sklearn.metrics import accuracy_score, roc_auc_score, roc_curve
 from imblearn.ensemble import RUSBoostClassifier  # Import RUSBoost from imbalanced-learn library
 from sklearn.model_selection import StratifiedKFold
 import numpy as np
@@ -61,7 +61,6 @@ def prepare_rus(X: np.array, y: np.array, minority=None, verbose: bool = False):
 
     return X, y_
 
-
 def evaluate_rus(
         name,
         base_classifier,
@@ -74,7 +73,7 @@ def evaluate_rus(
         verbose: bool = False,
         **kwargs
 ):
-    """Model Evaluation
+    """Model Evaluation with ROC curve plotting capabilities for RUSBoost
 
     :param name: str
         title of this classifier
@@ -104,13 +103,11 @@ def evaluate_rus(
     :param verbose: bool (default = False)
         verbosity
 
-    :return None
+    :return List of ROC data (fpr, tpr, auc)
     """
 
     print()
-    print("======[Dataset: {}]======".format(
-        name
-    ))
+    print("======[Dataset: {}]======".format(name))
 
     np.random.seed(random_state)
 
@@ -120,20 +117,21 @@ def evaluate_rus(
     # Prepare the data (Make it Binary)
     X, y = prepare_rus(X, y, minority_class, verbose)
 
-    folds = np.zeros((n_runs, 2))
+    # List to store ROC curve data (fpr, tpr, auc)
+    roc_data = []
+
     for run in tqdm(range(n_runs)):
 
-        # Applying k-Fold (k = 5 due to the paper)
+        # Applying k-Fold cross-validation (Stratified K-Fold)
         kFold = StratifiedKFold(n_splits=k, shuffle=True)
 
         # Store metrics in this variable
-        metrics = np.zeros((k, 2))
         for fold, (trIndexes, tsIndexes) in enumerate(kFold.split(X, y)):
-            # Split data to Train and Test
+            # Split data into training and test sets
             Xtr, ytr = X[trIndexes], y[trIndexes]
             Xts, yts = X[tsIndexes], y[tsIndexes]
 
-            # Define Model
+            # Define the RUSBoost model
             model = RUSBoostClassifier(
                 base_estimator=base_classifier,
                 random_state=random_state,
@@ -143,22 +141,21 @@ def evaluate_rus(
             # Fit the training data on the model
             model.fit(Xtr, ytr)
 
-            # Predict the test data
-            predicted = model.predict(Xts)
+            # Predict probabilities (for ROC curve)
+            y_prob = model.predict_proba(Xts)[:, 1]  # Get probability for positive class
 
             # AUC evaluation
-            AUC = roc_auc_score(yts, predicted)
+            auc_score = roc_auc_score(yts, y_prob)
 
             # Accuracy evaluation
+            predicted = model.predict(Xts)
             accuracy = accuracy_score(yts, predicted)
 
-            # Show result for each step
-            metrics[fold, :] = [accuracy, AUC]
+            # Collect ROC curve data
+            fpr, tpr, _ = roc_curve(yts, y_prob)
+            roc_data.append((fpr, tpr, auc_score))
 
-        folds[run, :] = np.mean(metrics, axis=0)
+    print(OUTPUT.format("Best", accuracy, auc_score))
 
-    print()
-    print(OUTPUT.format(
-        "Best",
-        *np.max(folds, axis=0)
-    ))
+    # Return ROC data for plotting
+    return roc_data
