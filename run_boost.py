@@ -128,6 +128,7 @@ DATASETS.update({
 })
 
 
+
 def evaluate_boost(
         name,
         base_classifier,
@@ -141,13 +142,13 @@ def evaluate_boost(
         verbose: bool = False,
         **kwargs
 ):
-    """Model Evaluation with ROC curve plotting capabilities for SmoteHashBoost
+    """Model Evaluation for SmoteHashBoost with ROC curve plotting capabilities
 
     :param name: str
         title of this classifier
 
     :param base_classifier:
-        Base Classifier for Hashing-Based Undersampling Ensemble
+        Base Classifier for SmoteHashBoost
 
     :param X: np.array (n_samples, n_features)
         Feature matrix
@@ -157,7 +158,6 @@ def evaluate_boost(
 
     :param minority_class: int or str (default = None)
         label of minority class
-        if you want to set a specific class to be minority class
 
     :param k: int (default = 5)
         number of Folds (KFold)
@@ -166,7 +166,7 @@ def evaluate_boost(
         number of runs
 
     :param n_iterations: int (default = 50)
-        number of iterations for Iterative Quantization of Hashing-Based Undersampling Ensemble
+        number of iterations for SmoteHashBoost
 
     :param random_state: int (default = None)
         seed of random generator
@@ -177,8 +177,7 @@ def evaluate_boost(
     :return List of ROC data (fpr, tpr, auc)
     """
 
-    print()
-    print("======[Dataset: {}]======".format(name))
+    print(f"======[Dataset: {name}]======")
 
     np.random.seed(random_state)
 
@@ -188,7 +187,7 @@ def evaluate_boost(
     # Prepare the data (Make it Binary)
     X, y = prepare_boost(X, y, minority_class, verbose)
 
-    # List to store ROC curve data (fpr, tpr, auc)
+    # List to store ROC curve data
     roc_data = []
 
     for run in tqdm(range(n_runs)):
@@ -197,11 +196,11 @@ def evaluate_boost(
         kFold = StratifiedKFold(n_splits=k, shuffle=True)
 
         for fold, (trIndexes, tsIndexes) in enumerate(kFold.split(X, y)):
-            # Split data to Train and Test
+            # Split data into Train and Test
             Xtr, ytr = X[trIndexes], y[trIndexes]
             Xts, yts = X[tsIndexes], y[tsIndexes]
 
-            # Define SmoteHashBoost Model
+            # Define the SmoteHashBoost model
             model = SmoteHashBoost(
                 base_estimator=base_classifier,
                 n_iterations=n_iterations,
@@ -212,14 +211,16 @@ def evaluate_boost(
             # Fit the training data on the model
             model.fit(Xtr, ytr)
 
-            # Predict probabilities (for ROC curve)
-            y_prob = model.predict_proba(Xts)[:, 1]  # Get probability for positive class
+            # Predict (since predict_proba is not available)
+            predicted = model.predict(Xts)
+
+            # Approximate probabilities using predictions (1 for positive class, 0 for negative class)
+            y_prob = predicted  # Simply using predictions instead of probabilities
 
             # AUC evaluation
             auc_score = roc_auc_score(yts, y_prob)
 
             # Accuracy evaluation
-            predicted = model.predict(Xts)
             accuracy = accuracy_score(yts, predicted)
 
             # Collect ROC curve data

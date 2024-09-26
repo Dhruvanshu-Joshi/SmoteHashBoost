@@ -124,7 +124,6 @@ DATASETS.update({
     }
 })
 
-
 def evaluate(
         name,
         base_classifier,
@@ -154,7 +153,6 @@ def evaluate(
 
     :param minority_class: int or str (default = None)
         label of minority class
-        if you want to set a specific class to be minority class
 
     :param k: int (default = 5)
         number of Folds (KFold)
@@ -174,10 +172,7 @@ def evaluate(
     :return List of ROC data (fprs, tprs, aucs)
     """
 
-    print()
-    print("======[Dataset: {}]======".format(
-        name
-    ))
+    print("======[Dataset: {}]======".format(name))
 
     np.random.seed(random_state)
 
@@ -196,9 +191,8 @@ def evaluate(
         # Applying k-Fold (k = 5 due to the paper)
         kFold = StratifiedKFold(n_splits=k, shuffle=True)
 
-        # store metrics in this variable
         for fold, (trIndexes, tsIndexes) in enumerate(kFold.split(X, y)):
-            # Split data to Train and Test
+            # Split data into Train and Test
             Xtr, ytr = X[trIndexes], y[trIndexes]
             Xts, yts = X[tsIndexes], y[tsIndexes]
 
@@ -213,9 +207,11 @@ def evaluate(
             # Fit the training data on the model
             model.fit(Xtr, ytr)
 
-            # Predict the test data and get predicted probabilities
-            y_prob = model.predict_proba(Xts)[:, 1]  # Probabilities for positive class
+            # Predict the test data
             predicted = model.predict(Xts)
+
+            # Approximate probabilities using predictions (1 for positive class, 0 for negative class)
+            y_prob = predicted  # Simply using predictions instead of probabilities
 
             # AUC evaluation
             auc_score = roc_auc_score(yts, y_prob)
@@ -227,15 +223,10 @@ def evaluate(
             fpr, tpr, _ = roc_curve(yts, y_prob)
             roc_data.append((fpr, tpr, auc_score))
 
-    print(OUTPUT.format(
-        "Best",
-        accuracy,
-        auc_score
-    ))
+    print(OUTPUT.format("Best", accuracy, auc_score))
 
     # Return ROC data for plotting
     return roc_data
-
 
 
 for name, value in DATASETS.items():
