@@ -123,7 +123,6 @@ DATASETS.update({
         }
     }
 })
-
 def evaluate(
         name,
         base_classifier,
@@ -137,40 +136,7 @@ def evaluate(
         verbose: bool = False,
         **kwargs
 ):
-    """Model Evaluation with ROC curve plotting capabilities
-
-    :param name: str
-        title of this classifier
-
-    :param base_classifier:
-        Base Classifier for Hashing-Based Undersampling Ensemble
-
-    :param X: np.array (n_samples, n_features)
-        Feature matrix
-
-    :param y: np.array (n_samples,)
-        labels vector
-
-    :param minority_class: int or str (default = None)
-        label of minority class
-
-    :param k: int (default = 5)
-        number of Folds (KFold)
-
-    :param n_runs: int (default = 20)
-        number of runs
-
-    :param n_iterations: int (default = 50)
-        number of iterations for Iterative Quantization of Hashing-Based Undersampling Ensemble
-
-    :param random_state: int (default = None)
-        seed of random generator
-
-    :param verbose: bool (default = False)
-        verbosity
-
-    :return List of ROC data (fprs, tprs, aucs)
-    """
+    """Model Evaluation with ROC curve plotting capabilities."""
 
     print("======[Dataset: {}]======".format(name))
 
@@ -185,7 +151,6 @@ def evaluate(
     # List to store ROC data
     roc_data = []
 
-    # k-Fold (k = 5 as per the paper)
     for run in tqdm(range(n_runs)):
 
         # Applying k-Fold (k = 5 due to the paper)
@@ -207,16 +172,17 @@ def evaluate(
             # Fit the training data on the model
             model.fit(Xtr, ytr)
 
-            # Predict the test data
-            predicted = model.predict(Xts)
-
-            # Approximate probabilities using predictions (1 for positive class, 0 for negative class)
-            y_prob = predicted  # Simply using predictions instead of probabilities
+            # Predict probabilities if available, otherwise use the class predictions
+            if hasattr(model, "predict_proba"):
+                y_prob = model.predict_proba(Xts)[:, 1]  # Probability for positive class
+            else:
+                y_prob = model.predict(Xts)  # Use predicted class if `predict_proba` is not available
 
             # AUC evaluation
             auc_score = roc_auc_score(yts, y_prob)
 
             # Accuracy evaluation
+            predicted = model.predict(Xts)
             accuracy = accuracy_score(yts, predicted)
 
             # Collect ROC curve data
@@ -229,21 +195,21 @@ def evaluate(
     return roc_data
 
 
-for name, value in DATASETS.items():
-    for method in [
-        'reciprocal',
-        'random',
-        'linearity',
-        'negexp',
-        'limit'
-    ]:
-        evaluate(
-            "{} - Method: {}".format(name, method.title()),
-            DecisionTreeClassifier(),
-            *value.get('data'),
-            **value.get('extra'),
-            k=5,
-            verbose=True,
-            sampling=method
-        )
-    print("*"*50)
+# for name, value in DATASETS.items():
+#     for method in [
+#         'reciprocal',
+#         'random',
+#         'linearity',
+#         'negexp',
+#         'limit'
+#     ]:
+#         evaluate(
+#             "{} - Method: {}".format(name, method.title()),
+#             DecisionTreeClassifier(),
+#             *value.get('data'),
+#             **value.get('extra'),
+#             k=5,
+#             verbose=True,
+#             sampling=method
+#         )
+#     print("*"*50)

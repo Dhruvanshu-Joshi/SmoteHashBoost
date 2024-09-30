@@ -129,9 +129,10 @@ DATASETS.update({
 
 # Assuming you have datasets loaded
 datasets = [
-    "Wine", "Flare-F", "Yeast5", "CarvGood", "CarGood", 
-    "Seed", "Glass", "Yeast5-ERL"
+ "Yeast5-ERL"
 ]
+# "Wine", "Flare-F", "Yeast5", "CarvGood", "CarGood", 
+#     "Seed", "Glass", "Yeast5-ERL"
 
 # Function to plot ROC curves for all three models on the same graph
 def plot_combined_roc_curves(fpr_hue, tpr_hue, auc_hue,

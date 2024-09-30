@@ -6,6 +6,17 @@ from utils_rusboost import prepare_rus
 import pandas as pd
 from sklearn.metrics import accuracy_score, roc_auc_score, roc_curve
 from imblearn.ensemble import RUSBoostClassifier  #
+import numpy as np
+from sklearn.preprocessing import LabelEncoder, OrdinalEncoder
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.datasets import load_wine
+from utils import prepare
+import pandas as pd
+from sklearn.metrics import accuracy_score, roc_auc_score, roc_curve
+from ensemble import HashBasedUndersamplingEnsemble
+from sklearn.model_selection import StratifiedKFold
+from tqdm import tqdm
+import numpy as np
 
 DATASETS = dict()
 
@@ -255,20 +266,20 @@ def evaluate_rus(
     return roc_data
 
 
-for name, value in DATASETS.items():
-    # for method in [
-    #     'reciprocal',
-    #     'random',
-    #     'linearity',
-    #     'negexp',
-    #     'limit'
-    # ]:
-    evaluate_rus(
-        "{} - Method: {}".format(name, name),
-        RUSBoostClassifier(base_estimator=DecisionTreeClassifier()),  # Use RUSBoostClassifier
-        *value.get('data'),
-        **value.get('extra'),
-        k=5,
-        verbose=True,
-    )
-    print("*"*50)
+# for name, value in DATASETS.items():
+#     # for method in [
+#     #     'reciprocal',
+#     #     'random',
+#     #     'linearity',
+#     #     'negexp',
+#     #     'limit'
+#     # ]:
+#     evaluate_rus(
+#         "{} - Method: {}".format(name, name),
+#         RUSBoostClassifier(base_estimator=DecisionTreeClassifier()),  # Use RUSBoostClassifier
+#         *value.get('data'),
+#         **value.get('extra'),
+#         k=5,
+#         verbose=True,
+#     )
+#     print("*"*50)
