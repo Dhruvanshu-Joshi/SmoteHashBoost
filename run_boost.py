@@ -1,7 +1,7 @@
 from sklearn.preprocessing import LabelEncoder, OrdinalEncoder
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.datasets import load_wine
-from utils_boost import prepare_boost
+from utils_boost import prepare_boost, evaluate_boost
 import pandas as pd
 from sklearn.metrics import accuracy_score, roc_auc_score,roc_curve
 from ensemble import HashBasedUndersamplingEnsemble
@@ -23,15 +23,15 @@ import numpy as np
 
 DATASETS = dict()
 
-"""Wine Dataset"""
-X, y = load_wine(return_X_y=True)
-DATASETS.update({
-    'Wine': {
-        'data': [X, y],
-        'extra': {
-        }
-    }
-})
+# """Wine Dataset"""
+# X, y = load_wine(return_X_y=True)
+# DATASETS.update({
+#     'Wine': {
+#         'data': [X, y],
+#         'extra': {
+#         }
+#     }
+# })
 
 # """Flare-F"""
 # data = pd.read_csv('data/raw/flare-F.dat', header=None)
@@ -124,20 +124,20 @@ DATASETS.update({
 #     }
 # })
 
-# """Yeast5-ERL"""
-# data = pd.read_csv('data/raw/yeast5.data', header=None)
-# DATASETS.update({
-#     'Yeast5-ERL': {
-#         'data': [data.values[:, 1:-1], data.values[:, -1]],
-#         'extra': {
-#             # 'minority_class': 'ME1'
-#             'minority_class': 'ERL'
-#         }
-#     }
-# })
+"""Yeast5-ERL"""
+data = pd.read_csv('data/raw/yeast5.data', header=None)
+DATASETS.update({
+    'Yeast5-ERL': {
+        'data': [data.values[:, 1:-1], data.values[:, -1]],
+        'extra': {
+            # 'minority_class': 'ME1'
+            'minority_class': 'ERL'
+        }
+    }
+})
 
 
-def evaluate_boost(
+def evaluate_boost_1(
         name,
         base_classifier,
         X,
@@ -207,21 +207,35 @@ def evaluate_boost(
 
     # Return ROC data for plotting
     return roc_data
+for name, value in DATASETS.items():
+    for method in [
+        'reciprocal',
+        'random',
+        'linearity',
+        'negexp',
+        'limit'
+    ]:
+        evaluate_boost(
+            "{} - Method: {}".format(name, method.title()),
+            DecisionTreeClassifier(),
+            *value.get('data'),
+            **value.get('extra'),
+            k=5,
+            verbose=True,
+            sampling=method
+        )
+    print("*"*50)
+# # Loop through all datasets and plot ROC curves for all models
 # for name, value in DATASETS.items():
-#     for method in [
-#         'reciprocal',
-#         'random',
-#         'linearity',
-#         'negexp',
-#         'limit'
-#     ]:
-#         evaluate_boost(
-#             "{} - Method: {}".format(name, method.title()),
-#             DecisionTreeClassifier(),
-#             *value.get('data'),
-#             **value.get('extra'),
-#             k=5,
-#             verbose=True,
-#             sampling=method
-#         )
-#     print("*"*50)
+    
+#     # Run HUE model and get ROC data
+#     roc_data_hue = evaluate_hue(dataset, DecisionTreeClassifier(), *DATASETS[dataset]['data'])
+#     fpr_hue, tpr_hue, auc_hue = roc_data_hue[0]
+    
+#     # Run RusBoost model and get ROC data
+#     roc_data_rusboost = evaluate_rus(dataset, DecisionTreeClassifier(), *DATASETS[dataset]['data'])
+#     fpr_rus, tpr_rus, auc_rus = roc_data_rusboost[0]
+    
+#     # Run SmoteHashBoost model and get ROC data
+#     roc_data_smotehashboost = evaluate_boost(dataset, DecisionTreeClassifier(), *DATASETS[dataset]['data'])
+#     fpr_smote, tpr_smote, auc_smote = roc_data_smotehashboost[0]

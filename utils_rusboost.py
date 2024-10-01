@@ -3,7 +3,27 @@ from imblearn.ensemble import RUSBoostClassifier  # Import RUSBoost from imbalan
 from sklearn.model_selection import StratifiedKFold
 import numpy as np
 from tqdm import tqdm
+import matplotlib.pyplot as plt
 
+
+def plot_roc_curve(fpr, tpr, auc_score, name="Classifier"):
+    """Plot ROC curve
+
+    :param fpr: False Positive Rate
+    :param tpr: True Positive Rate
+    :param auc_score: Area Under Curve (AUC)
+    :param name: Name of the classifier
+    """
+    plt.figure()
+    plt.plot(fpr, tpr, color='darkorange', lw=2, label='ROC curve (area = {:.4f})'.format(auc_score))
+    plt.plot([0, 1], [0, 1], color='navy', lw=2, linestyle='--')
+    plt.xlim([0.0, 1.0])
+    plt.ylim([0.0, 1.05])
+    plt.xlabel('False Positive Rate')
+    plt.ylabel('True Positive Rate')
+    plt.title(f'Receiver Operating Characteristic - {name}')
+    plt.legend(loc="lower right")
+    plt.show()
 
 def prepare_rus(X: np.array, y: np.array, minority=None, verbose: bool = False):
     """Preparing Data for Ensemble
@@ -41,7 +61,7 @@ def prepare_rus(X: np.array, y: np.array, minority=None, verbose: bool = False):
         ))
 
     # Set new label for data (1 for minority class and -1 for rest of data)
-    y_ = np.where(y == minority, 1, -1)
+    y_ = np.where(y == minority, 1, 0)
 
     if verbose:
         information = "[Preparing]\n" \
@@ -117,14 +137,22 @@ def evaluate_rus(
     # Prepare the data (Make it Binary)
     X, y = prepare_rus(X, y, minority_class, verbose)
 
-    # List to store ROC curve data (fpr, tpr, auc)
-    roc_data = []
+    # # List to store ROC curve data (fpr, tpr, auc)
+    # roc_data = []
+    best_roc_data = None
+    best_metrics = [-np.inf, -np.inf]  # [accuracy, AUC]
 
+    folds = np.zeros((n_runs, 2))
+    # FPR=[]
+    # TPR=[]
     for run in tqdm(range(n_runs)):
 
         # Applying k-Fold cross-validation (Stratified K-Fold)
         kFold = StratifiedKFold(n_splits=k, shuffle=True)
 
+        metrics = np.zeros((k, 2))
+        fpr_list =  []
+        tpr_list = []
         # Store metrics in this variable
         for fold, (trIndexes, tsIndexes) in enumerate(kFold.split(X, y)):
             # Split data into training and test sets
@@ -138,24 +166,80 @@ def evaluate_rus(
                 **kwargs
             )
 
-            # Fit the training data on the model
+            # print(Xtr)
+            # print(ytr)
+            # for x in Xtr:
+            #     if np.isnan(x):
+            #         print(x)
+            #         print("x_NAAAAAN")
+            # for y in ytr:
+            #     if np.isnan(y):
+            #         print(y)
+            #         print("y_NAAAAAN")
+            # print(np.any(np.isnan(ytr)))
+            # Fit the training dat on the model
+            # print(ytr)
+            # print(np.isnan(np.array(Xtr)))
+            # print(np,isnan(ytr))
             model.fit(Xtr, ytr)
 
             # Predict probabilities (for ROC curve)
-            y_prob = model.predict_proba(Xts)[:, 1]  # Get probability for positive class
+            # y_prob = model.predict_proba(Xts)[:, 1]  # Get probability for positive class
+            # print(f"Shape of y_prob: {y_prob.shape}")
+            # print(f"First few entries of y_prob: {y_prob[:5]}")
 
-            # AUC evaluation
-            auc_score = roc_auc_score(yts, y_prob)
+            # # AUC evaluation
+            # auc_score = roc_auc_score(yts, y_prob)
 
             # Accuracy evaluation
             predicted = model.predict(Xts)
+            auc_score = roc_auc_score(yts, predicted)
             accuracy = accuracy_score(yts, predicted)
 
             # Collect ROC curve data
-            fpr, tpr, _ = roc_curve(yts, y_prob)
-            roc_data.append((fpr, tpr, auc_score))
+            fpr, tpr, _ = roc_curve(yts, predicted)
+            # print(fpr)
+            # assert 0
+            if len(fpr_list)>0:
+                if len(fpr)!=len(fpr_list[0]):
+                    continue
+            fpr_list.append(fpr)
+            tpr_list.append(tpr)
+            # fpr, tpr, _ = roc_curve(yts, y_prob)
+            # roc_data.append((fpr, tpr, auc_score))
+            metrics[fold, :] = [accuracy, auc_score]
+        
+        run_metrics = np.mean(metrics, axis=0)
+        final_fpr = np.mean(np.vstack(fpr_list), axis=0)
+        final_tpr = np.mean(np.vstack(tpr_list), axis=0)
+        folds[run, :] = run_metrics
 
-    print(OUTPUT.format("Best", accuracy, auc_score))
+        # print(best_metrics)
+        # Check if this is the best run
+        if np.all(run_metrics > best_metrics):
+            best_metrics = run_metrics
+            best_roc_data = (final_fpr, final_tpr, run_metrics[1])
 
-    # Return ROC data for plotting
-    return roc_data
+    # print(OUTPUT.format("Best", accuracy, auc_score))
+
+    # # Return ROC data for plotting
+    # return roc_data
+    print()
+    print(OUTPUT.format(
+        "Best",
+        *np.max(folds, axis=0)
+    ))
+
+    print()
+    print(OUTPUT.format(
+        "Best",
+        *best_metrics
+    ))
+
+    # if best_roc_data:
+    #     fpr, tpr, auc_score = best_roc_data
+    #     plot_roc_curve(fpr, tpr, auc_score, name=base_classifier)
+
+    # Return ROC data for the best run
+    return best_roc_data
+

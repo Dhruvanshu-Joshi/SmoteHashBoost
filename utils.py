@@ -3,7 +3,27 @@ from ensemble import HashBasedUndersamplingEnsemble
 from sklearn.model_selection import StratifiedKFold
 from tqdm import tqdm
 import numpy as np
+import matplotlib.pyplot as plt
 
+
+def plot_roc_curve(fpr, tpr, auc_score, name="Classifier"):
+    """Plot ROC curve
+
+    :param fpr: False Positive Rate
+    :param tpr: True Positive Rate
+    :param auc_score: Area Under Curve (AUC)
+    :param name: Name of the classifier
+    """
+    plt.figure()
+    plt.plot(fpr, tpr, color='darkorange', lw=2, label='ROC curve (area = {:.4f})'.format(auc_score))
+    plt.plot([0, 1], [0, 1], color='navy', lw=2, linestyle='--')
+    plt.xlim([0.0, 1.0])
+    plt.ylim([0.0, 1.05])
+    plt.xlabel('False Positive Rate')
+    plt.ylabel('True Positive Rate')
+    plt.title(f'Receiver Operating Characteristic - {name}')
+    plt.legend(loc="lower right")
+    plt.show()
 
 def prepare(X: np.array, y: np.array, minority=None, verbose: bool = False):
     """Preparing Data for Ensemble
@@ -122,8 +142,10 @@ def evaluate(
     # Prepare the data (Make it Binary)
     X, y = prepare(X, y, minority_class, verbose)
 
-    # List to store ROC data
-    roc_data = []
+    best_roc_data = None
+    best_metrics = [-np.inf, -np.inf]  # [accuracy, AUC]
+
+    folds = np.zeros((n_runs, 2))
 
     # k-Fold (k = 5 as per the paper)
     for run in tqdm(range(n_runs)):
@@ -132,6 +154,9 @@ def evaluate(
         kFold = StratifiedKFold(n_splits=k, shuffle=True)
 
         # store metrics in this variable
+        metrics = np.zeros((k, 2))
+        fpr_list =  []
+        tpr_list = []
         for fold, (trIndexes, tsIndexes) in enumerate(kFold.split(X, y)):
             # Split data to Train and Test
             Xtr, ytr = X[trIndexes], y[trIndexes]
@@ -149,24 +174,51 @@ def evaluate(
             model.fit(Xtr, ytr)
 
             # Predict the test data and get predicted probabilities
-            y_prob = model.predict_proba(Xts)[:, 1]  # Probabilities for positive class
+            # y_prob = model.predict_proba(Xts)[:, 1]  # Probabilities for positive class
             predicted = model.predict(Xts)
 
             # AUC evaluation
-            auc_score = roc_auc_score(yts, y_prob)
-
+            # auc_score = roc_auc_score(yts, y_prob)
+            AUC = roc_auc_score(yts, predicted)
             # Accuracy evaluation
             accuracy = accuracy_score(yts, predicted)
 
-            # Collect ROC curve data
-            fpr, tpr, _ = roc_curve(yts, y_prob)
-            roc_data.append((fpr, tpr, auc_score))
+            fpr, tpr, _ = roc_curve(yts, predicted)
+            fpr_list.append(fpr)
+            tpr_list.append(tpr)
 
+            # # Collect ROC curve data
+            # fpr, tpr, _ = roc_curve(yts, y_prob)
+            # roc_data.append((fpr, tpr, auc_score))
+            metrics[fold, :] = [accuracy, AUC]
+
+        # folds[run, :] = np.mean(metrics, axis=0)
+        run_metrics = np.mean(metrics, axis=0)
+        final_fpr = np.mean(np.vstack(fpr_list), axis=0)
+        final_tpr = np.mean(np.vstack(tpr_list), axis=0)
+        folds[run, :] = run_metrics
+
+        # Check if this is the best run
+        if np.all(run_metrics > best_metrics):
+            best_metrics = run_metrics
+            best_roc_data = (final_fpr, final_tpr, run_metrics[1])
+
+    # print(OUTPUT.format("Best", accuracy, auc_score))
+    print()
     print(OUTPUT.format(
         "Best",
-        accuracy,
-        auc_score
+        *np.max(folds, axis=0)
     ))
 
-    # Return ROC data for plotting
-    return roc_data
+    print()
+    print(OUTPUT.format(
+        "Best",
+        *best_metrics
+    ))
+
+    # if best_roc_data:
+    #     fpr, tpr, auc_score = best_roc_data
+    #     plot_roc_curve(fpr, tpr, auc_score, name=base_classifier)
+
+    # Return ROC data for the best run
+    return best_roc_data
