@@ -1,0 +1,10 @@
+Dataset: CarGood
+
+SMH Result:
+1.0
+
+HUE Result:
+0.9864457831325301
+
+RUS Result:
+1.0

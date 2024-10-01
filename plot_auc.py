@@ -4,7 +4,10 @@ from sklearn.datasets import load_wine
 from utils import evaluate
 import pandas as pd
 from auc_compare import evaluate_boost_with_plots
+import os
 
+output_dir = 'output_results'
+os.makedirs(output_dir, exist_ok=True)
 DATASETS = dict()
 
 """Wine Dataset"""
@@ -121,7 +124,7 @@ DATASETS.update({
 })
 
 for name, value in DATASETS.items():
-    evaluate_boost_with_plots(
+    smh, hue, rus =  evaluate_boost_with_plots(
         "{} - Method: {}".format(name, ""),
         DecisionTreeClassifier(),
         *value.get('data'),
@@ -129,4 +132,15 @@ for name, value in DATASETS.items():
         k=5,
         verbose=True
     )
-    print("*"*50)
+
+    # Create a unique filename for each dataset
+    output_filename = os.path.join(output_dir, f"{name}_results.txt")
+
+    # Write the results to the file
+    with open(output_filename, 'w') as f:
+        f.write(f"Dataset: {name}\n\n")
+        f.write(f"SMH Result:\n{smh}\n\n")
+        f.write(f"HUE Result:\n{hue}\n\n")
+        f.write(f"RUS Result:\n{rus}\n")
+    
+    print(f"Results saved to {output_filename}")

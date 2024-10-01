@@ -16,108 +16,108 @@ DATASETS.update({
     }
 })
 
-"""Flare-F"""
-data = pd.read_csv('data/raw/flare-F.dat', header=None)
-objects = data.select_dtypes(include=['object'])
-for col in objects.columns:
-    if col == len(data.columns) - 1:
-        continue
-    data.iloc[:, col] = LabelEncoder().fit_transform(data.values[:, col])
+# """Flare-F"""
+# data = pd.read_csv('data/raw/flare-F.dat', header=None)
+# objects = data.select_dtypes(include=['object'])
+# for col in objects.columns:
+#     if col == len(data.columns) - 1:
+#         continue
+#     data.iloc[:, col] = LabelEncoder().fit_transform(data.values[:, col])
 
-DATASETS.update({
-    'Flare-F': {
-        'data': [data.values[:, :-1], data.values[:, -1]],
-        'extra': {
+# DATASETS.update({
+#     'Flare-F': {
+#         'data': [data.values[:, :-1], data.values[:, -1]],
+#         'extra': {
 
-        }
-    }
-})
+#         }
+#     }
+# })
 
-"""Yeast5"""
-data = pd.read_csv('data/raw/yeast5.dat', header=None)
-DATASETS.update({
-    'Yeast5': {
-        'data': [data.values[:, :-1], data.values[:, -1]],
-        'extra': {}
-    }
-})
+# """Yeast5"""
+# data = pd.read_csv('data/raw/yeast5.dat', header=None)
+# DATASETS.update({
+#     'Yeast5': {
+#         'data': [data.values[:, :-1], data.values[:, -1]],
+#         'extra': {}
+#     }
+# })
 
-"""Car vGood"""
-data = pd.read_csv('data/raw/car.data', header=None)
-DATASETS.update({
-    'CarvGood': {
-        'data': [
-            OrdinalEncoder().fit_transform(data.values[:, :-1]),
-            data.values[:, -1]
-        ],
-        'extra': {
-            'minority_class': 'vgood'
-        }
-    }
-})
+# """Car vGood"""
+# data = pd.read_csv('data/raw/car.data', header=None)
+# DATASETS.update({
+#     'CarvGood': {
+#         'data': [
+#             OrdinalEncoder().fit_transform(data.values[:, :-1]),
+#             data.values[:, -1]
+#         ],
+#         'extra': {
+#             'minority_class': 'vgood'
+#         }
+#     }
+# })
 
 
-"""Car Good"""
-data = pd.read_csv('data/raw/car.data', header=None)
-DATASETS.update({
-    'CarGood': {
-        'data': [
-            OrdinalEncoder().fit_transform(data.values[:, :-1]),
-            data.values[:, -1]
-        ],
-        'extra': {
-            'minority_class': 'good'
-        }
-    }
-})
+# """Car Good"""
+# data = pd.read_csv('data/raw/car.data', header=None)
+# DATASETS.update({
+#     'CarGood': {
+#         'data': [
+#             OrdinalEncoder().fit_transform(data.values[:, :-1]),
+#             data.values[:, -1]
+#         ],
+#         'extra': {
+#             'minority_class': 'good'
+#         }
+#     }
+# })
 
-"""Seed"""
-data = pd.read_csv('data/raw/seeds_dataset.txt', header=None)
-DATASETS.update({
-    'Seed': {
-        'data': [data.values[:, :-1], data.values[:, -1]],
-        'extra': {
-            'minority_class': 2
-        }
-    }
-})
+# """Seed"""
+# data = pd.read_csv('data/raw/seeds_dataset.txt', header=None)
+# DATASETS.update({
+#     'Seed': {
+#         'data': [data.values[:, :-1], data.values[:, -1]],
+#         'extra': {
+#             'minority_class': 2
+#         }
+#     }
+# })
 
-"""Glass"""
-data = pd.read_csv('data/raw/glass.csv', header=None)
-DATASETS.update({
-    'Glass': {
-        'data': [data.values[:, :-1], data.values[:, -1]],
-        'extra': {
-            'minority_class': 7
-        }
-    }
-})
+# """Glass"""
+# data = pd.read_csv('data/raw/glass.csv', header=None)
+# DATASETS.update({
+#     'Glass': {
+#         'data': [data.values[:, :-1], data.values[:, -1]],
+#         'extra': {
+#             'minority_class': 7
+#         }
+#     }
+# })
 
-"""ILPD"""
-data = pd.read_csv('data/raw/Indian Liver Patient Dataset (ILPD).csv', header=None)
-data.fillna(data.mean(), inplace=True)
+# """ILPD"""
+# data = pd.read_csv('data/raw/Indian Liver Patient Dataset (ILPD).csv', header=None)
+# data.fillna(data.mean(), inplace=True)
 
-# Encode
-data.iloc[:, 1] = LabelEncoder().fit_transform(data.values[:, 1])
+# # Encode
+# data.iloc[:, 1] = LabelEncoder().fit_transform(data.values[:, 1])
 
-DATASETS.update({
-    'ILPD': {
-        'data': [data.values[:, :-1], data.values[:, -1]],
-        'extra': {}
-    }
-})
+# DATASETS.update({
+#     'ILPD': {
+#         'data': [data.values[:, :-1], data.values[:, -1]],
+#         'extra': {}
+#     }
+# })
 
-"""Yeast5-ERL"""
-data = pd.read_csv('data/raw/yeast5.data', header=None)
-DATASETS.update({
-    'Yeast5-ERL': {
-        'data': [data.values[:, 1:-1], data.values[:, -1]],
-        'extra': {
-            # 'minority_class': 'ME1'
-            'minority_class': 'ERL'
-        }
-    }
-})
+# """Yeast5-ERL"""
+# data = pd.read_csv('data/raw/yeast5.data', header=None)
+# DATASETS.update({
+#     'Yeast5-ERL': {
+#         'data': [data.values[:, 1:-1], data.values[:, -1]],
+#         'extra': {
+#             # 'minority_class': 'ME1'
+#             'minority_class': 'ERL'
+#         }
+#     }
+# })
 
 # """Skin"""
 # data = pd.read_csv('data/raw/Skin_NonSkin.txt', delimiter='\t', header=None)

@@ -180,3 +180,5 @@ def evaluate_boost_with_plots(
     best_auc_sm = max(smotehash)
     best_auc_hu = max(hue)
     best_auc_ru = max(rus)
+    
+    return best_auc_sm, best_auc_hu, best_auc_ru

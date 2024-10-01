@@ -1,0 +1,10 @@
+Dataset: CarvGood
+
+SMH Result:
+1.0
+
+HUE Result:
+0.9984984984984985
+
+RUS Result:
+1.0

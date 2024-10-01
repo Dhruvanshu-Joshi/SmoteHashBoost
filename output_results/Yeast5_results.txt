@@ -1,0 +1,10 @@
+Dataset: Yeast5
+
+SMH Result:
+1.0
+
+HUE Result:
+0.9947916666666667
+
+RUS Result:
+1.0

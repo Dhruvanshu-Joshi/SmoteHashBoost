@@ -72,11 +72,7 @@ class SmoteHashBoost:
             raise ValueError('n_iterations should be an integer number bigger than 0')
 
         # Boosting classifier
-        self.boosting = AdaBoostClassifier(
-            base_estimator=base_estimator,
-            n_estimators=self.n_estimators,
-            random_state=self.random_state
-        )
+        self.boosting = AdaBoostClassifier(base_estimator=base_estimator, n_estimators=self.n_estimators, random_state=self.random_state)
 
         # Store classifiers
         self.classifiers: List = list()
