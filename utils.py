@@ -1,4 +1,4 @@
-from sklearn.metrics import accuracy_score, roc_auc_score
+from sklearn.metrics import accuracy_score, roc_auc_score, roc_curve
 from ensemble import HashBasedUndersamplingEnsemble
 from sklearn.model_selection import StratifiedKFold
 from tqdm import tqdm
@@ -73,7 +73,7 @@ def evaluate(
         verbose: bool = False,
         **kwargs
 ):
-    """Model Evaluation
+    """Model Evaluation with ROC curve plotting capabilities
 
     :param name: str
         title of this classifier
@@ -106,7 +106,7 @@ def evaluate(
     :param verbose: bool (default = False)
         verbosity
 
-    :return None
+    :return List of ROC data (fprs, tprs, aucs)
     """
 
     print()
@@ -119,17 +119,19 @@ def evaluate(
     # Output template
     OUTPUT = "[{}] Accuracy: {:.4f}, AUC: {:.4f}"
 
-    # Prepate the data (Make it Binary)
+    # Prepare the data (Make it Binary)
     X, y = prepare(X, y, minority_class, verbose)
 
-    folds = np.zeros((n_runs, 2))
+    # List to store ROC data
+    roc_data = []
+
+    # k-Fold (k = 5 as per the paper)
     for run in tqdm(range(n_runs)):
 
         # Applying k-Fold (k = 5 due to the paper)
         kFold = StratifiedKFold(n_splits=k, shuffle=True)
 
         # store metrics in this variable
-        metrics = np.zeros((k, 2))
         for fold, (trIndexes, tsIndexes) in enumerate(kFold.split(X, y)):
             # Split data to Train and Test
             Xtr, ytr = X[trIndexes], y[trIndexes]
@@ -146,22 +148,25 @@ def evaluate(
             # Fit the training data on the model
             model.fit(Xtr, ytr)
 
-            # Predict the test data
+            # Predict the test data and get predicted probabilities
+            y_prob = model.predict_proba(Xts)[:, 1]  # Probabilities for positive class
             predicted = model.predict(Xts)
 
             # AUC evaluation
-            AUC = roc_auc_score(yts, predicted)
+            auc_score = roc_auc_score(yts, y_prob)
 
             # Accuracy evaluation
             accuracy = accuracy_score(yts, predicted)
 
-            # Show result for each step
-            metrics[fold, :] = [accuracy, AUC]
+            # Collect ROC curve data
+            fpr, tpr, _ = roc_curve(yts, y_prob)
+            roc_data.append((fpr, tpr, auc_score))
 
-        folds[run, :] = np.mean(metrics, axis=0)
-
-    print()
     print(OUTPUT.format(
         "Best",
-        *np.max(folds, axis=0)
+        accuracy,
+        auc_score
     ))
+
+    # Return ROC data for plotting
+    return roc_data

@@ -1,8 +1,25 @@
 from sklearn.preprocessing import LabelEncoder, OrdinalEncoder
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.datasets import load_wine
-from utils_boost import evaluate_boost
+from utils_boost import prepare_boost
 import pandas as pd
+from sklearn.metrics import accuracy_score, roc_auc_score,roc_curve
+from ensemble import HashBasedUndersamplingEnsemble
+from ensemble_vg import SMOTEHashBasedEnsemble
+from ensemble_boost import SmoteHashBoost
+from sklearn.model_selection import StratifiedKFold
+from tqdm import tqdm
+import numpy as np
+from sklearn.preprocessing import LabelEncoder, OrdinalEncoder
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.datasets import load_wine
+from utils import prepare
+import pandas as pd
+from sklearn.metrics import accuracy_score, roc_auc_score, roc_curve
+from ensemble import HashBasedUndersamplingEnsemble
+from sklearn.model_selection import StratifiedKFold
+from tqdm import tqdm
+import numpy as np
 
 DATASETS = dict()
 
@@ -97,7 +114,7 @@ DATASETS.update({
 # data = pd.read_csv('data/raw/Indian Liver Patient Dataset (ILPD).csv', header=None)
 # data.fillna(data.mean(), inplace=True)
 
-# # Encode
+# Encode
 # data.iloc[:, 1] = LabelEncoder().fit_transform(data.values[:, 1])
 
 # DATASETS.update({
@@ -119,53 +136,92 @@ DATASETS.update({
 #     }
 # })
 
-# """Skin"""
-# data = pd.read_csv('data/raw/Skin_NonSkin.txt', delimiter='\t', header=None)
-# DATASETS.update({
-#     'Skin': {
-#         'data': [data.values[:, :-1], data.values[:, -1]],
-#         'extra': {}
-#     }
-# })
 
-# """Letter Dataset"""
-# data = pd.read_csv('data/raw/letter-recognition.data', header=None)
-# DATASETS.update({
-#     'Letter': {
-#         'data': [data.values[:, 1:], data.values[:, 0]],
-#         'extra': {
-#             'minority_class': 'A'
-#         }
-#     }
-# })
+def evaluate_boost(
+        name,
+        base_classifier,
+        X,
+        y,
+        minority_class=None,
+        k: int = 5,
+        n_runs: int = 20,
+        n_iterations: int = 50,
+        random_state: int = None,
+        verbose: bool = False,
+        **kwargs
+):
+    """Model Evaluation for SmoteHashBoost with ROC curve plotting capabilities."""
 
-# """MNIST"""
-# data = pd.read_csv('data/raw/mnist_784.csv', header=0)
-# DATASETS.update({
-#     'DIGITS': {
-#         'data': [data.values[:, :-1], data.values[:, -1]],
-#         'extra': {
-#             'minority_class': 4,
-#             'n_runs': 1
-#         }
-#     }
-# })
+    print(f"======[Dataset: {name}]======")
 
-for name, value in DATASETS.items():
-    for method in [
-        'reciprocal',
-        'random',
-        'linearity',
-        'negexp',
-        'limit'
-    ]:
-        evaluate_boost(
-            "{} - Method: {}".format(name, method.title()),
-            DecisionTreeClassifier(),
-            *value.get('data'),
-            **value.get('extra'),
-            k=5,
-            verbose=True,
-            sampling=method
-        )
-    print("*"*50)
+    np.random.seed(random_state)
+
+    # Output template
+    OUTPUT = "[{}] Accuracy: {:.4f}, AUC: {:.4f}"
+
+    # Prepare the data (Make it Binary)
+    X, y = prepare_boost(X, y, minority_class, verbose)
+
+    # List to store ROC curve data
+    roc_data = []
+
+    for run in tqdm(range(n_runs)):
+
+        # Applying k-Fold cross-validation (Stratified K-Fold)
+        kFold = StratifiedKFold(n_splits=k, shuffle=True)
+
+        for fold, (trIndexes, tsIndexes) in enumerate(kFold.split(X, y)):
+            # Split data into Train and Test
+            Xtr, ytr = X[trIndexes], y[trIndexes]
+            Xts, yts = X[tsIndexes], y[tsIndexes]
+
+            # Define the SmoteHashBoost model
+            model = SmoteHashBoost(
+                base_estimator=base_classifier,
+                n_iterations=n_iterations,
+                random_state=random_state,
+                **kwargs
+            )
+
+            # Fit the training data on the model
+            model.fit(Xtr, ytr)
+
+            # Predict probabilities if available, otherwise use the class predictions
+            if hasattr(model, "predict_proba"):
+                y_prob = model.predict_proba(Xts)[:, 1]  # Probability for positive class
+            else:
+                y_prob = model.predict(Xts)  # Use predicted class if `predict_proba` is not available
+
+            # AUC evaluation
+            auc_score = roc_auc_score(yts, y_prob)
+
+            # Accuracy evaluation
+            predicted = model.predict(Xts)
+            accuracy = accuracy_score(yts, predicted)
+
+            # Collect ROC curve data
+            fpr, tpr, _ = roc_curve(yts, y_prob)
+            roc_data.append((fpr, tpr, auc_score))
+
+    print(OUTPUT.format("Best", accuracy, auc_score))
+
+    # Return ROC data for plotting
+    return roc_data
+# for name, value in DATASETS.items():
+#     for method in [
+#         'reciprocal',
+#         'random',
+#         'linearity',
+#         'negexp',
+#         'limit'
+#     ]:
+#         evaluate_boost(
+#             "{} - Method: {}".format(name, method.title()),
+#             DecisionTreeClassifier(),
+#             *value.get('data'),
+#             **value.get('extra'),
+#             k=5,
+#             verbose=True,
+#             sampling=method
+#         )
+#     print("*"*50)

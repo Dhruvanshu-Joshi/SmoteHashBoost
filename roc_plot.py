@@ -1,13 +1,16 @@
+import matplotlib.pyplot as plt
+from sklearn.metrics import roc_curve, auc
 from sklearn.preprocessing import LabelEncoder, OrdinalEncoder
 from sklearn.tree import DecisionTreeClassifier
+# Import the evaluation methods from the respective files
+from run import evaluate as evaluate_hue
+from run_rusboost import evaluate_rus
+from run_boost import evaluate_boost  # Assuming SmoteHashBoost uses evaluate_boost
 from sklearn.datasets import load_wine
-from utils import evaluate
 import pandas as pd
-from auc_compare import evaluate_boost_with_plots
-import os
+from tqdm import tqdm
+import numpy as np
 
-output_dir = 'output_results'
-os.makedirs(output_dir, exist_ok=True)
 DATASETS = dict()
 
 """Wine Dataset"""
@@ -99,9 +102,9 @@ DATASETS.update({
 
 # """ILPD"""
 # data = pd.read_csv('data/raw/Indian Liver Patient Dataset (ILPD).csv', header=None)
-# # data.fillna(data.mean(), inplace=True)
+# data.fillna(data.mean(), inplace=True)
 
-# # Encode
+# Encode
 # data.iloc[:, 1] = LabelEncoder().fit_transform(data.values[:, 1])
 
 # DATASETS.update({
@@ -123,24 +126,52 @@ DATASETS.update({
     }
 })
 
-for name, value in DATASETS.items():
-    smh, hue, rus =  evaluate_boost_with_plots(
-        "{} - Method: {}".format(name, ""),
-        DecisionTreeClassifier(),
-        *value.get('data'),
-        **value.get('extra'),
-        k=5,
-        verbose=True
-    )
 
-    # Create a unique filename for each dataset
-    output_filename = os.path.join(output_dir, f"{name}_results.txt")
+# Assuming you have datasets loaded
+datasets = [
+ "Yeast5-ERL"
+]
+# "Wine", "Flare-F", "Yeast5", "CarvGood", "CarGood", 
+#     "Seed", "Glass", "Yeast5-ERL"
 
-    # Write the results to the file
-    with open(output_filename, 'w') as f:
-        f.write(f"Dataset: {name}\n\n")
-        f.write(f"SMH Result:\n{smh}\n\n")
-        f.write(f"HUE Result:\n{hue}\n\n")
-        f.write(f"RUS Result:\n{rus}\n")
+# Function to plot ROC curves for all three models on the same graph
+def plot_combined_roc_curves(fpr_hue, tpr_hue, auc_hue,
+                             fpr_rus, tpr_rus, auc_rus,
+                             fpr_smote, tpr_smote, auc_smote,
+                             dataset_name):
+    plt.figure()
+    plt.plot(fpr_hue, tpr_hue, lw=2, label=f'HUE (AUC = {auc_hue:.2f})', color='blue')
+    plt.plot(fpr_rus, tpr_rus, lw=2, label=f'RusBoost (AUC = {auc_rus:.2f})', color='green')
+    plt.plot(fpr_smote, tpr_smote, lw=2, label=f'SmoteHashBoost (AUC = {auc_smote:.2f})', color='red')
     
-    print(f"Results saved to {output_filename}")
+    plt.xlim([0.0, 1.0])
+    plt.ylim([0.0, 1.05])
+    plt.xlabel('False Positive Rate')
+    plt.ylabel('True Positive Rate')
+    plt.title(f'ROC Curve for {dataset_name}')
+    plt.legend(loc="lower right")
+
+    # Save the plot as an image
+    plt.savefig(f'roc_curve_{dataset_name}.png')
+    plt.show()
+
+# Loop through all datasets and plot ROC curves for all models
+for dataset in datasets:
+    
+    # Run HUE model and get ROC data
+    roc_data_hue = evaluate_hue(dataset, DecisionTreeClassifier(), *DATASETS[dataset]['data'])
+    fpr_hue, tpr_hue, auc_hue = roc_data_hue[0]
+    
+    # Run RusBoost model and get ROC data
+    roc_data_rusboost = evaluate_rus(dataset, DecisionTreeClassifier(), *DATASETS[dataset]['data'])
+    fpr_rus, tpr_rus, auc_rus = roc_data_rusboost[0]
+    
+    # Run SmoteHashBoost model and get ROC data
+    roc_data_smotehashboost = evaluate_boost(dataset, DecisionTreeClassifier(), *DATASETS[dataset]['data'])
+    fpr_smote, tpr_smote, auc_smote = roc_data_smotehashboost[0]
+
+    # Plot combined ROC curves for HUE, RusBoost, and SmoteHashBoost for the current dataset
+    plot_combined_roc_curves(fpr_hue, tpr_hue, auc_hue,
+                             fpr_rus, tpr_rus, auc_rus,
+                             fpr_smote, tpr_smote, auc_smote,
+                             dataset)
