@@ -1,0 +1,92 @@
+
+======[Dataset: CarGood - Method: Reciprocal]======
+[Best] Accuracy: 0.9931, AUC: 0.9679
+[Best] Accuracy: 0.9931, AUC: 0.9553
+
+======[Dataset: CarGood - Method: Random]======
+[Best] Accuracy: 0.9913, AUC: 0.9539
+[Best] Accuracy: 0.9913, AUC: 0.9470
+
+======[Dataset: CarGood - Method: Linearity]======
+[Best] Accuracy: 0.9936, AUC: 0.9685
+[Best] Accuracy: 0.9931, AUC: 0.9685
+
+======[Dataset: CarGood - Method: Negexp]======
+[Best] Accuracy: 0.9942, AUC: 0.9554
+[Best] Accuracy: 0.9942, AUC: 0.9554
+
+======[Dataset: CarGood - Method: Limit]======
+[Best] Accuracy: 0.9936, AUC: 0.9619
+[Best] Accuracy: 0.9936, AUC: 0.9619
+
+======[Dataset: CarGood - Adaboost Method: CarGood]======
+Results for dataset: CarGood - Adaboost Method: CarGood
+Run 1: Accuracy = 0.9965, AUC = 0.9760
+Run 2: Accuracy = 0.9960, AUC = 0.9609
+Run 3: Accuracy = 0.9971, AUC = 0.9763
+Run 4: Accuracy = 0.9988, AUC = 0.9920
+Run 5: Accuracy = 0.9988, AUC = 0.9994
+Run 6: Accuracy = 0.9977, AUC = 0.9840
+Run 7: Accuracy = 0.9983, AUC = 0.9843
+Run 8: Accuracy = 0.9965, AUC = 0.9834
+Run 9: Accuracy = 0.9977, AUC = 0.9766
+Run 10: Accuracy = 0.9988, AUC = 0.9994
+Run 11: Accuracy = 0.9971, AUC = 0.9763
+Run 12: Accuracy = 0.9988, AUC = 0.9920
+Run 13: Accuracy = 0.9983, AUC = 0.9917
+Run 14: Accuracy = 0.9983, AUC = 0.9843
+Run 15: Accuracy = 0.9983, AUC = 0.9843
+Run 16: Accuracy = 0.9988, AUC = 0.9920
+Run 17: Accuracy = 0.9977, AUC = 0.9766
+Run 18: Accuracy = 0.9977, AUC = 0.9766
+Run 19: Accuracy = 0.9983, AUC = 0.9917
+Run 20: Accuracy = 0.9977, AUC = 0.9840
+
+Best results: Accuracy = 0.9988, AUC = 0.9920
+
+[Best] Accuracy: 0.9988, AUC: 0.9994
+[Best] Accuracy: 0.9988, AUC: 0.9920
+
+======[Dataset: CarGood - Ruusboost Method: CarGood]======
+[Best] Accuracy: 0.9832, AUC: 0.9913
+[Best] Accuracy: 0.9832, AUC: 0.9913
+
+======[Dataset: CarGood - SmoteHashBoost Method: Reciprocal]======
+[Best] Accuracy: 0.9925, AUC: 0.9604
+[Best] Accuracy: 0.9925, AUC: 0.9482
+
+======[Dataset: CarGood - SmoteHashBoost Method: Random]======
+[Best] Accuracy: 0.9931, AUC: 0.9545
+[Best] Accuracy: 0.9925, AUC: 0.9545
+
+======[Dataset: CarGood - SmoteHashBoost Method: Linearity]======
+[Best] Accuracy: 0.9936, AUC: 0.9625
+[Best] Accuracy: 0.9936, AUC: 0.9625
+
+======[Dataset: CarGood - SmoteHashBoost Method: Negexp]======
+[Best] Accuracy: 0.9913, AUC: 0.9599
+[Best] Accuracy: 0.9907, AUC: 0.9599
+
+======[Dataset: CarGood - SmoteHashBoost Method: Limit]======
+[Best] Accuracy: 0.9936, AUC: 0.9693
+[Best] Accuracy: 0.9936, AUC: 0.9693
+
+======[Dataset: CarGood - Borderline Smote Method: CarGood]======
+[Best] Accuracy: 0.9931, AUC: 0.9533
+[Best] Accuracy: 0.9913, AUC: 0.9533
+
+======[Dataset: CarGood - SmoteBoost Method: CarGood]======
+[Best] Accuracy: 0.9913, AUC: 0.9476
+[Best] Accuracy: 0.9913, AUC: 0.9476
+
+======[Dataset: CarGood - Smote ENN Method: CarGood]======
+[Best] Accuracy: 0.9873, AUC: 0.9523
+[Best] Accuracy: 0.9873, AUC: 0.9523
+
+======[Dataset: CarGood - SmoteTomek Method: CarGood]======
+[Best] Accuracy: 0.9948, AUC: 0.9614
+[Best] Accuracy: 0.9948, AUC: 0.9614
+
+======[Dataset: CarGood - Adasyn Method: CarGood]======
+[Best] Accuracy: 0.9925, AUC: 0.9577
+[Best] Accuracy: 0.9925, AUC: 0.9476

@@ -5,6 +5,7 @@ from ensemble_boost import SmoteHashBoost
 from sklearn.model_selection import StratifiedKFold
 from tqdm import tqdm
 import numpy as np
+import os
 
 
 def prepare_boost(X: np.array, y: np.array, minority=None, verbose: bool = False):
@@ -93,6 +94,7 @@ def evaluate_boost(
         n_iterations: int = 50,
         random_state: int = None,
         verbose: bool = False,
+        output_file=None, 
         **kwargs
 ):
     """Model Evaluation with ROC curve plotting capabilities for SmoteHashBoost
@@ -133,7 +135,14 @@ def evaluate_boost(
 
     print()
     print("======[Dataset: {}]======".format(name))
+    if output_file is None:
+        raise ValueError("Output file path must be specified!")
 
+    # Open the output file in append mode
+    with open(output_file, 'a') as file:
+        file.write("\n")
+        file.write(f"======[Dataset: {name}]======\n")
+    
     np.random.seed(random_state)
 
     # Output template
@@ -224,6 +233,12 @@ def evaluate_boost(
         *best_metrics
     ))
 
+    # # Print final results
+    # write_output(OUTPUT.format("Best", *np.max(folds, axis=0)))
+    # write_output(OUTPUT.format("Best", *best_metrics))
+    with open(output_file, 'a') as file:
+        file.write(OUTPUT.format("Best", *np.max(folds, axis=0)) + "\n")
+        file.write(OUTPUT.format("Best", *best_metrics) + "\n")
     # if best_roc_data:
     #     fpr, tpr, auc_score = best_roc_data
     #     plot_roc_curve(fpr, tpr, auc_score, name=base_classifier)

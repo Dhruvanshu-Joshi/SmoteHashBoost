@@ -91,6 +91,7 @@ def evaluate_rus(
         n_runs: int = 20,
         random_state: int = None,
         verbose: bool = False,
+        output_file=None, 
         **kwargs
 ):
     """Model Evaluation with ROC curve plotting capabilities for RUSBoost
@@ -128,6 +129,13 @@ def evaluate_rus(
 
     print()
     print("======[Dataset: {}]======".format(name))
+    if output_file is None:
+        raise ValueError("Output file path must be specified!")
+
+    # Open the output file in append mode
+    with open(output_file, 'a') as file:
+        file.write("\n")
+        file.write(f"======[Dataset: {name}]======\n")
 
     np.random.seed(random_state)
 
@@ -137,14 +145,11 @@ def evaluate_rus(
     # Prepare the data (Make it Binary)
     X, y = prepare_rus(X, y, minority_class, verbose)
 
-    # # List to store ROC curve data (fpr, tpr, auc)
-    # roc_data = []
     best_roc_data = None
     best_metrics = [-np.inf, -np.inf]  # [accuracy, AUC]
 
     folds = np.zeros((n_runs, 2))
-    # FPR=[]
-    # TPR=[]
+
     for run in tqdm(range(n_runs)):
 
         # Applying k-Fold cross-validation (Stratified K-Fold)
@@ -159,6 +164,15 @@ def evaluate_rus(
             Xtr, ytr = X[trIndexes], y[trIndexes]
             Xts, yts = X[tsIndexes], y[tsIndexes]
 
+            # print("NaN in Xtr:", np.isnan(Xtr).any())
+            # print("NaN in ytr:", np.isnan(ytr).any())
+            # print("Infinity in Xtr:", np.isinf(Xtr).any())
+            # print("Infinity in ytr:", np.isinf(ytr).any())
+            # print("Max value in Xtr:", np.max(Xtr))
+            # from sklearn.preprocessing import StandardScaler
+            # scaler = StandardScaler()
+            # Xtr = scaler.fit_transform(Xtr)
+
             # Define the RUSBoost model
             model = RUSBoostClassifier(
                 base_estimator=base_classifier,
@@ -166,30 +180,7 @@ def evaluate_rus(
                 **kwargs
             )
 
-            # print(Xtr)
-            # print(ytr)
-            # for x in Xtr:
-            #     if np.isnan(x):
-            #         print(x)
-            #         print("x_NAAAAAN")
-            # for y in ytr:
-            #     if np.isnan(y):
-            #         print(y)
-            #         print("y_NAAAAAN")
-            # print(np.any(np.isnan(ytr)))
-            # Fit the training dat on the model
-            # print(ytr)
-            # print(np.isnan(np.array(Xtr)))
-            # print(np,isnan(ytr))
             model.fit(Xtr, ytr)
-
-            # Predict probabilities (for ROC curve)
-            # y_prob = model.predict_proba(Xts)[:, 1]  # Get probability for positive class
-            # print(f"Shape of y_prob: {y_prob.shape}")
-            # print(f"First few entries of y_prob: {y_prob[:5]}")
-
-            # # AUC evaluation
-            # auc_score = roc_auc_score(yts, y_prob)
 
             # Accuracy evaluation
             predicted = model.predict(Xts)
@@ -205,8 +196,6 @@ def evaluate_rus(
                     continue
             fpr_list.append(fpr)
             tpr_list.append(tpr)
-            # fpr, tpr, _ = roc_curve(yts, y_prob)
-            # roc_data.append((fpr, tpr, auc_score))
             metrics[fold, :] = [accuracy, auc_score]
         
         run_metrics = np.mean(metrics, axis=0)
@@ -214,16 +203,10 @@ def evaluate_rus(
         final_tpr = np.mean(np.vstack(tpr_list), axis=0)
         folds[run, :] = run_metrics
 
-        # print(best_metrics)
-        # Check if this is the best run
         if np.all(run_metrics > best_metrics):
             best_metrics = run_metrics
             best_roc_data = (final_fpr, final_tpr, run_metrics[1])
 
-    # print(OUTPUT.format("Best", accuracy, auc_score))
-
-    # # Return ROC data for plotting
-    # return roc_data
     print()
     print(OUTPUT.format(
         "Best",
@@ -236,10 +219,9 @@ def evaluate_rus(
         *best_metrics
     ))
 
-    # if best_roc_data:
-    #     fpr, tpr, auc_score = best_roc_data
-    #     plot_roc_curve(fpr, tpr, auc_score, name=base_classifier)
+    with open(output_file, 'a') as file:
+        file.write(OUTPUT.format("Best", *np.max(folds, axis=0)) + "\n")
+        file.write(OUTPUT.format("Best", *best_metrics) + "\n")
 
-    # Return ROC data for the best run
     return best_roc_data
 

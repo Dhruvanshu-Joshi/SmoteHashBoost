@@ -102,24 +102,24 @@ DATASETS = dict()
 #     'Glass': {
 #         'data': [data.values[:, :-1], data.values[:, -1]],
 #         'extra': {
-#             'minority_class': '7'
+#             'minority_class': 7
 #         }
 #     }
 # })
 
-# # """ILPD"""
-# # data = pd.read_csv('data/raw/Indian Liver Patient Dataset (ILPD).csv', header=None)
-# # data.fillna(data.mean(), inplace=True)
+# """ILPD"""
+# data = pd.read_csv('data/raw/Indian Liver Patient Dataset (ILPD).csv', header=None)
+# data.fillna(data.mean(), inplace=True)
 
 # # Encode
-# # data.iloc[:, 1] = LabelEncoder().fit_transform(data.values[:, 1])
+# data.iloc[:, 1] = LabelEncoder().fit_transform(data.values[:, 1])
 
-# # DATASETS.update({
-# #     'ILPD': {
-# #         'data': [data.values[:, :-1], data.values[:, -1]],
-# #         'extra': {}
-# #     }
-# # })
+# DATASETS.update({
+#     'ILPD': {
+#         'data': [data.values[:, :-1], data.values[:, -1]],
+#         'extra': {}
+#     }
+# })
 
 """Yeast5-ERL"""
 data = pd.read_csv('data/raw/yeast5.data', header=None)
@@ -266,13 +266,7 @@ def evaluate_rus_1(
 
 
 for name, value in DATASETS.items():
-    # for method in [
-    #     'reciprocal',
-    #     'random',
-    #     'linearity',
-    #     'negexp',
-    #     'limit'
-    # ]:
+    dataset_output_file = f"results/{name}_results.txt"
     evaluate_rus(
         "{} - Method: {}".format(name, name),
         RUSBoostClassifier(base_estimator=DecisionTreeClassifier()),  # Use RUSBoostClassifier
@@ -280,5 +274,6 @@ for name, value in DATASETS.items():
         **value.get('extra'),
         k=5,
         verbose=True,
+        output_file=dataset_output_file,
     )
     print("*"*50)

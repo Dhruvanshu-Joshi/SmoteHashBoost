@@ -1,0 +1,92 @@
+
+======[Dataset: ILPD - Method: Reciprocal]======
+[Best] Accuracy: 0.6930, AUC: 0.6459
+[Best] Accuracy: 0.6930, AUC: 0.6430
+
+======[Dataset: ILPD - Method: Random]======
+[Best] Accuracy: 0.6859, AUC: 0.6449
+[Best] Accuracy: 0.6859, AUC: 0.6236
+
+======[Dataset: ILPD - Method: Linearity]======
+[Best] Accuracy: 0.6775, AUC: 0.6382
+[Best] Accuracy: 0.6775, AUC: 0.6382
+
+======[Dataset: ILPD - Method: Negexp]======
+[Best] Accuracy: 0.6844, AUC: 0.6573
+[Best] Accuracy: 0.6844, AUC: 0.6573
+
+======[Dataset: ILPD - Method: Limit]======
+[Best] Accuracy: 0.6707, AUC: 0.6350
+[Best] Accuracy: 0.6707, AUC: 0.6171
+
+======[Dataset: ILPD - Adaboost Method: ILPD]======
+Results for dataset: ILPD - Adaboost Method: ILPD
+Run 1: Accuracy = 0.6639, AUC = 0.5978
+Run 2: Accuracy = 0.6706, AUC = 0.6030
+Run 3: Accuracy = 0.6690, AUC = 0.5958
+Run 4: Accuracy = 0.6433, AUC = 0.5748
+Run 5: Accuracy = 0.6552, AUC = 0.5992
+Run 6: Accuracy = 0.6450, AUC = 0.5664
+Run 7: Accuracy = 0.6482, AUC = 0.5905
+Run 8: Accuracy = 0.6775, AUC = 0.5963
+Run 9: Accuracy = 0.6792, AUC = 0.6159
+Run 10: Accuracy = 0.6466, AUC = 0.5677
+Run 11: Accuracy = 0.6450, AUC = 0.5563
+Run 12: Accuracy = 0.6569, AUC = 0.5750
+Run 13: Accuracy = 0.6398, AUC = 0.5573
+Run 14: Accuracy = 0.6673, AUC = 0.6094
+Run 15: Accuracy = 0.6810, AUC = 0.6118
+Run 16: Accuracy = 0.6725, AUC = 0.5968
+Run 17: Accuracy = 0.6722, AUC = 0.6095
+Run 18: Accuracy = 0.6295, AUC = 0.5431
+Run 19: Accuracy = 0.6347, AUC = 0.5612
+Run 20: Accuracy = 0.6655, AUC = 0.6044
+
+Best results: Accuracy = 0.6792, AUC = 0.6159
+
+[Best] Accuracy: 0.6810, AUC: 0.6159
+[Best] Accuracy: 0.6792, AUC: 0.6159
+
+======[Dataset: ILPD - Rusboost Method: ILPD]======
+[Best] Accuracy: 0.7189, AUC: 0.6561
+[Best] Accuracy: 0.7189, AUC: 0.6561
+
+======[Dataset: ILPD - SmoteHashBoost Method: Reciprocal]======
+[Best] Accuracy: 0.6895, AUC: 0.6444
+[Best] Accuracy: 0.6895, AUC: 0.6444
+
+======[Dataset: ILPD - SmoteHashBoost Method: Random]======
+[Best] Accuracy: 0.6896, AUC: 0.6444
+[Best] Accuracy: 0.6896, AUC: 0.6444
+
+======[Dataset: ILPD - SmoteHashBoost Method: Linearity]======
+[Best] Accuracy: 0.6758, AUC: 0.6303
+[Best] Accuracy: 0.6723, AUC: 0.6303
+
+======[Dataset: ILPD - SmoteHashBoost Method: Negexp]======
+[Best] Accuracy: 0.6809, AUC: 0.6367
+[Best] Accuracy: 0.6809, AUC: 0.6367
+
+======[Dataset: ILPD - SmoteHashBoost Method: Limit]======
+[Best] Accuracy: 0.6880, AUC: 0.6455
+[Best] Accuracy: 0.6880, AUC: 0.6455
+
+======[Dataset: ILPD - Borderline Smote Method: ILPD]======
+[Best] Accuracy: 0.6948, AUC: 0.6505
+[Best] Accuracy: 0.6929, AUC: 0.6505
+
+======[Dataset: ILPD - SmoteBoost Method: ILPD]======
+[Best] Accuracy: 0.6878, AUC: 0.6252
+[Best] Accuracy: 0.6878, AUC: 0.6252
+
+======[Dataset: ILPD - Smote ENN Method: ILPD]======
+[Best] Accuracy: 0.6863, AUC: 0.6909
+[Best] Accuracy: 0.6863, AUC: 0.6909
+
+======[Dataset: ILPD - SmoteTomek Method: ILPD]======
+[Best] Accuracy: 0.6912, AUC: 0.6317
+[Best] Accuracy: 0.6912, AUC: 0.6317
+
+======[Dataset: ILPD - Adasyn Method: ILPD]======
+[Best] Accuracy: 0.6776, AUC: 0.6355
+[Best] Accuracy: 0.6741, AUC: 0.6355

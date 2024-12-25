@@ -1,0 +1,126 @@
+
+======[Dataset: Glass - Method: Reciprocal]======
+[Best] Accuracy: 0.9627, AUC: 0.9338
+[Best] Accuracy: 0.9580, AUC: 0.9338
+
+======[Dataset: Glass - Method: Random]======
+[Best] Accuracy: 0.9673, AUC: 0.9477
+[Best] Accuracy: 0.9581, AUC: 0.9477
+
+======[Dataset: Glass - Method: Linearity]======
+[Best] Accuracy: 0.9626, AUC: 0.9284
+[Best] Accuracy: 0.9626, AUC: 0.9225
+
+======[Dataset: Glass - Method: Negexp]======
+[Best] Accuracy: 0.9627, AUC: 0.9365
+[Best] Accuracy: 0.9627, AUC: 0.9365
+
+======[Dataset: Glass - Method: Limit]======
+[Best] Accuracy: 0.9721, AUC: 0.9423
+[Best] Accuracy: 0.9721, AUC: 0.9419
+
+======[Dataset: Glass - Adaboost Method: Glass]======
+Results for dataset: Glass - Adaboost Method: Glass
+Run 1: Accuracy = 0.7674, AUC = 0.6878
+Run 2: Accuracy = 0.9766, AUC = 0.8927
+Run 3: Accuracy = 0.9860, AUC = 0.8976
+Run 4: Accuracy = 0.9907, AUC = 0.9476
+Run 5: Accuracy = 0.9907, AUC = 0.9476
+Run 6: Accuracy = 0.7814, AUC = 0.6951
+Run 7: Accuracy = 0.9625, AUC = 0.7402
+Run 8: Accuracy = 0.7907, AUC = 0.7476
+Run 9: Accuracy = 0.9767, AUC = 0.8451
+Run 10: Accuracy = 0.1907, AUC = 0.1000
+Run 11: Accuracy = 0.9814, AUC = 0.8476
+Run 12: Accuracy = 0.9673, AUC = 0.8878
+Run 13: Accuracy = 0.7767, AUC = 0.6927
+Run 14: Accuracy = 0.7860, AUC = 0.7927
+Run 15: Accuracy = 0.1907, AUC = 0.1000
+Run 16: Accuracy = 0.7859, AUC = 0.7451
+Run 17: Accuracy = 0.5860, AUC = 0.5927
+Run 18: Accuracy = 0.9765, AUC = 0.9402
+Run 19: Accuracy = 0.9860, AUC = 0.8976
+Run 20: Accuracy = 0.7860, AUC = 0.7451
+
+Best results: Accuracy = 0.9907, AUC = 0.9476
+
+[Best] Accuracy: 0.9907, AUC: 0.9476
+[Best] Accuracy: 0.9907, AUC: 0.9476
+
+======[Dataset: Glass - Ruusboost Method: Glass]======
+
+======[Dataset: Glass - Method: Glass]======
+
+======[Dataset: Glass - Method: Glass]======
+
+======[Dataset: Glass - Adaboost Method: Glass]======
+Results for dataset: Glass - Adaboost Method: Glass
+Run 1: Accuracy = 0.9674, AUC = 0.8878
+Run 2: Accuracy = 0.9767, AUC = 0.8451
+Run 3: Accuracy = 0.9907, AUC = 0.9476
+Run 4: Accuracy = 0.9860, AUC = 0.8976
+Run 5: Accuracy = 0.9813, AUC = 0.9427
+Run 6: Accuracy = 0.9953, AUC = 0.9976
+Run 7: Accuracy = 0.9672, AUC = 0.8378
+Run 8: Accuracy = 0.9674, AUC = 0.7927
+Run 9: Accuracy = 0.9721, AUC = 0.8427
+Run 10: Accuracy = 0.7814, AUC = 0.6951
+Run 11: Accuracy = 0.7906, AUC = 0.7476
+Run 12: Accuracy = 0.7814, AUC = 0.7902
+Run 13: Accuracy = 0.7860, AUC = 0.6976
+Run 14: Accuracy = 0.7812, AUC = 0.7427
+Run 15: Accuracy = 0.1907, AUC = 0.1000
+Run 16: Accuracy = 0.9860, AUC = 0.8976
+Run 17: Accuracy = 0.9860, AUC = 0.9451
+Run 18: Accuracy = 0.9814, AUC = 0.9427
+Run 19: Accuracy = 0.9814, AUC = 0.8951
+Run 20: Accuracy = 0.9814, AUC = 0.9427
+
+Best results: Accuracy = 0.9953, AUC = 0.9976
+
+[Best] Accuracy: 0.9953, AUC: 0.9976
+[Best] Accuracy: 0.9953, AUC: 0.9976
+
+======[Dataset: Glass - Rusboost Method: Glass]======
+[Best] Accuracy: 0.9766, AUC: 0.9446
+[Best] Accuracy: 0.9766, AUC: 0.9446
+
+======[Dataset: Glass - SmoteHashBoost Method: Reciprocal]======
+[Best] Accuracy: 0.9579, AUC: 0.9338
+[Best] Accuracy: 0.9579, AUC: 0.9338
+
+======[Dataset: Glass - SmoteHashBoost Method: Random]======
+[Best] Accuracy: 0.9673, AUC: 0.9392
+[Best] Accuracy: 0.9673, AUC: 0.9392
+
+======[Dataset: Glass - SmoteHashBoost Method: Linearity]======
+[Best] Accuracy: 0.9628, AUC: 0.9365
+[Best] Accuracy: 0.9628, AUC: 0.9365
+
+======[Dataset: Glass - SmoteHashBoost Method: Negexp]======
+[Best] Accuracy: 0.9627, AUC: 0.9423
+[Best] Accuracy: 0.9627, AUC: 0.9365
+
+======[Dataset: Glass - SmoteHashBoost Method: Limit]======
+[Best] Accuracy: 0.9625, AUC: 0.9365
+[Best] Accuracy: 0.9625, AUC: 0.9365
+
+======[Dataset: Glass - Borderline Smote Method: Glass]======
+[Best] Accuracy: 0.9628, AUC: 0.9225
+[Best] Accuracy: 0.9628, AUC: 0.9225
+
+======[Dataset: Glass - SmoteBoost Method: Glass]======
+[Best] Accuracy: 0.9628, AUC: 0.9332
+[Best] Accuracy: 0.9626, AUC: 0.9332
+
+======[Dataset: Glass - Smote ENN Method: Glass]======
+[Best] Accuracy: 0.9627, AUC: 0.9365
+[Best] Accuracy: 0.9625, AUC: 0.9365
+
+======[Dataset: Glass - SmoteTomek Method: Glass]======
+[Best] Accuracy: 0.9674, AUC: 0.9252
+[Best] Accuracy: 0.9674, AUC: 0.9252
+
+======[Dataset: Glass - Adasyn Method: Glass]======
+[Best] Accuracy: 0.9674, AUC: 0.9392
+[Best] Accuracy: 0.9672, AUC: 0.9392

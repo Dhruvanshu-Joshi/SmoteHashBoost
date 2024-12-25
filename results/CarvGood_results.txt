@@ -1,0 +1,92 @@
+
+======[Dataset: CarvGood - Method: Reciprocal]======
+[Best] Accuracy: 0.9988, AUC: 0.9994
+[Best] Accuracy: 0.9988, AUC: 0.9920
+
+======[Dataset: CarvGood - Method: Random]======
+[Best] Accuracy: 0.9994, AUC: 0.9997
+[Best] Accuracy: 0.9994, AUC: 0.9997
+
+======[Dataset: CarvGood - Method: Linearity]======
+[Best] Accuracy: 0.9994, AUC: 0.9997
+[Best] Accuracy: 0.9994, AUC: 0.9997
+
+======[Dataset: CarvGood - Method: Negexp]======
+[Best] Accuracy: 0.9988, AUC: 0.9920
+[Best] Accuracy: 0.9988, AUC: 0.9920
+
+======[Dataset: CarvGood - Method: Limit]======
+[Best] Accuracy: 0.9988, AUC: 0.9920
+[Best] Accuracy: 0.9988, AUC: 0.9920
+
+======[Dataset: CarvGood - Adaboost Method: CarvGood]======
+Results for dataset: CarvGood - Adaboost Method: CarvGood
+Run 1: Accuracy = 0.9988, AUC = 0.9920
+Run 2: Accuracy = 0.9954, AUC = 0.9606
+Run 3: Accuracy = 0.9983, AUC = 0.9917
+Run 4: Accuracy = 0.9965, AUC = 0.9612
+Run 5: Accuracy = 0.9994, AUC = 0.9923
+Run 6: Accuracy = 0.9994, AUC = 0.9997
+Run 7: Accuracy = 0.9994, AUC = 0.9923
+Run 8: Accuracy = 0.9983, AUC = 0.9917
+Run 9: Accuracy = 0.9971, AUC = 0.9763
+Run 10: Accuracy = 0.9971, AUC = 0.9911
+Run 11: Accuracy = 0.9983, AUC = 0.9917
+Run 12: Accuracy = 0.9988, AUC = 0.9920
+Run 13: Accuracy = 0.9983, AUC = 0.9917
+Run 14: Accuracy = 0.9959, AUC = 0.9757
+Run 15: Accuracy = 0.9971, AUC = 0.9763
+Run 16: Accuracy = 0.9971, AUC = 0.9837
+Run 17: Accuracy = 0.9971, AUC = 0.9763
+Run 18: Accuracy = 0.9977, AUC = 0.9766
+Run 19: Accuracy = 0.9988, AUC = 0.9920
+Run 20: Accuracy = 0.9960, AUC = 0.9757
+
+Best results: Accuracy = 0.9994, AUC = 0.9997
+
+[Best] Accuracy: 0.9994, AUC: 0.9997
+[Best] Accuracy: 0.9994, AUC: 0.9997
+
+======[Dataset: CarvGood - Ruusboost Method: CarvGood]======
+[Best] Accuracy: 0.9907, AUC: 0.9952
+[Best] Accuracy: 0.9907, AUC: 0.9952
+
+======[Dataset: CarvGood - SmoteHashBoost Method: Reciprocal]======
+[Best] Accuracy: 0.9994, AUC: 0.9997
+[Best] Accuracy: 0.9994, AUC: 0.9997
+
+======[Dataset: CarvGood - SmoteHashBoost Method: Random]======
+[Best] Accuracy: 0.9988, AUC: 0.9920
+[Best] Accuracy: 0.9988, AUC: 0.9920
+
+======[Dataset: CarvGood - SmoteHashBoost Method: Linearity]======
+[Best] Accuracy: 0.9988, AUC: 0.9994
+[Best] Accuracy: 0.9988, AUC: 0.9920
+
+======[Dataset: CarvGood - SmoteHashBoost Method: Negexp]======
+[Best] Accuracy: 0.9988, AUC: 0.9920
+[Best] Accuracy: 0.9988, AUC: 0.9920
+
+======[Dataset: CarvGood - SmoteHashBoost Method: Limit]======
+[Best] Accuracy: 0.9988, AUC: 0.9920
+[Best] Accuracy: 0.9988, AUC: 0.9920
+
+======[Dataset: CarvGood - Borderline Smote Method: CarvGood]======
+[Best] Accuracy: 0.9988, AUC: 0.9994
+[Best] Accuracy: 0.9988, AUC: 0.9994
+
+======[Dataset: CarvGood - SmoteBoost Method: CarvGood]======
+[Best] Accuracy: 0.9988, AUC: 0.9920
+[Best] Accuracy: 0.9988, AUC: 0.9920
+
+======[Dataset: CarvGood - Smote ENN Method: CarvGood]======
+[Best] Accuracy: 0.9988, AUC: 0.9988
+[Best] Accuracy: 0.9977, AUC: 0.9988
+
+======[Dataset: CarvGood - SmoteTomek Method: CarvGood]======
+[Best] Accuracy: 0.9994, AUC: 0.9923
+[Best] Accuracy: 0.9994, AUC: 0.9923
+
+======[Dataset: CarvGood - Adasyn Method: CarvGood]======
+[Best] Accuracy: 0.9988, AUC: 0.9994
+[Best] Accuracy: 0.9988, AUC: 0.9846

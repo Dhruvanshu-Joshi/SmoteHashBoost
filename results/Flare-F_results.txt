@@ -1,0 +1,94 @@
+
+======[Dataset: Flare-F - Method: Reciprocal]======
+[Best] Accuracy: 0.9475, AUC: 0.6107
+[Best] Accuracy: 0.9475, AUC: 0.6040
+
+======[Dataset: Flare-F - Method: Random]======
+[Best] Accuracy: 0.9475, AUC: 0.6493
+[Best] Accuracy: 0.9475, AUC: 0.6493
+
+======[Dataset: Flare-F - Method: Linearity]======
+[Best] Accuracy: 0.9465, AUC: 0.6156
+[Best] Accuracy: 0.9465, AUC: 0.6156
+
+======[Dataset: Flare-F - Method: Negexp]======
+[Best] Accuracy: 0.9484, AUC: 0.5933
+[Best] Accuracy: 0.9484, AUC: 0.5620
+
+======[Dataset: Flare-F - Method: Limit]======
+[Best] Accuracy: 0.9484, AUC: 0.6266
+[Best] Accuracy: 0.9447, AUC: 0.6266
+
+======[Dataset: Flare-F - Adaboost Method: Flare-F]======
+Results for dataset: Flare-F - Adaboost Method: Flare-F
+Run 1: Accuracy = 0.9475, AUC = 0.5495
+Run 2: Accuracy = 0.9371, AUC = 0.5003
+Run 3: Accuracy = 0.7512, AUC = 0.4245
+Run 4: Accuracy = 0.9503, AUC = 0.5390
+Run 5: Accuracy = 0.9437, AUC = 0.5476
+Run 6: Accuracy = 0.9428, AUC = 0.5245
+Run 7: Accuracy = 0.3831, AUC = 0.2000
+Run 8: Accuracy = 0.9465, AUC = 0.5532
+Run 9: Accuracy = 0.9409, AUC = 0.5249
+Run 10: Accuracy = 0.9494, AUC = 0.5279
+Run 11: Accuracy = 0.9494, AUC = 0.5519
+Run 12: Accuracy = 0.9447, AUC = 0.5707
+Run 13: Accuracy = 0.9428, AUC = 0.5259
+Run 14: Accuracy = 0.9484, AUC = 0.5606
+Run 15: Accuracy = 0.9399, AUC = 0.5244
+Run 16: Accuracy = 0.9418, AUC = 0.5586
+Run 17: Accuracy = 0.9503, AUC = 0.5390
+Run 18: Accuracy = 0.9418, AUC = 0.5133
+Run 19: Accuracy = 0.9381, AUC = 0.5234
+Run 20: Accuracy = 0.9400, AUC = 0.5470
+
+Best results: Accuracy = 0.9494, AUC = 0.5519
+
+[Best] Accuracy: 0.9503, AUC: 0.5707
+[Best] Accuracy: 0.9494, AUC: 0.5519
+
+======[Dataset: Flare-F - Ruusboost Method: Flare-F]======
+[Best] Accuracy: 0.8283, AUC: 0.8315
+[Best] Accuracy: 0.8283, AUC: 0.7895
+
+======[Dataset: Flare-F - SmoteHashBoost Method: Reciprocal]======
+[Best] Accuracy: 0.9493, AUC: 0.6262
+[Best] Accuracy: 0.9493, AUC: 0.6262
+
+======[Dataset: Flare-F - SmoteHashBoost Method: Random]======
+[Best] Accuracy: 0.9437, AUC: 0.6126
+[Best] Accuracy: 0.9409, AUC: 0.6126
+
+======[Dataset: Flare-F - SmoteHashBoost Method: Linearity]======
+[Best] Accuracy: 0.9484, AUC: 0.5939
+[Best] Accuracy: 0.9484, AUC: 0.5939
+
+======[Dataset: Flare-F - SmoteHashBoost Method: Negexp]======
+[Best] Accuracy: 0.9456, AUC: 0.6173
+[Best] Accuracy: 0.9447, AUC: 0.6173
+
+======[Dataset: Flare-F - SmoteHashBoost Method: Limit]======
+[Best] Accuracy: 0.9465, AUC: 0.6271
+[Best] Accuracy: 0.9456, AUC: 0.6271
+
+======[Dataset: Flare-F - Borderline Smote Method: Flare-F]======
+[Best] Accuracy: 0.9465, AUC: 0.6142
+[Best] Accuracy: 0.9465, AUC: 0.6142
+
+======[Dataset: Flare-F - SmoteBoost Method: Flare-F]======
+[Best] Accuracy: 0.9493, AUC: 0.6156
+[Best] Accuracy: 0.9493, AUC: 0.6156
+
+======[Dataset: Flare-F - Smote ENN Method: Flare-F]======
+[Best] Accuracy: 0.9334, AUC: 0.7204
+[Best] Accuracy: 0.9334, AUC: 0.7191
+
+======[Dataset: Flare-F - SmoteTomek Method: Flare-F]======
+[Best] Accuracy: 0.9409, AUC: 0.5673
+[Best] Accuracy: 0.9381, AUC: 0.5567
+
+======[Dataset: Flare-F - Adasyn Method: Flare-F]======
+[Best] Accuracy: 0.9456, AUC: 0.6063
+[Best] Accuracy: 0.9437, AUC: 0.5688
+
+======[Dataset: Flare-F - Method: Flare-F]======

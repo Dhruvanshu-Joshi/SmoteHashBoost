@@ -1,0 +1,91 @@
+
+======[Dataset: Yeast5-ERL - Method: Reciprocal]======
+[Best] Accuracy: 0.9993, AUC: 0.9997
+[Best] Accuracy: 0.9993, AUC: 0.9997
+
+======[Dataset: Yeast5-ERL - Method: Random]======
+[Best] Accuracy: 0.9993, AUC: 0.9997
+[Best] Accuracy: 0.9993, AUC: 0.9997
+
+======[Dataset: Yeast5-ERL - Method: Linearity]======
+[Best] Accuracy: 0.9993, AUC: 0.9997
+[Best] Accuracy: 0.9993, AUC: 0.9997
+
+======[Dataset: Yeast5-ERL - Method: Negexp]======
+[Best] Accuracy: 0.9980, AUC: 0.9990
+[Best] Accuracy: 0.9980, AUC: 0.9990
+
+======[Dataset: Yeast5-ERL - Method: Limit]======
+[Best] Accuracy: 0.9993, AUC: 0.9997
+[Best] Accuracy: 0.9993, AUC: 0.9997
+
+======[Dataset: Yeast5-ERL - Adaboost Method: Yeast5-ERL]======
+Results for dataset: Yeast5-ERL - Adaboost Method: Yeast5-ERL
+Run 1: Accuracy = 0.1993, AUC = 0.1000
+Run 2: Accuracy = 0.7993, AUC = 0.7997
+Run 3: Accuracy = 0.1993, AUC = 0.1000
+Run 4: Accuracy = 0.7986, AUC = 0.7993
+Run 5: Accuracy = 0.7993, AUC = 0.7997
+Run 6: Accuracy = 0.7993, AUC = 0.7997
+Run 7: Accuracy = 0.5980, AUC = 0.5990
+Run 8: Accuracy = 0.9993, AUC = 0.9997
+Run 9: Accuracy = 0.3987, AUC = 0.2000
+Run 10: Accuracy = 0.1993, AUC = 0.1000
+Run 11: Accuracy = 0.9993, AUC = 0.9997
+Run 12: Accuracy = 0.7993, AUC = 0.7997
+Run 13: Accuracy = 0.7993, AUC = 0.7997
+Run 14: Accuracy = 0.1993, AUC = 0.1000
+Run 15: Accuracy = 0.1993, AUC = 0.1000
+Run 16: Accuracy = 0.6000, AUC = 0.6000
+Run 17: Accuracy = 0.1993, AUC = 0.1000
+Run 18: Accuracy = 0.9973, AUC = 0.8990
+Run 19: Accuracy = 0.7993, AUC = 0.7997
+Run 20: Accuracy = 0.1993, AUC = 0.1000
+
+Best results: Accuracy = 0.9993, AUC = 0.9997
+
+[Best] Accuracy: 0.9993, AUC: 0.9997
+[Best] Accuracy: 0.9993, AUC: 0.9997
+
+======[Dataset: Yeast5-ERL - Rusboost Method: Yeast5-ERL]======
+[Best] Accuracy: 0.9987, AUC: 0.9993
+[Best] Accuracy: 0.9987, AUC: 0.9993
+
+======[Dataset: Yeast5-ERL - SmoteHashBoost Method: Reciprocal]======
+[Best] Accuracy: 0.9993, AUC: 0.9997
+[Best] Accuracy: 0.9993, AUC: 0.9997
+
+======[Dataset: Yeast5-ERL - SmoteHashBoost Method: Random]======
+[Best] Accuracy: 0.9993, AUC: 0.9997
+[Best] Accuracy: 0.9993, AUC: 0.9997
+
+======[Dataset: Yeast5-ERL - SmoteHashBoost Method: Linearity]======
+[Best] Accuracy: 0.9993, AUC: 0.9997
+[Best] Accuracy: 0.9993, AUC: 0.9997
+
+======[Dataset: Yeast5-ERL - SmoteHashBoost Method: Negexp]======
+[Best] Accuracy: 0.9993, AUC: 0.9997
+[Best] Accuracy: 0.9993, AUC: 0.9997
+
+======[Dataset: Yeast5-ERL - SmoteHashBoost Method: Limit]======
+[Best] Accuracy: 0.9993, AUC: 0.9997
+[Best] Accuracy: 0.9993, AUC: 0.9997
+
+======[Dataset: Yeast5-ERL - Borderline Smote Method: Yeast5-ERL]======
+[Best] Accuracy: 0.9993, AUC: 0.9997
+[Best] Accuracy: 0.9993, AUC: 0.9997
+
+======[Dataset: Yeast5-ERL - SmoteBoost Method: Yeast5-ERL]======
+[Best] Accuracy: 0.9993, AUC: 0.9997
+[Best] Accuracy: 0.9993, AUC: 0.9997
+
+======[Dataset: Yeast5-ERL - Smote ENN Method: Yeast5-ERL]======
+[Best] Accuracy: 0.9993, AUC: 0.9997
+[Best] Accuracy: 0.9993, AUC: 0.9997
+
+======[Dataset: Yeast5-ERL - SmoteTomek Method: Yeast5-ERL]======
+[Best] Accuracy: 0.9980, AUC: 0.9990
+[Best] Accuracy: 0.9980, AUC: 0.9990
+
+======[Dataset: Yeast5-ERL - Adasyn Method: Yeast5-ERL]======
+[ADASYN Failed] Not any neigbours belong to the majority class. This case will induce a NaN case with a division by zero. ADASYN is not suited for this specific dataset. Use SMOTE instead.
