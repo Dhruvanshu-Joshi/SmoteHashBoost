@@ -156,7 +156,7 @@
 #     plt.legend(loc="lower right")
 
 #     # Save the plot as an image
-#     plt.savefig(f'roc_curve_{dataset_name}.png')
+#     plt.savefig(f'roc_curve_{dataset_name}_1.png')
 #     plt.show()
 
 # best_HUE_data = None
@@ -226,123 +226,17 @@
 
 #*****************************
 
-# import matplotlib.pyplot as plt
-# from sklearn.metrics import roc_curve, auc
-# from sklearn.tree import DecisionTreeClassifier
-# from utils import evaluate as evaluate
-# from utils_rusboost import evaluate_rus
-# from utils_boost import evaluate_boost
-# from imblearn.ensemble import RUSBoostClassifier
-# import pandas as pd
-# import numpy as np
-# import matplotlib
-
-# # Set matplotlib parameters for font and label sizes
-# matplotlib.rcParams['pdf.fonttype'] = 42
-# matplotlib.rcParams['ps.fonttype'] = 42
-# matplotlib.rc('xtick', labelsize=15)
-# matplotlib.rc('ytick', labelsize=15)
-
-# DATASETS = dict()
-
-# """Seed"""
-# data = pd.read_csv('data/raw/seeds_dataset.txt', header=None)
-# DATASETS.update({
-#     'Seed': {
-#         'data': [data.values[:, :-1], data.values[:, -1]],
-#         'extra': {
-#             'minority_class': 2
-#         }
-#     }
-# })
-
-# # Function to plot ROC curves for all three models on the same graph
-# def plot_combined_roc_curves(fpr_hue, tpr_hue, auc_hue,
-#                              fpr_rus, tpr_rus, auc_rus,
-#                              fpr_smote, tpr_smote, auc_smote,
-#                              dataset_name):
-#     plt.figure()
-    
-#     # Plot each model's ROC curve with appropriate labels and colors
-#     plt.plot(fpr_hue, tpr_hue, lw=2, label=f'HUE (AUC = {auc_hue:.2f})', color='blue')
-#     plt.plot(fpr_rus, tpr_rus, lw=2, label=f'RUSBoost (AUC = {auc_rus:.2f})', color='green')
-#     plt.plot(fpr_smote, tpr_smote, lw=2, label=f'SmoteHashBoost (AUC = {auc_smote:.2f})', color='red')
-    
-#     # Set axis limits and labels
-#     plt.xlim([0.0, 1.0])
-#     plt.ylim([0.0, 1.05])
-#     plt.xlabel('False Positive Rate', fontsize=15, style='italic')
-#     plt.ylabel('True Positive Rate', fontsize=15, style='italic')
-    
-#     # Title can be commented or uncommented as needed
-#     # plt.title(f'ROC Curve for {dataset_name}', fontsize=15)
-
-#     # Display legend with frame and edge settings
-#     plt.legend(loc="lower right", prop={'size': 15}, edgecolor='black', frameon=True, framealpha=0.5)
-
-#     # Save the plot as a PDF
-#     plt.savefig(f'roc_curve_{dataset_name}.pdf', bbox_inches='tight')
-#     # files.download(f'roc_curve_{dataset_name}.pdf')
-    
-#     # Optional: Show the plot (comment out if not needed)
-#     # plt.show()
-
-# # Example dataset and loop to process ROC data for each model
-# best_HUE_data_value = -np.inf
-# best_SH_data_value = -np.inf
-# for name, value in DATASETS.items():
-#     for method in ['reciprocal', 'random', 'linearity', 'negexp', 'limit']:
-#         HUE_data = evaluate(
-#             f"{name} - Method: {method.title()}",
-#             DecisionTreeClassifier(),
-#             *value.get('data'),
-#             **value.get('extra'),
-#             k=5,
-#             verbose=True,
-#             sampling=method
-#         )
-#         if HUE_data[2] > best_HUE_data_value:
-#             best_HUE_data_value = HUE_data[2]
-#             best_HUE_data = HUE_data
-
-#     fpr_hue, tpr_hue, auc_hue = best_HUE_data
-    
-#     for method in ['reciprocal', 'random', 'linearity', 'negexp', 'limit']:
-#         SH_data = evaluate_boost(
-#             f"{name} - Method: {method.title()}",
-#             DecisionTreeClassifier(),
-#             *value.get('data'),
-#             **value.get('extra'),
-#             k=5,
-#             verbose=True,
-#             sampling=method
-#         )
-#         if SH_data[2] > best_SH_data_value:
-#             best_SH_data_value = SH_data[2]
-#             best_SH_data = SH_data
-
-#     fpr_smote, tpr_smote, auc_smote = best_SH_data
-
-#     rus_data = evaluate_rus(
-#         f"{name} - Method: {name}",
-#         RUSBoostClassifier(base_estimator=DecisionTreeClassifier()),
-#         *value.get('data'),
-#         **value.get('extra'),
-#         k=5,
-#         verbose=True,
-#     )
-#     fpr_rus, tpr_rus, auc_rus = rus_data
-
-#     # Plot and save the combined ROC curves
-#     plot_combined_roc_curves(fpr_hue, tpr_hue, auc_hue,
-#                              fpr_rus, tpr_rus, auc_rus,
-#                              fpr_smote, tpr_smote, auc_smote,
-#                              name)
-
 import matplotlib.pyplot as plt
 from sklearn.metrics import roc_curve, auc
 from sklearn.tree import DecisionTreeClassifier
+from utils import evaluate as evaluate
+from utils_rusboost import evaluate_rus
 from utils_boost import evaluate_boost
+from utils_adaboost import evaluate_adaboost
+from utils_smotetomek import evaluate_adasyn
+from utils_smotetomek import evaluate_adasyn,  evaluate_smote_enn, evaluate_smote_tomek, evaluate_borderline_smote
+from utils_smoteboost import prepare_boost, evaluate_smoteboost
+from imblearn.ensemble import RUSBoostClassifier
 import pandas as pd
 import numpy as np
 import matplotlib
@@ -366,38 +260,55 @@ DATASETS.update({
     }
 })
 
-# Function to plot ROC curves for all five methods on the same graph
-def plot_smotehashboost_roc_curves(methods_data, dataset_name):
+# Function to plot ROC curves for all three models on the same graph
+def plot_combined_roc_curves(fpr_hue, tpr_hue, auc_hue,
+                             fpr_rus, tpr_rus, auc_rus,
+                             fpr_smote, tpr_smote, auc_smote,
+                             fpr_ada, tpr_ada, auc_ada,
+                             fpr_border, tpr_border, auc_border,
+                             fpr_sb, tpr_sb, auc_sb,
+                             fpr_smenn, tpr_smenn, auc_smenn,
+                             fpr_smtmk, tpr_smtmk, auc_smtmk,
+                             fpr_adasyn, tpr_adasyn, auc_adasyn,
+                             dataset_name):
     plt.figure()
-
-    # Colors for each method
-    colors = ['blue', 'green', 'red', 'orange', 'purple']
-    methods = ['Reciprocal', 'Random', 'Linearity', 'Negexp', 'Limit']
-
-    # Plot ROC curves for all methods
-    for idx, (fpr, tpr, auc_val) in enumerate(methods_data):
-        plt.plot(fpr, tpr, lw=2, label=f'{methods[idx]} (AUC = {auc_val:.4f})', color=colors[idx])
-
+    
+    # Plot each model's ROC curve with appropriate labels and colors
+    plt.plot(fpr_rus, tpr_rus, lw=2, label=f'RUSBoost (AUC = {auc_rus:.2f})', color='green')
+    plt.plot(fpr_ada, tpr_ada, lw=2, label=f'AdaBoost (AUC = {auc_ada:.2f})', color='black')
+    plt.plot(fpr_border, tpr_border, lw=2, label=f'BorderlineSmote (AUC = {auc_border:.2f})', color='yellow')
+    plt.plot(fpr_sb, tpr_sb, lw=2, label=f'SmoteBoost (AUC = {auc_sb:.2f})', color='brown')
+    plt.plot(fpr_smenn, tpr_smenn, lw=2, label=f'SmoteEnn (AUC = {auc_smenn:.2f})', color='violet')
+    plt.plot(fpr_smtmk, tpr_smtmk, lw=2, label=f'SmoteTomek (AUC = {auc_smtmk:.2f})', color='orange')
+    plt.plot(fpr_adasyn, tpr_adasyn, lw=2, label=f'Adasyn (AUC = {auc_adasyn:.2f})', color='pink')
+    plt.plot(fpr_hue, tpr_hue, lw=2, label=f'HUE (AUC = {auc_hue:.2f})', color='blue')
+    plt.plot(fpr_smote, tpr_smote, lw=2, label=f'SmoteHashBoost (AUC = {auc_smote:.2f})', color='red')
+    
     # Set axis limits and labels
     plt.xlim([0.0, 1.0])
     plt.ylim([0.0, 1.05])
     plt.xlabel('False Positive Rate', fontsize=15, style='italic')
     plt.ylabel('True Positive Rate', fontsize=15, style='italic')
+    
+    # Title can be commented or uncommented as needed
+    # plt.title(f'ROC Curve for {dataset_name}', fontsize=15)
 
     # Display legend with frame and edge settings
     plt.legend(loc="lower right", prop={'size': 15}, edgecolor='black', frameon=True, framealpha=0.5)
 
     # Save the plot as a PDF
-    plt.savefig(f'smotehashboost_roc_curve_{dataset_name}.pdf', bbox_inches='tight')
+    plt.savefig(f'roc_curve_{dataset_name}_1.pdf', bbox_inches='tight')
+    # files.download(f'roc_curve_{dataset_name}.pdf')
     
     # Optional: Show the plot (comment out if not needed)
     # plt.show()
 
-# Example dataset and loop to process ROC data for each method
+# Example dataset and loop to process ROC data for each model
+best_HUE_data_value = -np.inf
+best_SH_data_value = -np.inf
 for name, value in DATASETS.items():
-    methods_data = []
     for method in ['reciprocal', 'random', 'linearity', 'negexp', 'limit']:
-        SH_data = evaluate_boost(
+        HUE_data = evaluate(
             f"{name} - Method: {method.title()}",
             DecisionTreeClassifier(),
             *value.get('data'),
@@ -406,8 +317,190 @@ for name, value in DATASETS.items():
             verbose=True,
             sampling=method
         )
-        fpr, tpr, auc_val = SH_data
-        methods_data.append((fpr, tpr, auc_val))
+        if HUE_data[2] > best_HUE_data_value:
+            best_HUE_data_value = HUE_data[2]
+            best_HUE_data = HUE_data
 
-    # Plot and save the ROC curves for all methods
-    plot_smotehashboost_roc_curves(methods_data, name)
+    fpr_hue, tpr_hue, auc_hue = best_HUE_data
+    
+    for method in ['reciprocal', 'random', 'linearity', 'negexp', 'limit']:
+        SH_data = evaluate_boost(
+            f"{name} - Method: {method.title()}",
+            DecisionTreeClassifier(),
+            *value.get('data'),
+            **value.get('extra'),
+            k=5,
+            verbose=True,
+            sampling=method,
+             output_file = f"results/{name}_results_1.txt"
+        )
+        if SH_data[2] > best_SH_data_value:
+            best_SH_data_value = SH_data[2]
+            best_SH_data = SH_data
+
+    fpr_smote, tpr_smote, auc_smote = best_SH_data
+
+    rus_data = evaluate_rus(
+        f"{name} - Method: {name}",
+        RUSBoostClassifier(base_estimator=DecisionTreeClassifier()),
+        *value.get('data'),
+        **value.get('extra'),
+        k=5,
+        verbose=True,
+        output_file = f"results/{name}_results_1.txt"
+    )
+    fpr_rus, tpr_rus, auc_rus = rus_data
+
+    dataset_output_file = f"results/{name}_results_1.txt" 
+
+    ada_data = evaluate_adaboost(
+        "{} - Adaboost Method: {}".format(name, name),
+        DecisionTreeClassifier(),  # Use RUSBoostClassifier
+        *value.get('data'),
+        **value.get('extra'),
+        k=5,
+        verbose=True,
+        output_file=dataset_output_file,
+    )
+    fpr_ada, tpr_ada, auc_ada = ada_data
+
+    border_data = evaluate_borderline_smote(
+        "{} - Borderline Smote Method: {}".format(name, name),
+        DecisionTreeClassifier(),  # Base classifier for SMOTEBoost
+        *value.get('data'),
+        **value.get('extra'),
+        k=5,
+        verbose=True,
+        output_file=dataset_output_file,
+    )
+    fpr_border, tpr_border, auc_border = border_data
+    
+    sb_data = evaluate_smoteboost(
+        "{} - SmoteBoost Method: {}".format(name, name),
+        DecisionTreeClassifier(),  # Base classifier for SMOTEBoost
+        *value.get('data'),
+        **value.get('extra'),
+        k=5,
+        verbose=True,
+        output_file=dataset_output_file,
+    )
+    fpr_sb, tpr_sb, auc_sb = sb_data
+    
+    
+    smenn_data = evaluate_smote_enn(
+        "{} - Smote ENN Method: {}".format(name, name),
+        DecisionTreeClassifier(),  # Base classifier for SMOTEBoost
+        *value.get('data'),
+        **value.get('extra'),
+        k=5,
+        verbose=True,
+        output_file=dataset_output_file,
+    )
+    fpr_smenn, tpr_smenn, auc_smenn = smenn_data
+
+    smtmk_data = evaluate_smote_tomek(
+        "{} - SmoteTomek Method: {}".format(name, name),
+        DecisionTreeClassifier(),  # Base classifier for SMOTEBoost
+        *value.get('data'),
+        **value.get('extra'),
+        k=5,
+        verbose=True,
+        output_file=dataset_output_file,
+    )
+    fpr_smtmk, tpr_smtmk, auc_smtmk = smtmk_data
+
+    adasyn_data = evaluate_adasyn(
+        "{} - Adasyn Method: {}".format(name, name),
+        DecisionTreeClassifier(),  # Base classifier for SMOTEBoost
+        *value.get('data'),
+        **value.get('extra'),
+        k=5,
+        verbose=True,
+        output_file=dataset_output_file,
+    )
+    fpr_adasyn, tpr_adasyn, auc_adasyn = adasyn_data
+
+    # Plot and save the combined ROC curves
+    plot_combined_roc_curves(fpr_hue, tpr_hue, auc_hue,
+                             fpr_rus, tpr_rus, auc_rus,
+                             fpr_smote, tpr_smote, auc_smote,
+                             fpr_ada, tpr_ada, auc_ada,
+                             fpr_border, tpr_border, auc_border,
+                             fpr_sb, tpr_sb, auc_sb,
+                             fpr_smenn, tpr_smenn, auc_smenn,
+                             fpr_smtmk, tpr_smtmk, auc_smtmk,
+                             fpr_adasyn, tpr_adasyn, auc_adasyn,
+                             name)
+
+# import matplotlib.pyplot as plt
+# from sklearn.metrics import roc_curve, auc
+# from sklearn.tree import DecisionTreeClassifier
+# from utils_boost import evaluate_boost
+# import pandas as pd
+# import numpy as np
+# import matplotlib
+
+# # Set matplotlib parameters for font and label sizes
+# matplotlib.rcParams['pdf.fonttype'] = 42
+# matplotlib.rcParams['ps.fonttype'] = 42
+# matplotlib.rc('xtick', labelsize=15)
+# matplotlib.rc('ytick', labelsize=15)
+
+# DATASETS = dict()
+
+# """Seed"""
+# data = pd.read_csv('data/raw/seeds_dataset.txt', header=None)
+# DATASETS.update({
+#     'Seed': {
+#         'data': [data.values[:, :-1], data.values[:, -1]],
+#         'extra': {
+#             'minority_class': 2
+#         }
+#     }
+# })
+
+# # Function to plot ROC curves for all five methods on the same graph
+# def plot_smotehashboost_roc_curves(methods_data, dataset_name):
+#     plt.figure()
+
+#     # Colors for each method
+#     colors = ['blue', 'green', 'red', 'orange', 'purple']
+#     methods = ['Reciprocal', 'Random', 'Linearity', 'Negexp', 'Limit']
+
+#     # Plot ROC curves for all methods
+#     for idx, (fpr, tpr, auc_val) in enumerate(methods_data):
+#         plt.plot(fpr, tpr, lw=2, label=f'{methods[idx]} (AUC = {auc_val:.4f})', color=colors[idx])
+
+#     # Set axis limits and labels
+#     plt.xlim([0.0, 1.0])
+#     plt.ylim([0.0, 1.05])
+#     plt.xlabel('False Positive Rate', fontsize=15, style='italic')
+#     plt.ylabel('True Positive Rate', fontsize=15, style='italic')
+
+#     # Display legend with frame and edge settings
+#     plt.legend(loc="lower right", prop={'size': 15}, edgecolor='black', frameon=True, framealpha=0.5)
+
+#     # Save the plot as a PDF
+#     plt.savefig(f'smotehashboost_roc_curve_{dataset_name}.pdf', bbox_inches='tight')
+    
+#     # Optional: Show the plot (comment out if not needed)
+#     # plt.show()
+
+# # Example dataset and loop to process ROC data for each method
+# for name, value in DATASETS.items():
+#     methods_data = []
+#     for method in ['reciprocal', 'random', 'linearity', 'negexp', 'limit']:
+#         SH_data = evaluate_boost(
+#             f"{name} - Method: {method.title()}",
+#             DecisionTreeClassifier(),
+#             *value.get('data'),
+#             **value.get('extra'),
+#             k=5,
+#             verbose=True,
+#             sampling=method
+#         )
+#         fpr, tpr, auc_val = SH_data
+#         methods_data.append((fpr, tpr, auc_val))
+
+#     # Plot and save the ROC curves for all methods
+#     plot_smotehashboost_roc_curves(methods_data, name)

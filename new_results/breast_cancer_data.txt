@@ -1,0 +1,269 @@
+100%|##########| 20/20 [00:02<00:00,  8.15it/s]
+100%|##########| 20/20 [00:02<00:00,  8.71it/s]
+100%|##########| 20/20 [00:02<00:00,  8.09it/s]
+100%|##########| 20/20 [00:02<00:00,  8.11it/s]
+100%|##########| 20/20 [00:02<00:00,  8.09it/s]
+**************************************************
+
+======[Dataset: Breast Cancer Wisconsin - SmoteHashBoost Method: Reciprocal]======
+[Preparing]
++ #classes: 2
++ classes and counts: [('B', 357), ('M', 212)]
++ Minority class: M
++ Size of Minority: 212
++ Size of Majority: 357
+
+
+[Best] Accuracy: 0.9473, AUC: 0.9485, F1: 0.9313, AP: 0.8868, Gmean: 0.9482
+
+[Best] Accuracy: 0.9473, AUC: 0.9485, F1: 0.9313, AP: 0.8868, Gmean: 0.9482
+
+======[Dataset: Breast Cancer Wisconsin - SmoteHashBoost Method: Random]======
+[Preparing]
++ #classes: 2
++ classes and counts: [('B', 357), ('M', 212)]
++ Minority class: M
++ Size of Minority: 212
++ Size of Majority: 357
+
+
+[Best] Accuracy: 0.9614, AUC: 0.9614, F1: 0.9490, AP: 0.9159, Gmean: 0.9612
+
+[Best] Accuracy: 0.9614, AUC: 0.9614, F1: 0.9490, AP: 0.9159, Gmean: 0.9612
+
+======[Dataset: Breast Cancer Wisconsin - SmoteHashBoost Method: Linearity]======
+[Preparing]
++ #classes: 2
++ classes and counts: [('B', 357), ('M', 212)]
++ Minority class: M
++ Size of Minority: 212
++ Size of Majority: 357
+
+
+[Best] Accuracy: 0.9560, AUC: 0.9556, F1: 0.9415, AP: 0.9052, Gmean: 0.9552
+
+[Best] Accuracy: 0.9560, AUC: 0.9556, F1: 0.9415, AP: 0.9052, Gmean: 0.9552
+
+======[Dataset: Breast Cancer Wisconsin - SmoteHashBoost Method: Negexp]======
+[Preparing]
++ #classes: 2
++ classes and counts: [('B', 357), ('M', 212)]
++ Minority class: M
++ Size of Minority: 212
++ Size of Majority: 357
+
+
+[Best] Accuracy: 0.9491, AUC: 0.9500, F1: 0.9339, AP: 0.8928, Gmean: 0.9497
+
+[Best] Accuracy: 0.9491, AUC: 0.9500, F1: 0.9339, AP: 0.8928, Gmean: 0.9497
+
+======[Dataset: Breast Cancer Wisconsin - SmoteHashBoost Method: Limit]======
+[Preparing]
++ #classes: 2
++ classes and counts: [('B', 357), ('M', 212)]
++ Minority class: M
++ Size of Minority: 212
++ Size of Majority: 357
+
+
+[Best] Accuracy: 0.9420, AUC: 0.9427, F1: 0.9229, AP: 0.8791, Gmean: 0.9424
+
+[Best] Accuracy: 0.9402, AUC: 0.9427, F1: 0.9221, AP: 0.8699, Gmean: 0.9424
+
+
+.............................................................
+
+
+100%|##########| 20/20 [00:02<00:00,  9.38it/s]
+100%|##########| 20/20 [00:02<00:00,  9.85it/s]
+100%|##########| 20/20 [00:02<00:00,  9.54it/s]
+100%|##########| 20/20 [00:02<00:00,  9.06it/s]
+100%|##########| 20/20 [00:02<00:00,  8.74it/s]
+**************************************************
+
+======[Dataset: Breast Cancer Wisconsin - Method: Reciprocal]======
+[Preparing]
++ #classes: 2
++ classes and counts: [('B', 357), ('M', 212)]
++ Minority class: M
++ Size of Minority: 212
++ Size of Majority: 357
+
+Run 1/20 completed in 107.72 ms
+Run 2/20 completed in 102.63 ms
+Run 3/20 completed in 103.65 ms
+Run 4/20 completed in 106.10 ms
+Run 5/20 completed in 105.70 ms
+Run 6/20 completed in 116.56 ms
+Run 7/20 completed in 111.69 ms
+Run 8/20 completed in 98.65 ms
+Run 9/20 completed in 104.17 ms
+Run 10/20 completed in 103.71 ms
+Run 11/20 completed in 104.64 ms
+Run 12/20 completed in 103.65 ms
+Run 13/20 completed in 104.67 ms
+Run 14/20 completed in 109.62 ms
+Run 15/20 completed in 106.65 ms
+Run 16/20 completed in 107.64 ms
+Run 17/20 completed in 112.57 ms
+Run 18/20 completed in 106.70 ms
+Run 19/20 completed in 104.95 ms
+Run 20/20 completed in 107.71 ms
+
+[Best] Accuracy: 0.9491, AUC: 0.9522
+
+[Best] Accuracy: 0.9473, AUC: 0.9522
+
+======[Dataset: Breast Cancer Wisconsin - Method: Random]======
+[Preparing]
++ #classes: 2
++ classes and counts: [('B', 357), ('M', 212)]
++ Minority class: M
++ Size of Minority: 212
++ Size of Majority: 357
+
+Run 1/20 completed in 95.62 ms
+Run 2/20 completed in 109.69 ms
+Run 3/20 completed in 96.67 ms
+Run 4/20 completed in 96.62 ms
+Run 5/20 completed in 102.72 ms
+Run 6/20 completed in 96.62 ms
+Run 7/20 completed in 106.70 ms
+Run 8/20 completed in 101.69 ms
+Run 9/20 completed in 107.70 ms
+Run 10/20 completed in 93.63 ms
+Run 11/20 completed in 102.66 ms
+Run 12/20 completed in 100.66 ms
+Run 13/20 completed in 98.73 ms
+Run 14/20 completed in 100.66 ms
+Run 15/20 completed in 100.66 ms
+Run 16/20 completed in 99.27 ms
+Run 17/20 completed in 100.67 ms
+Run 18/20 completed in 100.64 ms
+Run 19/20 completed in 104.79 ms
+Run 20/20 completed in 106.70 ms
+
+[Best] Accuracy: 0.9561, AUC: 0.9611
+
+[Best] Accuracy: 0.9561, AUC: 0.9611
+
+======[Dataset: Breast Cancer Wisconsin - Method: Linearity]======
+[Preparing]
++ #classes: 2
++ classes and counts: [('B', 357), ('M', 212)]
++ Minority class: M
++ Size of Minority: 212
++ Size of Majority: 357
+
+Run 1/20 completed in 108.63 ms
+Run 2/20 completed in 110.63 ms
+Run 3/20 completed in 104.65 ms
+Run 4/20 completed in 103.70 ms
+Run 5/20 completed in 109.85 ms
+Run 6/20 completed in 106.91 ms
+Run 7/20 completed in 100.66 ms
+Run 8/20 completed in 108.61 ms
+Run 9/20 completed in 100.74 ms
+Run 10/20 completed in 104.62 ms
+Run 11/20 completed in 109.63 ms
+Run 12/20 completed in 100.66 ms
+Run 13/20 completed in 100.66 ms
+Run 14/20 completed in 103.60 ms
+Run 15/20 completed in 100.66 ms
+Run 16/20 completed in 106.30 ms
+Run 17/20 completed in 104.66 ms
+Run 18/20 completed in 103.64 ms
+Run 19/20 completed in 102.65 ms
+Run 20/20 completed in 100.61 ms
+
+[Best] Accuracy: 0.9473, AUC: 0.9503
+
+[Best] Accuracy: 0.9473, AUC: 0.9503
+
+======[Dataset: Breast Cancer Wisconsin - Method: Negexp]======
+[Preparing]
++ #classes: 2
++ classes and counts: [('B', 357), ('M', 212)]
++ Minority class: M
++ Size of Minority: 212
++ Size of Majority: 357
+
+Run 1/20 completed in 105.61 ms
+Run 2/20 completed in 103.65 ms
+Run 3/20 completed in 101.68 ms
+Run 4/20 completed in 104.63 ms
+Run 5/20 completed in 110.63 ms
+Run 6/20 completed in 122.60 ms
+Run 7/20 completed in 119.11 ms
+Run 8/20 completed in 107.63 ms
+Run 9/20 completed in 112.63 ms
+Run 10/20 completed in 120.20 ms
+Run 11/20 completed in 107.70 ms
+Run 12/20 completed in 111.63 ms
+Run 13/20 completed in 105.64 ms
+Run 14/20 completed in 108.66 ms
+Run 15/20 completed in 108.61 ms
+Run 16/20 completed in 114.64 ms
+Run 17/20 completed in 106.89 ms
+Run 18/20 completed in 112.61 ms
+Run 19/20 completed in 107.65 ms
+Run 20/20 completed in 111.61 ms
+
+[Best] Accuracy: 0.9543, AUC: 0.9540
+
+[Best] Accuracy: 0.9543, AUC: 0.9540
+
+======[Dataset: Breast Cancer Wisconsin - Method: Limit]======
+[Preparing]
++ #classes: 2
++ classes and counts: [('B', 357), ('M', 212)]
++ Minority class: M
++ Size of Minority: 212
++ Size of Majority: 357
+
+Run 1/20 completed in 108.64 ms
+Run 2/20 completed in 123.53 ms
+Run 3/20 completed in 150.55 ms
+Run 4/20 completed in 117.61 ms
+Run 5/20 completed in 120.60 ms
+Run 6/20 completed in 102.65 ms
+Run 7/20 completed in 106.65 ms
+Run 8/20 completed in 101.66 ms
+Run 9/20 completed in 104.66 ms
+Run 10/20 completed in 102.63 ms
+Run 11/20 completed in 111.62 ms
+Run 12/20 completed in 136.49 ms
+Run 13/20 completed in 129.96 ms
+Run 14/20 completed in 110.63 ms
+Run 15/20 completed in 105.65 ms
+Run 16/20 completed in 116.61 ms
+Run 17/20 completed in 110.71 ms
+Run 18/20 completed in 102.61 ms
+Run 19/20 completed in 111.57 ms
+Run 20/20 completed in 108.69 ms
+
+[Best] Accuracy: 0.9437, AUC: 0.9447
+
+[Best] Accuracy: 0.9437, AUC: 0.9447
+
+
+##################################################
+
+
+======[Dataset: Breast Cancer Wisconsin - Rusboost Method: Breast Cancer Wisconsin]======
+['B' 'M']
+[357 212]
+[Preparing]
++ #classes: 2
++ classes and counts: [('B', 357), ('M', 212)]
++ Minority class: M
++ Size of Minority: 212
++ Size of Majority: 357
+
+Run completed in 326627.37 ms
+
+[Best] Accuracy: 0.9736, AUC: 0.9694
+
+[Best] Accuracy: 0.9736, AUC: 0.9694
+**************************************************
+

@@ -1,0 +1,98 @@
+
+======[Dataset: Breast Cancer Wisconsin - Adaboost Method: Breast Cancer Wisconsin]======
+Results for dataset: Breast Cancer Wisconsin - Adaboost Method: Breast Cancer Wisconsin
+Run 1: Accuracy = 0.9156, AUC = 0.9110
+Run 2: Accuracy = 0.9226, AUC = 0.9142
+Run 3: Accuracy = 0.9262, AUC = 0.9192
+Run 4: Accuracy = 0.9157, AUC = 0.9174
+Run 5: Accuracy = 0.9350, AUC = 0.9327
+Run 6: Accuracy = 0.9227, AUC = 0.9173
+Run 7: Accuracy = 0.9227, AUC = 0.9193
+Run 8: Accuracy = 0.9332, AUC = 0.9313
+Run 9: Accuracy = 0.9122, AUC = 0.9050
+Run 10: Accuracy = 0.9402, AUC = 0.9342
+Run 11: Accuracy = 0.9385, AUC = 0.9347
+Run 12: Accuracy = 0.9139, AUC = 0.9113
+Run 13: Accuracy = 0.9350, AUC = 0.9319
+Run 14: Accuracy = 0.9350, AUC = 0.9337
+Run 15: Accuracy = 0.9403, AUC = 0.9362
+Run 16: Accuracy = 0.9244, AUC = 0.9141
+Run 17: Accuracy = 0.9315, AUC = 0.9271
+Run 18: Accuracy = 0.9244, AUC = 0.9195
+Run 19: Accuracy = 0.9192, AUC = 0.9136
+Run 20: Accuracy = 0.9051, AUC = 0.8949
+
+Best results: Accuracy = 0.9403, AUC = 0.9362
+
+[Best] Accuracy: 0.9403, AUC: 0.9362
+[Best] Accuracy: 0.9403, AUC: 0.9362
+
+======[Dataset: Breast Cancer Wisconsin - Rusboost Method: Breast Cancer Wisconsin]======
+[Best] Accuracy: 0.9719, AUC: 0.9680
+[Best] Accuracy: 0.9719, AUC: 0.9680
+
+======[Dataset: Breast Cancer Wisconsin - SmoteHashBoost Method: Reciprocal]======
+[Best] Accuracy: 0.9438, AUC: 0.9422
+[Best] Accuracy: 0.9420, AUC: 0.9422
+
+======[Dataset: Breast Cancer Wisconsin - SmoteHashBoost Method: Random]======
+[Best] Accuracy: 0.9526, AUC: 0.9526
+[Best] Accuracy: 0.9526, AUC: 0.9526
+
+======[Dataset: Breast Cancer Wisconsin - SmoteHashBoost Method: Linearity]======
+[Best] Accuracy: 0.9438, AUC: 0.9428
+[Best] Accuracy: 0.9438, AUC: 0.9428
+
+======[Dataset: Breast Cancer Wisconsin - SmoteHashBoost Method: Negexp]======
+[Best] Accuracy: 0.9455, AUC: 0.9424
+[Best] Accuracy: 0.9420, AUC: 0.9424
+
+======[Dataset: Breast Cancer Wisconsin - SmoteHashBoost Method: Limit]======
+[Best] Accuracy: 0.9455, AUC: 0.9459
+[Best] Accuracy: 0.9455, AUC: 0.9459
+
+======[Dataset: Breast Cancer Wisconsin - Borderline Smote Method: Breast Cancer Wisconsin]======
+[Best] Accuracy: 0.9403, AUC: 0.9409
+[Best] Accuracy: 0.9403, AUC: 0.9409
+
+======[Dataset: Breast Cancer Wisconsin - SmoteBoost Method: Breast Cancer Wisconsin]======
+[Best] Accuracy: 0.9473, AUC: 0.9468
+[Best] Accuracy: 0.9473, AUC: 0.9436
+
+======[Dataset: Breast Cancer Wisconsin - Smote ENN Method: Breast Cancer Wisconsin]======
+[Best] Accuracy: 0.9438, AUC: 0.9417
+[Best] Accuracy: 0.9438, AUC: 0.9417
+
+======[Dataset: Breast Cancer Wisconsin - SmoteTomek Method: Breast Cancer Wisconsin]======
+[Best] Accuracy: 0.9438, AUC: 0.9438
+[Best] Accuracy: 0.9438, AUC: 0.9438
+
+======[Dataset: Breast Cancer Wisconsin - Adasyn Method: Breast Cancer Wisconsin]======
+[Best] Accuracy: 0.9438, AUC: 0.9419
+[Best] Accuracy: 0.9402, AUC: 0.9419
+
+======[Dataset: Breast Cancer Wisconsin - SmoteHashBoost Method: Reciprocal]======
+[Best] Accuracy: 0.9473, AUC: 0.9485, F1: 0.9313, AP: 0.8868, Gmean: 0.9482
+[Best] Accuracy: 0.9473, AUC: 0.9485, F1: 0.9313, AP: 0.8868, Gmean: 0.9482
+
+======[Dataset: Breast Cancer Wisconsin - SmoteHashBoost Method: Random]======
+[Best] Accuracy: 0.9614, AUC: 0.9614, F1: 0.9490, AP: 0.9159, Gmean: 0.9612
+[Best] Accuracy: 0.9614, AUC: 0.9614, F1: 0.9490, AP: 0.9159, Gmean: 0.9612
+
+======[Dataset: Breast Cancer Wisconsin - SmoteHashBoost Method: Linearity]======
+[Best] Accuracy: 0.9560, AUC: 0.9556, F1: 0.9415, AP: 0.9052, Gmean: 0.9552
+[Best] Accuracy: 0.9560, AUC: 0.9556, F1: 0.9415, AP: 0.9052, Gmean: 0.9552
+
+======[Dataset: Breast Cancer Wisconsin - SmoteHashBoost Method: Negexp]======
+[Best] Accuracy: 0.9491, AUC: 0.9500, F1: 0.9339, AP: 0.8928, Gmean: 0.9497
+[Best] Accuracy: 0.9491, AUC: 0.9500, F1: 0.9339, AP: 0.8928, Gmean: 0.9497
+
+======[Dataset: Breast Cancer Wisconsin - SmoteHashBoost Method: Limit]======
+[Best] Accuracy: 0.9420, AUC: 0.9427, F1: 0.9229, AP: 0.8791, Gmean: 0.9424
+[Best] Accuracy: 0.9402, AUC: 0.9427, F1: 0.9221, AP: 0.8699, Gmean: 0.9424
+
+======[Dataset: Breast Cancer Wisconsin - Rusboost Method: Breast Cancer Wisconsin]======
+
+======[Dataset: Breast Cancer Wisconsin - Rusboost Method: Breast Cancer Wisconsin]======
+[Best] Accuracy: 0.9736, AUC: 0.9694
+[Best] Accuracy: 0.9736, AUC: 0.9694

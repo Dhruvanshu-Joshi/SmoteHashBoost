@@ -1,0 +1,28 @@
+
+======[Dataset: Seed - Adaboost Method: Seed]======
+Results for dataset: Seed - Adaboost Method: Seed
+Run 1: Accuracy = 0.8810, AUC = 0.8750
+Run 2: Accuracy = 0.8905, AUC = 0.8750
+Run 3: Accuracy = 0.8762, AUC = 0.8643
+Run 4: Accuracy = 0.9048, AUC = 0.8929
+Run 5: Accuracy = 0.9095, AUC = 0.8893
+Run 6: Accuracy = 0.9143, AUC = 0.9107
+Run 7: Accuracy = 0.8619, AUC = 0.8321
+Run 8: Accuracy = 0.9000, AUC = 0.8857
+Run 9: Accuracy = 0.9048, AUC = 0.8929
+Run 10: Accuracy = 0.9238, AUC = 0.9179
+Run 11: Accuracy = 0.9095, AUC = 0.9000
+Run 12: Accuracy = 0.8810, AUC = 0.8607
+Run 13: Accuracy = 0.8619, AUC = 0.8464
+Run 14: Accuracy = 0.8905, AUC = 0.8714
+Run 15: Accuracy = 0.9143, AUC = 0.9036
+Run 16: Accuracy = 0.8762, AUC = 0.8679
+Run 17: Accuracy = 0.9476, AUC = 0.9464
+Run 18: Accuracy = 0.8905, AUC = 0.8821
+Run 19: Accuracy = 0.9048, AUC = 0.9000
+Run 20: Accuracy = 0.8810, AUC = 0.8643
+
+Best results: Accuracy = 0.9476, AUC = 0.9464
+
+[Best] Accuracy: 0.9476, AUC: 0.9464
+[Best] Accuracy: 0.9476, AUC: 0.9464

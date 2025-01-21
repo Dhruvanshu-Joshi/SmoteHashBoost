@@ -1,0 +1,92 @@
+
+======[Dataset: HIGGS - Adaboost Method: HIGGS]======
+Results for dataset: HIGGS - Adaboost Method: HIGGS
+Run 1: Accuracy = 1.0000, AUC = 1.0000
+Run 2: Accuracy = 1.0000, AUC = 1.0000
+Run 3: Accuracy = 1.0000, AUC = 1.0000
+Run 4: Accuracy = 1.0000, AUC = 1.0000
+Run 5: Accuracy = 1.0000, AUC = 1.0000
+Run 6: Accuracy = 1.0000, AUC = 1.0000
+Run 7: Accuracy = 1.0000, AUC = 1.0000
+Run 8: Accuracy = 1.0000, AUC = 1.0000
+Run 9: Accuracy = 1.0000, AUC = 1.0000
+Run 10: Accuracy = 1.0000, AUC = 1.0000
+Run 11: Accuracy = 1.0000, AUC = 1.0000
+Run 12: Accuracy = 1.0000, AUC = 1.0000
+Run 13: Accuracy = 1.0000, AUC = 1.0000
+Run 14: Accuracy = 1.0000, AUC = 1.0000
+Run 15: Accuracy = 1.0000, AUC = 1.0000
+Run 16: Accuracy = 1.0000, AUC = 1.0000
+Run 17: Accuracy = 1.0000, AUC = 1.0000
+Run 18: Accuracy = 1.0000, AUC = 1.0000
+Run 19: Accuracy = 1.0000, AUC = 1.0000
+Run 20: Accuracy = 1.0000, AUC = 1.0000
+
+Best results: Accuracy = 1.0000, AUC = 1.0000
+
+[Best] Accuracy: 1.0000, AUC: 1.0000
+[Best] Accuracy: 1.0000, AUC: 1.0000
+
+======[Dataset: HIGGS - Rusboost Method: HIGGS]======
+[Best] Accuracy: 1.0000, AUC: 1.0000
+[Best] Accuracy: 1.0000, AUC: 1.0000
+
+======[Dataset: HIGGS - SmoteHashBoost Method: Reciprocal]======
+[Best] Accuracy: 1.0000, AUC: 1.0000
+[Best] Accuracy: 1.0000, AUC: 1.0000
+
+======[Dataset: HIGGS - SmoteHashBoost Method: Random]======
+
+======[Dataset: HIGGS - Adaboost Method: HIGGS]======
+Results for dataset: HIGGS - Adaboost Method: HIGGS
+Run 1: Accuracy = 1.0000, AUC = 1.0000
+Run 2: Accuracy = 1.0000, AUC = 1.0000
+Run 3: Accuracy = 1.0000, AUC = 1.0000
+Run 4: Accuracy = 1.0000, AUC = 1.0000
+Run 5: Accuracy = 1.0000, AUC = 1.0000
+Run 6: Accuracy = 1.0000, AUC = 1.0000
+Run 7: Accuracy = 1.0000, AUC = 1.0000
+Run 8: Accuracy = 1.0000, AUC = 1.0000
+Run 9: Accuracy = 1.0000, AUC = 1.0000
+Run 10: Accuracy = 1.0000, AUC = 1.0000
+Run 11: Accuracy = 1.0000, AUC = 1.0000
+Run 12: Accuracy = 1.0000, AUC = 1.0000
+Run 13: Accuracy = 1.0000, AUC = 1.0000
+Run 14: Accuracy = 1.0000, AUC = 1.0000
+Run 15: Accuracy = 1.0000, AUC = 1.0000
+Run 16: Accuracy = 1.0000, AUC = 1.0000
+Run 17: Accuracy = 1.0000, AUC = 1.0000
+Run 18: Accuracy = 1.0000, AUC = 1.0000
+Run 19: Accuracy = 1.0000, AUC = 1.0000
+Run 20: Accuracy = 1.0000, AUC = 1.0000
+
+Best results: Accuracy = 1.0000, AUC = 1.0000
+
+[Best] Accuracy: 1.0000, AUC: 1.0000
+[Best] Accuracy: 1.0000, AUC: 1.0000
+
+======[Dataset: HIGGS - Rusboost Method: HIGGS]======
+[Best] Accuracy: 1.0000, AUC: 1.0000
+[Best] Accuracy: 1.0000, AUC: 1.0000
+
+======[Dataset: HIGGS - SmoteHashBoost Method: Reciprocal]======
+[Best] Accuracy: 1.0000, AUC: 1.0000
+[Best] Accuracy: 1.0000, AUC: 1.0000
+
+======[Dataset: HIGGS - SmoteHashBoost Method: Linearity]======
+[Best] Accuracy: 1.0000, AUC: 1.0000
+[Best] Accuracy: 1.0000, AUC: 1.0000
+
+======[Dataset: HIGGS - SmoteHashBoost Method: Negexp]======
+[Best] Accuracy: 1.0000, AUC: 1.0000
+[Best] Accuracy: 1.0000, AUC: 1.0000
+
+======[Dataset: HIGGS - SmoteHashBoost Method: Limit]======
+[Best] Accuracy: 1.0000, AUC: 1.0000
+[Best] Accuracy: 1.0000, AUC: 1.0000
+
+======[Dataset: HIGGS - Borderline Smote Method: HIGGS]======
+[Best] Accuracy: 1.0000, AUC: 1.0000
+[Best] Accuracy: 1.0000, AUC: 1.0000
+
+======[Dataset: HIGGS - SmoteBoost Method: HIGGS]======

@@ -1,0 +1,3 @@
+
+======[Dataset: kdd_cup_new - Adaboost Method: kdd_cup_new]======
+Results for dataset: kdd_cup_new - Adaboost Method: kdd_cup_new

@@ -1,0 +1,240 @@
+
+======[Dataset: Diabetes - Adaboost Method: Diabetes]======
+Results for dataset: Diabetes - Adaboost Method: Diabetes
+Run 1: Accuracy = 0.9673, AUC = 0.9678
+Run 2: Accuracy = 0.9673, AUC = 0.9669
+Run 3: Accuracy = 0.9615, AUC = 0.9603
+Run 4: Accuracy = 0.9673, AUC = 0.9641
+Run 5: Accuracy = 0.9519, AUC = 0.9553
+Run 6: Accuracy = 0.9692, AUC = 0.9703
+Run 7: Accuracy = 0.9635, AUC = 0.9628
+Run 8: Accuracy = 0.9615, AUC = 0.9622
+Run 9: Accuracy = 0.9635, AUC = 0.9591
+Run 10: Accuracy = 0.9692, AUC = 0.9694
+Run 11: Accuracy = 0.9577, AUC = 0.9563
+Run 12: Accuracy = 0.9596, AUC = 0.9587
+Run 13: Accuracy = 0.9673, AUC = 0.9678
+Run 14: Accuracy = 0.9615, AUC = 0.9603
+Run 15: Accuracy = 0.9558, AUC = 0.9547
+Run 16: Accuracy = 0.9635, AUC = 0.9628
+Run 17: Accuracy = 0.9673, AUC = 0.9659
+Run 18: Accuracy = 0.9635, AUC = 0.9628
+Run 19: Accuracy = 0.9750, AUC = 0.9722
+Run 20: Accuracy = 0.9692, AUC = 0.9694
+
+Best results: Accuracy = 0.9750, AUC = 0.9722
+
+[Best] Accuracy: 0.9750, AUC: 0.9722
+[Best] Accuracy: 0.9750, AUC: 0.9722
+
+======[Dataset: Diabetes - Rusboost Method: Diabetes]======
+[Best] Accuracy: 0.9865, AUC: 0.9853
+[Best] Accuracy: 0.9865, AUC: 0.9853
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Reciprocal]======
+[Best] Accuracy: 0.9769, AUC: 0.9775
+[Best] Accuracy: 0.9769, AUC: 0.9775
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Random]======
+[Best] Accuracy: 0.9750, AUC: 0.9750
+[Best] Accuracy: 0.9750, AUC: 0.9750
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Linearity]======
+[Best] Accuracy: 0.9712, AUC: 0.9709
+[Best] Accuracy: 0.9712, AUC: 0.9709
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Negexp]======
+[Best] Accuracy: 0.9731, AUC: 0.9725
+[Best] Accuracy: 0.9731, AUC: 0.9725
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Limit]======
+[Best] Accuracy: 0.9712, AUC: 0.9709
+[Best] Accuracy: 0.9712, AUC: 0.9709
+
+======[Dataset: Diabetes - Borderline Smote Method: Diabetes]======
+[Best] Accuracy: 0.9712, AUC: 0.9719
+[Best] Accuracy: 0.9712, AUC: 0.9709
+
+======[Dataset: Diabetes - SmoteBoost Method: Diabetes]======
+[Best] Accuracy: 0.9769, AUC: 0.9756
+[Best] Accuracy: 0.9769, AUC: 0.9756
+
+======[Dataset: Diabetes - Smote ENN Method: Diabetes]======
+[Best] Accuracy: 0.9327, AUC: 0.9425
+[Best] Accuracy: 0.9327, AUC: 0.9425
+
+======[Dataset: Diabetes - SmoteTomek Method: Diabetes]======
+[Best] Accuracy: 0.9750, AUC: 0.9759
+[Best] Accuracy: 0.9750, AUC: 0.9759
+
+======[Dataset: Diabetes - Adasyn Method: Diabetes]======
+[Best] Accuracy: 0.9769, AUC: 0.9775
+[Best] Accuracy: 0.9769, AUC: 0.9775
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Reciprocal]======
+[Best] Accuracy: 0.9712, AUC: 0.9709
+[Best] Accuracy: 0.9712, AUC: 0.9709
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Random]======
+[Best] Accuracy: 0.9769, AUC: 0.9756
+[Best] Accuracy: 0.9769, AUC: 0.9756
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Linearity]======
+[Best] Accuracy: 0.9712, AUC: 0.9738
+[Best] Accuracy: 0.9712, AUC: 0.9691
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Negexp]======
+[Best] Accuracy: 0.9808, AUC: 0.9806
+[Best] Accuracy: 0.9808, AUC: 0.9806
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Limit]======
+[Best] Accuracy: 0.9712, AUC: 0.9719
+[Best] Accuracy: 0.9712, AUC: 0.9719
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Reciprocal]======
+[Best] Accuracy: 0.9750, AUC: 0.9731, F1: 0.9674
+[Best] Accuracy: 0.9750, AUC: 0.9731, F1: 0.9674
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Random]======
+[Best] Accuracy: 0.9750, AUC: 0.9741, F1: 0.9677
+[Best] Accuracy: 0.9750, AUC: 0.9741, F1: 0.9677
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Linearity]======
+[Best] Accuracy: 0.9731, AUC: 0.9738, F1: 0.9654
+[Best] Accuracy: 0.9731, AUC: 0.9734, F1: 0.9654
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Negexp]======
+[Best] Accuracy: 0.9712, AUC: 0.9719, F1: 0.9632
+[Best] Accuracy: 0.9712, AUC: 0.9719, F1: 0.9632
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Limit]======
+[Best] Accuracy: 0.9712, AUC: 0.9728, F1: 0.9634
+[Best] Accuracy: 0.9712, AUC: 0.9728, F1: 0.9634
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Reciprocal]======
+[Best] Accuracy: 0.9750, AUC: 0.9741, F1: 0.9679, AP: 0.9506
+[Best] Accuracy: 0.9750, AUC: 0.9731, F1: 0.9676, AP: 0.9506
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Random]======
+[Best] Accuracy: 0.9750, AUC: 0.9731, F1: 0.9673, AP: 0.9497
+[Best] Accuracy: 0.9750, AUC: 0.9731, F1: 0.9673, AP: 0.9497
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Linearity]======
+[Best] Accuracy: 0.9731, AUC: 0.9734, F1: 0.9654, AP: 0.9421
+[Best] Accuracy: 0.9731, AUC: 0.9734, F1: 0.9654, AP: 0.9421
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Negexp]======
+[Best] Accuracy: 0.9712, AUC: 0.9709, F1: 0.9628, AP: 0.9388
+[Best] Accuracy: 0.9712, AUC: 0.9709, F1: 0.9628, AP: 0.9388
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Limit]======
+[Best] Accuracy: 0.9692, AUC: 0.9694, F1: 0.9605, AP: 0.9382
+[Best] Accuracy: 0.9692, AUC: 0.9694, F1: 0.9605, AP: 0.9354
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Reciprocal]======
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Reciprocal]======
+[Best] Accuracy: 0.9712, AUC: 0.9700, F1: 0.9625, AP: 0.9404, Gmean: 0.9699
+[Best] Accuracy: 0.9712, AUC: 0.9700, F1: 0.9625, AP: 0.9404, Gmean: 0.9699
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Random]======
+[Best] Accuracy: 0.9750, AUC: 0.9759, F1: 0.9680, AP: 0.9453, Gmean: 0.9759
+[Best] Accuracy: 0.9731, AUC: 0.9716, F1: 0.9648, AP: 0.9453, Gmean: 0.9713
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Linearity]======
+[Best] Accuracy: 0.9731, AUC: 0.9725, F1: 0.9653, AP: 0.9441, Gmean: 0.9723
+[Best] Accuracy: 0.9731, AUC: 0.9725, F1: 0.9653, AP: 0.9441, Gmean: 0.9723
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Negexp]======
+[Best] Accuracy: 0.9731, AUC: 0.9734, F1: 0.9655, AP: 0.9450, Gmean: 0.9734
+[Best] Accuracy: 0.9731, AUC: 0.9716, F1: 0.9649, AP: 0.9450, Gmean: 0.9714
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Limit]======
+[Best] Accuracy: 0.9692, AUC: 0.9706, F1: 0.9599, AP: 0.9396, Gmean: 0.9703
+[Best] Accuracy: 0.9692, AUC: 0.9666, F1: 0.9599, AP: 0.9396, Gmean: 0.9664
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Reciprocal]======
+[Best] Accuracy: 0.9769, AUC: 0.9766, F1: 0.9701, AP: 0.9514, Gmean: 0.9764
+[Best] Accuracy: 0.9769, AUC: 0.9766, F1: 0.9701, AP: 0.9514, Gmean: 0.9764
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Random]======
+[Best] Accuracy: 0.9731, AUC: 0.9753, F1: 0.9662, AP: 0.9453, Gmean: 0.9750
+[Best] Accuracy: 0.9731, AUC: 0.9716, F1: 0.9651, AP: 0.9453, Gmean: 0.9715
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Linearity]======
+[Best] Accuracy: 0.9712, AUC: 0.9709, F1: 0.9628, AP: 0.9391, Gmean: 0.9709
+[Best] Accuracy: 0.9712, AUC: 0.9709, F1: 0.9628, AP: 0.9388, Gmean: 0.9709
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Negexp]======
+[Best] Accuracy: 0.9731, AUC: 0.9753, F1: 0.9659, AP: 0.9466, Gmean: 0.9752
+[Best] Accuracy: 0.9731, AUC: 0.9706, F1: 0.9645, AP: 0.9466, Gmean: 0.9704
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Limit]======
+[Best] Accuracy: 0.9750, AUC: 0.9731, F1: 0.9673, AP: 0.9497, Gmean: 0.9730
+[Best] Accuracy: 0.9750, AUC: 0.9731, F1: 0.9673, AP: 0.9497, Gmean: 0.9730
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Reciprocal]======
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Reciprocal]======
+[Best] Accuracy: 0.9731, AUC: 0.9725, F1: 0.9654, AP: 0.9482, Gmean: 0.9724
+[Best] Accuracy: 0.9731, AUC: 0.9725, F1: 0.9654, AP: 0.9448, Gmean: 0.9724
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Random]======
+[Best] Accuracy: 0.9712, AUC: 0.9719, F1: 0.9630, AP: 0.9413, Gmean: 0.9718
+[Best] Accuracy: 0.9712, AUC: 0.9700, F1: 0.9629, AP: 0.9413, Gmean: 0.9699
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Linearity]======
+[Best] Accuracy: 0.9788, AUC: 0.9781, F1: 0.9728, AP: 0.9563, Gmean: 0.9781
+[Best] Accuracy: 0.9788, AUC: 0.9781, F1: 0.9728, AP: 0.9563, Gmean: 0.9781
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Negexp]======
+[Best] Accuracy: 0.9692, AUC: 0.9694, F1: 0.9609, AP: 0.9385, Gmean: 0.9693
+[Best] Accuracy: 0.9692, AUC: 0.9684, F1: 0.9609, AP: 0.9385, Gmean: 0.9681
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Limit]======
+[Best] Accuracy: 0.9769, AUC: 0.9756, F1: 0.9695, AP: 0.9530, Gmean: 0.9752
+[Best] Accuracy: 0.9769, AUC: 0.9756, F1: 0.9695, AP: 0.9530, Gmean: 0.9752
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Reciprocal]======
+[Best] Accuracy: 0.9750, AUC: 0.9741, F1: 0.9678, AP: 0.9486, Gmean: 0.9740
+[Best] Accuracy: 0.9750, AUC: 0.9741, F1: 0.9678, AP: 0.9486, Gmean: 0.9740
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Random]======
+[Best] Accuracy: 0.9750, AUC: 0.9725, F1: 0.9673, AP: 0.9517, Gmean: 0.9722
+[Best] Accuracy: 0.9750, AUC: 0.9722, F1: 0.9673, AP: 0.9517, Gmean: 0.9720
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Linearity]======
+[Best] Accuracy: 0.9731, AUC: 0.9716, F1: 0.9649, AP: 0.9450, Gmean: 0.9714
+[Best] Accuracy: 0.9731, AUC: 0.9716, F1: 0.9649, AP: 0.9450, Gmean: 0.9714
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Negexp]======
+[Best] Accuracy: 0.9712, AUC: 0.9719, F1: 0.9630, AP: 0.9375, Gmean: 0.9718
+[Best] Accuracy: 0.9712, AUC: 0.9719, F1: 0.9630, AP: 0.9375, Gmean: 0.9718
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Limit]======
+[Best] Accuracy: 0.9750, AUC: 0.9759, F1: 0.9679, AP: 0.9454, Gmean: 0.9757
+[Best] Accuracy: 0.9750, AUC: 0.9759, F1: 0.9679, AP: 0.9454, Gmean: 0.9757
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Reciprocal]======
+[Best] Accuracy: 0.9731, AUC: 0.9734, F1: 0.9654, AP: 0.9453, Gmean: 0.9734
+[Best] Accuracy: 0.9731, AUC: 0.9734, F1: 0.9654, AP: 0.9419, Gmean: 0.9734
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Random]======
+[Best] Accuracy: 0.9750, AUC: 0.9750, F1: 0.9678, AP: 0.9468, Gmean: 0.9749
+[Best] Accuracy: 0.9750, AUC: 0.9750, F1: 0.9678, AP: 0.9468, Gmean: 0.9749
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Linearity]======
+[Best] Accuracy: 0.9769, AUC: 0.9766, F1: 0.9703, AP: 0.9517, Gmean: 0.9765
+[Best] Accuracy: 0.9769, AUC: 0.9766, F1: 0.9703, AP: 0.9517, Gmean: 0.9765
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Negexp]======
+[Best] Accuracy: 0.9750, AUC: 0.9750, F1: 0.9678, AP: 0.9468, Gmean: 0.9749
+[Best] Accuracy: 0.9750, AUC: 0.9750, F1: 0.9678, AP: 0.9468, Gmean: 0.9749
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Limit]======
+[Best] Accuracy: 0.9769, AUC: 0.9766, F1: 0.9702, AP: 0.9516, Gmean: 0.9764
+[Best] Accuracy: 0.9769, AUC: 0.9766, F1: 0.9702, AP: 0.9516, Gmean: 0.9764
+
+======[Dataset: Diabetes - Rusboost Method: Diabetes]======
+[Best] Accuracy: 0.9904, AUC: 0.9903
+[Best] Accuracy: 0.9904, AUC: 0.9903

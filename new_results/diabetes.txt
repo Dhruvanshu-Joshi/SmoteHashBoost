@@ -1,0 +1,249 @@
+100%|##########| 20/20 [00:00<00:00, 33.09it/s]
+100%|##########| 20/20 [00:00<00:00, 34.47it/s]
+100%|##########| 20/20 [00:00<00:00, 33.61it/s]
+100%|##########| 20/20 [00:00<00:00, 34.25it/s]
+100%|##########| 20/20 [00:00<00:00, 34.31it/s]
+**************************************************
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Reciprocal]======
+[Preparing]
++ #classes: 2
++ classes and counts: [('Negative', 200), ('Positive', 320)]
++ Minority class: Negative
++ Size of Minority: 200
++ Size of Majority: 320
+
+
+[Best] Accuracy: 0.9769, AUC: 0.9766, F1: 0.9701, AP: 0.9514, Gmean: 0.9764
+
+[Best] Accuracy: 0.9769, AUC: 0.9766, F1: 0.9701, AP: 0.9514, Gmean: 0.9764
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Random]======
+[Preparing]
++ #classes: 2
++ classes and counts: [('Negative', 200), ('Positive', 320)]
++ Minority class: Negative
++ Size of Minority: 200
++ Size of Majority: 320
+
+
+[Best] Accuracy: 0.9731, AUC: 0.9753, F1: 0.9662, AP: 0.9453, Gmean: 0.9750
+
+[Best] Accuracy: 0.9731, AUC: 0.9716, F1: 0.9651, AP: 0.9453, Gmean: 0.9715
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Linearity]======
+[Preparing]
++ #classes: 2
++ classes and counts: [('Negative', 200), ('Positive', 320)]
++ Minority class: Negative
++ Size of Minority: 200
++ Size of Majority: 320
+
+
+[Best] Accuracy: 0.9712, AUC: 0.9709, F1: 0.9628, AP: 0.9391, Gmean: 0.9709
+
+[Best] Accuracy: 0.9712, AUC: 0.9709, F1: 0.9628, AP: 0.9388, Gmean: 0.9709
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Negexp]======
+[Preparing]
++ #classes: 2
++ classes and counts: [('Negative', 200), ('Positive', 320)]
++ Minority class: Negative
++ Size of Minority: 200
++ Size of Majority: 320
+
+
+[Best] Accuracy: 0.9731, AUC: 0.9753, F1: 0.9659, AP: 0.9466, Gmean: 0.9752
+
+[Best] Accuracy: 0.9731, AUC: 0.9706, F1: 0.9645, AP: 0.9466, Gmean: 0.9704
+
+======[Dataset: Diabetes - SmoteHashBoost Method: Limit]======
+[Preparing]
++ #classes: 2
++ classes and counts: [('Negative', 200), ('Positive', 320)]
++ Minority class: Negative
++ Size of Minority: 200
++ Size of Majority: 320
+
+
+[Best] Accuracy: 0.9750, AUC: 0.9731, F1: 0.9673, AP: 0.9497, Gmean: 0.9730
+
+[Best] Accuracy: 0.9750, AUC: 0.9731, F1: 0.9673, AP: 0.9497, Gmean: 0.9730
+**************************************************
+
+
+...............................................................
+
+
+100%|##########| 20/20 [00:00<00:00, 36.36it/s]
+100%|##########| 20/20 [00:00<00:00, 41.08it/s]
+100%|##########| 20/20 [00:00<00:00, 40.69it/s]
+100%|##########| 20/20 [00:00<00:00, 40.87it/s]
+100%|##########| 20/20 [00:00<00:00, 39.74it/s]
+**************************************************
+
+======[Dataset: Diabetes - Method: Reciprocal]======
+[Preparing]
++ #classes: 2
++ classes and counts: [('Negative', 200), ('Positive', 320)]
++ Minority class: Negative
++ Size of Minority: 200
++ Size of Majority: 320
+
+Run 1/20 completed in 31.89 ms
+Run 2/20 completed in 27.91 ms
+Run 3/20 completed in 35.08 ms
+Run 4/20 completed in 25.91 ms
+Run 5/20 completed in 28.03 ms
+Run 6/20 completed in 26.91 ms
+Run 7/20 completed in 24.91 ms
+Run 8/20 completed in 26.95 ms
+Run 9/20 completed in 24.88 ms
+Run 10/20 completed in 23.92 ms
+Run 11/20 completed in 25.21 ms
+Run 12/20 completed in 26.85 ms
+Run 13/20 completed in 27.26 ms
+Run 14/20 completed in 25.91 ms
+Run 15/20 completed in 26.69 ms
+Run 16/20 completed in 31.05 ms
+Run 17/20 completed in 29.18 ms
+Run 18/20 completed in 23.92 ms
+Run 19/20 completed in 27.29 ms
+Run 20/20 completed in 25.33 ms
+
+[Best] Accuracy: 0.9712, AUC: 0.9719
+
+[Best] Accuracy: 0.9712, AUC: 0.9719
+
+======[Dataset: Diabetes - Method: Random]======
+[Preparing]
++ #classes: 2
++ classes and counts: [('Negative', 200), ('Positive', 320)]
++ Minority class: Negative
++ Size of Minority: 200
++ Size of Majority: 320
+
+Run 1/20 completed in 25.14 ms
+Run 2/20 completed in 23.63 ms
+Run 3/20 completed in 24.34 ms
+Run 4/20 completed in 21.93 ms
+Run 5/20 completed in 24.36 ms
+Run 6/20 completed in 23.18 ms
+Run 7/20 completed in 23.41 ms
+Run 8/20 completed in 23.31 ms
+Run 9/20 completed in 25.90 ms
+Run 10/20 completed in 22.97 ms
+Run 11/20 completed in 25.64 ms
+Run 12/20 completed in 22.98 ms
+Run 13/20 completed in 25.11 ms
+Run 14/20 completed in 25.86 ms
+Run 15/20 completed in 23.98 ms
+Run 16/20 completed in 22.87 ms
+Run 17/20 completed in 24.98 ms
+Run 18/20 completed in 24.86 ms
+Run 19/20 completed in 24.92 ms
+Run 20/20 completed in 25.97 ms
+
+[Best] Accuracy: 0.9635, AUC: 0.9666
+
+[Best] Accuracy: 0.9635, AUC: 0.9666
+
+======[Dataset: Diabetes - Method: Linearity]======
+[Preparing]
++ #classes: 2
++ classes and counts: [('Negative', 200), ('Positive', 320)]
++ Minority class: Negative
++ Size of Minority: 200
++ Size of Majority: 320
+
+Run 1/20 completed in 25.87 ms
+Run 2/20 completed in 25.91 ms
+Run 3/20 completed in 23.92 ms
+Run 4/20 completed in 23.92 ms
+Run 5/20 completed in 23.17 ms
+Run 6/20 completed in 24.92 ms
+Run 7/20 completed in 23.95 ms
+Run 8/20 completed in 24.86 ms
+Run 9/20 completed in 23.92 ms
+Run 10/20 completed in 24.92 ms
+Run 11/20 completed in 24.92 ms
+Run 12/20 completed in 22.92 ms
+Run 13/20 completed in 23.92 ms
+Run 14/20 completed in 24.92 ms
+Run 15/20 completed in 23.92 ms
+Run 16/20 completed in 23.92 ms
+Run 17/20 completed in 23.92 ms
+Run 18/20 completed in 24.92 ms
+Run 19/20 completed in 24.92 ms
+Run 20/20 completed in 23.92 ms
+
+[Best] Accuracy: 0.9673, AUC: 0.9688
+
+[Best] Accuracy: 0.9673, AUC: 0.9688
+
+======[Dataset: Diabetes - Method: Negexp]======
+[Preparing]
++ #classes: 2
++ classes and counts: [('Negative', 200), ('Positive', 320)]
++ Minority class: Negative
++ Size of Minority: 200
++ Size of Majority: 320
+
+Run 1/20 completed in 24.92 ms
+Run 2/20 completed in 23.92 ms
+Run 3/20 completed in 24.92 ms
+Run 4/20 completed in 22.92 ms
+Run 5/20 completed in 23.00 ms
+Run 6/20 completed in 24.84 ms
+Run 7/20 completed in 24.92 ms
+Run 8/20 completed in 23.92 ms
+Run 9/20 completed in 24.92 ms
+Run 10/20 completed in 22.92 ms
+Run 11/20 completed in 24.92 ms
+Run 12/20 completed in 23.92 ms
+Run 13/20 completed in 23.92 ms
+Run 14/20 completed in 22.92 ms
+Run 15/20 completed in 23.92 ms
+Run 16/20 completed in 23.92 ms
+Run 17/20 completed in 22.92 ms
+Run 18/20 completed in 23.92 ms
+Run 19/20 completed in 23.92 ms
+Run 20/20 completed in 25.43 ms
+
+[Best] Accuracy: 0.9712, AUC: 0.9719
+
+[Best] Accuracy: 0.9712, AUC: 0.9719
+
+======[Dataset: Diabetes - Method: Limit]======
+[Preparing]
++ #classes: 2
++ classes and counts: [('Negative', 200), ('Positive', 320)]
++ Minority class: Negative
++ Size of Minority: 200
++ Size of Majority: 320
+
+Run 1/20 completed in 24.16 ms
+Run 2/20 completed in 24.56 ms
+Run 3/20 completed in 25.43 ms
+Run 4/20 completed in 24.92 ms
+Run 5/20 completed in 23.47 ms
+Run 6/20 completed in 27.41 ms
+Run 7/20 completed in 26.97 ms
+Run 8/20 completed in 24.91 ms
+Run 9/20 completed in 23.87 ms
+Run 10/20 completed in 23.92 ms
+Run 11/20 completed in 23.92 ms
+Run 12/20 completed in 23.42 ms
+Run 13/20 completed in 24.98 ms
+Run 14/20 completed in 24.85 ms
+Run 15/20 completed in 23.92 ms
+Run 16/20 completed in 23.98 ms
+Run 17/20 completed in 26.88 ms
+Run 18/20 completed in 26.91 ms
+Run 19/20 completed in 25.91 ms
+Run 20/20 completed in 26.91 ms
+
+[Best] Accuracy: 0.9635, AUC: 0.9666
+
+[Best] Accuracy: 0.9635, AUC: 0.9666
+**************************************************

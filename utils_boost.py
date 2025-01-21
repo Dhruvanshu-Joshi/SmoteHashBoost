@@ -1,4 +1,5 @@
-from sklearn.metrics import accuracy_score, roc_auc_score,roc_curve
+from sklearn.metrics import accuracy_score, roc_auc_score,roc_curve, f1_score, average_precision_score
+from imblearn.metrics import geometric_mean_score
 from ensemble import HashBasedUndersamplingEnsemble
 from ensemble_vg import SMOTEHashBasedEnsemble
 from ensemble_boost import SmoteHashBoost
@@ -6,6 +7,7 @@ from sklearn.model_selection import StratifiedKFold
 from tqdm import tqdm
 import numpy as np
 import os
+import time
 
 
 def prepare_boost(X: np.array, y: np.array, minority=None, verbose: bool = False):
@@ -146,7 +148,7 @@ def evaluate_boost(
     np.random.seed(random_state)
 
     # Output template
-    OUTPUT = "[{}] Accuracy: {:.4f}, AUC: {:.4f}"
+    OUTPUT = "[{}] Accuracy: {:.4f}, AUC: {:.4f}, F1: {:.4f}, AP: {:.4f}, Gmean: {:.4f}"
 
     # Prepare the data (Make it Binary)
     X, y = prepare_boost(X, y, minority_class, verbose)
@@ -155,17 +157,17 @@ def evaluate_boost(
     # roc_data = []
     # Track the best ROC curve data (fpr, tpr, auc) for the best run
     best_roc_data = None
-    best_metrics = [-np.inf, -np.inf]  # [accuracy, AUC]
+    best_metrics = [-np.inf, -np.inf, -np.inf, -np.inf, -np.inf]  # [accuracy, AUC]
 
-    folds = np.zeros((n_runs, 2))
+    folds = np.zeros((n_runs, 5))
     # fpr_list =  []
     # tpr_list = []
     for run in tqdm(range(n_runs)):
-
+        start_time = time.time()
         # Applying k-Fold cross-validation (Stratified K-Fold)
         kFold = StratifiedKFold(n_splits=k, shuffle=True)
 
-        metrics = np.zeros((k, 2))
+        metrics = np.zeros((k, 5))
         fpr_list =  []
         tpr_list = []
         for fold, (trIndexes, tsIndexes) in enumerate(kFold.split(X, y)):
@@ -194,6 +196,9 @@ def evaluate_boost(
             predicted = model.predict(Xts)
             AUC = roc_auc_score(yts, predicted)
             accuracy = accuracy_score(yts, predicted)
+            rf_f1 = f1_score(yts, predicted)
+            ap_score = average_precision_score(yts, predicted)
+            gmean = geometric_mean_score(yts, predicted)
 
             # Collect ROC curve data
             # fpr, tpr, _ = roc_curve(yts, y_prob)
@@ -206,11 +211,12 @@ def evaluate_boost(
             tpr_list.append(tpr)
             # roc_data.append((fpr, tpr, AUC))
             # Show result for each step
-            metrics[fold, :] = [accuracy, AUC]
+            metrics[fold, :] = [accuracy, AUC, rf_f1, ap_score, gmean]
 
         # folds[run, :] = np.mean(metrics, axis=0)
         run_metrics = np.mean(metrics, axis=0)
-        print(fpr_list)
+        # print(fpr_list)
+        # print(run_metrics)
         final_fpr = np.mean(fpr_list, axis=0)
         final_tpr = np.mean(tpr_list, axis=0)
         folds[run, :] = run_metrics
@@ -219,6 +225,11 @@ def evaluate_boost(
         if np.all(run_metrics > best_metrics):
             best_metrics = run_metrics
             best_roc_data = (final_fpr, final_tpr, run_metrics[1])
+
+    # End timing the loop
+    end_time = time.time()
+    elapsed_time = (end_time - start_time) * 1000  # Convert seconds to milliseconds
+    tqdm.write(f"Run {run + 1}/{n_runs} completed in {elapsed_time:.2f} ms")
 
     # print(OUTPUT.format("Best", accuracy, auc_score))
     print()

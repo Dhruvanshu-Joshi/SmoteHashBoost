@@ -1,0 +1,249 @@
+100%|##########| 20/20 [00:36<00:00,  1.84s/it]
+100%|##########| 20/20 [00:45<00:00,  2.27s/it]
+100%|##########| 20/20 [00:44<00:00,  2.22s/it]
+100%|##########| 20/20 [00:36<00:00,  1.83s/it]
+100%|##########| 20/20 [00:46<00:00,  2.34s/it]
+**************************************************
+
+======[Dataset: Sonar - SmoteHashBoost Method: Reciprocal]======
+[Preparing]
++ #classes: 3
++ classes and counts: [(1.0, 1421), (2.0, 2209), (3.0, 794)]
++ Minority class: 3.0
++ Size of Minority: 794
++ Size of Majority: 3630
+
+
+[Best] Accuracy: 0.7554, AUC: 0.6385, F1: 0.3994, AP: 0.2591, Gmean: 0.6156
+
+[Best] Accuracy: 0.7554, AUC: 0.6311, F1: 0.3908, AP: 0.2557, Gmean: 0.6003
+
+======[Dataset: Sonar - SmoteHashBoost Method: Random]======
+[Preparing]
++ #classes: 3
++ classes and counts: [(1.0, 1421), (2.0, 2209), (3.0, 794)]
++ Minority class: 3.0
++ Size of Minority: 794
++ Size of Majority: 3630
+
+
+[Best] Accuracy: 0.7875, AUC: 0.6500, F1: 0.4229, AP: 0.2812, Gmean: 0.6140
+
+[Best] Accuracy: 0.7857, AUC: 0.6500, F1: 0.4229, AP: 0.2808, Gmean: 0.6140
+
+======[Dataset: Sonar - SmoteHashBoost Method: Linearity]======
+[Preparing]
++ #classes: 3
++ classes and counts: [(1.0, 1421), (2.0, 2209), (3.0, 794)]
++ Minority class: 3.0
++ Size of Minority: 794
++ Size of Majority: 3630
+
+
+[Best] Accuracy: 0.7581, AUC: 0.6357, F1: 0.3974, AP: 0.2597, Gmean: 0.6066
+
+[Best] Accuracy: 0.7581, AUC: 0.6357, F1: 0.3974, AP: 0.2597, Gmean: 0.6060
+
+======[Dataset: Sonar - SmoteHashBoost Method: Negexp]======
+[Preparing]
++ #classes: 3
++ classes and counts: [(1.0, 1421), (2.0, 2209), (3.0, 794)]
++ Minority class: 3.0
++ Size of Minority: 794
++ Size of Majority: 3630
+
+
+[Best] Accuracy: 0.7581, AUC: 0.6371, F1: 0.3991, AP: 0.2599, Gmean: 0.6133
+
+[Best] Accuracy: 0.7484, AUC: 0.6367, F1: 0.3978, AP: 0.2591, Gmean: 0.6119
+
+======[Dataset: Sonar - SmoteHashBoost Method: Limit]======
+[Preparing]
++ #classes: 3
++ classes and counts: [(1.0, 1421), (2.0, 2209), (3.0, 794)]
++ Minority class: 3.0
++ Size of Minority: 794
++ Size of Majority: 3630
+
+
+[Best] Accuracy: 0.7566, AUC: 0.6558, F1: 0.4237, AP: 0.2746, Gmean: 0.6361
+
+[Best] Accuracy: 0.7566, AUC: 0.6558, F1: 0.4237, AP: 0.2746, Gmean: 0.6361
+**************************************************
+
+
+.........................................................................................
+
+
+100%|##########| 20/20 [00:13<00:00,  1.50it/s]
+100%|##########| 20/20 [00:13<00:00,  1.53it/s]
+100%|##########| 20/20 [00:13<00:00,  1.51it/s]
+100%|##########| 20/20 [00:13<00:00,  1.51it/s]
+100%|##########| 20/20 [00:12<00:00,  1.54it/s]
+**************************************************
+
+======[Dataset: Sonar - Method: Reciprocal]======
+[Preparing]
++ #classes: 3
++ classes and counts: [(1.0, 1421), (2.0, 2209), (3.0, 794)]
++ Minority class: 3.0
++ Size of Minority: 794
++ Size of Majority: 3630
+
+Run 1/20 completed in 651.25 ms
+Run 2/20 completed in 664.91 ms
+Run 3/20 completed in 685.72 ms
+Run 4/20 completed in 642.84 ms
+Run 5/20 completed in 667.14 ms
+Run 6/20 completed in 671.68 ms
+Run 7/20 completed in 709.80 ms
+Run 8/20 completed in 701.91 ms
+Run 9/20 completed in 677.27 ms
+Run 10/20 completed in 657.13 ms
+Run 11/20 completed in 652.17 ms
+Run 12/20 completed in 678.62 ms
+Run 13/20 completed in 656.14 ms
+Run 14/20 completed in 653.80 ms
+Run 15/20 completed in 674.40 ms
+Run 16/20 completed in 657.44 ms
+Run 17/20 completed in 663.59 ms
+Run 18/20 completed in 644.97 ms
+Run 19/20 completed in 672.10 ms
+Run 20/20 completed in 671.77 ms
+
+[Best] Accuracy: 0.7041, AUC: 0.7425
+
+[Best] Accuracy: 0.7041, AUC: 0.7425
+
+======[Dataset: Sonar - Method: Random]======
+[Preparing]
++ #classes: 3
++ classes and counts: [(1.0, 1421), (2.0, 2209), (3.0, 794)]
++ Minority class: 3.0
++ Size of Minority: 794
++ Size of Majority: 3630
+
+Run 1/20 completed in 653.92 ms
+Run 2/20 completed in 672.94 ms
+Run 3/20 completed in 631.87 ms
+Run 4/20 completed in 640.50 ms
+Run 5/20 completed in 668.80 ms
+Run 6/20 completed in 647.54 ms
+Run 7/20 completed in 670.08 ms
+Run 8/20 completed in 670.09 ms
+Run 9/20 completed in 642.38 ms
+Run 10/20 completed in 646.05 ms
+Run 11/20 completed in 665.65 ms
+Run 12/20 completed in 662.55 ms
+Run 13/20 completed in 655.98 ms
+Run 14/20 completed in 643.54 ms
+Run 15/20 completed in 631.52 ms
+Run 16/20 completed in 653.23 ms
+Run 17/20 completed in 656.96 ms
+Run 18/20 completed in 663.54 ms
+Run 19/20 completed in 642.87 ms
+Run 20/20 completed in 669.02 ms
+
+[Best] Accuracy: 0.6854, AUC: 0.7379
+
+[Best] Accuracy: 0.6854, AUC: 0.7379
+
+======[Dataset: Sonar - Method: Linearity]======
+[Preparing]
++ #classes: 3
++ classes and counts: [(1.0, 1421), (2.0, 2209), (3.0, 794)]
++ Minority class: 3.0
++ Size of Minority: 794
++ Size of Majority: 3630
+
+Run 1/20 completed in 639.02 ms
+Run 2/20 completed in 667.63 ms
+Run 3/20 completed in 703.55 ms
+Run 4/20 completed in 634.76 ms
+Run 5/20 completed in 660.49 ms
+Run 6/20 completed in 671.82 ms
+Run 7/20 completed in 642.80 ms
+Run 8/20 completed in 653.41 ms
+Run 9/20 completed in 680.22 ms
+Run 10/20 completed in 645.65 ms
+Run 11/20 completed in 657.72 ms
+Run 12/20 completed in 644.06 ms
+Run 13/20 completed in 675.90 ms
+Run 14/20 completed in 657.18 ms
+Run 15/20 completed in 710.99 ms
+Run 16/20 completed in 655.40 ms
+Run 17/20 completed in 647.53 ms
+Run 18/20 completed in 656.75 ms
+Run 19/20 completed in 694.13 ms
+Run 20/20 completed in 654.31 ms
+
+[Best] Accuracy: 0.7012, AUC: 0.7375
+
+[Best] Accuracy: 0.7012, AUC: 0.7328
+
+======[Dataset: Sonar - Method: Negexp]======
+[Preparing]
++ #classes: 3
++ classes and counts: [(1.0, 1421), (2.0, 2209), (3.0, 794)]
++ Minority class: 3.0
++ Size of Minority: 794
++ Size of Majority: 3630
+
+Run 1/20 completed in 655.26 ms
+Run 2/20 completed in 668.66 ms
+Run 3/20 completed in 665.21 ms
+Run 4/20 completed in 663.78 ms
+Run 5/20 completed in 686.49 ms
+Run 6/20 completed in 662.80 ms
+Run 7/20 completed in 661.31 ms
+Run 8/20 completed in 686.39 ms
+Run 9/20 completed in 653.23 ms
+Run 10/20 completed in 670.20 ms
+Run 11/20 completed in 688.91 ms
+Run 12/20 completed in 642.31 ms
+Run 13/20 completed in 645.63 ms
+Run 14/20 completed in 677.90 ms
+Run 15/20 completed in 664.78 ms
+Run 16/20 completed in 642.48 ms
+Run 17/20 completed in 690.36 ms
+Run 18/20 completed in 636.06 ms
+Run 19/20 completed in 651.77 ms
+Run 20/20 completed in 669.19 ms
+
+[Best] Accuracy: 0.7034, AUC: 0.7402
+
+[Best] Accuracy: 0.7034, AUC: 0.7376
+
+======[Dataset: Sonar - Method: Limit]======
+[Preparing]
++ #classes: 3
++ classes and counts: [(1.0, 1421), (2.0, 2209), (3.0, 794)]
++ Minority class: 3.0
++ Size of Minority: 794
++ Size of Majority: 3630
+
+Run 1/20 completed in 626.40 ms
+Run 2/20 completed in 652.41 ms
+Run 3/20 completed in 654.55 ms
+Run 4/20 completed in 628.13 ms
+Run 5/20 completed in 640.91 ms
+Run 6/20 completed in 707.79 ms
+Run 7/20 completed in 655.56 ms
+Run 8/20 completed in 633.93 ms
+Run 9/20 completed in 646.09 ms
+Run 10/20 completed in 643.93 ms
+Run 11/20 completed in 649.05 ms
+Run 12/20 completed in 647.50 ms
+Run 13/20 completed in 647.25 ms
+Run 14/20 completed in 646.82 ms
+Run 15/20 completed in 641.03 ms
+Run 16/20 completed in 665.61 ms
+Run 17/20 completed in 630.69 ms
+Run 18/20 completed in 638.43 ms
+Run 19/20 completed in 668.24 ms
+Run 20/20 completed in 630.36 ms
+
+[Best] Accuracy: 0.6783, AUC: 0.7133
+
+[Best] Accuracy: 0.6752, AUC: 0.7111
+**************************************************

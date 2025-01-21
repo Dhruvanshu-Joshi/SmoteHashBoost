@@ -1,0 +1,249 @@
+100%|##########| 20/20 [04:07<00:00, 12.36s/it]
+100%|##########| 20/20 [05:25<00:00, 16.29s/it]
+100%|##########| 20/20 [04:22<00:00, 13.13s/it]
+100%|##########| 20/20 [04:12<00:00, 12.60s/it]
+100%|##########| 20/20 [05:10<00:00, 15.51s/it]
+**************************************************
+
+======[Dataset: default of credit card clients - SmoteHashBoost Method: Reciprocal]======
+[Preparing]
++ #classes: 2
++ classes and counts: [(0, 23364), (1, 6636)]
++ Minority class: 1
++ Size of Minority: 6636
++ Size of Majority: 23364
+
+
+[Best] Accuracy: 0.7169, AUC: 0.6229, F1: 0.4152, AP: 0.2945, Gmean: 0.5996
+
+[Best] Accuracy: 0.7169, AUC: 0.6229, F1: 0.4152, AP: 0.2945, Gmean: 0.5996
+
+======[Dataset: default of credit card clients - SmoteHashBoost Method: Random]======
+[Preparing]
++ #classes: 2
++ classes and counts: [(0, 23364), (1, 6636)]
++ Minority class: 1
++ Size of Minority: 6636
++ Size of Majority: 23364
+
+
+[Best] Accuracy: 0.7653, AUC: 0.6407, F1: 0.4402, AP: 0.3230, Gmean: 0.6009
+
+[Best] Accuracy: 0.7646, AUC: 0.6407, F1: 0.4402, AP: 0.3230, Gmean: 0.6009
+
+======[Dataset: default of credit card clients - SmoteHashBoost Method: Linearity]======
+[Preparing]
++ #classes: 2
++ classes and counts: [(0, 23364), (1, 6636)]
++ Minority class: 1
++ Size of Minority: 6636
++ Size of Majority: 23364
+
+
+[Best] Accuracy: 0.7167, AUC: 0.6257, F1: 0.4194, AP: 0.2960, Gmean: 0.6046
+
+[Best] Accuracy: 0.7153, AUC: 0.6257, F1: 0.4194, AP: 0.2960, Gmean: 0.6046
+
+======[Dataset: default of credit card clients - SmoteHashBoost Method: Negexp]======
+[Preparing]
++ #classes: 2
++ classes and counts: [(0, 23364), (1, 6636)]
++ Minority class: 1
++ Size of Minority: 6636
++ Size of Majority: 23364
+
+
+[Best] Accuracy: 0.7151, AUC: 0.6225, F1: 0.4149, AP: 0.2933, Gmean: 0.6009
+
+[Best] Accuracy: 0.7134, AUC: 0.6214, F1: 0.4133, AP: 0.2926, Gmean: 0.5991
+
+======[Dataset: default of credit card clients - SmoteHashBoost Method: Limit]======
+[Preparing]
++ #classes: 2
++ classes and counts: [(0, 23364), (1, 6636)]
++ Minority class: 1
++ Size of Minority: 6636
++ Size of Majority: 23364
+
+
+[Best] Accuracy: 0.7162, AUC: 0.6224, F1: 0.4146, AP: 0.2939, Gmean: 0.5997
+
+[Best] Accuracy: 0.7154, AUC: 0.6224, F1: 0.4146, AP: 0.2938, Gmean: 0.5997
+**************************************************
+
+
+....................................................................
+
+
+100%|##########| 20/20 [03:14<00:00,  9.73s/it]
+100%|##########| 20/20 [03:10<00:00,  9.52s/it]
+100%|##########| 20/20 [03:21<00:00, 10.06s/it]
+100%|##########| 20/20 [03:09<00:00,  9.45s/it]
+100%|##########| 20/20 [03:08<00:00,  9.43s/it]
+**************************************************
+
+======[Dataset: default of credit card clients - Method: Reciprocal]======
+[Preparing]
++ #classes: 2
++ classes and counts: [(0, 23364), (1, 6636)]
++ Minority class: 1
++ Size of Minority: 6636
++ Size of Majority: 23364
+
+Run 1/20 completed in 9785.62 ms
+Run 2/20 completed in 9758.95 ms
+Run 3/20 completed in 9777.59 ms
+Run 4/20 completed in 9752.24 ms
+Run 5/20 completed in 9670.09 ms
+Run 6/20 completed in 9687.72 ms
+Run 7/20 completed in 9697.93 ms
+Run 8/20 completed in 9599.87 ms
+Run 9/20 completed in 9690.16 ms
+Run 10/20 completed in 9706.17 ms
+Run 11/20 completed in 9621.32 ms
+Run 12/20 completed in 9779.62 ms
+Run 13/20 completed in 9712.64 ms
+Run 14/20 completed in 9684.36 ms
+Run 15/20 completed in 9784.42 ms
+Run 16/20 completed in 9703.56 ms
+Run 17/20 completed in 9992.25 ms
+Run 18/20 completed in 9784.38 ms
+Run 19/20 completed in 9768.90 ms
+Run 20/20 completed in 9732.45 ms
+
+[Best] Accuracy: 0.6779, AUC: 0.6849
+
+[Best] Accuracy: 0.6779, AUC: 0.6818
+
+======[Dataset: default of credit card clients - Method: Random]======
+[Preparing]
++ #classes: 2
++ classes and counts: [(0, 23364), (1, 6636)]
++ Minority class: 1
++ Size of Minority: 6636
++ Size of Majority: 23364
+
+Run 1/20 completed in 9565.01 ms
+Run 2/20 completed in 9568.00 ms
+Run 3/20 completed in 9567.08 ms
+Run 4/20 completed in 9671.74 ms
+Run 5/20 completed in 9746.62 ms
+Run 6/20 completed in 9628.63 ms
+Run 7/20 completed in 9614.85 ms
+Run 8/20 completed in 9648.24 ms
+Run 9/20 completed in 9638.78 ms
+Run 10/20 completed in 9604.90 ms
+Run 11/20 completed in 9686.49 ms
+Run 12/20 completed in 9834.54 ms
+Run 13/20 completed in 9384.97 ms
+Run 14/20 completed in 9358.08 ms
+Run 15/20 completed in 9320.76 ms
+Run 16/20 completed in 9351.13 ms
+Run 17/20 completed in 9333.93 ms
+Run 18/20 completed in 9284.29 ms
+Run 19/20 completed in 9257.04 ms
+Run 20/20 completed in 9306.85 ms
+
+[Best] Accuracy: 0.6527, AUC: 0.6812
+
+[Best] Accuracy: 0.6527, AUC: 0.6812
+
+======[Dataset: default of credit card clients - Method: Linearity]======
+[Preparing]
++ #classes: 2
++ classes and counts: [(0, 23364), (1, 6636)]
++ Minority class: 1
++ Size of Minority: 6636
++ Size of Majority: 23364
+
+Run 1/20 completed in 9870.97 ms
+Run 2/20 completed in 10416.20 ms
+Run 3/20 completed in 10721.02 ms
+Run 4/20 completed in 10829.21 ms
+Run 5/20 completed in 10654.42 ms
+Run 6/20 completed in 10234.50 ms
+Run 7/20 completed in 10621.59 ms
+Run 8/20 completed in 10323.12 ms
+Run 9/20 completed in 10259.68 ms
+Run 10/20 completed in 9784.28 ms
+Run 11/20 completed in 10556.19 ms
+Run 12/20 completed in 10147.06 ms
+Run 13/20 completed in 9821.97 ms
+Run 14/20 completed in 9647.37 ms
+Run 15/20 completed in 9567.76 ms
+Run 16/20 completed in 9599.97 ms
+Run 17/20 completed in 9446.17 ms
+Run 18/20 completed in 9565.73 ms
+Run 19/20 completed in 9584.67 ms
+Run 20/20 completed in 9591.89 ms
+
+[Best] Accuracy: 0.6770, AUC: 0.6839
+
+[Best] Accuracy: 0.6764, AUC: 0.6838
+
+======[Dataset: default of credit card clients - Method: Negexp]======
+[Preparing]
++ #classes: 2
++ classes and counts: [(0, 23364), (1, 6636)]
++ Minority class: 1
++ Size of Minority: 6636
++ Size of Majority: 23364
+
+Run 1/20 completed in 9541.95 ms
+Run 2/20 completed in 9525.34 ms
+Run 3/20 completed in 9501.02 ms
+Run 4/20 completed in 9383.26 ms
+Run 5/20 completed in 9407.10 ms
+Run 6/20 completed in 9462.13 ms
+Run 7/20 completed in 9422.34 ms
+Run 8/20 completed in 9449.40 ms
+Run 9/20 completed in 9376.16 ms
+Run 10/20 completed in 9415.41 ms
+Run 11/20 completed in 9470.32 ms
+Run 12/20 completed in 9439.43 ms
+Run 13/20 completed in 9514.48 ms
+Run 14/20 completed in 9442.05 ms
+Run 15/20 completed in 9435.72 ms
+Run 16/20 completed in 9406.03 ms
+Run 17/20 completed in 9448.08 ms
+Run 18/20 completed in 9485.99 ms
+Run 19/20 completed in 9480.22 ms
+Run 20/20 completed in 9464.92 ms
+
+[Best] Accuracy: 0.6798, AUC: 0.6866
+
+[Best] Accuracy: 0.6798, AUC: 0.6866
+
+======[Dataset: default of credit card clients - Method: Limit]======
+[Preparing]
++ #classes: 2
++ classes and counts: [(0, 23364), (1, 6636)]
++ Minority class: 1
++ Size of Minority: 6636
++ Size of Majority: 23364
+
+Run 1/20 completed in 9329.50 ms
+Run 2/20 completed in 9445.05 ms
+Run 3/20 completed in 9320.68 ms
+Run 4/20 completed in 9495.27 ms
+Run 5/20 completed in 9500.86 ms
+Run 6/20 completed in 9476.61 ms
+Run 7/20 completed in 9356.20 ms
+Run 8/20 completed in 9393.52 ms
+Run 9/20 completed in 9426.44 ms
+Run 10/20 completed in 9540.14 ms
+Run 11/20 completed in 9411.33 ms
+Run 12/20 completed in 9458.05 ms
+Run 13/20 completed in 9412.27 ms
+Run 14/20 completed in 9416.15 ms
+Run 15/20 completed in 9423.37 ms
+Run 16/20 completed in 9336.51 ms
+Run 17/20 completed in 9453.31 ms
+Run 18/20 completed in 9359.76 ms
+Run 19/20 completed in 9480.69 ms
+Run 20/20 completed in 9520.69 ms
+
+[Best] Accuracy: 0.3883, AUC: 0.5472
+
+[Best] Accuracy: 0.3877, AUC: 0.5472
+**************************************************

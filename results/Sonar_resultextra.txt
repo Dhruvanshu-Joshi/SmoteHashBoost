@@ -1,0 +1,185 @@
+
+======[Dataset: Sonar - Adaboost Method: Sonar]======
+Results for dataset: Sonar - Adaboost Method: Sonar
+Run 1: Accuracy = 0.7501, AUC = 0.7468
+Run 2: Accuracy = 0.7305, AUC = 0.7241
+Run 3: Accuracy = 0.7026, AUC = 0.6994
+Run 4: Accuracy = 0.7354, AUC = 0.7310
+Run 5: Accuracy = 0.7067, AUC = 0.7070
+Run 6: Accuracy = 0.7503, AUC = 0.7460
+Run 7: Accuracy = 0.6923, AUC = 0.6958
+Run 8: Accuracy = 0.7164, AUC = 0.7165
+Run 9: Accuracy = 0.7359, AUC = 0.7359
+Run 10: Accuracy = 0.7498, AUC = 0.7508
+Run 11: Accuracy = 0.7022, AUC = 0.7037
+Run 12: Accuracy = 0.7597, AUC = 0.7593
+Run 13: Accuracy = 0.7211, AUC = 0.7188
+Run 14: Accuracy = 0.7118, AUC = 0.7057
+Run 15: Accuracy = 0.7115, AUC = 0.7099
+Run 16: Accuracy = 0.7402, AUC = 0.7419
+Run 17: Accuracy = 0.7551, AUC = 0.7515
+Run 18: Accuracy = 0.7642, AUC = 0.7643
+Run 19: Accuracy = 0.6636, AUC = 0.6614
+Run 20: Accuracy = 0.7449, AUC = 0.7425
+
+Best results: Accuracy = 0.7642, AUC = 0.7643
+
+[Best] Accuracy: 0.7642, AUC: 0.7643
+[Best] Accuracy: 0.7642, AUC: 0.7643
+
+======[Dataset: Sonar - Rusboost Method: Sonar]======
+[Best] Accuracy: 0.8226, AUC: 0.8211
+[Best] Accuracy: 0.8226, AUC: 0.8211
+
+======[Dataset: Sonar - SmoteHashBoost Method: Reciprocal]======
+[Best] Accuracy: 0.7501, AUC: 0.7501
+[Best] Accuracy: 0.7501, AUC: 0.7501
+
+======[Dataset: Sonar - SmoteHashBoost Method: Random]======
+[Best] Accuracy: 0.8275, AUC: 0.8272
+[Best] Accuracy: 0.8275, AUC: 0.8272
+
+======[Dataset: Sonar - SmoteHashBoost Method: Linearity]======
+[Best] Accuracy: 0.7744, AUC: 0.7754
+[Best] Accuracy: 0.7744, AUC: 0.7754
+
+======[Dataset: Sonar - SmoteHashBoost Method: Negexp]======
+[Best] Accuracy: 0.8030, AUC: 0.8058
+[Best] Accuracy: 0.8030, AUC: 0.8058
+
+======[Dataset: Sonar - SmoteHashBoost Method: Limit]======
+[Best] Accuracy: 0.7599, AUC: 0.7587
+[Best] Accuracy: 0.7599, AUC: 0.7587
+
+======[Dataset: Sonar - Borderline Smote Method: Sonar]======
+[Best] Accuracy: 0.7744, AUC: 0.7742
+[Best] Accuracy: 0.7744, AUC: 0.7742
+
+======[Dataset: Sonar - SmoteBoost Method: Sonar]======
+[Best] Accuracy: 0.7691, AUC: 0.7668
+[Best] Accuracy: 0.7691, AUC: 0.7668
+
+======[Dataset: Sonar - Smote ENN Method: Sonar]======
+[Best] Accuracy: 0.7501, AUC: 0.7435
+[Best] Accuracy: 0.7501, AUC: 0.7435
+
+======[Dataset: Sonar - SmoteTomek Method: Sonar]======
+[Best] Accuracy: 0.7837, AUC: 0.7811
+[Best] Accuracy: 0.7837, AUC: 0.7811
+
+======[Dataset: Sonar - Adasyn Method: Sonar]======
+No samples will be generated with the provided ratio settings.
+
+======[Dataset: Sonar - Adaboost Method: Sonar]======
+Results for dataset: Sonar - Adaboost Method: Sonar
+Run 1: Accuracy = 0.7471, AUC = 0.6019
+Run 2: Accuracy = 0.7647, AUC = 0.6136
+Run 3: Accuracy = 0.7620, AUC = 0.6110
+Run 4: Accuracy = 0.7575, AUC = 0.6038
+Run 5: Accuracy = 0.7552, AUC = 0.5970
+Run 6: Accuracy = 0.7606, AUC = 0.6082
+Run 7: Accuracy = 0.7561, AUC = 0.6054
+Run 8: Accuracy = 0.7670, AUC = 0.6090
+Run 9: Accuracy = 0.7627, AUC = 0.6109
+Run 10: Accuracy = 0.7486, AUC = 0.5959
+Run 11: Accuracy = 0.7618, AUC = 0.6211
+Run 12: Accuracy = 0.7529, AUC = 0.6020
+Run 13: Accuracy = 0.7669, AUC = 0.6159
+Run 14: Accuracy = 0.7489, AUC = 0.6010
+Run 15: Accuracy = 0.7665, AUC = 0.6103
+Run 16: Accuracy = 0.7620, AUC = 0.6011
+Run 17: Accuracy = 0.7552, AUC = 0.5950
+Run 18: Accuracy = 0.7622, AUC = 0.6234
+Run 19: Accuracy = 0.7645, AUC = 0.6208
+Run 20: Accuracy = 0.7726, AUC = 0.6297
+
+Best results: Accuracy = 0.7726, AUC = 0.6297
+
+[Best] Accuracy: 0.7726, AUC: 0.6297
+[Best] Accuracy: 0.7726, AUC: 0.6297
+
+======[Dataset: Sonar - Rusboost Method: Sonar]======
+
+======[Dataset: Sonar - SmoteHashBoost Method: Reciprocal]======
+[Best] Accuracy: 0.7584, AUC: 0.6394
+[Best] Accuracy: 0.7584, AUC: 0.6387
+
+======[Dataset: Sonar - SmoteHashBoost Method: Random]======
+[Best] Accuracy: 0.7862, AUC: 0.6439
+[Best] Accuracy: 0.7862, AUC: 0.6439
+
+======[Dataset: Sonar - SmoteHashBoost Method: Linearity]======
+[Best] Accuracy: 0.7593, AUC: 0.6506
+[Best] Accuracy: 0.7593, AUC: 0.6506
+
+======[Dataset: Sonar - SmoteHashBoost Method: Negexp]======
+[Best] Accuracy: 0.7579, AUC: 0.6346
+[Best] Accuracy: 0.7579, AUC: 0.6346
+
+======[Dataset: Sonar - SmoteHashBoost Method: Limit]======
+[Best] Accuracy: 0.7572, AUC: 0.6469
+[Best] Accuracy: 0.7572, AUC: 0.6469
+
+======[Dataset: Sonar - Borderline Smote Method: Sonar]======
+[Best] Accuracy: 0.7599, AUC: 0.6245
+[Best] Accuracy: 0.7599, AUC: 0.6181
+
+======[Dataset: Sonar - SmoteBoost Method: Sonar]======
+[Best] Accuracy: 0.7640, AUC: 0.6324
+[Best] Accuracy: 0.7624, AUC: 0.6324
+
+======[Dataset: Sonar - Smote ENN Method: Sonar]======
+[Best] Accuracy: 0.7274, AUC: 0.6494
+[Best] Accuracy: 0.7267, AUC: 0.6494
+
+======[Dataset: Sonar - SmoteTomek Method: Sonar]======
+[Best] Accuracy: 0.7615, AUC: 0.6238
+[Best] Accuracy: 0.7572, AUC: 0.6238
+
+======[Dataset: Sonar - Adasyn Method: Sonar]======
+[Best] Accuracy: 0.7629, AUC: 0.6335
+[Best] Accuracy: 0.7611, AUC: 0.6335
+
+======[Dataset: Sonar - SmoteHashBoost Method: Reciprocal]======
+[Best] Accuracy: 0.7551, AUC: 0.7544, F1: 0.7400, AP: 0.6663, Gmean: 0.7501
+[Best] Accuracy: 0.7449, AUC: 0.7471, F1: 0.7400, AP: 0.6564, Gmean: 0.7453
+
+======[Dataset: Sonar - SmoteHashBoost Method: Random]======
+[Best] Accuracy: 0.7933, AUC: 0.7913, F1: 0.7700, AP: 0.7213, Gmean: 0.7869
+[Best] Accuracy: 0.7933, AUC: 0.7913, F1: 0.7700, AP: 0.7213, Gmean: 0.7869
+
+======[Dataset: Sonar - SmoteHashBoost Method: Linearity]======
+[Best] Accuracy: 0.7645, AUC: 0.7639, F1: 0.7505, AP: 0.6821, Gmean: 0.7620
+[Best] Accuracy: 0.7642, AUC: 0.7628, F1: 0.7455, AP: 0.6821, Gmean: 0.7584
+
+======[Dataset: Sonar - SmoteHashBoost Method: Negexp]======
+[Best] Accuracy: 0.7790, AUC: 0.7798, F1: 0.7688, AP: 0.6922, Gmean: 0.7768
+[Best] Accuracy: 0.7790, AUC: 0.7798, F1: 0.7688, AP: 0.6922, Gmean: 0.7768
+
+======[Dataset: Sonar - SmoteHashBoost Method: Limit]======
+[Best] Accuracy: 0.7646, AUC: 0.7646, F1: 0.7521, AP: 0.6788, Gmean: 0.7640
+[Best] Accuracy: 0.7646, AUC: 0.7646, F1: 0.7521, AP: 0.6788, Gmean: 0.7640
+
+======[Dataset: Sonar - SmoteHashBoost Method: Reciprocal]======
+[Best] Accuracy: 0.7554, AUC: 0.6385, F1: 0.3994, AP: 0.2591, Gmean: 0.6156
+[Best] Accuracy: 0.7554, AUC: 0.6311, F1: 0.3908, AP: 0.2557, Gmean: 0.6003
+
+======[Dataset: Sonar - SmoteHashBoost Method: Random]======
+[Best] Accuracy: 0.7875, AUC: 0.6500, F1: 0.4229, AP: 0.2812, Gmean: 0.6140
+[Best] Accuracy: 0.7857, AUC: 0.6500, F1: 0.4229, AP: 0.2808, Gmean: 0.6140
+
+======[Dataset: Sonar - SmoteHashBoost Method: Linearity]======
+[Best] Accuracy: 0.7581, AUC: 0.6357, F1: 0.3974, AP: 0.2597, Gmean: 0.6066
+[Best] Accuracy: 0.7581, AUC: 0.6357, F1: 0.3974, AP: 0.2597, Gmean: 0.6060
+
+======[Dataset: Sonar - SmoteHashBoost Method: Negexp]======
+[Best] Accuracy: 0.7581, AUC: 0.6371, F1: 0.3991, AP: 0.2599, Gmean: 0.6133
+[Best] Accuracy: 0.7484, AUC: 0.6367, F1: 0.3978, AP: 0.2591, Gmean: 0.6119
+
+======[Dataset: Sonar - SmoteHashBoost Method: Limit]======
+[Best] Accuracy: 0.7566, AUC: 0.6558, F1: 0.4237, AP: 0.2746, Gmean: 0.6361
+[Best] Accuracy: 0.7566, AUC: 0.6558, F1: 0.4237, AP: 0.2746, Gmean: 0.6361
+
+======[Dataset: Sonar - Rusboost Method: Sonar]======
+[Best] Accuracy: 0.8267, AUC: 0.8216
+[Best] Accuracy: 0.8267, AUC: 0.8216

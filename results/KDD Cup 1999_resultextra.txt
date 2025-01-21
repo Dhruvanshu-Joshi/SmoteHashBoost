@@ -1,0 +1,70 @@
+
+======[Dataset: KDD Cup 1999 - Adaboost Method: KDD Cup 1999]======
+Results for dataset: KDD Cup 1999 - Adaboost Method: KDD Cup 1999
+
+======[Dataset: KDD Cup 1999 - Adaboost Method: KDD Cup 1999]======
+Results for dataset: KDD Cup 1999 - Adaboost Method: KDD Cup 1999
+Run 1: Accuracy = 1.0000, AUC = 0.9154
+Run 2: Accuracy = 1.0000, AUC = 0.8818
+
+======[Dataset: KDD Cup 1999 - Adaboost Method: KDD Cup 1999]======
+Results for dataset: KDD Cup 1999 - Adaboost Method: KDD Cup 1999
+Run 1: Accuracy = 1.0000, AUC = 0.9418
+Run 2: Accuracy = 1.0000, AUC = 0.9227
+Run 3: Accuracy = 1.0000, AUC = 0.9118
+Run 4: Accuracy = 1.0000, AUC = 0.9227
+Run 5: Accuracy = 1.0000, AUC = 0.9054
+Run 6: Accuracy = 1.0000, AUC = 0.9045
+Run 7: Accuracy = 1.0000, AUC = 0.9236
+Run 8: Accuracy = 1.0000, AUC = 0.9036
+Run 9: Accuracy = 1.0000, AUC = 0.9145
+Run 10: Accuracy = 1.0000, AUC = 0.9518
+Run 11: Accuracy = 1.0000, AUC = 0.9054
+Run 12: Accuracy = 0.9999, AUC = 0.9036
+Run 13: Accuracy = 1.0000, AUC = 0.9336
+Run 14: Accuracy = 1.0000, AUC = 0.9418
+Run 15: Accuracy = 1.0000, AUC = 0.9045
+Run 16: Accuracy = 1.0000, AUC = 0.9236
+Run 17: Accuracy = 1.0000, AUC = 0.9045
+Run 18: Accuracy = 1.0000, AUC = 0.8845
+Run 19: Accuracy = 1.0000, AUC = 0.9327
+Run 20: Accuracy = 0.9999, AUC = 0.8736
+
+Best results: Accuracy = 1.0000, AUC = 0.9518
+
+[Best] Accuracy: 1.0000, AUC: 0.9518
+[Best] Accuracy: 1.0000, AUC: 0.9518
+
+======[Dataset: KDD Cup 1999 - Adaboost Method: KDD Cup 1999]======
+Results for dataset: KDD Cup 1999 - Adaboost Method: KDD Cup 1999
+Run 1: Accuracy = 1.0000, AUC = 0.9045
+Run 2: Accuracy = 1.0000, AUC = 0.9209
+Run 3: Accuracy = 1.0000, AUC = 0.9227
+Run 4: Accuracy = 1.0000, AUC = 0.9118
+Run 5: Accuracy = 1.0000, AUC = 0.9118
+Run 6: Accuracy = 1.0000, AUC = 0.9145
+Run 7: Accuracy = 1.0000, AUC = 0.9418
+Run 8: Accuracy = 1.0000, AUC = 0.8918
+Run 9: Accuracy = 1.0000, AUC = 0.9300
+Run 10: Accuracy = 1.0000, AUC = 0.9018
+Run 11: Accuracy = 1.0000, AUC = 0.9245
+Run 12: Accuracy = 1.0000, AUC = 0.8845
+Run 13: Accuracy = 1.0000, AUC = 0.9227
+Run 14: Accuracy = 1.0000, AUC = 0.9336
+Run 15: Accuracy = 1.0000, AUC = 0.9318
+Run 16: Accuracy = 1.0000, AUC = 0.9209
+Run 17: Accuracy = 1.0000, AUC = 0.9245
+Run 18: Accuracy = 0.9999, AUC = 0.8845
+Run 19: Accuracy = 1.0000, AUC = 0.9136
+Run 20: Accuracy = 0.9999, AUC = 0.8927
+
+Best results: Accuracy = 1.0000, AUC = 0.9418
+
+[Best] Accuracy: 1.0000, AUC: 0.9418
+[Best] Accuracy: 1.0000, AUC: 0.9418
+
+======[Dataset: KDD Cup 1999 - Rusboost Method: KDD Cup 1999]======
+[Best] Accuracy: 0.9887, AUC: 0.9932
+[Best] Accuracy: 0.9864, AUC: 0.9932
+
+======[Dataset: KDD Cup 1999 - SmoteHashBoost Method: Reciprocal]======

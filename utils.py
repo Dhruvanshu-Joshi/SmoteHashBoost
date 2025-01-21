@@ -4,6 +4,7 @@ from sklearn.model_selection import StratifiedKFold
 from tqdm import tqdm
 import numpy as np
 import matplotlib.pyplot as plt
+import time
 
 
 def plot_roc_curve(fpr, tpr, auc_score, name="Classifier"):
@@ -157,6 +158,7 @@ def evaluate(
         metrics = np.zeros((k, 2))
         fpr_list =  []
         tpr_list = []
+        start_time = time.time()
         for fold, (trIndexes, tsIndexes) in enumerate(kFold.split(X, y)):
             # Split data to Train and Test
             Xtr, ytr = X[trIndexes], y[trIndexes]
@@ -191,6 +193,10 @@ def evaluate(
             # fpr, tpr, _ = roc_curve(yts, y_prob)
             # roc_data.append((fpr, tpr, auc_score))
             metrics[fold, :] = [accuracy, AUC]
+        # End timing the loop
+        end_time = time.time()
+        elapsed_time = (end_time - start_time) * 1000  # Convert seconds to milliseconds
+        tqdm.write(f"Run {run + 1}/{n_runs} completed in {elapsed_time:.2f} ms")
 
         # folds[run, :] = np.mean(metrics, axis=0)
         run_metrics = np.mean(metrics, axis=0)

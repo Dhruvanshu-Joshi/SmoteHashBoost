@@ -1,0 +1,247 @@
+100%|##########| 20/20 [28:02<00:00, 84.11s/it]
+100%|##########| 20/20 [24:41<00:00, 74.09s/it]
+100%|##########| 20/20 [27:02<00:00, 81.10s/it]
+100%|##########| 20/20 [25:14<00:00, 75.75s/it]
+100%|##########| 20/20 [22:12<00:00, 66.65s/it]
+**************************************************
+
+======[Dataset: Epileptic Seizure Recognition - SmoteHashBoost Method: Reciprocal]======
+[Preparing]
++ #classes: 2
++ classes and counts: [(0, 9200), (1, 2300)]
++ Minority class: 1
++ Size of Minority: 2300
++ Size of Majority: 9200
+
+
+[Best] Accuracy: 0.9126, AUC: 0.9111, F1: 0.8063, AP: 0.6769, Gmean: 0.9111
+
+[Best] Accuracy: 0.9126, AUC: 0.9111, F1: 0.8063, AP: 0.6769, Gmean: 0.9111
+
+======[Dataset: Epileptic Seizure Recognition - SmoteHashBoost Method: Random]======
+[Preparing]
++ #classes: 2
++ classes and counts: [(0, 9200), (1, 2300)]
++ Minority class: 1
++ Size of Minority: 2300
++ Size of Majority: 9200
+
+
+[Best] Accuracy: 0.9367, AUC: 0.9436, F1: 0.8579, AP: 0.7528, Gmean: 0.9435
+
+[Best] Accuracy: 0.9367, AUC: 0.9436, F1: 0.8579, AP: 0.7528, Gmean: 0.9435
+
+======[Dataset: Epileptic Seizure Recognition - SmoteHashBoost Method: Linearity]======
+[Preparing]
++ #classes: 2
++ classes and counts: [(0, 9200), (1, 2300)]
++ Minority class: 1
++ Size of Minority: 2300
++ Size of Majority: 9200
+
+
+[Best] Accuracy: 0.9129, AUC: 0.9062, F1: 0.8044, AP: 0.6750, Gmean: 0.9062
+
+[Best] Accuracy: 0.9129, AUC: 0.9062, F1: 0.8044, AP: 0.6750, Gmean: 0.9062
+
+======[Dataset: Epileptic Seizure Recognition - SmoteHashBoost Method: Negexp]======
+[Preparing]
++ #classes: 2
++ classes and counts: [(0, 9200), (1, 2300)]
++ Minority class: 1
++ Size of Minority: 2300
++ Size of Majority: 9200
+
+
+[Best] Accuracy: 0.9139, AUC: 0.9087, F1: 0.8070, AP: 0.6784, Gmean: 0.9086
+
+[Best] Accuracy: 0.9139, AUC: 0.9087, F1: 0.8070, AP: 0.6784, Gmean: 0.9086
+
+======[Dataset: Epileptic Seizure Recognition - SmoteHashBoost Method: Limit]======
+[Preparing]
++ #classes: 2
++ classes and counts: [(0, 9200), (1, 2300)]
++ Minority class: 1
++ Size of Minority: 2300
++ Size of Majority: 9200
+
+
+[Best] Accuracy: 0.9100, AUC: 0.9041, F1: 0.7991, AP: 0.6672, Gmean: 0.9040
+
+[Best] Accuracy: 0.9100, AUC: 0.9041, F1: 0.7991, AP: 0.6672, Gmean: 0.9040
+
+
+*****************************
+
+100%|##########| 20/20 [14:22<00:00, 43.13s/it]
+100%|##########| 20/20 [13:47<00:00, 41.35s/it]
+100%|##########| 20/20 [10:51<00:00, 32.56s/it]
+100%|##########| 20/20 [12:08<00:00, 36.45s/it]
+100%|##########| 20/20 [11:13<00:00, 33.65s/it]
+**************************************************
+
+======[Dataset: Epileptic Seizure Recognition - Method: Reciprocal]======
+[Preparing]
++ #classes: 2
++ classes and counts: [(0, 9200), (1, 2300)]
++ Minority class: 1
++ Size of Minority: 2300
++ Size of Majority: 9200
+
+Run 1/20 completed in 32777.55 ms
+Run 2/20 completed in 32347.09 ms
+Run 3/20 completed in 32853.30 ms
+Run 4/20 completed in 32397.60 ms
+Run 5/20 completed in 32428.01 ms
+Run 6/20 completed in 32365.02 ms
+Run 7/20 completed in 32462.11 ms
+Run 8/20 completed in 32534.17 ms
+Run 9/20 completed in 32557.20 ms
+Run 10/20 completed in 32008.74 ms
+Run 11/20 completed in 43161.29 ms
+Run 12/20 completed in 56900.59 ms
+Run 13/20 completed in 58714.26 ms
+Run 14/20 completed in 57459.47 ms
+Run 15/20 completed in 56765.96 ms
+Run 16/20 completed in 54328.48 ms
+Run 17/20 completed in 49669.33 ms
+Run 18/20 completed in 55054.15 ms
+Run 19/20 completed in 53328.10 ms
+Run 20/20 completed in 52425.63 ms
+
+[Best] Accuracy: 0.8381, AUC: 0.8923
+
+[Best] Accuracy: 0.8381, AUC: 0.8923
+
+======[Dataset: Epileptic Seizure Recognition - Method: Random]======
+[Preparing]
++ #classes: 2
++ classes and counts: [(0, 9200), (1, 2300)]
++ Minority class: 1
++ Size of Minority: 2300
++ Size of Majority: 9200
+
+Run 1/20 completed in 57289.42 ms
+Run 2/20 completed in 57724.71 ms
+Run 3/20 completed in 56609.98 ms
+Run 4/20 completed in 59025.62 ms
+Run 5/20 completed in 58685.64 ms
+Run 6/20 completed in 50508.68 ms
+Run 7/20 completed in 34630.38 ms
+Run 8/20 completed in 34872.45 ms
+Run 9/20 completed in 35194.39 ms
+Run 10/20 completed in 34935.25 ms
+Run 11/20 completed in 34936.12 ms
+Run 12/20 completed in 34679.64 ms
+Run 13/20 completed in 34466.58 ms
+Run 14/20 completed in 34754.07 ms
+Run 15/20 completed in 34901.85 ms
+Run 16/20 completed in 35167.28 ms
+Run 17/20 completed in 34607.85 ms
+Run 18/20 completed in 34937.10 ms
+Run 19/20 completed in 34396.33 ms
+Run 20/20 completed in 34726.83 ms
+
+[Best] Accuracy: 0.9390, AUC: 0.9555
+
+[Best] Accuracy: 0.9390, AUC: 0.9555
+
+======[Dataset: Epileptic Seizure Recognition - Method: Linearity]======
+[Preparing]
++ #classes: 2
++ classes and counts: [(0, 9200), (1, 2300)]
++ Minority class: 1
++ Size of Minority: 2300
++ Size of Majority: 9200
+
+Run 1/20 completed in 32801.06 ms
+Run 2/20 completed in 32450.49 ms
+Run 3/20 completed in 32627.99 ms
+Run 4/20 completed in 32818.92 ms
+Run 5/20 completed in 32694.99 ms
+Run 6/20 completed in 32639.45 ms
+Run 7/20 completed in 32268.56 ms
+Run 8/20 completed in 32805.56 ms
+Run 9/20 completed in 32687.97 ms
+Run 10/20 completed in 32458.56 ms
+Run 11/20 completed in 32581.54 ms
+Run 12/20 completed in 32420.65 ms
+Run 13/20 completed in 32916.79 ms
+Run 14/20 completed in 32295.98 ms
+Run 15/20 completed in 32121.02 ms
+Run 16/20 completed in 33085.05 ms
+Run 17/20 completed in 31919.57 ms
+Run 18/20 completed in 32342.06 ms
+Run 19/20 completed in 32974.69 ms
+Run 20/20 completed in 32336.32 ms
+
+[Best] Accuracy: 0.8383, AUC: 0.8926
+
+[Best] Accuracy: 0.8383, AUC: 0.8926
+
+======[Dataset: Epileptic Seizure Recognition - Method: Negexp]======
+[Preparing]
++ #classes: 2
++ classes and counts: [(0, 9200), (1, 2300)]
++ Minority class: 1
++ Size of Minority: 2300
++ Size of Majority: 9200
+
+Run 1/20 completed in 32000.28 ms
+Run 2/20 completed in 32401.44 ms
+Run 3/20 completed in 32525.83 ms
+Run 4/20 completed in 32814.98 ms
+Run 5/20 completed in 32541.47 ms
+Run 6/20 completed in 32811.02 ms
+Run 7/20 completed in 38568.62 ms
+Run 8/20 completed in 56016.33 ms
+Run 9/20 completed in 60970.48 ms
+Run 10/20 completed in 54706.22 ms
+Run 11/20 completed in 31973.10 ms
+Run 12/20 completed in 32644.29 ms
+Run 13/20 completed in 31951.71 ms
+Run 14/20 completed in 32636.96 ms
+Run 15/20 completed in 31989.85 ms
+Run 16/20 completed in 32504.44 ms
+Run 17/20 completed in 32649.63 ms
+Run 18/20 completed in 32862.59 ms
+Run 19/20 completed in 32113.81 ms
+Run 20/20 completed in 32232.01 ms
+
+[Best] Accuracy: 0.8486, AUC: 0.8977
+
+[Best] Accuracy: 0.8486, AUC: 0.8977
+
+======[Dataset: Epileptic Seizure Recognition - Method: Limit]======
+[Preparing]
++ #classes: 2
++ classes and counts: [(0, 9200), (1, 2300)]
++ Minority class: 1
++ Size of Minority: 2300
++ Size of Majority: 9200
+
+Run 1/20 completed in 31680.25 ms
+Run 2/20 completed in 31090.14 ms
+Run 3/20 completed in 30716.34 ms
+Run 4/20 completed in 30775.06 ms
+Run 5/20 completed in 31354.01 ms
+Run 6/20 completed in 31137.51 ms
+Run 7/20 completed in 31346.12 ms
+Run 8/20 completed in 31632.02 ms
+Run 9/20 completed in 30558.56 ms
+Run 10/20 completed in 32444.78 ms
+Run 11/20 completed in 32083.12 ms
+Run 12/20 completed in 30866.18 ms
+Run 13/20 completed in 30894.61 ms
+Run 14/20 completed in 47881.08 ms
+Run 15/20 completed in 39116.12 ms
+Run 16/20 completed in 30695.65 ms
+Run 17/20 completed in 41264.50 ms
+Run 18/20 completed in 44218.56 ms
+Run 19/20 completed in 31185.49 ms
+Run 20/20 completed in 32109.52 ms
+
+[Best] Accuracy: 0.4644, AUC: 0.6526
+
+[Best] Accuracy: 0.4644, AUC: 0.6526
+**************************************************

@@ -4,6 +4,7 @@ from sklearn.model_selection import StratifiedKFold
 import numpy as np
 from tqdm import tqdm
 import matplotlib.pyplot as plt
+import time
 
 
 def plot_roc_curve(fpr, tpr, auc_score, name="Classifier"):
@@ -150,6 +151,8 @@ def evaluate_rus(
 
     folds = np.zeros((n_runs, 2))
 
+    start_time = time.time()
+
     for run in tqdm(range(n_runs)):
 
         # Applying k-Fold cross-validation (Stratified K-Fold)
@@ -206,6 +209,11 @@ def evaluate_rus(
         if np.all(run_metrics > best_metrics):
             best_metrics = run_metrics
             best_roc_data = (final_fpr, final_tpr, run_metrics[1])
+
+    # End timing the loop
+    end_time = time.time()
+    elapsed_time = (end_time - start_time) * 1000  # Convert seconds to milliseconds
+    tqdm.write(f"Run completed in {elapsed_time:.2f} ms")
 
     print()
     print(OUTPUT.format(
