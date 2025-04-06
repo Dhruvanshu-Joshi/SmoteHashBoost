@@ -1,0 +1,5 @@
+
+======[Dataset: ILPD - Borderline Smote Method: ILPD]======
+[Avg] Accuracy: 0.6542, AUC: 0.5963, F1: 0.4318, AP: 0.3477, Gmean: 0.5774
+[Std] Accuracy: 0.0173, AUC: 0.0177, F1: 0.0251, AP: 0.0136, Gmean: 0.0211
+[Best] Accuracy: 0.7066, AUC: 0.6364, F1: 0.4791, AP: 0.3843, Gmean: 0.6118

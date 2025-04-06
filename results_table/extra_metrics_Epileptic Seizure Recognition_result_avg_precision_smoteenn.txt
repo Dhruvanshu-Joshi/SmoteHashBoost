@@ -1,0 +1,15 @@
+
+======[Dataset: Epileptic Seizure Recognition - Smote ENN Method: Epileptic Seizure Recognition]======
+[Avg] Accuracy: 0.9128, AUC: 0.8890, F1: 0.7959, AP: 0.6664, Gmean: 0.8881
+[Std] Accuracy: 0.0036, AUC: 0.0053, F1: 0.0082, AP: 0.0116, Gmean: 0.0055
+[Best] Accuracy: 0.9224, AUC: 0.9002, F1: 0.8166, AP: 0.6963, Gmean: 0.8994
+
+======[Dataset: Epileptic Seizure Recognition - Smote ENN Method: Epileptic Seizure Recognition]======
+[Avg] Accuracy: 0.9132, AUC: 0.8888, F1: 0.7963, AP: 0.6671, Gmean: 0.8878
+[Std] Accuracy: 0.0028, AUC: 0.0041, F1: 0.0062, AP: 0.0087, Gmean: 0.0042
+[Best] Accuracy: 0.9159, AUC: 0.8964, F1: 0.8043, AP: 0.6776, Gmean: 0.8958
+
+======[Dataset: Epileptic Seizure Recognition - Smote ENN Method: Epileptic Seizure Recognition]======
+[Avg] Accuracy: 0.9130, AUC: 0.8881, F1: 0.7957, AP: 0.6664, Gmean: 0.8871
+[Std] Accuracy: 0.0025, AUC: 0.0040, F1: 0.0057, AP: 0.0080, Gmean: 0.0041
+[Best] Accuracy: 0.9182, AUC: 0.8980, F1: 0.8088, AP: 0.6842, Gmean: 0.8973

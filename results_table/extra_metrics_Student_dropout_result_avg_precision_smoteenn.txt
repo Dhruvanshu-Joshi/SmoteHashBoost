@@ -1,0 +1,15 @@
+
+======[Dataset: Student_dropout - Smote ENN Method: Student_dropout]======
+[Avg] Accuracy: 0.7184, AUC: 0.6367, F1: 0.3933, AP: 0.2522, Gmean: 0.6230
+[Std] Accuracy: 0.0071, AUC: 0.0090, F1: 0.0114, AP: 0.0069, Gmean: 0.0106
+[Best] Accuracy: 0.7333, AUC: 0.6564, F1: 0.4191, AP: 0.2683, Gmean: 0.6449
+
+======[Dataset: Student_dropout - Smote ENN Method: Student_dropout]======
+[Avg] Accuracy: 0.7200, AUC: 0.6388, F1: 0.3962, AP: 0.2538, Gmean: 0.6256
+[Std] Accuracy: 0.0061, AUC: 0.0083, F1: 0.0103, AP: 0.0062, Gmean: 0.0101
+[Best] Accuracy: 0.7299, AUC: 0.6583, F1: 0.4206, AP: 0.2686, Gmean: 0.6483
+
+======[Dataset: Student_dropout - Smote ENN Method: Student_dropout]======
+[Avg] Accuracy: 0.7191, AUC: 0.6405, F1: 0.3981, AP: 0.2547, Gmean: 0.6280
+[Std] Accuracy: 0.0068, AUC: 0.0104, F1: 0.0130, AP: 0.0078, Gmean: 0.0122
+[Best] Accuracy: 0.7281, AUC: 0.6547, F1: 0.4160, AP: 0.2656, Gmean: 0.6437

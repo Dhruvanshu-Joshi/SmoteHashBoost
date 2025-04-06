@@ -1,0 +1,25 @@
+
+======[Dataset: Glass - Method: Reciprocal]======
+[Avg] Accuracy: 0.9268, AUC: 0.9143, F1: 0.7707, AP: 0.6335, Gmean: 0.9112
+[Std] Accuracy: 0.0125, AUC: 0.0072, F1: 0.0301, AP: 0.0414, Gmean: 0.0078
+[Best] Accuracy: 0.9487, AUC: 0.9284, F1: 0.8290, AP: 0.7108, Gmean: 0.9268
+
+======[Dataset: Glass - Method: Random]======
+[Avg] Accuracy: 0.9222, AUC: 0.9114, F1: 0.7624, AP: 0.6214, Gmean: 0.9089
+[Std] Accuracy: 0.0114, AUC: 0.0069, F1: 0.0275, AP: 0.0391, Gmean: 0.0068
+[Best] Accuracy: 0.9441, AUC: 0.9257, F1: 0.8203, AP: 0.7038, Gmean: 0.9242
+
+======[Dataset: Glass - Method: Linearity]======
+[Avg] Accuracy: 0.9264, AUC: 0.9135, F1: 0.7715, AP: 0.6376, Gmean: 0.9101
+[Std] Accuracy: 0.0078, AUC: 0.0047, F1: 0.0232, AP: 0.0374, Gmean: 0.0055
+[Best] Accuracy: 0.9301, AUC: 0.9176, F1: 0.8093, AP: 0.7217, Gmean: 0.9167
+
+======[Dataset: Glass - Method: Negexp]======
+[Avg] Accuracy: 0.9224, AUC: 0.9111, F1: 0.7646, AP: 0.6254, Gmean: 0.9083
+[Std] Accuracy: 0.0100, AUC: 0.0065, F1: 0.0223, AP: 0.0295, Gmean: 0.0071
+[Best] Accuracy: 0.9486, AUC: 0.9250, F1: 0.8259, AP: 0.7081, Gmean: 0.9236
+
+======[Dataset: Glass - Method: Limit]======
+[Avg] Accuracy: 0.8905, AUC: 0.8931, F1: 0.6970, AP: 0.5384, Gmean: 0.8898
+[Std] Accuracy: 0.0168, AUC: 0.0185, F1: 0.0361, AP: 0.0461, Gmean: 0.0196
+[Best] Accuracy: 0.9207, AUC: 0.9261, F1: 0.7700, AP: 0.6321, Gmean: 0.9257

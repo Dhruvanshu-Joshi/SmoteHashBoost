@@ -1,0 +1,45 @@
+
+======[Dataset: Flare-F]======
+0.4687
+
+======[Dataset: Yeast5]======
+0.8958
+
+======[Dataset: CarvGood]======
+0.9997
+
+======[Dataset: CarGood]======
+0.9355
+
+======[Dataset: Yeast5-ERL]======
+0.7997
+
+======[Dataset: Glass]======
+0.9352
+
+======[Dataset: ILPD]======
+0.6237
+
+======[Dataset: Seed]======
+0.9673
+
+======[Dataset: Wine]======
+0.9795
+
+======[Dataset: Breast Cancer Wisconsin]======
+0.9331
+
+======[Dataset: Diabetes]======
+0.9754
+
+======[Dataset: Sonar]======
+0.7837
+
+======[Dataset: Epileptic Seizure Recognition]======
+0.901
+
+======[Dataset: Student_dropout]======
+0.5939
+
+======[Dataset: default of credit card clients]======
+0.5882

@@ -1,0 +1,5 @@
+
+======[Dataset: Epileptic Seizure Recognition - Borderline Smote Method: Epileptic Seizure Recognition]======
+[Avg] Accuracy: 0.9164, AUC: 0.8936, F1: 0.8038, AP: 0.6776, Gmean: 0.8928
+[Std] Accuracy: 0.0026, AUC: 0.0038, F1: 0.0059, AP: 0.0084, Gmean: 0.0039
+[Best] Accuracy: 0.9237, AUC: 0.9011, F1: 0.8189, AP: 0.7000, Gmean: 0.9002

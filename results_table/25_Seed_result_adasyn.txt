@@ -1,0 +1,5 @@
+
+======[Dataset: Seed - Adasyn Method: Seed]======
+[Avg] Accuracy: 0.9610, AUC: 0.9575, F1: 0.9418, AP: 0.9097, Gmean: 0.9565
+[Std] Accuracy: 0.0121, AUC: 0.0144, F1: 0.0192, AP: 0.0263, Gmean: 0.0153
+[Best] Accuracy: 0.9810, AUC: 0.9786, F1: 0.9708, AP: 0.9543, Gmean: 0.9780

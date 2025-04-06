@@ -1,0 +1,5 @@
+
+======[Dataset: Epileptic Seizure Recognition - Adasyn Method: Epileptic Seizure Recognition]======
+[Avg] Accuracy: 0.8944, AUC: 0.8810, F1: 0.7650, AP: 0.6208, Gmean: 0.8807
+[Std] Accuracy: 0.0028, AUC: 0.0036, F1: 0.0055, AP: 0.0074, Gmean: 0.0037
+[Best] Accuracy: 0.9004, AUC: 0.8880, F1: 0.7770, AP: 0.6371, Gmean: 0.8878

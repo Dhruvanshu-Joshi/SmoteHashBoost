@@ -1,0 +1,15 @@
+
+======[Dataset: Yeast5 - SmoteTomek Method: Yeast5]======
+[Avg] Accuracy: 0.9802, AUC: 0.8603, F1: 0.6894, AP: 0.5060, Gmean: 0.8463
+[Std] Accuracy: 0.0043, AUC: 0.0309, F1: 0.0599, AP: 0.0736, Gmean: 0.0383
+[Best] Accuracy: 0.9852, AUC: 0.8927, F1: 0.7613, AP: 0.5923, Gmean: 0.8859
+
+======[Dataset: Yeast5 - SmoteTomek Method: Yeast5]======
+[Avg] Accuracy: 0.9799, AUC: 0.8470, F1: 0.6682, AP: 0.4793, Gmean: 0.8269
+[Std] Accuracy: 0.0027, AUC: 0.0230, F1: 0.0442, AP: 0.0541, Gmean: 0.0297
+[Best] Accuracy: 0.9838, AUC: 0.8840, F1: 0.7428, AP: 0.5756, Gmean: 0.8743
+
+======[Dataset: Yeast5 - SmoteTomek Method: Yeast5]======
+[Avg] Accuracy: 0.9796, AUC: 0.8464, F1: 0.6720, AP: 0.4830, Gmean: 0.8292
+[Std] Accuracy: 0.0024, AUC: 0.0318, F1: 0.0451, AP: 0.0607, Gmean: 0.0390
+[Best] Accuracy: 0.9845, AUC: 0.9031, F1: 0.7591, AP: 0.5924, Gmean: 0.8974

@@ -1,0 +1,30 @@
+
+======[Dataset: Breast Cancer Wisconsin - Method: Reciprocal]======
+======[Time: 125.52452087402344]======
+
+======[Dataset: Breast Cancer Wisconsin - Method: Random]======
+======[Time: 116.89209938049316]======
+
+======[Dataset: Breast Cancer Wisconsin - Method: Linearity]======
+======[Time: 124.13716316223145]======
+
+======[Dataset: Breast Cancer Wisconsin - Method: Negexp]======
+======[Time: 128.30543518066406]======
+
+======[Dataset: Breast Cancer Wisconsin - Method: Limit]======
+======[Time: 125.39005279541016]======
+
+======[Dataset: Breast Cancer Wisconsin - Method: Reciprocal]======
+======[Time: 119.97723579406738]======
+
+======[Dataset: Breast Cancer Wisconsin - Method: Random]======
+======[Time: 127.35342979431152]======
+
+======[Dataset: Breast Cancer Wisconsin - Method: Linearity]======
+======[Time: 131.02960586547852]======
+
+======[Dataset: Breast Cancer Wisconsin - Method: Negexp]======
+======[Time: 125.99706649780273]======
+
+======[Dataset: Breast Cancer Wisconsin - Method: Limit]======
+======[Time: 128.3411979675293]======

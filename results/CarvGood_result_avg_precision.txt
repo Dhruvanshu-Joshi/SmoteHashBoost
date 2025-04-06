@@ -1,0 +1,25 @@
+
+======[Dataset: CarvGood - SmoteHashBoost Method: Reciprocal]======
+[Avg] Accuracy: 0.9977, AUC: 0.9803, F1: 0.9680, AP: 0.9412, Gmean: 0.9796
+[Std] Accuracy: 0.0012, AUC: 0.0169, F1: 0.0179, AP: 0.0308, Gmean: 0.0178
+[Best] Accuracy: 0.9994, AUC: 0.9997, F1: 0.9926, AP: 0.9857, Gmean: 0.9997
+
+======[Dataset: CarvGood - SmoteHashBoost Method: Random]======
+[Avg] Accuracy: 0.9975, AUC: 0.9806, F1: 0.9667, AP: 0.9388, Gmean: 0.9800
+[Std] Accuracy: 0.0012, AUC: 0.0135, F1: 0.0172, AP: 0.0306, Gmean: 0.0142
+[Best] Accuracy: 0.9994, AUC: 0.9997, F1: 0.9926, AP: 0.9857, Gmean: 0.9997
+
+======[Dataset: CarvGood - SmoteHashBoost Method: Linearity]======
+[Avg] Accuracy: 0.9974, AUC: 0.9780, F1: 0.9644, AP: 0.9353, Gmean: 0.9771
+[Std] Accuracy: 0.0012, AUC: 0.0150, F1: 0.0165, AP: 0.0287, Gmean: 0.0159
+[Best] Accuracy: 0.9994, AUC: 0.9997, F1: 0.9926, AP: 0.9857, Gmean: 0.9997
+
+======[Dataset: CarvGood - SmoteHashBoost Method: Negexp]======
+[Avg] Accuracy: 0.9977, AUC: 0.9803, F1: 0.9690, AP: 0.9431, Gmean: 0.9797
+[Std] Accuracy: 0.0010, AUC: 0.0118, F1: 0.0133, AP: 0.0234, Gmean: 0.0123
+[Best] Accuracy: 0.9988, AUC: 0.9920, F1: 0.9846, AP: 0.9709, Gmean: 0.9919
+
+======[Dataset: CarvGood - SmoteHashBoost Method: Limit]======
+[Avg] Accuracy: 0.9976, AUC: 0.9806, F1: 0.9676, AP: 0.9405, Gmean: 0.9800
+[Std] Accuracy: 0.0010, AUC: 0.0102, F1: 0.0131, AP: 0.0232, Gmean: 0.0106
+[Best] Accuracy: 0.9988, AUC: 0.9920, F1: 0.9846, AP: 0.9709, Gmean: 0.9919

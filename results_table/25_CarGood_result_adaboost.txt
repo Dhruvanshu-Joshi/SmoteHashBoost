@@ -1,0 +1,14 @@
+
+======[Dataset: CarGood - Adaboost Method: CarGood]======
+Results for dataset: CarGood - Adaboost Method: CarGood
+
+Best results: Accuracy = 0.9994, AUC = 0.9923, F1 = 0.9920, Ap = 0.9852, Accuracy = 0.9922
+
+[Avg] Accuracy: 0.9980, AUC: 0.9846, F1: 0.9734, AP: 0.9509, Gmean: 0.9840
+[Std] Accuracy: 0.0010, AUC: 0.0093, F1: 0.0132, AP: 0.0239, Gmean: 0.0098
+[Best] Accuracy: 0.9994, AUC: 0.9923, F1: 0.9920, AP: 0.9852, Gmean: 0.9922
+
+======[Dataset: CarGood - SmoteBoost Method: CarGood]======
+[Avg] Accuracy: 0.9871, AUC: 0.9190, F1: 0.8404, AP: 0.7268, Gmean: 0.9137
+[Std] Accuracy: 0.0036, AUC: 0.0244, F1: 0.0430, AP: 0.0670, Gmean: 0.0274
+[Best] Accuracy: 0.9948, AUC: 0.9562, F1: 0.9344, AP: 0.8800, Gmean: 0.9549

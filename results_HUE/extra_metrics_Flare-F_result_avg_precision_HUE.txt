@@ -1,0 +1,24 @@
+======[Dataset: Flare-F - Method: Reciprocal]======
+[Avg] Accuracy: 0.7992, AUC: 0.8219, F1: 0.2557, AP: 0.1359, Gmean: 0.8185
+[Std] Accuracy: 0.0076, AUC: 0.0217, F1: 0.0131, AP: 0.0100, Gmean: 0.0225
+[Best] Accuracy: 0.8096, AUC: 0.8343, F1: 0.2666, AP: 0.1425, Gmean: 0.8326
+
+======[Dataset: Flare-F - Method: Random]======
+[Avg] Accuracy: 0.7998, AUC: 0.8292, F1: 0.2597, AP: 0.1385, Gmean: 0.8262
+[Std] Accuracy: 0.0059, AUC: 0.0146, F1: 0.0095, AP: 0.0077, Gmean: 0.0144
+[Best] Accuracy: 0.8067, AUC: 0.8568, F1: 0.2830, AP: 0.1575, Gmean: 0.8534
+
+======[Dataset: Flare-F - Method: Linearity]======
+[Avg] Accuracy: 0.8008, AUC: 0.8310, F1: 0.2598, AP: 0.1390, Gmean: 0.8276
+[Std] Accuracy: 0.0062, AUC: 0.0130, F1: 0.0090, AP: 0.0066, Gmean: 0.0133
+[Best] Accuracy: 0.8049, AUC: 0.8544, F1: 0.2741, AP: 0.1503, Gmean: 0.8509
+
+======[Dataset: Flare-F - Method: Negexp]======
+[Avg] Accuracy: 0.7991, AUC: 0.8242, F1: 0.2566, AP: 0.1360, Gmean: 0.8216
+[Std] Accuracy: 0.0073, AUC: 0.0136, F1: 0.0081, AP: 0.0067, Gmean: 0.0139
+[Best] Accuracy: 0.8048, AUC: 0.8411, F1: 0.2731, AP: 0.1502, Gmean: 0.8399
+
+======[Dataset: Flare-F - Method: Limit]======
+[Avg] Accuracy: 0.7719, AUC: 0.7503, F1: 0.2097, AP: 0.1027, Gmean: 0.7457
+[Std] Accuracy: 0.0158, AUC: 0.0190, F1: 0.0131, AP: 0.0076, Gmean: 0.0199
+[Best] Accuracy: 0.8020, AUC: 0.7744, F1: 0.2380, AP: 0.1171, Gmean: 0.7738

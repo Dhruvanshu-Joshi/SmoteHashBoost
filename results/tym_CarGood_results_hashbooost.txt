@@ -1,0 +1,10 @@
+
+======[Dataset: CarGood - Method: Reciprocal]======
+
+======[Dataset: CarGood - Method: Random]======
+
+======[Dataset: CarGood - Method: Linearity]======
+
+======[Dataset: CarGood - Method: Negexp]======
+
+======[Dataset: CarGood - Method: Limit]======

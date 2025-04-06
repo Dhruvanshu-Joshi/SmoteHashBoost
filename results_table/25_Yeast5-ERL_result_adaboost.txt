@@ -1,0 +1,14 @@
+
+======[Dataset: Yeast5-ERL - Adaboost Method: Yeast5-ERL]======
+Results for dataset: Yeast5-ERL - Adaboost Method: Yeast5-ERL
+
+Best results: Accuracy = 0.9993, AUC = 0.9997, F1 = 0.9333, Ap = 0.9000, Accuracy = 0.9997
+
+[Avg] Accuracy: 0.6989, AUC: 0.6546, F1: 0.5440, AP: 0.5145, Gmean: 0.6096
+[Std] Accuracy: 0.1845, AUC: 0.2478, F1: 0.2931, AP: 0.2807, Gmean: 0.3191
+[Best] Accuracy: 0.9993, AUC: 0.9997, F1: 0.9333, AP: 0.9000, Gmean: 0.9997
+
+======[Dataset: Yeast5-ERL - SmoteBoost Method: Yeast5-ERL]======
+[Avg] Accuracy: 0.6892, AUC: 0.6547, F1: 0.5633, AP: 0.5369, Gmean: 0.6197
+[Std] Accuracy: 0.2048, AUC: 0.2634, F1: 0.3002, AP: 0.2873, Gmean: 0.3279
+[Best] Accuracy: 0.9993, AUC: 0.9997, F1: 0.9333, AP: 0.9000, Gmean: 0.9997

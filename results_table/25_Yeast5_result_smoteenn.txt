@@ -1,0 +1,5 @@
+
+======[Dataset: Yeast5 - Smote ENN Method: Yeast5]======
+[Avg] Accuracy: 0.9787, AUC: 0.9279, F1: 0.7119, AP: 0.5440, Gmean: 0.9224
+[Std] Accuracy: 0.0015, AUC: 0.0274, F1: 0.0265, AP: 0.0353, Gmean: 0.0326
+[Best] Accuracy: 0.9805, AUC: 0.9684, F1: 0.7487, AP: 0.5945, Gmean: 0.9679

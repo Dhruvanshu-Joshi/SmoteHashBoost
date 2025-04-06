@@ -1,0 +1,5 @@
+
+======[Dataset: ILPD - Adasyn Method: ILPD]======
+[Avg] Accuracy: 0.6615, AUC: 0.6021, F1: 0.4380, AP: 0.3516, Gmean: 0.5828
+[Std] Accuracy: 0.0179, AUC: 0.0236, F1: 0.0348, AP: 0.0168, Gmean: 0.0301
+[Best] Accuracy: 0.6861, AUC: 0.6422, F1: 0.4961, AP: 0.3807, Gmean: 0.6333

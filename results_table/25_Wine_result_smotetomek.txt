@@ -1,0 +1,5 @@
+
+======[Dataset: Wine - SmoteTomek Method: Wine]======
+[Avg] Accuracy: 0.9596, AUC: 0.9473, F1: 0.9232, AP: 0.8824, Gmean: 0.9452
+[Std] Accuracy: 0.0174, AUC: 0.0249, F1: 0.0345, AP: 0.0486, Gmean: 0.0265
+[Best] Accuracy: 0.9830, AUC: 0.9823, F1: 0.9695, AP: 0.9492, Gmean: 0.9819

@@ -1,0 +1,15 @@
+
+======[Dataset: Glass - Method: Reciprocal]======
+======[Time: 171.09107971191406]======
+
+======[Dataset: Glass - Method: Random]======
+======[Time: 185.09149551391602]======
+
+======[Dataset: Glass - Method: Linearity]======
+======[Time: 171.52142524719238]======
+
+======[Dataset: Glass - Method: Negexp]======
+======[Time: 145.55788040161133]======
+
+======[Dataset: Glass - Method: Limit]======
+======[Time: 156.77142143249512]======

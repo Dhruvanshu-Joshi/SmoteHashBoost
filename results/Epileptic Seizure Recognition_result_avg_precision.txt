@@ -1,0 +1,25 @@
+
+======[Dataset: Epileptic Seizure Recognition - SmoteHashBoost Method: Reciprocal]======
+[Avg] Accuracy: 0.9060, AUC: 0.8983, F1: 0.7904, AP: 0.6552, Gmean: 0.8982
+[Std] Accuracy: 0.0026, AUC: 0.0039, F1: 0.0056, AP: 0.0077, Gmean: 0.0040
+[Best] Accuracy: 0.9123, AUC: 0.9052, F1: 0.8029, AP: 0.6727, Gmean: 0.9051
+
+======[Dataset: Epileptic Seizure Recognition - SmoteHashBoost Method: Random]======
+[Avg] Accuracy: 0.9297, AUC: 0.9354, F1: 0.8433, AP: 0.7307, Gmean: 0.9353
+[Std] Accuracy: 0.0019, AUC: 0.0028, F1: 0.0040, AP: 0.0060, Gmean: 0.0028
+[Best] Accuracy: 0.9339, AUC: 0.9429, F1: 0.8530, AP: 0.7451, Gmean: 0.9427
+
+======[Dataset: Epileptic Seizure Recognition - SmoteHashBoost Method: Linearity]======
+[Avg] Accuracy: 0.9076, AUC: 0.8994, F1: 0.7932, AP: 0.6591, Gmean: 0.8993
+[Std] Accuracy: 0.0020, AUC: 0.0025, F1: 0.0040, AP: 0.0056, Gmean: 0.0025
+[Best] Accuracy: 0.9100, AUC: 0.9023, F1: 0.7982, AP: 0.6660, Gmean: 0.9022
+
+======[Dataset: Epileptic Seizure Recognition - SmoteHashBoost Method: Negexp]======
+[Avg] Accuracy: 0.9071, AUC: 0.9001, F1: 0.7929, AP: 0.6586, Gmean: 0.9000
+[Std] Accuracy: 0.0020, AUC: 0.0038, F1: 0.0047, AP: 0.0065, Gmean: 0.0039
+[Best] Accuracy: 0.9091, AUC: 0.9060, F1: 0.7988, AP: 0.6665, Gmean: 0.9060
+
+======[Dataset: Epileptic Seizure Recognition - SmoteHashBoost Method: Limit]======
+[Avg] Accuracy: 0.9063, AUC: 0.8984, F1: 0.7909, AP: 0.6558, Gmean: 0.8983
+[Std] Accuracy: 0.0022, AUC: 0.0032, F1: 0.0047, AP: 0.0065, Gmean: 0.0033
+[Best] Accuracy: 0.9088, AUC: 0.9019, F1: 0.7963, AP: 0.6634, Gmean: 0.9018

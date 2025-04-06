@@ -1,0 +1,5 @@
+
+======[Dataset: Breast Cancer Wisconsin - Adasyn Method: Breast Cancer Wisconsin]======
+[Avg] Accuracy: 0.9256, AUC: 0.9245, F1: 0.9022, AP: 0.8458, Gmean: 0.9240
+[Std] Accuracy: 0.0106, AUC: 0.0104, F1: 0.0134, AP: 0.0204, Gmean: 0.0106
+[Best] Accuracy: 0.9437, AUC: 0.9417, F1: 0.9253, AP: 0.8840, Gmean: 0.9416

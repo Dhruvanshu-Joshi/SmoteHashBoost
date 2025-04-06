@@ -1,0 +1,5 @@
+
+======[Dataset: Yeast5 - Rusboost Method: Yeast5]======
+[Avg] Accuracy: 0.9671, AUC: 0.9580, F1: 0.6399, AP: 0.4655, Gmean: 0.9569
+[Std] Accuracy: 0.0025, AUC: 0.0063, F1: 0.0183, AP: 0.0219, Gmean: 0.0068
+[Best] Accuracy: 0.9724, AUC: 0.9750, F1: 0.6841, AP: 0.5202, Gmean: 0.9748

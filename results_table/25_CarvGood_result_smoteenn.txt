@@ -1,0 +1,5 @@
+
+======[Dataset: CarvGood - Smote ENN Method: CarvGood]======
+[Avg] Accuracy: 0.9949, AUC: 0.9767, F1: 0.9351, AP: 0.8830, Gmean: 0.9758
+[Std] Accuracy: 0.0018, AUC: 0.0129, F1: 0.0218, AP: 0.0374, Gmean: 0.0137
+[Best] Accuracy: 0.9977, AUC: 0.9988, F1: 0.9709, AP: 0.9448, Gmean: 0.9988

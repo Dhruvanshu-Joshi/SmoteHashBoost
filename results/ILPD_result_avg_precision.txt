@@ -1,0 +1,25 @@
+
+======[Dataset: ILPD - SmoteHashBoost Method: Reciprocal]======
+[Avg] Accuracy: 0.6607, AUC: 0.6139, F1: 0.4590, AP: 0.3595, Gmean: 0.6011
+[Std] Accuracy: 0.0169, AUC: 0.0187, F1: 0.0248, AP: 0.0150, Gmean: 0.0217
+[Best] Accuracy: 0.6895, AUC: 0.6514, F1: 0.5059, AP: 0.3929, Gmean: 0.6422
+
+======[Dataset: ILPD - SmoteHashBoost Method: Random]======
+[Avg] Accuracy: 0.6685, AUC: 0.6144, F1: 0.4555, AP: 0.3593, Gmean: 0.5980
+[Std] Accuracy: 0.0157, AUC: 0.0167, F1: 0.0229, AP: 0.0133, Gmean: 0.0195
+[Best] Accuracy: 0.6674, AUC: 0.6306, F1: 0.4854, AP: 0.3703, Gmean: 0.6244
+
+======[Dataset: ILPD - SmoteHashBoost Method: Linearity]======
+[Avg] Accuracy: 0.6575, AUC: 0.6075, F1: 0.4491, AP: 0.3544, Gmean: 0.5929
+[Std] Accuracy: 0.0158, AUC: 0.0199, F1: 0.0282, AP: 0.0152, Gmean: 0.0242
+[Best] Accuracy: 0.6758, AUC: 0.6404, F1: 0.4952, AP: 0.3795, Gmean: 0.6330
+
+======[Dataset: ILPD - SmoteHashBoost Method: Negexp]======
+[Avg] Accuracy: 0.6553, AUC: 0.6097, F1: 0.4536, AP: 0.3552, Gmean: 0.5973
+[Std] Accuracy: 0.0176, AUC: 0.0197, F1: 0.0258, AP: 0.0159, Gmean: 0.0218
+[Best] Accuracy: 0.6914, AUC: 0.6481, F1: 0.5036, AP: 0.3937, Gmean: 0.6379
+
+======[Dataset: ILPD - SmoteHashBoost Method: Limit]======
+[Avg] Accuracy: 0.6557, AUC: 0.6094, F1: 0.4532, AP: 0.3551, Gmean: 0.5969
+[Std] Accuracy: 0.0161, AUC: 0.0201, F1: 0.0270, AP: 0.0158, Gmean: 0.0231
+[Best] Accuracy: 0.6913, AUC: 0.6561, F1: 0.5133, AP: 0.3926, Gmean: 0.6471

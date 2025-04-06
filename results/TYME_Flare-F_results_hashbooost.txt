@@ -1,0 +1,30 @@
+
+======[Dataset: Flare-F - Method: Reciprocal]======
+======[Time: 1193.0172443389893]======
+
+======[Dataset: Flare-F - Method: Random]======
+======[Time: 1015.2215957641602]======
+
+======[Dataset: Flare-F - Method: Linearity]======
+======[Time: 1010.0903511047363]======
+
+======[Dataset: Flare-F - Method: Negexp]======
+======[Time: 2082.4756622314453]======
+
+======[Dataset: Flare-F - Method: Limit]======
+======[Time: 1706.6049575805664]======
+
+======[Dataset: Flare-F - Method: Reciprocal]======
+======[Time: 511.94143295288086]======
+
+======[Dataset: Flare-F - Method: Random]======
+======[Time: 493.06297302246094]======
+
+======[Dataset: Flare-F - Method: Linearity]======
+======[Time: 511.4786624908447]======
+
+======[Dataset: Flare-F - Method: Negexp]======
+======[Time: 511.6093158721924]======
+
+======[Dataset: Flare-F - Method: Limit]======
+======[Time: 479.75683212280273]======

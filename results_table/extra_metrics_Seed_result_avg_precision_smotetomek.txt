@@ -1,0 +1,15 @@
+
+======[Dataset: Seed - SmoteTomek Method: Seed]======
+[Avg] Accuracy: 0.9690, AUC: 0.9664, F1: 0.9538, AP: 0.9267, Gmean: 0.9658
+[Std] Accuracy: 0.0105, AUC: 0.0124, F1: 0.0154, AP: 0.0218, Gmean: 0.0126
+[Best] Accuracy: 0.9810, AUC: 0.9821, F1: 0.9724, AP: 0.9521, Gmean: 0.9818
+
+======[Dataset: Seed - SmoteTomek Method: Seed]======
+[Avg] Accuracy: 0.9717, AUC: 0.9684, F1: 0.9579, AP: 0.9347, Gmean: 0.9677
+[Std] Accuracy: 0.0090, AUC: 0.0108, F1: 0.0131, AP: 0.0191, Gmean: 0.0112
+[Best] Accuracy: 0.9857, AUC: 0.9821, F1: 0.9783, AP: 0.9676, Gmean: 0.9818
+
+======[Dataset: Seed - SmoteTomek Method: Seed]======
+[Avg] Accuracy: 0.9724, AUC: 0.9696, F1: 0.9588, AP: 0.9348, Gmean: 0.9691
+[Std] Accuracy: 0.0073, AUC: 0.0072, F1: 0.0105, AP: 0.0174, Gmean: 0.0074
+[Best] Accuracy: 0.9810, AUC: 0.9750, F1: 0.9709, AP: 0.9581, Gmean: 0.9746

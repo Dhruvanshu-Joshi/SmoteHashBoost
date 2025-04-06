@@ -1,0 +1,15 @@
+
+======[Dataset: Wine - SmoteTomek Method: Wine]======
+[Avg] Accuracy: 0.9635, AUC: 0.9535, F1: 0.9313, AP: 0.8938, Gmean: 0.9517
+[Std] Accuracy: 0.0084, AUC: 0.0121, F1: 0.0166, AP: 0.0223, Gmean: 0.0136
+[Best] Accuracy: 0.9778, AUC: 0.9785, F1: 0.9610, AP: 0.9312, Gmean: 0.9783
+
+======[Dataset: Wine - SmoteTomek Method: Wine]======
+[Avg] Accuracy: 0.9644, AUC: 0.9557, F1: 0.9341, AP: 0.8966, Gmean: 0.9543
+[Std] Accuracy: 0.0122, AUC: 0.0177, F1: 0.0240, AP: 0.0350, Gmean: 0.0186
+[Best] Accuracy: 0.9889, AUC: 0.9862, F1: 0.9799, AP: 0.9674, Gmean: 0.9859
+
+======[Dataset: Wine - SmoteTomek Method: Wine]======
+[Avg] Accuracy: 0.9671, AUC: 0.9585, F1: 0.9388, AP: 0.9039, Gmean: 0.9572
+[Std] Accuracy: 0.0083, AUC: 0.0138, F1: 0.0162, AP: 0.0222, Gmean: 0.0144
+[Best] Accuracy: 0.9832, AUC: 0.9885, F1: 0.9704, AP: 0.9436, Gmean: 0.9883

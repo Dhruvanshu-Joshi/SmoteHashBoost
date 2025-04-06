@@ -1,0 +1,30 @@
+
+======[Dataset: Student_dropout - Method: Reciprocal]======
+======[Time: 869.3509101867676]======
+
+======[Dataset: Student_dropout - Method: Random]======
+======[Time: 902.9407501220703]======
+
+======[Dataset: Student_dropout - Method: Linearity]======
+======[Time: 816.2131309509277]======
+
+======[Dataset: Student_dropout - Method: Negexp]======
+======[Time: 839.796781539917]======
+
+======[Dataset: Student_dropout - Method: Limit]======
+======[Time: 853.3120155334473]======
+
+======[Dataset: Student_dropout - Method: Reciprocal]======
+======[Time: 745.6178665161133]======
+
+======[Dataset: Student_dropout - Method: Random]======
+======[Time: 748.9409446716309]======
+
+======[Dataset: Student_dropout - Method: Linearity]======
+======[Time: 755.9375762939453]======
+
+======[Dataset: Student_dropout - Method: Negexp]======
+======[Time: 768.9151763916016]======
+
+======[Dataset: Student_dropout - Method: Limit]======
+======[Time: 3218.7962532043457]======

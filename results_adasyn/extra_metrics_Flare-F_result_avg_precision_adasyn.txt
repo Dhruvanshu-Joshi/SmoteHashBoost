@@ -1,0 +1,5 @@
+
+======[Dataset: Flare-F - Adasyn Method: Flare-F]======
+[Avg] Accuracy: 0.9374, AUC: 0.5704, F1: 0.1788, AP: 0.0824, Gmean: 0.3541
+[Std] Accuracy: 0.0054, AUC: 0.0268, F1: 0.0493, AP: 0.0158, Gmean: 0.0944
+[Best] Accuracy: 0.9371, AUC: 0.6213, F1: 0.2609, AP: 0.1082, Gmean: 0.5064

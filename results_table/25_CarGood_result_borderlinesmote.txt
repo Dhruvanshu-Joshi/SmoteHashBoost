@@ -1,0 +1,5 @@
+
+======[Dataset: CarGood - Borderline Smote Method: CarGood]======
+[Avg] Accuracy: 0.9860, AUC: 0.9075, F1: 0.8247, AP: 0.7023, Gmean: 0.9009
+[Std] Accuracy: 0.0039, AUC: 0.0287, F1: 0.0494, AP: 0.0758, Gmean: 0.0326
+[Best] Accuracy: 0.9931, AUC: 0.9616, F1: 0.9151, AP: 0.8436, Gmean: 0.9607

@@ -1,0 +1,5 @@
+
+======[Dataset: Yeast5 - Borderline Smote Method: Yeast5]======
+[Avg] Accuracy: 0.9809, AUC: 0.8711, F1: 0.6991, AP: 0.5159, Gmean: 0.8588
+[Std] Accuracy: 0.0026, AUC: 0.0271, F1: 0.0408, AP: 0.0542, Gmean: 0.0320
+[Best] Accuracy: 0.9845, AUC: 0.9031, F1: 0.7657, AP: 0.6140, Gmean: 0.8968

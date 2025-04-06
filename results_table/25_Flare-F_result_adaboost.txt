@@ -1,0 +1,14 @@
+
+======[Dataset: Flare-F - Adaboost Method: Flare-F]======
+Results for dataset: Flare-F - Adaboost Method: Flare-F
+
+Best results: Accuracy = 0.9475, AUC = 0.5616, F1 = 0.1815, Ap = 0.0926, Accuracy = 0.3287
+
+[Avg] Accuracy: 0.9252, AUC: 0.5333, F1: 0.1274, AP: 0.0706, Gmean: 0.2457
+[Std] Accuracy: 0.0580, AUC: 0.0336, F1: 0.0393, AP: 0.0138, Gmean: 0.0721
+[Best] Accuracy: 0.9475, AUC: 0.5616, F1: 0.1815, AP: 0.0926, Gmean: 0.3287
+
+======[Dataset: Flare-F - SmoteBoost Method: Flare-F]======
+[Avg] Accuracy: 0.9325, AUC: 0.5506, F1: 0.1360, AP: 0.0668, Gmean: 0.3053
+[Std] Accuracy: 0.0050, AUC: 0.0212, F1: 0.0437, AP: 0.0186, Gmean: 0.0787
+[Best] Accuracy: 0.9418, AUC: 0.5905, F1: 0.2230, AP: 0.0891, Gmean: 0.4410

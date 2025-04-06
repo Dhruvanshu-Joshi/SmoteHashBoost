@@ -1,0 +1,15 @@
+
+======[Dataset: Breast Cancer Wisconsin - Smote ENN Method: Breast Cancer Wisconsin]======
+[Avg] Accuracy: 0.9301, AUC: 0.9249, F1: 0.9060, AP: 0.8587, Gmean: 0.9240
+[Std] Accuracy: 0.0077, AUC: 0.0081, F1: 0.0101, AP: 0.0149, Gmean: 0.0083
+[Best] Accuracy: 0.9455, AUC: 0.9429, F1: 0.9267, AP: 0.8853, Gmean: 0.9423
+
+======[Dataset: Breast Cancer Wisconsin - Smote ENN Method: Breast Cancer Wisconsin]======
+[Avg] Accuracy: 0.9272, AUC: 0.9226, F1: 0.9025, AP: 0.8528, Gmean: 0.9218
+[Std] Accuracy: 0.0070, AUC: 0.0083, F1: 0.0096, AP: 0.0130, Gmean: 0.0085
+[Best] Accuracy: 0.9385, AUC: 0.9367, F1: 0.9184, AP: 0.8719, Gmean: 0.9360
+
+======[Dataset: Breast Cancer Wisconsin - Smote ENN Method: Breast Cancer Wisconsin]======
+[Avg] Accuracy: 0.9254, AUC: 0.9204, F1: 0.9000, AP: 0.8495, Gmean: 0.9196
+[Std] Accuracy: 0.0104, AUC: 0.0101, F1: 0.0132, AP: 0.0208, Gmean: 0.0102
+[Best] Accuracy: 0.9385, AUC: 0.9347, F1: 0.9196, AP: 0.8786, Gmean: 0.9344

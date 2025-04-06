@@ -1,0 +1,5 @@
+
+======[Dataset: Epileptic Seizure Recognition - Smote ENN Method: Epileptic Seizure Recognition]======
+[Avg] Accuracy: 0.9137, AUC: 0.8899, F1: 0.7976, AP: 0.6690, Gmean: 0.8889
+[Std] Accuracy: 0.0022, AUC: 0.0041, F1: 0.0051, AP: 0.0070, Gmean: 0.0043
+[Best] Accuracy: 0.9180, AUC: 0.8971, F1: 0.8079, AP: 0.6829, Gmean: 0.8963

@@ -1,0 +1,19 @@
+
+======[Dataset: Diabetes - Adaboost Method: Diabetes]======
+[Avg] Accuracy: 0.9625, AUC: 0.9617, F1: 0.9518, AP: 0.9232, Gmean: 0.9615
+[Std] Accuracy: 0.0059, AUC: 0.0054, F1: 0.0073, AP: 0.0129, Gmean: 0.0054
+[Best] Accuracy: 0.9750, AUC: 0.9750, F1: 0.9679, AP: 0.9472, Gmean: 0.9749
+
+======[Dataset: Diabetes - Adaboost Method: Diabetes]======
+Results for dataset: Diabetes - Adaboost Method: Diabetes
+
+Best results: Accuracy = 0.9731, AUC = 0.9716, F1 = 0.9651, Ap = 0.9453, Accuracy = 0.9715
+
+[Avg] Accuracy: 0.9601, AUC: 0.9597, F1: 0.9489, AP: 0.9181, Gmean: 0.9594
+[Std] Accuracy: 0.0078, AUC: 0.0078, F1: 0.0098, AP: 0.0157, Gmean: 0.0078
+[Best] Accuracy: 0.9731, AUC: 0.9716, F1: 0.9651, AP: 0.9453, Gmean: 0.9715
+
+======[Dataset: Diabetes - SmoteBoost Method: Diabetes]======
+[Avg] Accuracy: 0.9614, AUC: 0.9609, F1: 0.9504, AP: 0.9206, Gmean: 0.9607
+[Std] Accuracy: 0.0061, AUC: 0.0061, F1: 0.0077, AP: 0.0125, Gmean: 0.0062
+[Best] Accuracy: 0.9712, AUC: 0.9681, F1: 0.9621, AP: 0.9433, Gmean: 0.9679

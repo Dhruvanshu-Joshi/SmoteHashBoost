@@ -1,0 +1,112 @@
+
+======[Dataset: Breast Cancer Wisconsin - Method: Reciprocal]======
+
+======[Dataset: Breast Cancer Wisconsin - Method: Reciprocal]======
+Run 1/20 completed in 121.91 ms
+Run 2/20 completed in 120.24 ms
+Run 3/20 completed in 122.63 ms
+Run 4/20 completed in 120.59 ms
+Run 5/20 completed in 120.04 ms
+Run 6/20 completed in 111.63 ms
+Run 7/20 completed in 119.54 ms
+Run 8/20 completed in 116.67 ms
+Run 9/20 completed in 119.60 ms
+Run 10/20 completed in 115.37 ms
+Run 11/20 completed in 120.79 ms
+Run 12/20 completed in 116.31 ms
+Run 13/20 completed in 117.86 ms
+Run 14/20 completed in 123.49 ms
+Run 15/20 completed in 119.96 ms
+Run 16/20 completed in 122.69 ms
+Run 17/20 completed in 122.18 ms
+Run 18/20 completed in 115.21 ms
+Run 19/20 completed in 117.49 ms
+Run 20/20 completed in 116.69 ms
+
+======[Dataset: Breast Cancer Wisconsin - Method: Random]======
+Run 1/20 completed in 114.89 ms
+Run 2/20 completed in 111.67 ms
+Run 3/20 completed in 114.31 ms
+Run 4/20 completed in 110.56 ms
+Run 5/20 completed in 114.25 ms
+Run 6/20 completed in 118.51 ms
+Run 7/20 completed in 117.09 ms
+Run 8/20 completed in 111.27 ms
+Run 9/20 completed in 114.90 ms
+Run 10/20 completed in 113.61 ms
+Run 11/20 completed in 109.87 ms
+Run 12/20 completed in 110.58 ms
+Run 13/20 completed in 114.81 ms
+Run 14/20 completed in 110.99 ms
+Run 15/20 completed in 115.77 ms
+Run 16/20 completed in 112.45 ms
+Run 17/20 completed in 110.43 ms
+Run 18/20 completed in 116.73 ms
+Run 19/20 completed in 112.97 ms
+Run 20/20 completed in 114.18 ms
+
+======[Dataset: Breast Cancer Wisconsin - Method: Linearity]======
+Run 1/20 completed in 118.11 ms
+Run 2/20 completed in 119.24 ms
+Run 3/20 completed in 123.04 ms
+Run 4/20 completed in 116.95 ms
+Run 5/20 completed in 119.80 ms
+Run 6/20 completed in 117.34 ms
+Run 7/20 completed in 115.72 ms
+Run 8/20 completed in 116.74 ms
+Run 9/20 completed in 119.22 ms
+Run 10/20 completed in 111.96 ms
+Run 11/20 completed in 125.38 ms
+Run 12/20 completed in 116.47 ms
+Run 13/20 completed in 121.56 ms
+Run 14/20 completed in 117.33 ms
+Run 15/20 completed in 117.81 ms
+Run 16/20 completed in 111.98 ms
+Run 17/20 completed in 116.72 ms
+Run 18/20 completed in 114.06 ms
+Run 19/20 completed in 117.81 ms
+Run 20/20 completed in 120.81 ms
+
+======[Dataset: Breast Cancer Wisconsin - Method: Negexp]======
+Run 1/20 completed in 121.74 ms
+Run 2/20 completed in 119.60 ms
+Run 3/20 completed in 116.50 ms
+Run 4/20 completed in 115.38 ms
+Run 5/20 completed in 111.69 ms
+Run 6/20 completed in 111.74 ms
+Run 7/20 completed in 116.91 ms
+Run 8/20 completed in 141.42 ms
+Run 9/20 completed in 117.25 ms
+Run 10/20 completed in 117.89 ms
+Run 11/20 completed in 121.98 ms
+Run 12/20 completed in 117.03 ms
+Run 13/20 completed in 113.38 ms
+Run 14/20 completed in 116.22 ms
+Run 15/20 completed in 116.00 ms
+Run 16/20 completed in 116.92 ms
+Run 17/20 completed in 115.76 ms
+Run 18/20 completed in 119.12 ms
+Run 19/20 completed in 116.60 ms
+Run 20/20 completed in 119.33 ms
+
+======[Dataset: Breast Cancer Wisconsin - Method: Limit]======
+Run 1/20 completed in 112.50 ms
+Run 2/20 completed in 121.47 ms
+Run 3/20 completed in 114.45 ms
+Run 4/20 completed in 115.87 ms
+Run 5/20 completed in 113.48 ms
+Run 6/20 completed in 120.08 ms
+Run 7/20 completed in 117.02 ms
+Run 8/20 completed in 117.84 ms
+Run 9/20 completed in 122.70 ms
+Run 10/20 completed in 117.76 ms
+Run 11/20 completed in 117.24 ms
+Run 12/20 completed in 117.54 ms
+Run 13/20 completed in 115.25 ms
+Run 14/20 completed in 116.00 ms
+Run 15/20 completed in 118.30 ms
+Run 16/20 completed in 116.97 ms
+Run 17/20 completed in 119.02 ms
+Run 18/20 completed in 114.51 ms
+Run 19/20 completed in 118.93 ms
+Run 20/20 completed in 116.36 ms

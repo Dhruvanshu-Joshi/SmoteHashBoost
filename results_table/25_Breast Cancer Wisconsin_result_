@@ -1,0 +1,25 @@
+
+======[Dataset: Breast Cancer Wisconsin - SmoteHashBoost Method: Reciprocal]======
+[Avg] Accuracy: 0.9310, AUC: 0.9308, F1: 0.9095, AP: 0.8558, Gmean: 0.9303
+[Std] Accuracy: 0.0098, AUC: 0.0099, F1: 0.0125, AP: 0.0194, Gmean: 0.0100
+[Best] Accuracy: 0.9472, AUC: 0.9494, F1: 0.9312, AP: 0.8847, Gmean: 0.9492
+
+======[Dataset: Breast Cancer Wisconsin - SmoteHashBoost Method: Random]======
+[Avg] Accuracy: 0.9419, AUC: 0.9407, F1: 0.9233, AP: 0.8780, Gmean: 0.9404
+[Std] Accuracy: 0.0086, AUC: 0.0089, F1: 0.0112, AP: 0.0172, Gmean: 0.0089
+[Best] Accuracy: 0.9578, AUC: 0.9539, F1: 0.9433, AP: 0.9132, Gmean: 0.9536
+
+======[Dataset: Breast Cancer Wisconsin - SmoteHashBoost Method: Linearity]======
+[Avg] Accuracy: 0.9314, AUC: 0.9309, F1: 0.9099, AP: 0.8565, Gmean: 0.9304
+[Std] Accuracy: 0.0076, AUC: 0.0077, F1: 0.0096, AP: 0.0146, Gmean: 0.0077
+[Best] Accuracy: 0.9455, AUC: 0.9442, F1: 0.9273, AP: 0.8846, Gmean: 0.9438
+
+======[Dataset: Breast Cancer Wisconsin - SmoteHashBoost Method: Negexp]======
+[Avg] Accuracy: 0.9307, AUC: 0.9310, F1: 0.9095, AP: 0.8547, Gmean: 0.9306
+[Std] Accuracy: 0.0103, AUC: 0.0095, F1: 0.0128, AP: 0.0210, Gmean: 0.0096
+[Best] Accuracy: 0.9490, AUC: 0.9479, F1: 0.9327, AP: 0.8918, Gmean: 0.9478
+
+======[Dataset: Breast Cancer Wisconsin - SmoteHashBoost Method: Limit]======
+[Avg] Accuracy: 0.9320, AUC: 0.9312, F1: 0.9106, AP: 0.8582, Gmean: 0.9306
+[Std] Accuracy: 0.0083, AUC: 0.0093, F1: 0.0110, AP: 0.0152, Gmean: 0.0095
+[Best] Accuracy: 0.9455, AUC: 0.9460, F1: 0.9281, AP: 0.8822, Gmean: 0.9456

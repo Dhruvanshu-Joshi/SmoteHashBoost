@@ -1,0 +1,19 @@
+
+======[Dataset: default of credit card clients - Adaboost Method: default of credit card clients]======
+[Avg] Accuracy: 0.7251, AUC: 0.6132, F1: 0.3990, AP: 0.2894, Gmean: 0.5793
+[Std] Accuracy: 0.0016, AUC: 0.0025, F1: 0.0038, AP: 0.0020, Gmean: 0.0034
+[Best] Accuracy: 0.7280, AUC: 0.6183, F1: 0.4068, AP: 0.2937, Gmean: 0.5862
+
+======[Dataset: default of credit card clients - Adaboost Method: default of credit card clients]======
+Results for dataset: default of credit card clients - Adaboost Method: default of credit card clients
+
+Best results: Accuracy = 0.7289, AUC = 0.6205, F1 = 0.4102, Ap = 0.2955, Accuracy = 0.5892
+
+[Avg] Accuracy: 0.7246, AUC: 0.6132, F1: 0.3990, AP: 0.2893, Gmean: 0.5796
+[Std] Accuracy: 0.0024, AUC: 0.0029, F1: 0.0043, AP: 0.0025, Gmean: 0.0036
+[Best] Accuracy: 0.7289, AUC: 0.6205, F1: 0.4102, AP: 0.2955, Gmean: 0.5892
+
+======[Dataset: default of credit card clients - SmoteBoost Method: default of credit card clients]======
+[Avg] Accuracy: 0.7218, AUC: 0.6137, F1: 0.4004, AP: 0.2891, Gmean: 0.5823
+[Std] Accuracy: 0.0026, AUC: 0.0029, F1: 0.0043, AP: 0.0025, Gmean: 0.0036
+[Best] Accuracy: 0.7270, AUC: 0.6190, F1: 0.4080, AP: 0.2939, Gmean: 0.5879

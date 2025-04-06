@@ -1,0 +1,14 @@
+
+======[Dataset: ILPD - Adaboost Method: ILPD]======
+Results for dataset: ILPD - Adaboost Method: ILPD
+
+Best results: Accuracy = 0.6776, AUC = 0.6089, F1 = 0.4463, Ap = 0.3608, Accuracy = 0.5846
+
+[Avg] Accuracy: 0.6526, AUC: 0.5805, F1: 0.4034, AP: 0.3378, Gmean: 0.5521
+[Std] Accuracy: 0.0145, AUC: 0.0187, F1: 0.0273, AP: 0.0126, Gmean: 0.0235
+[Best] Accuracy: 0.6776, AUC: 0.6089, F1: 0.4463, AP: 0.3608, Gmean: 0.5846
+
+======[Dataset: ILPD - SmoteBoost Method: ILPD]======
+[Avg] Accuracy: 0.6637, AUC: 0.6071, F1: 0.4458, AP: 0.3559, Gmean: 0.5893
+[Std] Accuracy: 0.0158, AUC: 0.0171, F1: 0.0237, AP: 0.0134, Gmean: 0.0203
+[Best] Accuracy: 0.6895, AUC: 0.6428, F1: 0.4957, AP: 0.3851, Gmean: 0.6319

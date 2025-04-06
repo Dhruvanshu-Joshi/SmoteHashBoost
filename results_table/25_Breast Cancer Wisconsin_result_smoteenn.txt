@@ -1,0 +1,5 @@
+
+======[Dataset: Breast Cancer Wisconsin - Smote ENN Method: Breast Cancer Wisconsin]======
+[Avg] Accuracy: 0.9260, AUC: 0.9216, F1: 0.9010, AP: 0.8498, Gmean: 0.9209
+[Std] Accuracy: 0.0084, AUC: 0.0100, F1: 0.0118, AP: 0.0156, Gmean: 0.0103
+[Best] Accuracy: 0.9490, AUC: 0.9460, F1: 0.9317, AP: 0.8936, Gmean: 0.9458

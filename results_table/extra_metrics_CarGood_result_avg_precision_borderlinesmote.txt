@@ -1,0 +1,15 @@
+
+======[Dataset: CarGood - Borderline Smote Method: CarGood]======
+[Avg] Accuracy: 0.9865, AUC: 0.9132, F1: 0.8318, AP: 0.7110, Gmean: 0.9076
+[Std] Accuracy: 0.0031, AUC: 0.0225, F1: 0.0369, AP: 0.0588, Gmean: 0.0246
+[Best] Accuracy: 0.9907, AUC: 0.9541, F1: 0.8889, AP: 0.8019, Gmean: 0.9523
+
+======[Dataset: CarGood - Borderline Smote Method: CarGood]======
+[Avg] Accuracy: 0.9863, AUC: 0.9142, F1: 0.8306, AP: 0.7091, Gmean: 0.9088
+[Std] Accuracy: 0.0031, AUC: 0.0232, F1: 0.0368, AP: 0.0578, Gmean: 0.0254
+[Best] Accuracy: 0.9890, AUC: 0.9527, F1: 0.8760, AP: 0.7903, Gmean: 0.9504
+
+======[Dataset: CarGood - Borderline Smote Method: CarGood]======
+[Avg] Accuracy: 0.9852, AUC: 0.9027, F1: 0.8156, AP: 0.6866, Gmean: 0.8961
+[Std] Accuracy: 0.0027, AUC: 0.0208, F1: 0.0328, AP: 0.0485, Gmean: 0.0239
+[Best] Accuracy: 0.9867, AUC: 0.9378, F1: 0.8446, AP: 0.7287, Gmean: 0.9355

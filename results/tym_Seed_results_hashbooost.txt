@@ -1,0 +1,10 @@
+
+======[Dataset: Seed - Method: Reciprocal]======
+
+======[Dataset: Seed - Method: Random]======
+
+======[Dataset: Seed - Method: Linearity]======
+
+======[Dataset: Seed - Method: Negexp]======
+
+======[Dataset: Seed - Method: Limit]======

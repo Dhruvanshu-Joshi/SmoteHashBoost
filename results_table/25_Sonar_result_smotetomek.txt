@@ -1,0 +1,5 @@
+
+======[Dataset: Sonar - SmoteTomek Method: Sonar]======
+[Avg] Accuracy: 0.7156, AUC: 0.7130, F1: 0.6862, AP: 0.6321, Gmean: 0.7070
+[Std] Accuracy: 0.0226, AUC: 0.0227, F1: 0.0269, AP: 0.0224, Gmean: 0.0237
+[Best] Accuracy: 0.7502, AUC: 0.7504, F1: 0.7380, AP: 0.6625, Gmean: 0.7481

@@ -1,0 +1,5 @@
+
+======[Dataset: Breast Cancer Wisconsin - SmoteTomek Method: Breast Cancer Wisconsin]======
+[Avg] Accuracy: 0.9320, AUC: 0.9294, F1: 0.9097, AP: 0.8594, Gmean: 0.9290
+[Std] Accuracy: 0.0080, AUC: 0.0082, F1: 0.0105, AP: 0.0167, Gmean: 0.0082
+[Best] Accuracy: 0.9490, AUC: 0.9431, F1: 0.9308, AP: 0.8972, Gmean: 0.9426

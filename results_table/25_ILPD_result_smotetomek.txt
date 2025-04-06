@@ -1,0 +1,5 @@
+
+======[Dataset: ILPD - SmoteTomek Method: ILPD]======
+[Avg] Accuracy: 0.6650, AUC: 0.6018, F1: 0.4355, AP: 0.3515, Gmean: 0.5805
+[Std] Accuracy: 0.0145, AUC: 0.0160, F1: 0.0232, AP: 0.0134, Gmean: 0.0194
+[Best] Accuracy: 0.6913, AUC: 0.6281, F1: 0.4696, AP: 0.3724, Gmean: 0.6084

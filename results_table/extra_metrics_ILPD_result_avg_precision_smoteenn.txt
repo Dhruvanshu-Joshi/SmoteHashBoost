@@ -1,0 +1,15 @@
+
+======[Dataset: ILPD - Smote ENN Method: ILPD]======
+[Avg] Accuracy: 0.6420, AUC: 0.6505, F1: 0.5174, AP: 0.3800, Gmean: 0.6476
+[Std] Accuracy: 0.0162, AUC: 0.0207, F1: 0.0231, AP: 0.0165, Gmean: 0.0206
+[Best] Accuracy: 0.6655, AUC: 0.6725, F1: 0.5411, AP: 0.3979, Gmean: 0.6720
+
+======[Dataset: ILPD - Smote ENN Method: ILPD]======
+[Avg] Accuracy: 0.6430, AUC: 0.6485, F1: 0.5144, AP: 0.3784, Gmean: 0.6459
+[Std] Accuracy: 0.0180, AUC: 0.0194, F1: 0.0217, AP: 0.0150, Gmean: 0.0195
+[Best] Accuracy: 0.6826, AUC: 0.6846, F1: 0.5534, AP: 0.4103, Gmean: 0.6828
+
+======[Dataset: ILPD - Smote ENN Method: ILPD]======
+[Avg] Accuracy: 0.6434, AUC: 0.6501, F1: 0.5166, AP: 0.3803, Gmean: 0.6478
+[Std] Accuracy: 0.0184, AUC: 0.0222, F1: 0.0260, AP: 0.0185, Gmean: 0.0227
+[Best] Accuracy: 0.6829, AUC: 0.6992, F1: 0.5738, AP: 0.4256, Gmean: 0.6978

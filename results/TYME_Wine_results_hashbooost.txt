@@ -1,0 +1,30 @@
+
+======[Dataset: Wine - Method: Reciprocal]======
+======[Time: 88.44304084777832]======
+
+======[Dataset: Wine - Method: Random]======
+======[Time: 67.76690483093262]======
+
+======[Dataset: Wine - Method: Linearity]======
+======[Time: 66.7731761932373]======
+
+======[Dataset: Wine - Method: Negexp]======
+======[Time: 74.74684715270996]======
+
+======[Dataset: Wine - Method: Limit]======
+======[Time: 78.08756828308105]======
+
+======[Dataset: Wine - Method: Reciprocal]======
+======[Time: 30.94649314880371]======
+
+======[Dataset: Wine - Method: Random]======
+======[Time: 29.01744842529297]======
+
+======[Dataset: Wine - Method: Linearity]======
+======[Time: 28.000354766845703]======
+
+======[Dataset: Wine - Method: Negexp]======
+======[Time: 29.999256134033203]======
+
+======[Dataset: Wine - Method: Limit]======
+======[Time: 29.19626235961914]======

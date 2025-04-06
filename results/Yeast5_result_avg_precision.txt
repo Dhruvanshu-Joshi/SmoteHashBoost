@@ -1,0 +1,25 @@
+
+======[Dataset: Yeast5 - SmoteHashBoost Method: Reciprocal]======
+[Avg] Accuracy: 0.9793, AUC: 0.8792, F1: 0.6874, AP: 0.5028, Gmean: 0.8678
+[Std] Accuracy: 0.0023, AUC: 0.0225, F1: 0.0351, AP: 0.0438, Gmean: 0.0270
+[Best] Accuracy: 0.9818, AUC: 0.9153, F1: 0.7327, AP: 0.5582, Gmean: 0.9103
+
+======[Dataset: Yeast5 - SmoteHashBoost Method: Random]======
+[Avg] Accuracy: 0.9800, AUC: 0.8724, F1: 0.6894, AP: 0.5042, Gmean: 0.8596
+[Std] Accuracy: 0.0018, AUC: 0.0282, F1: 0.0331, AP: 0.0436, Gmean: 0.0335
+[Best] Accuracy: 0.9811, AUC: 0.9257, F1: 0.7318, AP: 0.5696, Gmean: 0.9196
+
+======[Dataset: Yeast5 - SmoteHashBoost Method: Linearity]======
+[Avg] Accuracy: 0.9800, AUC: 0.8736, F1: 0.6937, AP: 0.5128, Gmean: 0.8615
+[Std] Accuracy: 0.0023, AUC: 0.0247, F1: 0.0331, AP: 0.0424, Gmean: 0.0289
+[Best] Accuracy: 0.9791, AUC: 0.9139, F1: 0.7086, AP: 0.5381, Gmean: 0.9076
+
+======[Dataset: Yeast5 - SmoteHashBoost Method: Negexp]======
+[Avg] Accuracy: 0.9794, AUC: 0.8721, F1: 0.6848, AP: 0.4969, Gmean: 0.8598
+[Std] Accuracy: 0.0019, AUC: 0.0246, F1: 0.0312, AP: 0.0428, Gmean: 0.0287
+[Best] Accuracy: 0.9838, AUC: 0.8934, F1: 0.7470, AP: 0.5759, Gmean: 0.8862
+
+======[Dataset: Yeast5 - SmoteHashBoost Method: Limit]======
+[Avg] Accuracy: 0.9792, AUC: 0.8762, F1: 0.6841, AP: 0.4962, Gmean: 0.8647
+[Std] Accuracy: 0.0019, AUC: 0.0215, F1: 0.0299, AP: 0.0417, Gmean: 0.0256
+[Best] Accuracy: 0.9818, AUC: 0.9153, F1: 0.7409, AP: 0.5808, Gmean: 0.9101

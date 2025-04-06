@@ -1,0 +1,15 @@
+
+======[Dataset: Sonar - Smote ENN Method: Sonar]======
+[Avg] Accuracy: 0.7083, AUC: 0.7023, F1: 0.6595, AP: 0.6284, Gmean: 0.6918
+[Std] Accuracy: 0.0216, AUC: 0.0214, F1: 0.0240, AP: 0.0226, Gmean: 0.0208
+[Best] Accuracy: 0.7454, AUC: 0.7400, F1: 0.7062, AP: 0.6735, Gmean: 0.7311
+
+======[Dataset: Sonar - Smote ENN Method: Sonar]======
+[Avg] Accuracy: 0.7075, AUC: 0.7022, F1: 0.6628, AP: 0.6263, Gmean: 0.6937
+[Std] Accuracy: 0.0238, AUC: 0.0245, F1: 0.0334, AP: 0.0241, Gmean: 0.0264
+[Best] Accuracy: 0.7597, AUC: 0.7536, F1: 0.7214, AP: 0.6806, Gmean: 0.7452
+
+======[Dataset: Sonar - Smote ENN Method: Sonar]======
+[Avg] Accuracy: 0.7066, AUC: 0.7020, F1: 0.6640, AP: 0.6259, Gmean: 0.6930
+[Std] Accuracy: 0.0312, AUC: 0.0318, F1: 0.0394, AP: 0.0301, Gmean: 0.0337
+[Best] Accuracy: 0.7593, AUC: 0.7571, F1: 0.7315, AP: 0.6762, Gmean: 0.7532

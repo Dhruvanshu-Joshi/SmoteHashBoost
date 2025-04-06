@@ -1,0 +1,110 @@
+
+======[Dataset: Sonar - Method: Reciprocal]======
+Run 1/20 completed in 70.89 ms
+Run 2/20 completed in 68.76 ms
+Run 3/20 completed in 66.37 ms
+Run 4/20 completed in 71.56 ms
+Run 5/20 completed in 68.79 ms
+Run 6/20 completed in 67.14 ms
+Run 7/20 completed in 69.74 ms
+Run 8/20 completed in 68.80 ms
+Run 9/20 completed in 77.69 ms
+Run 10/20 completed in 90.52 ms
+Run 11/20 completed in 73.21 ms
+Run 12/20 completed in 67.89 ms
+Run 13/20 completed in 65.07 ms
+Run 14/20 completed in 67.69 ms
+Run 15/20 completed in 69.38 ms
+Run 16/20 completed in 70.99 ms
+Run 17/20 completed in 69.47 ms
+Run 18/20 completed in 69.77 ms
+Run 19/20 completed in 72.76 ms
+Run 20/20 completed in 73.17 ms
+
+======[Dataset: Sonar - Method: Random]======
+Run 1/20 completed in 69.25 ms
+Run 2/20 completed in 67.75 ms
+Run 3/20 completed in 69.77 ms
+Run 4/20 completed in 83.66 ms
+Run 5/20 completed in 81.37 ms
+Run 6/20 completed in 79.86 ms
+Run 7/20 completed in 71.92 ms
+Run 8/20 completed in 75.92 ms
+Run 9/20 completed in 76.49 ms
+Run 10/20 completed in 72.21 ms
+Run 11/20 completed in 70.89 ms
+Run 12/20 completed in 72.31 ms
+Run 13/20 completed in 69.56 ms
+Run 14/20 completed in 71.74 ms
+Run 15/20 completed in 68.12 ms
+Run 16/20 completed in 68.48 ms
+Run 17/20 completed in 68.04 ms
+Run 18/20 completed in 66.62 ms
+Run 19/20 completed in 67.09 ms
+Run 20/20 completed in 68.09 ms
+
+======[Dataset: Sonar - Method: Linearity]======
+Run 1/20 completed in 66.78 ms
+Run 2/20 completed in 65.52 ms
+Run 3/20 completed in 64.10 ms
+Run 4/20 completed in 72.02 ms
+Run 5/20 completed in 66.56 ms
+Run 6/20 completed in 69.42 ms
+Run 7/20 completed in 65.95 ms
+Run 8/20 completed in 65.32 ms
+Run 9/20 completed in 66.66 ms
+Run 10/20 completed in 67.57 ms
+Run 11/20 completed in 65.75 ms
+Run 12/20 completed in 74.97 ms
+Run 13/20 completed in 65.61 ms
+Run 14/20 completed in 65.51 ms
+Run 15/20 completed in 66.91 ms
+Run 16/20 completed in 67.27 ms
+Run 17/20 completed in 62.91 ms
+Run 18/20 completed in 63.89 ms
+Run 19/20 completed in 67.87 ms
+Run 20/20 completed in 67.71 ms
+
+======[Dataset: Sonar - Method: Negexp]======
+Run 1/20 completed in 73.20 ms
+Run 2/20 completed in 67.57 ms
+Run 3/20 completed in 67.78 ms
+Run 4/20 completed in 64.62 ms
+Run 5/20 completed in 66.49 ms
+Run 6/20 completed in 65.29 ms
+Run 7/20 completed in 64.93 ms
+Run 8/20 completed in 64.62 ms
+Run 9/20 completed in 64.08 ms
+Run 10/20 completed in 67.19 ms
+Run 11/20 completed in 70.54 ms
+Run 12/20 completed in 69.01 ms
+Run 13/20 completed in 65.34 ms
+Run 14/20 completed in 65.23 ms
+Run 15/20 completed in 63.99 ms
+Run 16/20 completed in 64.28 ms
+Run 17/20 completed in 71.22 ms
+Run 18/20 completed in 80.21 ms
+Run 19/20 completed in 74.96 ms
+Run 20/20 completed in 68.76 ms
+
+======[Dataset: Sonar - Method: Limit]======
+Run 1/20 completed in 79.64 ms
+Run 2/20 completed in 70.92 ms
+Run 3/20 completed in 72.87 ms
+Run 4/20 completed in 78.32 ms
+Run 5/20 completed in 75.75 ms
+Run 6/20 completed in 77.21 ms
+Run 7/20 completed in 73.32 ms
+Run 8/20 completed in 70.76 ms
+Run 9/20 completed in 68.76 ms
+Run 10/20 completed in 69.77 ms
+Run 11/20 completed in 72.76 ms
+Run 12/20 completed in 68.77 ms
+Run 13/20 completed in 69.49 ms
+Run 14/20 completed in 67.67 ms
+Run 15/20 completed in 67.42 ms
+Run 16/20 completed in 70.06 ms
+Run 17/20 completed in 66.70 ms
+Run 18/20 completed in 74.40 ms
+Run 19/20 completed in 66.07 ms
+Run 20/20 completed in 70.32 ms

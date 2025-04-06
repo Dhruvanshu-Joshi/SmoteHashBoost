@@ -1,0 +1,5 @@
+
+======[Dataset: Yeast5 - Adasyn Method: Yeast5]======
+[Avg] Accuracy: 0.9811, AUC: 0.8773, F1: 0.7056, AP: 0.5231, Gmean: 0.8662
+[Std] Accuracy: 0.0023, AUC: 0.0316, F1: 0.0394, AP: 0.0483, Gmean: 0.0386
+[Best] Accuracy: 0.9845, AUC: 0.9045, F1: 0.7575, AP: 0.5876, Gmean: 0.8991

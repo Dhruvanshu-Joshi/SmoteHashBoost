@@ -1,0 +1,5 @@
+
+======[Dataset: Yeast5 - SmoteTomek Method: Yeast5]======
+[Avg] Accuracy: 0.9795, AUC: 0.8404, F1: 0.6653, AP: 0.4743, Gmean: 0.8214
+[Std] Accuracy: 0.0024, AUC: 0.0263, F1: 0.0433, AP: 0.0548, Gmean: 0.0329
+[Best] Accuracy: 0.9845, AUC: 0.8694, F1: 0.7382, AP: 0.5713, Gmean: 0.8572

@@ -1,0 +1,14 @@
+
+======[Dataset: Diabetes - Adaboost Method: Diabetes]======
+Results for dataset: Diabetes - Adaboost Method: Diabetes
+
+Best results: Accuracy = 0.9712, AUC = 0.9728, F1 = 0.9632, Ap = 0.9363, Accuracy = 0.9726
+
+[Avg] Accuracy: 0.9624, AUC: 0.9620, F1: 0.9516, AP: 0.9221, Gmean: 0.9617
+[Std] Accuracy: 0.0061, AUC: 0.0064, F1: 0.0078, AP: 0.0122, Gmean: 0.0065
+[Best] Accuracy: 0.9712, AUC: 0.9728, F1: 0.9632, AP: 0.9363, Gmean: 0.9726
+
+======[Dataset: Diabetes - SmoteBoost Method: Diabetes]======
+[Avg] Accuracy: 0.9645, AUC: 0.9637, F1: 0.9544, AP: 0.9275, Gmean: 0.9635
+[Std] Accuracy: 0.0066, AUC: 0.0062, F1: 0.0081, AP: 0.0139, Gmean: 0.0063
+[Best] Accuracy: 0.9750, AUC: 0.9741, F1: 0.9676, AP: 0.9486, Gmean: 0.9739

@@ -1,0 +1,15 @@
+
+======[Dataset: ILPD - Method: Reciprocal]======
+======[Time: 115.31758308410645]======
+
+======[Dataset: ILPD - Method: Random]======
+======[Time: 116.10794067382812]======
+
+======[Dataset: ILPD - Method: Linearity]======
+======[Time: 175.40478706359863]======
+
+======[Dataset: ILPD - Method: Negexp]======
+======[Time: 106.6429615020752]======
+
+======[Dataset: ILPD - Method: Limit]======
+======[Time: 116.39952659606934]======

@@ -1,0 +1,5 @@
+
+======[Dataset: Epileptic Seizure Recognition - Method: Epileptic Seizure Recognition]======
+[Avg] Accuracy: 0.9121, AUC: 0.8861, F1: 0.7932, AP: 0.6631, Gmean: 0.8850
+[Std] Accuracy: 0.0028, AUC: 0.0041, F1: 0.0061, AP: 0.0085, Gmean: 0.0043
+[Best] Accuracy: 0.9163, AUC: 0.8924, F1: 0.8028, AP: 0.6764, Gmean: 0.8915

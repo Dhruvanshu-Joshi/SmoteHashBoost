@@ -1,0 +1,5 @@
+
+======[Dataset: Glass - Method: Glass]======
+[Avg] Accuracy: 0.9460, AUC: 0.8975, F1: 0.8080, AP: 0.6994, Gmean: 0.8913
+[Std] Accuracy: 0.0097, AUC: 0.0132, F1: 0.0305, AP: 0.0477, Gmean: 0.0149
+[Best] Accuracy: 0.9581, AUC: 0.9198, F1: 0.8597, AP: 0.7919, Gmean: 0.9153

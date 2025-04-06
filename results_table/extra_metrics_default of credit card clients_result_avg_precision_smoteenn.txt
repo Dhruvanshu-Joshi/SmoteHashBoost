@@ -1,0 +1,15 @@
+
+======[Dataset: default of credit card clients - Smote ENN Method: default of credit card clients]======
+[Avg] Accuracy: 0.6982, AUC: 0.6439, F1: 0.4448, AP: 0.3054, Gmean: 0.6365
+[Std] Accuracy: 0.0022, AUC: 0.0024, F1: 0.0030, AP: 0.0019, Gmean: 0.0027
+[Best] Accuracy: 0.7038, AUC: 0.6513, F1: 0.4542, AP: 0.3116, Gmean: 0.6445
+
+======[Dataset: default of credit card clients - Smote ENN Method: default of credit card clients]======
+[Avg] Accuracy: 0.6989, AUC: 0.6439, F1: 0.4448, AP: 0.3055, Gmean: 0.6362
+[Std] Accuracy: 0.0022, AUC: 0.0031, F1: 0.0039, AP: 0.0025, Gmean: 0.0035
+[Best] Accuracy: 0.7017, AUC: 0.6485, F1: 0.4506, AP: 0.3092, Gmean: 0.6413
+
+======[Dataset: default of credit card clients - Smote ENN Method: default of credit card clients]======
+[Avg] Accuracy: 0.6982, AUC: 0.6439, F1: 0.4448, AP: 0.3053, Gmean: 0.6364
+[Std] Accuracy: 0.0027, AUC: 0.0031, F1: 0.0039, AP: 0.0026, Gmean: 0.0034
+[Best] Accuracy: 0.7023, AUC: 0.6499, F1: 0.4525, AP: 0.3103, Gmean: 0.6431

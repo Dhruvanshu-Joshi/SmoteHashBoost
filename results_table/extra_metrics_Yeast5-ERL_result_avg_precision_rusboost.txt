@@ -1,0 +1,5 @@
+
+======[Dataset: Yeast5-ERL - Rusboost Method: Yeast5-ERL]======
+[Avg] Accuracy: 0.9816, AUC: 0.9858, F1: 0.6704, AP: 0.5889, Gmean: 0.9858
+[Std] Accuracy: 0.0424, AUC: 0.0428, F1: 0.1535, AP: 0.1741, Gmean: 0.0428
+[Best] Accuracy: 0.9987, AUC: 0.9993, F1: 0.9000, AP: 0.8667, Gmean: 0.9993

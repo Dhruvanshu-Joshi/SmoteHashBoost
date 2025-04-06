@@ -1,0 +1,90 @@
+
+======[Dataset: Flare-F]======
+0.2334
+
+======[Dataset: Yeast5]======
+0.7248
+
+======[Dataset: CarvGood]======
+0.992
+
+======[Dataset: CarGood]======
+0.89
+
+======[Dataset: Yeast5-ERL]======
+0.9333
+
+======[Dataset: Glass]======
+0.8597
+
+======[Dataset: ILPD]======
+0.5033
+
+======[Dataset: Seed]======
+0.9777
+
+======[Dataset: Wine]======
+0.9701
+
+======[Dataset: Breast Cancer Wisconsin]======
+0.9254
+
+======[Dataset: Diabetes]======
+0.9655
+
+======[Dataset: Sonar]======
+0.7314
+
+======[Dataset: Epileptic Seizure Recognition]======
+0.8028
+
+======[Dataset: Student_dropout]======
+0.3809
+
+======[Dataset: default of credit card clients]======
+0.4047
+
+======[Dataset: Flare-F]======
+0.2334
+
+======[Dataset: Yeast5]======
+0.7248
+
+======[Dataset: CarvGood]======
+0.992
+
+======[Dataset: CarGood]======
+0.89
+
+======[Dataset: Yeast5-ERL]======
+0.9333
+
+======[Dataset: Glass]======
+0.8597
+
+======[Dataset: ILPD]======
+0.5033
+
+======[Dataset: Seed]======
+0.9777
+
+======[Dataset: Wine]======
+0.9701
+
+======[Dataset: Breast Cancer Wisconsin]======
+0.9254
+
+======[Dataset: Diabetes]======
+0.9655
+
+======[Dataset: Sonar]======
+0.7314
+
+======[Dataset: Epileptic Seizure Recognition]======
+0.8028
+
+======[Dataset: Student_dropout]======
+0.3809
+
+======[Dataset: default of credit card clients]======
+0.4047

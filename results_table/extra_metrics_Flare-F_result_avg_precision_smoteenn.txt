@@ -1,0 +1,15 @@
+
+======[Dataset: Flare-F - Smote ENN Method: Flare-F]======
+[Avg] Accuracy: 0.9251, AUC: 0.6747, F1: 0.3028, AP: 0.1389, Gmean: 0.5997
+[Std] Accuracy: 0.0072, AUC: 0.0328, F1: 0.0495, AP: 0.0346, Gmean: 0.0526
+[Best] Accuracy: 0.9399, AUC: 0.7530, F1: 0.4278, AP: 0.2284, Gmean: 0.7178
+
+======[Dataset: Flare-F - Smote ENN Method: Flare-F]======
+[Avg] Accuracy: 0.9255, AUC: 0.6667, F1: 0.2916, AP: 0.1303, Gmean: 0.5846
+[Std] Accuracy: 0.0060, AUC: 0.0353, F1: 0.0453, AP: 0.0265, Gmean: 0.0631
+[Best] Accuracy: 0.9240, AUC: 0.7355, F1: 0.3560, AP: 0.1713, Gmean: 0.6959
+
+======[Dataset: Flare-F - Smote ENN Method: Flare-F]======
+[Avg] Accuracy: 0.9251, AUC: 0.6706, F1: 0.2939, AP: 0.1326, Gmean: 0.5905
+[Std] Accuracy: 0.0062, AUC: 0.0319, F1: 0.0444, AP: 0.0298, Gmean: 0.0533
+[Best] Accuracy: 0.9315, AUC: 0.7103, F1: 0.3532, AP: 0.1754, Gmean: 0.6522

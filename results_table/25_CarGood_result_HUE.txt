@@ -1,0 +1,25 @@
+
+======[Dataset: CarGood - Method: Reciprocal]======
+[Avg] Accuracy: 0.9251, AUC: 0.9610, F1: 0.5226, AP: 0.3560, Gmean: 0.9601
+[Std] Accuracy: 0.0040, AUC: 0.0021, F1: 0.0155, AP: 0.0151, Gmean: 0.0022
+[Best] Accuracy: 0.9300, AUC: 0.9635, F1: 0.5474, AP: 0.3821, Gmean: 0.9627
+
+======[Dataset: CarGood - Method: Random]======
+[Avg] Accuracy: 0.9502, AUC: 0.9741, F1: 0.6220, AP: 0.4544, Gmean: 0.9737
+[Std] Accuracy: 0.0030, AUC: 0.0015, F1: 0.0142, AP: 0.0155, Gmean: 0.0016
+[Best] Accuracy: 0.9566, AUC: 0.9774, F1: 0.6505, AP: 0.4831, Gmean: 0.9771
+
+======[Dataset: CarGood - Method: Linearity]======
+[Avg] Accuracy: 0.9232, AUC: 0.9600, F1: 0.5159, AP: 0.3495, Gmean: 0.9591
+[Std] Accuracy: 0.0045, AUC: 0.0024, F1: 0.0154, AP: 0.0145, Gmean: 0.0025
+[Best] Accuracy: 0.9346, AUC: 0.9659, F1: 0.5545, AP: 0.3857, Gmean: 0.9653
+
+======[Dataset: CarGood - Method: Negexp]======
+[Avg] Accuracy: 0.9233, AUC: 0.9600, F1: 0.5157, AP: 0.3495, Gmean: 0.9592
+[Std] Accuracy: 0.0041, AUC: 0.0022, F1: 0.0150, AP: 0.0145, Gmean: 0.0022
+[Best] Accuracy: 0.9323, AUC: 0.9647, F1: 0.5456, AP: 0.3765, Gmean: 0.9641
+
+======[Dataset: CarGood - Method: Limit]======
+[Avg] Accuracy: 0.8990, AUC: 0.9474, F1: 0.4447, AP: 0.2867, Gmean: 0.9459
+[Std] Accuracy: 0.0044, AUC: 0.0023, F1: 0.0114, AP: 0.0095, Gmean: 0.0024
+[Best] Accuracy: 0.9115, AUC: 0.9539, F1: 0.4768, AP: 0.3136, Gmean: 0.9527

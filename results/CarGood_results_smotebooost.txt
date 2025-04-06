@@ -1,0 +1,5 @@
+
+======[Dataset: CarGood - Method: CarGood]======
+[Avg] Accuracy: 0.9875, AUC: 0.9215, F1: 0.8448, AP: 0.7320, Gmean: 0.9166
+[Std] Accuracy: 0.0029, AUC: 0.0232, F1: 0.0350, AP: 0.0535, Gmean: 0.0256
+[Best] Accuracy: 0.9913, AUC: 0.9391, F1: 0.8900, AP: 0.8010, Gmean: 0.9367

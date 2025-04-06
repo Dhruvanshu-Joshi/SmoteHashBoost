@@ -1,0 +1,5 @@
+
+======[Dataset: Glass - Borderline Smote Method: Glass]======
+[Avg] Accuracy: 0.9460, AUC: 0.8983, F1: 0.8058, AP: 0.6947, Gmean: 0.8917
+[Std] Accuracy: 0.0113, AUC: 0.0161, F1: 0.0332, AP: 0.0515, Gmean: 0.0172
+[Best] Accuracy: 0.9626, AUC: 0.9332, F1: 0.8615, AP: 0.7702, Gmean: 0.9293

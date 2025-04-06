@@ -1,0 +1,15 @@
+
+======[Dataset: Epileptic Seizure Recognition - Borderline Smote Method: Epileptic Seizure Recognition]======
+[Avg] Accuracy: 0.9160, AUC: 0.8939, F1: 0.8033, AP: 0.6767, Gmean: 0.8931
+[Std] Accuracy: 0.0022, AUC: 0.0025, F1: 0.0044, AP: 0.0065, Gmean: 0.0026
+[Best] Accuracy: 0.9181, AUC: 0.8974, F1: 0.8082, AP: 0.6834, Gmean: 0.8967
+
+======[Dataset: Epileptic Seizure Recognition - Borderline Smote Method: Epileptic Seizure Recognition]======
+[Avg] Accuracy: 0.9160, AUC: 0.8940, F1: 0.8032, AP: 0.6765, Gmean: 0.8932
+[Std] Accuracy: 0.0024, AUC: 0.0036, F1: 0.0053, AP: 0.0075, Gmean: 0.0037
+[Best] Accuracy: 0.9199, AUC: 0.9025, F1: 0.8136, AP: 0.6904, Gmean: 0.9020
+
+======[Dataset: Epileptic Seizure Recognition - Borderline Smote Method: Epileptic Seizure Recognition]======
+[Avg] Accuracy: 0.9162, AUC: 0.8938, F1: 0.8034, AP: 0.6770, Gmean: 0.8929
+[Std] Accuracy: 0.0031, AUC: 0.0052, F1: 0.0074, AP: 0.0102, Gmean: 0.0054
+[Best] Accuracy: 0.9213, AUC: 0.9016, F1: 0.8155, AP: 0.6941, Gmean: 0.9010

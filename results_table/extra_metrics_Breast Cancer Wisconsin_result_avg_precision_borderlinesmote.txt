@@ -1,0 +1,15 @@
+
+======[Dataset: Breast Cancer Wisconsin - Borderline Smote Method: Breast Cancer Wisconsin]======
+[Avg] Accuracy: 0.9248, AUC: 0.9234, F1: 0.9010, AP: 0.8445, Gmean: 0.9229
+[Std] Accuracy: 0.0076, AUC: 0.0074, F1: 0.0096, AP: 0.0153, Gmean: 0.0075
+[Best] Accuracy: 0.9420, AUC: 0.9433, F1: 0.9247, AP: 0.8761, Gmean: 0.9433
+
+======[Dataset: Breast Cancer Wisconsin - Borderline Smote Method: Breast Cancer Wisconsin]======
+[Avg] Accuracy: 0.9283, AUC: 0.9259, F1: 0.9050, AP: 0.8521, Gmean: 0.9255
+[Std] Accuracy: 0.0087, AUC: 0.0093, F1: 0.0115, AP: 0.0172, Gmean: 0.0093
+[Best] Accuracy: 0.9455, AUC: 0.9413, F1: 0.9264, AP: 0.8880, Gmean: 0.9410
+
+======[Dataset: Breast Cancer Wisconsin - Borderline Smote Method: Breast Cancer Wisconsin]======
+[Avg] Accuracy: 0.9286, AUC: 0.9261, F1: 0.9054, AP: 0.8527, Gmean: 0.9256
+[Std] Accuracy: 0.0055, AUC: 0.0058, F1: 0.0071, AP: 0.0107, Gmean: 0.0059
+[Best] Accuracy: 0.9367, AUC: 0.9333, F1: 0.9158, AP: 0.8699, Gmean: 0.9331

@@ -1,0 +1,5 @@
+
+======[Dataset: Diabetes - Borderline Smote Method: Diabetes]======
+[Avg] Accuracy: 0.9639, AUC: 0.9636, F1: 0.9536, AP: 0.9248, Gmean: 0.9635
+[Std] Accuracy: 0.0049, AUC: 0.0048, F1: 0.0062, AP: 0.0108, Gmean: 0.0048
+[Best] Accuracy: 0.9712, AUC: 0.9700, F1: 0.9626, AP: 0.9404, Gmean: 0.9699

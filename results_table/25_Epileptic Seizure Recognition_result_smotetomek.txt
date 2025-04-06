@@ -1,0 +1,5 @@
+
+======[Dataset: Epileptic Seizure Recognition - SmoteTomek Method: Epileptic Seizure Recognition]======
+[Avg] Accuracy: 0.9128, AUC: 0.8875, F1: 0.7949, AP: 0.6654, Gmean: 0.8864
+[Std] Accuracy: 0.0020, AUC: 0.0029, F1: 0.0042, AP: 0.0060, Gmean: 0.0030
+[Best] Accuracy: 0.9170, AUC: 0.8912, F1: 0.8035, AP: 0.6780, Gmean: 0.8901

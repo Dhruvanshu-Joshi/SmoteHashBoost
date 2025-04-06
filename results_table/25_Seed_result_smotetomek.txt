@@ -1,0 +1,5 @@
+
+======[Dataset: Seed - SmoteTomek Method: Seed]======
+[Avg] Accuracy: 0.9731, AUC: 0.9700, F1: 0.9594, AP: 0.9361, Gmean: 0.9694
+[Std] Accuracy: 0.0079, AUC: 0.0100, F1: 0.0122, AP: 0.0173, Gmean: 0.0104
+[Best] Accuracy: 0.9857, AUC: 0.9857, F1: 0.9788, AP: 0.9638, Gmean: 0.9855

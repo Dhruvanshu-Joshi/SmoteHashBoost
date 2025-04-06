@@ -1,0 +1,15 @@
+
+======[Dataset: Yeast5-ERL - SmoteTomek Method: Yeast5-ERL]======
+[Avg] Accuracy: 0.6792, AUC: 0.6497, F1: 0.5650, AP: 0.5385, Gmean: 0.6197
+[Std] Accuracy: 0.2227, AUC: 0.2728, F1: 0.3010, AP: 0.2882, Gmean: 0.3279
+[Best] Accuracy: 0.9993, AUC: 0.9997, F1: 0.9333, AP: 0.9000, Gmean: 0.9997
+
+======[Dataset: Yeast5-ERL - SmoteTomek Method: Yeast5-ERL]======
+[Avg] Accuracy: 0.6391, AUC: 0.5897, F1: 0.4900, AP: 0.4670, Gmean: 0.5397
+[Std] Accuracy: 0.2246, AUC: 0.2912, F1: 0.3330, AP: 0.3178, Gmean: 0.3637
+[Best] Accuracy: 0.9993, AUC: 0.9997, F1: 0.9333, AP: 0.9000, Gmean: 0.9997
+
+======[Dataset: Yeast5-ERL - SmoteTomek Method: Yeast5-ERL]======
+[Avg] Accuracy: 0.6392, AUC: 0.6097, F1: 0.5267, AP: 0.5035, Gmean: 0.5797
+[Std] Accuracy: 0.2154, AUC: 0.2623, F1: 0.2878, AP: 0.2763, Gmean: 0.3154
+[Best] Accuracy: 0.9993, AUC: 0.9997, F1: 0.9333, AP: 0.9000, Gmean: 0.9997

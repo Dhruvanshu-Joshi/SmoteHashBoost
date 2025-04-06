@@ -1,0 +1,15 @@
+
+======[Dataset: Breast Cancer Wisconsin - SmoteTomek Method: Breast Cancer Wisconsin]======
+[Avg] Accuracy: 0.9304, AUC: 0.9274, F1: 0.9075, AP: 0.8573, Gmean: 0.9268
+[Std] Accuracy: 0.0099, AUC: 0.0108, F1: 0.0133, AP: 0.0190, Gmean: 0.0109
+[Best] Accuracy: 0.9473, AUC: 0.9445, F1: 0.9297, AP: 0.8901, Gmean: 0.9443
+
+======[Dataset: Breast Cancer Wisconsin - SmoteTomek Method: Breast Cancer Wisconsin]======
+[Avg] Accuracy: 0.9292, AUC: 0.9263, F1: 0.9060, AP: 0.8545, Gmean: 0.9258
+[Std] Accuracy: 0.0103, AUC: 0.0103, F1: 0.0134, AP: 0.0204, Gmean: 0.0104
+[Best] Accuracy: 0.9473, AUC: 0.9446, F1: 0.9302, AP: 0.8914, Gmean: 0.9443
+
+======[Dataset: Breast Cancer Wisconsin - SmoteTomek Method: Breast Cancer Wisconsin]======
+[Avg] Accuracy: 0.9296, AUC: 0.9254, F1: 0.9059, AP: 0.8568, Gmean: 0.9247
+[Std] Accuracy: 0.0081, AUC: 0.0083, F1: 0.0107, AP: 0.0168, Gmean: 0.0085
+[Best] Accuracy: 0.9490, AUC: 0.9448, F1: 0.9317, AP: 0.8957, Gmean: 0.9444

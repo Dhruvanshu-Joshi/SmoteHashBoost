@@ -1,0 +1,5 @@
+
+======[Dataset: Glass - Rusboost Method: Glass]======
+[Avg] Accuracy: 0.9638, AUC: 0.9278, F1: 0.8691, AP: 0.7900, Gmean: 0.9236
+[Std] Accuracy: 0.0079, AUC: 0.0100, F1: 0.0230, AP: 0.0365, Gmean: 0.0110
+[Best] Accuracy: 0.9767, AUC: 0.9446, F1: 0.9152, AP: 0.8584, Gmean: 0.9428

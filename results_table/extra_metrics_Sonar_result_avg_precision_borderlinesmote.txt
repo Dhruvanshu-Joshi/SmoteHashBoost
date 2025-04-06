@@ -1,0 +1,15 @@
+
+======[Dataset: Sonar - Borderline Smote Method: Sonar]======
+[Avg] Accuracy: 0.7136, AUC: 0.7124, F1: 0.6916, AP: 0.6299, Gmean: 0.7080
+[Std] Accuracy: 0.0257, AUC: 0.0265, F1: 0.0342, AP: 0.0244, Gmean: 0.0288
+[Best] Accuracy: 0.7692, AUC: 0.7703, F1: 0.7623, AP: 0.6796, Gmean: 0.7685
+
+======[Dataset: Sonar - Borderline Smote Method: Sonar]======
+[Avg] Accuracy: 0.7114, AUC: 0.7098, F1: 0.6871, AP: 0.6279, Gmean: 0.7048
+[Std] Accuracy: 0.0232, AUC: 0.0232, F1: 0.0243, AP: 0.0230, Gmean: 0.0240
+[Best] Accuracy: 0.7458, AUC: 0.7431, F1: 0.7221, AP: 0.6749, Gmean: 0.7416
+
+======[Dataset: Sonar - Borderline Smote Method: Sonar]======
+[Avg] Accuracy: 0.7141, AUC: 0.7131, F1: 0.6932, AP: 0.6309, Gmean: 0.7081
+[Std] Accuracy: 0.0289, AUC: 0.0287, F1: 0.0319, AP: 0.0300, Gmean: 0.0297
+[Best] Accuracy: 0.7887, AUC: 0.7867, F1: 0.7661, AP: 0.7092, Gmean: 0.7837

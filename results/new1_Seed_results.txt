@@ -1,0 +1,285 @@
+
+======[Dataset: Seed - Method: Reciprocal]======
+[Avg] Accuracy: 0.9693, AUC: 0.9700, F1: 0.9551, AP: 0.9242, Gmean: 0.9696
+[Std] Accuracy: 0.0083, AUC: 0.0082, F1: 0.0118, AP: 0.0203, Gmean: 0.0082
+[Best] Accuracy: 0.9810, AUC: 0.9786, F1: 0.9708, AP: 0.9543, Gmean: 0.9780
+
+======[Dataset: Seed - Method: Reciprocal]======
+[Avg] Accuracy: 0.9757, AUC: 0.9755, F1: 0.9644, AP: 0.9407, Gmean: 0.9752
+[Std] Accuracy: 0.0080, AUC: 0.0081, F1: 0.0115, AP: 0.0189, Gmean: 0.0084
+[Best] Accuracy: 0.9857, AUC: 0.9857, F1: 0.9788, AP: 0.9638, Gmean: 0.9855
+
+======[Dataset: Seed - Method: Reciprocal]======
+[Avg] Accuracy: 0.9721, AUC: 0.9718, F1: 0.9590, AP: 0.9326, Gmean: 0.9712
+[Std] Accuracy: 0.0092, AUC: 0.0096, F1: 0.0135, AP: 0.0213, Gmean: 0.0100
+[Best] Accuracy: 0.9857, AUC: 0.9857, F1: 0.9793, AP: 0.9655, Gmean: 0.9854
+
+======[Dataset: Seed - Method: Random]======
+[Avg] Accuracy: 0.9721, AUC: 0.9718, F1: 0.9592, AP: 0.9325, Gmean: 0.9714
+[Std] Accuracy: 0.0074, AUC: 0.0070, F1: 0.0106, AP: 0.0181, Gmean: 0.0071
+[Best] Accuracy: 0.9857, AUC: 0.9821, F1: 0.9783, AP: 0.9676, Gmean: 0.9818
+
+======[Dataset: Seed - Method: Linearity]======
+[Avg] Accuracy: 0.9724, AUC: 0.9718, F1: 0.9592, AP: 0.9329, Gmean: 0.9712
+[Std] Accuracy: 0.0075, AUC: 0.0068, F1: 0.0103, AP: 0.0177, Gmean: 0.0070
+[Best] Accuracy: 0.9857, AUC: 0.9821, F1: 0.9778, AP: 0.9678, Gmean: 0.9818
+
+======[Dataset: Seed - Method: Negexp]======
+[Avg] Accuracy: 0.9679, AUC: 0.9682, F1: 0.9532, AP: 0.9221, Gmean: 0.9677
+[Std] Accuracy: 0.0086, AUC: 0.0083, F1: 0.0121, AP: 0.0204, Gmean: 0.0084
+[Best] Accuracy: 0.9810, AUC: 0.9786, F1: 0.9714, AP: 0.9544, Gmean: 0.9784
+
+======[Dataset: Seed - Method: Limit]======
+[Avg] Accuracy: 0.9731, AUC: 0.9732, F1: 0.9606, AP: 0.9340, Gmean: 0.9729
+[Std] Accuracy: 0.0074, AUC: 0.0074, F1: 0.0107, AP: 0.0182, Gmean: 0.0075
+[Best] Accuracy: 0.9857, AUC: 0.9857, F1: 0.9788, AP: 0.9638, Gmean: 0.9855
+
+======[Dataset: Seed - Method: Reciprocal]======
+[Avg] Accuracy: 0.9740, AUC: 0.9745, F1: 0.9621, AP: 0.9361, Gmean: 0.9741
+[Std] Accuracy: 0.0051, AUC: 0.0048, F1: 0.0071, AP: 0.0125, Gmean: 0.0049
+[Best] Accuracy: 0.9810, AUC: 0.9821, F1: 0.9719, AP: 0.9505, Gmean: 0.9820
+
+======[Dataset: Seed - Method: Random]======
+[Avg] Accuracy: 0.9700, AUC: 0.9693, F1: 0.9559, AP: 0.9274, Gmean: 0.9689
+[Std] Accuracy: 0.0080, AUC: 0.0079, F1: 0.0116, AP: 0.0196, Gmean: 0.0080
+[Best] Accuracy: 0.9857, AUC: 0.9857, F1: 0.9793, AP: 0.9657, Gmean: 0.9857
+
+======[Dataset: Seed - Method: Linearity]======
+[Avg] Accuracy: 0.9745, AUC: 0.9743, F1: 0.9629, AP: 0.9385, Gmean: 0.9740
+[Std] Accuracy: 0.0079, AUC: 0.0075, F1: 0.0109, AP: 0.0185, Gmean: 0.0075
+[Best] Accuracy: 0.9857, AUC: 0.9857, F1: 0.9788, AP: 0.9638, Gmean: 0.9855
+
+======[Dataset: Seed - Method: Negexp]======
+[Avg] Accuracy: 0.9710, AUC: 0.9716, F1: 0.9578, AP: 0.9288, Gmean: 0.9712
+[Std] Accuracy: 0.0101, AUC: 0.0089, F1: 0.0140, AP: 0.0245, Gmean: 0.0089
+[Best] Accuracy: 0.9857, AUC: 0.9857, F1: 0.9788, AP: 0.9638, Gmean: 0.9855
+
+======[Dataset: Seed - Method: Limit]======
+[Avg] Accuracy: 0.9700, AUC: 0.9705, F1: 0.9568, AP: 0.9280, Gmean: 0.9700
+[Std] Accuracy: 0.0098, AUC: 0.0084, F1: 0.0130, AP: 0.0224, Gmean: 0.0086
+[Best] Accuracy: 0.9857, AUC: 0.9821, F1: 0.9783, AP: 0.9676, Gmean: 0.9818
+
+======[Dataset: Seed - Method: Reciprocal]======
+[Avg] Accuracy: 0.9717, AUC: 0.9718, F1: 0.9585, AP: 0.9308, Gmean: 0.9713
+[Std] Accuracy: 0.0055, AUC: 0.0048, F1: 0.0077, AP: 0.0142, Gmean: 0.0049
+[Best] Accuracy: 0.9810, AUC: 0.9786, F1: 0.9708, AP: 0.9543, Gmean: 0.9780
+
+======[Dataset: Seed - Method: Random]======
+[Avg] Accuracy: 0.9724, AUC: 0.9711, F1: 0.9588, AP: 0.9332, Gmean: 0.9705
+[Std] Accuracy: 0.0075, AUC: 0.0089, F1: 0.0117, AP: 0.0168, Gmean: 0.0095
+[Best] Accuracy: 0.9857, AUC: 0.9857, F1: 0.9788, AP: 0.9638, Gmean: 0.9855
+
+======[Dataset: Seed - Method: Linearity]======
+[Avg] Accuracy: 0.9681, AUC: 0.9689, F1: 0.9538, AP: 0.9225, Gmean: 0.9684
+[Std] Accuracy: 0.0085, AUC: 0.0075, F1: 0.0118, AP: 0.0203, Gmean: 0.0077
+[Best] Accuracy: 0.9857, AUC: 0.9857, F1: 0.9788, AP: 0.9638, Gmean: 0.9855
+
+======[Dataset: Seed - Method: Negexp]======
+[Avg] Accuracy: 0.9721, AUC: 0.9727, F1: 0.9594, AP: 0.9317, Gmean: 0.9723
+[Std] Accuracy: 0.0074, AUC: 0.0061, F1: 0.0102, AP: 0.0183, Gmean: 0.0063
+[Best] Accuracy: 0.9857, AUC: 0.9821, F1: 0.9783, AP: 0.9677, Gmean: 0.9820
+
+======[Dataset: Seed - Method: Limit]======
+[Avg] Accuracy: 0.9710, AUC: 0.9718, F1: 0.9579, AP: 0.9291, Gmean: 0.9714
+[Std] Accuracy: 0.0075, AUC: 0.0075, F1: 0.0107, AP: 0.0182, Gmean: 0.0076
+[Best] Accuracy: 0.9857, AUC: 0.9857, F1: 0.9788, AP: 0.9638, Gmean: 0.9855
+
+======[Dataset: Seed - Method: Reciprocal]======
+[Avg] Accuracy: 0.9736, AUC: 0.9736, F1: 0.9612, AP: 0.9352, Gmean: 0.9732
+[Std] Accuracy: 0.0063, AUC: 0.0059, F1: 0.0088, AP: 0.0148, Gmean: 0.0060
+[Best] Accuracy: 0.9857, AUC: 0.9857, F1: 0.9788, AP: 0.9638, Gmean: 0.9855
+
+======[Dataset: Seed - Method: Random]======
+[Avg] Accuracy: 0.9721, AUC: 0.9716, F1: 0.9592, AP: 0.9329, Gmean: 0.9712
+[Std] Accuracy: 0.0071, AUC: 0.0063, F1: 0.0099, AP: 0.0177, Gmean: 0.0064
+[Best] Accuracy: 0.9857, AUC: 0.9821, F1: 0.9777, AP: 0.9676, Gmean: 0.9816
+
+======[Dataset: Seed - Method: Linearity]======
+[Avg] Accuracy: 0.9724, AUC: 0.9738, F1: 0.9599, AP: 0.9314, Gmean: 0.9734
+[Std] Accuracy: 0.0073, AUC: 0.0063, F1: 0.0098, AP: 0.0175, Gmean: 0.0065
+[Best] Accuracy: 0.9857, AUC: 0.9857, F1: 0.9788, AP: 0.9638, Gmean: 0.9855
+
+======[Dataset: Seed - Method: Negexp]======
+[Avg] Accuracy: 0.9736, AUC: 0.9738, F1: 0.9613, AP: 0.9350, Gmean: 0.9734
+[Std] Accuracy: 0.0077, AUC: 0.0072, F1: 0.0108, AP: 0.0186, Gmean: 0.0073
+[Best] Accuracy: 0.9810, AUC: 0.9821, F1: 0.9719, AP: 0.9505, Gmean: 0.9819
+
+======[Dataset: Seed - Method: Limit]======
+[Avg] Accuracy: 0.9700, AUC: 0.9709, F1: 0.9566, AP: 0.9270, Gmean: 0.9705
+[Std] Accuracy: 0.0092, AUC: 0.0080, F1: 0.0127, AP: 0.0221, Gmean: 0.0082
+[Best] Accuracy: 0.9857, AUC: 0.9857, F1: 0.9788, AP: 0.9638, Gmean: 0.9855
+
+======[Dataset: Seed - Method: Reciprocal]======
+[Avg] Accuracy: 0.9700, AUC: 0.9695, F1: 0.9561, AP: 0.9283, Gmean: 0.9689
+[Std] Accuracy: 0.0102, AUC: 0.0094, F1: 0.0143, AP: 0.0239, Gmean: 0.0098
+[Best] Accuracy: 0.9857, AUC: 0.9821, F1: 0.9783, AP: 0.9677, Gmean: 0.9820
+
+======[Dataset: Seed - Method: Random]======
+[Avg] Accuracy: 0.9724, AUC: 0.9711, F1: 0.9590, AP: 0.9338, Gmean: 0.9704
+[Std] Accuracy: 0.0092, AUC: 0.0102, F1: 0.0139, AP: 0.0214, Gmean: 0.0108
+[Best] Accuracy: 0.9857, AUC: 0.9857, F1: 0.9788, AP: 0.9638, Gmean: 0.9855
+
+======[Dataset: Seed - Method: Linearity]======
+[Avg] Accuracy: 0.9721, AUC: 0.9718, F1: 0.9590, AP: 0.9322, Gmean: 0.9713
+[Std] Accuracy: 0.0071, AUC: 0.0067, F1: 0.0101, AP: 0.0173, Gmean: 0.0068
+[Best] Accuracy: 0.9857, AUC: 0.9821, F1: 0.9783, AP: 0.9676, Gmean: 0.9818
+
+======[Dataset: Seed - Method: Negexp]======
+[Avg] Accuracy: 0.9712, AUC: 0.9714, F1: 0.9581, AP: 0.9303, Gmean: 0.9710
+[Std] Accuracy: 0.0084, AUC: 0.0071, F1: 0.0114, AP: 0.0205, Gmean: 0.0072
+[Best] Accuracy: 0.9857, AUC: 0.9821, F1: 0.9777, AP: 0.9676, Gmean: 0.9816
+
+======[Dataset: Seed - Method: Limit]======
+[Avg] Accuracy: 0.9714, AUC: 0.9716, F1: 0.9584, AP: 0.9307, Gmean: 0.9711
+[Std] Accuracy: 0.0120, AUC: 0.0106, F1: 0.0166, AP: 0.0285, Gmean: 0.0107
+[Best] Accuracy: 0.9810, AUC: 0.9821, F1: 0.9719, AP: 0.9505, Gmean: 0.9820
+
+======[Dataset: Seed - Method: Reciprocal]======
+[Avg] Accuracy: 0.9671, AUC: 0.9682, F1: 0.9523, AP: 0.9194, Gmean: 0.9678
+[Std] Accuracy: 0.0094, AUC: 0.0078, F1: 0.0128, AP: 0.0230, Gmean: 0.0079
+[Best] Accuracy: 0.9810, AUC: 0.9786, F1: 0.9714, AP: 0.9544, Gmean: 0.9784
+
+======[Dataset: Seed - Method: Random]======
+[Avg] Accuracy: 0.9719, AUC: 0.9702, F1: 0.9584, AP: 0.9331, Gmean: 0.9696
+[Std] Accuracy: 0.0072, AUC: 0.0072, F1: 0.0105, AP: 0.0178, Gmean: 0.0073
+[Best] Accuracy: 0.9857, AUC: 0.9821, F1: 0.9777, AP: 0.9676, Gmean: 0.9816
+
+======[Dataset: Seed - Method: Linearity]======
+[Avg] Accuracy: 0.9676, AUC: 0.9698, F1: 0.9536, AP: 0.9208, Gmean: 0.9693
+[Std] Accuracy: 0.0091, AUC: 0.0074, F1: 0.0119, AP: 0.0209, Gmean: 0.0076
+[Best] Accuracy: 0.9810, AUC: 0.9821, F1: 0.9724, AP: 0.9521, Gmean: 0.9818
+
+======[Dataset: Seed - Method: Negexp]======
+[Avg] Accuracy: 0.9710, AUC: 0.9718, F1: 0.9576, AP: 0.9278, Gmean: 0.9714
+[Std] Accuracy: 0.0081, AUC: 0.0070, F1: 0.0114, AP: 0.0205, Gmean: 0.0071
+[Best] Accuracy: 0.9857, AUC: 0.9857, F1: 0.9788, AP: 0.9638, Gmean: 0.9855
+
+======[Dataset: Seed - Method: Limit]======
+[Avg] Accuracy: 0.9714, AUC: 0.9714, F1: 0.9579, AP: 0.9298, Gmean: 0.9710
+[Std] Accuracy: 0.0064, AUC: 0.0071, F1: 0.0094, AP: 0.0154, Gmean: 0.0072
+[Best] Accuracy: 0.9857, AUC: 0.9857, F1: 0.9788, AP: 0.9638, Gmean: 0.9855
+
+======[Dataset: Seed - Method: Reciprocal]======
+[Avg] Accuracy: 0.9729, AUC: 0.9730, F1: 0.9603, AP: 0.9333, Gmean: 0.9727
+[Std] Accuracy: 0.0080, AUC: 0.0067, F1: 0.0111, AP: 0.0203, Gmean: 0.0068
+[Best] Accuracy: 0.9905, AUC: 0.9893, F1: 0.9857, AP: 0.9771, Gmean: 0.9891
+
+======[Dataset: Seed - Method: Random]======
+[Avg] Accuracy: 0.9743, AUC: 0.9739, F1: 0.9620, AP: 0.9371, Gmean: 0.9734
+[Std] Accuracy: 0.0077, AUC: 0.0075, F1: 0.0113, AP: 0.0185, Gmean: 0.0079
+[Best] Accuracy: 0.9857, AUC: 0.9821, F1: 0.9783, AP: 0.9677, Gmean: 0.9820
+
+======[Dataset: Seed - Method: Linearity]======
+[Avg] Accuracy: 0.9743, AUC: 0.9737, F1: 0.9621, AP: 0.9375, Gmean: 0.9733
+[Std] Accuracy: 0.0068, AUC: 0.0080, F1: 0.0102, AP: 0.0157, Gmean: 0.0083
+[Best] Accuracy: 0.9857, AUC: 0.9857, F1: 0.9788, AP: 0.9639, Gmean: 0.9856
+
+======[Dataset: Seed - Method: Negexp]======
+[Avg] Accuracy: 0.9702, AUC: 0.9700, F1: 0.9563, AP: 0.9275, Gmean: 0.9696
+[Std] Accuracy: 0.0090, AUC: 0.0086, F1: 0.0128, AP: 0.0219, Gmean: 0.0087
+[Best] Accuracy: 0.9857, AUC: 0.9857, F1: 0.9793, AP: 0.9655, Gmean: 0.9854
+
+======[Dataset: Seed - Method: Limit]======
+[Avg] Accuracy: 0.9726, AUC: 0.9734, F1: 0.9601, AP: 0.9326, Gmean: 0.9730
+[Std] Accuracy: 0.0091, AUC: 0.0090, F1: 0.0129, AP: 0.0212, Gmean: 0.0092
+[Best] Accuracy: 0.9905, AUC: 0.9929, F1: 0.9862, AP: 0.9733, Gmean: 0.9928
+
+======[Dataset: Seed - Method: Reciprocal]======
+[Avg] Accuracy: 0.9731, AUC: 0.9723, F1: 0.9603, AP: 0.9348, Gmean: 0.9719
+[Std] Accuracy: 0.0069, AUC: 0.0070, F1: 0.0100, AP: 0.0171, Gmean: 0.0072
+[Best] Accuracy: 0.9857, AUC: 0.9857, F1: 0.9793, AP: 0.9655, Gmean: 0.9854
+
+======[Dataset: Seed - Method: Random]======
+[Avg] Accuracy: 0.9721, AUC: 0.9714, F1: 0.9592, AP: 0.9329, Gmean: 0.9710
+[Std] Accuracy: 0.0086, AUC: 0.0081, F1: 0.0119, AP: 0.0202, Gmean: 0.0083
+[Best] Accuracy: 0.9857, AUC: 0.9821, F1: 0.9783, AP: 0.9676, Gmean: 0.9818
+
+======[Dataset: Seed - Method: Linearity]======
+[Avg] Accuracy: 0.9667, AUC: 0.9675, F1: 0.9517, AP: 0.9190, Gmean: 0.9670
+[Std] Accuracy: 0.0112, AUC: 0.0103, F1: 0.0157, AP: 0.0268, Gmean: 0.0104
+[Best] Accuracy: 0.9810, AUC: 0.9821, F1: 0.9724, AP: 0.9524, Gmean: 0.9821
+
+======[Dataset: Seed - Method: Negexp]======
+[Avg] Accuracy: 0.9714, AUC: 0.9721, F1: 0.9583, AP: 0.9298, Gmean: 0.9717
+[Std] Accuracy: 0.0094, AUC: 0.0094, F1: 0.0137, AP: 0.0225, Gmean: 0.0096
+[Best] Accuracy: 0.9857, AUC: 0.9857, F1: 0.9793, AP: 0.9655, Gmean: 0.9854
+
+======[Dataset: Seed - Method: Limit]======
+[Avg] Accuracy: 0.9714, AUC: 0.9723, F1: 0.9584, AP: 0.9293, Gmean: 0.9720
+[Std] Accuracy: 0.0066, AUC: 0.0059, F1: 0.0093, AP: 0.0170, Gmean: 0.0059
+[Best] Accuracy: 0.9857, AUC: 0.9857, F1: 0.9793, AP: 0.9655, Gmean: 0.9854
+
+======[Dataset: Seed - Method: Reciprocal]======
+[Avg] Accuracy: 0.9731, AUC: 0.9738, F1: 0.9608, AP: 0.9336, Gmean: 0.9734
+[Std] Accuracy: 0.0069, AUC: 0.0065, F1: 0.0098, AP: 0.0166, Gmean: 0.0066
+[Best] Accuracy: 0.9857, AUC: 0.9857, F1: 0.9793, AP: 0.9655, Gmean: 0.9854
+
+======[Dataset: Seed - Method: Random]======
+[Avg] Accuracy: 0.9745, AUC: 0.9738, F1: 0.9626, AP: 0.9384, Gmean: 0.9734
+[Std] Accuracy: 0.0073, AUC: 0.0077, F1: 0.0105, AP: 0.0174, Gmean: 0.0078
+[Best] Accuracy: 0.9857, AUC: 0.9857, F1: 0.9788, AP: 0.9639, Gmean: 0.9856
+
+======[Dataset: Seed - Method: Linearity]======
+[Avg] Accuracy: 0.9721, AUC: 0.9738, F1: 0.9594, AP: 0.9299, Gmean: 0.9735
+[Std] Accuracy: 0.0069, AUC: 0.0063, F1: 0.0099, AP: 0.0173, Gmean: 0.0063
+[Best] Accuracy: 0.9810, AUC: 0.9821, F1: 0.9724, AP: 0.9521, Gmean: 0.9818
+
+======[Dataset: Seed - Method: Negexp]======
+[Avg] Accuracy: 0.9721, AUC: 0.9723, F1: 0.9592, AP: 0.9321, Gmean: 0.9718
+[Std] Accuracy: 0.0071, AUC: 0.0063, F1: 0.0098, AP: 0.0169, Gmean: 0.0065
+[Best] Accuracy: 0.9810, AUC: 0.9750, F1: 0.9703, AP: 0.9581, Gmean: 0.9743
+
+======[Dataset: Seed - Method: Limit]======
+[Avg] Accuracy: 0.9679, AUC: 0.9688, F1: 0.9536, AP: 0.9228, Gmean: 0.9680
+[Std] Accuracy: 0.0112, AUC: 0.0096, F1: 0.0147, AP: 0.0252, Gmean: 0.0100
+[Best] Accuracy: 0.9857, AUC: 0.9821, F1: 0.9783, AP: 0.9676, Gmean: 0.9818
+
+======[Dataset: Seed - Method: Reciprocal]======
+[Avg] Accuracy: 0.9705, AUC: 0.9711, F1: 0.9569, AP: 0.9274, Gmean: 0.9706
+[Std] Accuracy: 0.0091, AUC: 0.0091, F1: 0.0131, AP: 0.0216, Gmean: 0.0093
+[Best] Accuracy: 0.9857, AUC: 0.9857, F1: 0.9788, AP: 0.9639, Gmean: 0.9856
+
+======[Dataset: Seed - Method: Random]======
+[Avg] Accuracy: 0.9750, AUC: 0.9736, F1: 0.9628, AP: 0.9396, Gmean: 0.9731
+[Std] Accuracy: 0.0065, AUC: 0.0064, F1: 0.0095, AP: 0.0159, Gmean: 0.0066
+[Best] Accuracy: 0.9857, AUC: 0.9857, F1: 0.9788, AP: 0.9639, Gmean: 0.9856
+
+======[Dataset: Seed - Method: Linearity]======
+[Avg] Accuracy: 0.9731, AUC: 0.9725, F1: 0.9605, AP: 0.9352, Gmean: 0.9720
+[Std] Accuracy: 0.0055, AUC: 0.0054, F1: 0.0078, AP: 0.0132, Gmean: 0.0057
+[Best] Accuracy: 0.9810, AUC: 0.9821, F1: 0.9719, AP: 0.9505, Gmean: 0.9820
+
+======[Dataset: Seed - Method: Negexp]======
+[Avg] Accuracy: 0.9690, AUC: 0.9684, F1: 0.9546, AP: 0.9255, Gmean: 0.9679
+[Std] Accuracy: 0.0090, AUC: 0.0080, F1: 0.0124, AP: 0.0219, Gmean: 0.0082
+[Best] Accuracy: 0.9810, AUC: 0.9821, F1: 0.9724, AP: 0.9522, Gmean: 0.9820
+
+======[Dataset: Seed - Method: Limit]======
+[Avg] Accuracy: 0.9710, AUC: 0.9713, F1: 0.9579, AP: 0.9301, Gmean: 0.9707
+[Std] Accuracy: 0.0077, AUC: 0.0078, F1: 0.0109, AP: 0.0179, Gmean: 0.0079
+[Best] Accuracy: 0.9857, AUC: 0.9821, F1: 0.9777, AP: 0.9676, Gmean: 0.9816
+
+======[Dataset: Seed - Method: Reciprocal]======
+[Avg] Accuracy: 0.9721, AUC: 0.9720, F1: 0.9592, AP: 0.9324, Gmean: 0.9715
+[Std] Accuracy: 0.0076, AUC: 0.0077, F1: 0.0109, AP: 0.0184, Gmean: 0.0079
+[Best] Accuracy: 0.9905, AUC: 0.9893, F1: 0.9857, AP: 0.9772, Gmean: 0.9893
+
+======[Dataset: Seed - Method: Random]======
+[Avg] Accuracy: 0.9714, AUC: 0.9709, F1: 0.9580, AP: 0.9309, Gmean: 0.9705
+[Std] Accuracy: 0.0075, AUC: 0.0074, F1: 0.0106, AP: 0.0175, Gmean: 0.0075
+[Best] Accuracy: 0.9810, AUC: 0.9821, F1: 0.9719, AP: 0.9505, Gmean: 0.9820
+
+======[Dataset: Seed - Method: Linearity]======
+[Avg] Accuracy: 0.9698, AUC: 0.9696, F1: 0.9558, AP: 0.9269, Gmean: 0.9692
+[Std] Accuracy: 0.0089, AUC: 0.0093, F1: 0.0129, AP: 0.0206, Gmean: 0.0095
+[Best] Accuracy: 0.9857, AUC: 0.9857, F1: 0.9793, AP: 0.9655, Gmean: 0.9854
+
+======[Dataset: Seed - Method: Negexp]======
+[Avg] Accuracy: 0.9695, AUC: 0.9698, F1: 0.9555, AP: 0.9257, Gmean: 0.9694
+[Std] Accuracy: 0.0107, AUC: 0.0106, F1: 0.0152, AP: 0.0248, Gmean: 0.0108
+[Best] Accuracy: 0.9857, AUC: 0.9857, F1: 0.9788, AP: 0.9639, Gmean: 0.9856
+
+======[Dataset: Seed - Method: Limit]======
+[Avg] Accuracy: 0.9719, AUC: 0.9718, F1: 0.9588, AP: 0.9315, Gmean: 0.9713
+[Std] Accuracy: 0.0069, AUC: 0.0070, F1: 0.0099, AP: 0.0171, Gmean: 0.0072
+[Best] Accuracy: 0.9810, AUC: 0.9821, F1: 0.9724, AP: 0.9522, Gmean: 0.9820

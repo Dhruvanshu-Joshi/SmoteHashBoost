@@ -1,0 +1,12 @@
+
+======[Dataset: Wine - Method: Reciprocal]======
+
+======[Dataset: Wine - Method: Random]======
+
+======[Dataset: Wine - Method: Linearity]======
+
+======[Dataset: Wine - Method: Negexp]======
+
+======[Dataset: Wine - Method: Limit]======
+
+======[Dataset: Wine - Method: Reciprocal]======

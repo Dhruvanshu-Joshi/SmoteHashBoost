@@ -1,0 +1,14 @@
+
+======[Dataset: Glass - Adaboost Method: Glass]======
+Results for dataset: Glass - Adaboost Method: Glass
+
+Best results: Accuracy = 0.9907, AUC = 0.9476, F1 = 0.8933, Ap = 0.8380, Accuracy = 0.9390
+
+[Avg] Accuracy: 0.8925, AUC: 0.8246, F1: 0.7128, AP: 0.6419, Gmean: 0.7948
+[Std] Accuracy: 0.1461, AUC: 0.1680, F1: 0.1962, AP: 0.1816, Gmean: 0.2082
+[Best] Accuracy: 0.9907, AUC: 0.9476, F1: 0.8933, AP: 0.8380, Gmean: 0.9390
+
+======[Dataset: Glass - SmoteBoost Method: Glass]======
+[Avg] Accuracy: 0.9418, AUC: 0.8965, F1: 0.7955, AP: 0.6784, Gmean: 0.8899
+[Std] Accuracy: 0.0096, AUC: 0.0179, F1: 0.0311, AP: 0.0392, Gmean: 0.0208
+[Best] Accuracy: 0.9580, AUC: 0.9198, F1: 0.8485, AP: 0.7408, Gmean: 0.9176

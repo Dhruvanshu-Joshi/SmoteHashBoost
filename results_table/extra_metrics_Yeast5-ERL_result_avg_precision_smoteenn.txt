@@ -1,0 +1,15 @@
+
+======[Dataset: Yeast5-ERL - Smote ENN Method: Yeast5-ERL]======
+[Avg] Accuracy: 0.8587, AUC: 0.8494, F1: 0.7307, AP: 0.6809, Gmean: 0.8394
+[Std] Accuracy: 0.2372, AUC: 0.2653, F1: 0.2594, AP: 0.2464, Gmean: 0.2937
+[Best] Accuracy: 0.9993, AUC: 0.9997, F1: 0.9333, AP: 0.9000, Gmean: 0.9997
+
+======[Dataset: Yeast5-ERL - Smote ENN Method: Yeast5-ERL]======
+[Avg] Accuracy: 0.8682, AUC: 0.8492, F1: 0.7108, AP: 0.6599, Gmean: 0.8293
+[Std] Accuracy: 0.2387, AUC: 0.2709, F1: 0.2635, AP: 0.2500, Gmean: 0.3048
+[Best] Accuracy: 0.9993, AUC: 0.9997, F1: 0.9333, AP: 0.9000, Gmean: 0.9997
+
+======[Dataset: Yeast5-ERL - Smote ENN Method: Yeast5-ERL]======
+[Avg] Accuracy: 0.9084, AUC: 0.8942, F1: 0.7625, AP: 0.7115, Gmean: 0.8793
+[Std] Accuracy: 0.1839, AUC: 0.2010, F1: 0.1982, AP: 0.1896, Gmean: 0.2226
+[Best] Accuracy: 0.9993, AUC: 0.9997, F1: 0.9333, AP: 0.9000, Gmean: 0.9997

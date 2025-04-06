@@ -1,0 +1,5 @@
+
+======[Dataset: Seed - Borderline Smote Method: Seed]======
+[Avg] Accuracy: 0.9600, AUC: 0.9584, F1: 0.9416, AP: 0.9058, Gmean: 0.9578
+[Std] Accuracy: 0.0123, AUC: 0.0129, F1: 0.0173, AP: 0.0263, Gmean: 0.0132
+[Best] Accuracy: 0.9714, AUC: 0.9750, F1: 0.9590, AP: 0.9272, Gmean: 0.9747

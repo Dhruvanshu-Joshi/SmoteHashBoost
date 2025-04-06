@@ -1,0 +1,5 @@
+
+======[Dataset: Wine - Rusboost Method: Wine]======
+[Avg] Accuracy: 0.9770, AUC: 0.9775, F1: 0.9591, AP: 0.9305, Gmean: 0.9768
+[Std] Accuracy: 0.0079, AUC: 0.0107, F1: 0.0144, AP: 0.0218, Gmean: 0.0114
+[Best] Accuracy: 0.9943, AUC: 0.9962, F1: 0.9895, AP: 0.9800, Gmean: 0.9961

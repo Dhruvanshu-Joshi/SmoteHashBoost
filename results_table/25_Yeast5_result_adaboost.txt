@@ -1,0 +1,14 @@
+
+======[Dataset: Yeast5 - Adaboost Method: Yeast5]======
+Results for dataset: Yeast5 - Adaboost Method: Yeast5
+
+Best results: Accuracy = 0.9838, AUC = 0.8583, F1 = 0.7295, Ap = 0.5529, Accuracy = 0.8462
+
+[Avg] Accuracy: 0.9805, AUC: 0.8230, F1: 0.6601, AP: 0.4686, Gmean: 0.7988
+[Std] Accuracy: 0.0017, AUC: 0.0311, F1: 0.0392, AP: 0.0456, Gmean: 0.0407
+[Best] Accuracy: 0.9838, AUC: 0.8583, F1: 0.7295, AP: 0.5529, Gmean: 0.8462
+
+======[Dataset: Yeast5 - SmoteBoost Method: Yeast5]======
+[Avg] Accuracy: 0.9794, AUC: 0.8413, F1: 0.6635, AP: 0.4723, Gmean: 0.8218
+[Std] Accuracy: 0.0018, AUC: 0.0305, F1: 0.0359, AP: 0.0421, Gmean: 0.0401
+[Best] Accuracy: 0.9818, AUC: 0.8802, F1: 0.7211, AP: 0.5442, Gmean: 0.8704

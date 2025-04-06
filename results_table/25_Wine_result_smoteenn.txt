@@ -1,0 +1,5 @@
+
+======[Dataset: Wine - Smote ENN Method: Wine]======
+[Avg] Accuracy: 0.9430, AUC: 0.9363, F1: 0.8975, AP: 0.8383, Gmean: 0.9341
+[Std] Accuracy: 0.0155, AUC: 0.0176, F1: 0.0283, AP: 0.0435, Gmean: 0.0188
+[Best] Accuracy: 0.9662, AUC: 0.9574, F1: 0.9378, AP: 0.9009, Gmean: 0.9568

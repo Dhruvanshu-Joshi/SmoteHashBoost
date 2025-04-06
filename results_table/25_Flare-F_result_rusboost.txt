@@ -1,0 +1,5 @@
+
+======[Dataset: Flare-F - Rusboost Method: Flare-F]======
+[Avg] Accuracy: 0.8166, AUC: 0.8010, F1: 0.2563, AP: 0.1313, Gmean: 0.7960
+[Std] Accuracy: 0.0072, AUC: 0.0181, F1: 0.0120, AP: 0.0088, Gmean: 0.0207
+[Best] Accuracy: 0.8302, AUC: 0.8210, F1: 0.2780, AP: 0.1463, Gmean: 0.8183

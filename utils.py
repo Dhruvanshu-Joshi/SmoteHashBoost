@@ -1,4 +1,5 @@
-from sklearn.metrics import accuracy_score, roc_auc_score, roc_curve
+from sklearn.metrics import accuracy_score, roc_auc_score, roc_curve, f1_score, average_precision_score
+from imblearn.metrics import geometric_mean_score
 from ensemble import HashBasedUndersamplingEnsemble
 from sklearn.model_selection import StratifiedKFold
 from tqdm import tqdm
@@ -87,6 +88,7 @@ def evaluate(
         X,
         y,
         minority_class=None,
+        output_file=None,
         k: int = 5,
         n_runs: int = 20,
         n_iterations: int = 50,
@@ -135,18 +137,23 @@ def evaluate(
         name
     ))
 
+    # Open the output file in append mode
+    with open(output_file, 'a') as file:
+        file.write("\n")
+        file.write(f"======[Dataset: {name}]======\n")
+
     np.random.seed(random_state)
 
     # Output template
-    OUTPUT = "[{}] Accuracy: {:.4f}, AUC: {:.4f}"
+    OUTPUT = "[{}] Accuracy: {:.4f}, AUC: {:.4f}, F1: {:.4f}, AP: {:.4f}, Gmean: {:.4f}"
 
     # Prepare the data (Make it Binary)
     X, y = prepare(X, y, minority_class, verbose)
 
     best_roc_data = None
-    best_metrics = [-np.inf, -np.inf]  # [accuracy, AUC]
+    best_metrics = [-np.inf, -np.inf, -np.inf, -np.inf, -np.inf]  # [accuracy, AUC]
 
-    folds = np.zeros((n_runs, 2))
+    folds = np.zeros((n_runs, 5))
 
     # k-Fold (k = 5 as per the paper)
     for run in tqdm(range(n_runs)):
@@ -155,7 +162,7 @@ def evaluate(
         kFold = StratifiedKFold(n_splits=k, shuffle=True)
 
         # store metrics in this variable
-        metrics = np.zeros((k, 2))
+        metrics = np.zeros((k, 5))
         fpr_list =  []
         tpr_list = []
         start_time = time.time()
@@ -185,6 +192,10 @@ def evaluate(
             # Accuracy evaluation
             accuracy = accuracy_score(yts, predicted)
 
+            rf_f1 = f1_score(yts, predicted)
+            ap_score = average_precision_score(yts, predicted)
+            gmean = geometric_mean_score(yts, predicted)
+
             fpr, tpr, _ = roc_curve(yts, predicted)
             fpr_list.append(fpr)
             tpr_list.append(tpr)
@@ -192,7 +203,7 @@ def evaluate(
             # # Collect ROC curve data
             # fpr, tpr, _ = roc_curve(yts, y_prob)
             # roc_data.append((fpr, tpr, auc_score))
-            metrics[fold, :] = [accuracy, AUC]
+            metrics[fold, :] = [accuracy, AUC, rf_f1, ap_score, gmean]
         # End timing the loop
         end_time = time.time()
         elapsed_time = (end_time - start_time) * 1000  # Convert seconds to milliseconds
@@ -208,6 +219,9 @@ def evaluate(
         if np.all(run_metrics > best_metrics):
             best_metrics = run_metrics
             best_roc_data = (final_fpr, final_tpr, run_metrics[1])
+    
+    avg_metrics = np.mean(folds, axis=0)
+    std_metrics = np.std(folds, axis=0)
 
     # print(OUTPUT.format("Best", accuracy, auc_score))
     print()
@@ -221,6 +235,11 @@ def evaluate(
         "Best",
         *best_metrics
     ))
+
+    with open(output_file, 'a') as file:
+        file.write(OUTPUT.format("Avg", *avg_metrics) + "\n")
+        file.write(OUTPUT.format("Std", *std_metrics) + "\n")
+        file.write(OUTPUT.format("Best", *best_metrics) + "\n")
 
     # if best_roc_data:
     #     fpr, tpr, auc_score = best_roc_data

@@ -1,0 +1,15 @@
+
+======[Dataset: ILPD - Borderline Smote Method: ILPD]======
+[Avg] Accuracy: 0.6630, AUC: 0.6042, F1: 0.4406, AP: 0.3529, Gmean: 0.5849
+[Std] Accuracy: 0.0172, AUC: 0.0205, F1: 0.0290, AP: 0.0147, Gmean: 0.0253
+[Best] Accuracy: 0.6913, AUC: 0.6384, F1: 0.4892, AP: 0.3816, Gmean: 0.6259
+
+======[Dataset: ILPD - Borderline Smote Method: ILPD]======
+[Avg] Accuracy: 0.6622, AUC: 0.6074, F1: 0.4461, AP: 0.3545, Gmean: 0.5901
+[Std] Accuracy: 0.0150, AUC: 0.0215, F1: 0.0305, AP: 0.0153, Gmean: 0.0268
+[Best] Accuracy: 0.6930, AUC: 0.6420, F1: 0.4901, AP: 0.3853, Gmean: 0.6265
+
+======[Dataset: ILPD - Borderline Smote Method: ILPD]======
+[Avg] Accuracy: 0.6629, AUC: 0.6065, F1: 0.4450, AP: 0.3540, Gmean: 0.5892
+[Std] Accuracy: 0.0159, AUC: 0.0195, F1: 0.0262, AP: 0.0148, Gmean: 0.0222
+[Best] Accuracy: 0.6879, AUC: 0.6362, F1: 0.4851, AP: 0.3763, Gmean: 0.6237

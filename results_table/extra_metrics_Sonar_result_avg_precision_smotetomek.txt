@@ -1,0 +1,15 @@
+
+======[Dataset: Sonar - SmoteTomek Method: Sonar]======
+[Avg] Accuracy: 0.7147, AUC: 0.7130, F1: 0.6895, AP: 0.6300, Gmean: 0.7085
+[Std] Accuracy: 0.0195, AUC: 0.0206, F1: 0.0273, AP: 0.0186, Gmean: 0.0215
+[Best] Accuracy: 0.7599, AUC: 0.7607, F1: 0.7509, AP: 0.6737, Gmean: 0.7604
+
+======[Dataset: Sonar - SmoteTomek Method: Sonar]======
+[Avg] Accuracy: 0.7107, AUC: 0.7091, F1: 0.6858, AP: 0.6266, Gmean: 0.7048
+[Std] Accuracy: 0.0352, AUC: 0.0355, F1: 0.0394, AP: 0.0338, Gmean: 0.0360
+[Best] Accuracy: 0.7835, AUC: 0.7804, F1: 0.7560, AP: 0.7038, Gmean: 0.7752
+
+======[Dataset: Sonar - SmoteTomek Method: Sonar]======
+[Avg] Accuracy: 0.7054, AUC: 0.7031, F1: 0.6783, AP: 0.6232, Gmean: 0.6981
+[Std] Accuracy: 0.0288, AUC: 0.0297, F1: 0.0366, AP: 0.0277, Gmean: 0.0314
+[Best] Accuracy: 0.7546, AUC: 0.7550, F1: 0.7393, AP: 0.6730, Gmean: 0.7509

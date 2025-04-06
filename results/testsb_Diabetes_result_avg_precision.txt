@@ -1,0 +1,5 @@
+
+======[Dataset: Diabetes - SmoteBoost Method: Diabetes]======
+[Avg] Accuracy: 0.9651, AUC: 0.9646, F1: 0.9551, AP: 0.9276, Gmean: 0.9644
+[Std] Accuracy: 0.0069, AUC: 0.0065, F1: 0.0086, AP: 0.0143, Gmean: 0.0066
+[Best] Accuracy: 0.9769, AUC: 0.9766, F1: 0.9703, AP: 0.9520, Gmean: 0.9763

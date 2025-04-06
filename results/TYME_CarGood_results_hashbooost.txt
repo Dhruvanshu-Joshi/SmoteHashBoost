@@ -1,0 +1,15 @@
+
+======[Dataset: CarGood - Method: Reciprocal]======
+======[Time: 299.0703582763672]======
+
+======[Dataset: CarGood - Method: Random]======
+======[Time: 270.0819969177246]======
+
+======[Dataset: CarGood - Method: Linearity]======
+======[Time: 423.98881912231445]======
+
+======[Dataset: CarGood - Method: Negexp]======
+======[Time: 259.92631912231445]======
+
+======[Dataset: CarGood - Method: Limit]======
+======[Time: 249.29308891296387]======

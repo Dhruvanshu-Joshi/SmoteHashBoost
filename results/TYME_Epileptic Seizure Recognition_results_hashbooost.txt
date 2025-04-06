@@ -1,0 +1,15 @@
+
+======[Dataset: Epileptic Seizure Recognition - Method: Reciprocal]======
+======[Time: 48218.846797943115]======
+
+======[Dataset: Epileptic Seizure Recognition - Method: Random]======
+======[Time: 48053.302526474]======
+
+======[Dataset: Epileptic Seizure Recognition - Method: Linearity]======
+======[Time: 45888.47541809082]======
+
+======[Dataset: Epileptic Seizure Recognition - Method: Negexp]======
+======[Time: 46239.7403717041]======
+
+======[Dataset: Epileptic Seizure Recognition - Method: Limit]======
+======[Time: 44689.14437294006]======

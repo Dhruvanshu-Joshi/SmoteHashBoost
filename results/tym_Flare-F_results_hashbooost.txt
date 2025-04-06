@@ -1,0 +1,10 @@
+
+======[Dataset: Flare-F - Method: Reciprocal]======
+
+======[Dataset: Flare-F - Method: Random]======
+
+======[Dataset: Flare-F - Method: Linearity]======
+
+======[Dataset: Flare-F - Method: Negexp]======
+
+======[Dataset: Flare-F - Method: Limit]======

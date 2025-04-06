@@ -1,0 +1,5 @@
+
+======[Dataset: Flare-F - Borderline Smote Method: Flare-F]======
+[Avg] Accuracy: 0.9375, AUC: 0.5550, F1: 0.1462, AP: 0.0719, Gmean: 0.3022
+[Std] Accuracy: 0.0032, AUC: 0.0249, F1: 0.0453, AP: 0.0148, Gmean: 0.0820
+[Best] Accuracy: 0.9428, AUC: 0.5457, F1: 0.1341, AP: 0.0687, Gmean: 0.2564

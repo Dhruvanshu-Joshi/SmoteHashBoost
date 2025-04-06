@@ -1,0 +1,25 @@
+
+======[Dataset: Sonar - Method: Reciprocal]======
+[Avg] Accuracy: 0.7218, AUC: 0.7258, F1: 0.7228, AP: 0.6338, Gmean: 0.7192
+[Std] Accuracy: 0.0267, AUC: 0.0259, F1: 0.0240, AP: 0.0247, Gmean: 0.0283
+[Best] Accuracy: 0.7690, AUC: 0.7696, F1: 0.7580, AP: 0.6820, Gmean: 0.7683
+
+======[Dataset: Sonar - Method: Random]======
+[Avg] Accuracy: 0.7141, AUC: 0.7247, F1: 0.7415, AP: 0.6238, Gmean: 0.7033
+[Std] Accuracy: 0.0209, AUC: 0.0203, F1: 0.0190, AP: 0.0184, Gmean: 0.0224
+[Best] Accuracy: 0.7453, AUC: 0.7566, F1: 0.7723, AP: 0.6487, Gmean: 0.7357
+
+======[Dataset: Sonar - Method: Linearity]======
+[Avg] Accuracy: 0.7372, AUC: 0.7405, F1: 0.7361, AP: 0.6485, Gmean: 0.7349
+[Std] Accuracy: 0.0205, AUC: 0.0203, F1: 0.0203, AP: 0.0208, Gmean: 0.0204
+[Best] Accuracy: 0.7979, AUC: 0.8014, F1: 0.7977, AP: 0.7093, Gmean: 0.7972
+
+======[Dataset: Sonar - Method: Negexp]======
+[Avg] Accuracy: 0.7341, AUC: 0.7386, F1: 0.7373, AP: 0.6460, Gmean: 0.7310
+[Std] Accuracy: 0.0227, AUC: 0.0225, F1: 0.0214, AP: 0.0219, Gmean: 0.0239
+[Best] Accuracy: 0.7786, AUC: 0.7816, F1: 0.7756, AP: 0.6892, Gmean: 0.7754
+
+======[Dataset: Sonar - Method: Limit]======
+[Avg] Accuracy: 0.7284, AUC: 0.7325, F1: 0.7307, AP: 0.6399, Gmean: 0.7234
+[Std] Accuracy: 0.0205, AUC: 0.0203, F1: 0.0209, AP: 0.0205, Gmean: 0.0217
+[Best] Accuracy: 0.7646, AUC: 0.7708, F1: 0.7730, AP: 0.6739, Gmean: 0.7585

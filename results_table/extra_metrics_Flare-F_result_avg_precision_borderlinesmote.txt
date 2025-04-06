@@ -1,0 +1,15 @@
+
+======[Dataset: Flare-F - Borderline Smote Method: Flare-F]======
+[Avg] Accuracy: 0.9378, AUC: 0.5578, F1: 0.1552, AP: 0.0764, Gmean: 0.3150
+[Std] Accuracy: 0.0045, AUC: 0.0238, F1: 0.0520, AP: 0.0220, Gmean: 0.0890
+[Best] Accuracy: 0.9409, AUC: 0.5992, F1: 0.2442, AP: 0.1175, Gmean: 0.4502
+
+======[Dataset: Flare-F - Borderline Smote Method: Flare-F]======
+[Avg] Accuracy: 0.9363, AUC: 0.5704, F1: 0.1733, AP: 0.0786, Gmean: 0.3609
+[Std] Accuracy: 0.0054, AUC: 0.0247, F1: 0.0473, AP: 0.0189, Gmean: 0.0708
+[Best] Accuracy: 0.9465, AUC: 0.5837, F1: 0.2121, AP: 0.1065, Gmean: 0.3712
+
+======[Dataset: Flare-F - Borderline Smote Method: Flare-F]======
+[Avg] Accuracy: 0.9382, AUC: 0.5653, F1: 0.1705, AP: 0.0752, Gmean: 0.3601
+[Std] Accuracy: 0.0041, AUC: 0.0200, F1: 0.0387, AP: 0.0146, Gmean: 0.0637
+[Best] Accuracy: 0.9447, AUC: 0.6026, F1: 0.2554, AP: 0.1055, Gmean: 0.4687

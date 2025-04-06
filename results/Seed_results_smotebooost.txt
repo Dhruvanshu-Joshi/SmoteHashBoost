@@ -1,0 +1,5 @@
+
+======[Dataset: Seed - Method: Seed]======
+[Avg] Accuracy: 0.9731, AUC: 0.9705, F1: 0.9598, AP: 0.9363, Gmean: 0.9700
+[Std] Accuracy: 0.0077, AUC: 0.0076, F1: 0.0110, AP: 0.0187, Gmean: 0.0077
+[Best] Accuracy: 0.9857, AUC: 0.9821, F1: 0.9777, AP: 0.9676, Gmean: 0.9816

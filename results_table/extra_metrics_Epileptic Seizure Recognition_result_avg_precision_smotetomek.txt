@@ -1,0 +1,15 @@
+
+======[Dataset: Epileptic Seizure Recognition - SmoteTomek Method: Epileptic Seizure Recognition]======
+[Avg] Accuracy: 0.9116, AUC: 0.8850, F1: 0.7918, AP: 0.6613, Gmean: 0.8838
+[Std] Accuracy: 0.0021, AUC: 0.0030, F1: 0.0045, AP: 0.0063, Gmean: 0.0032
+[Best] Accuracy: 0.9132, AUC: 0.8907, F1: 0.7971, AP: 0.6678, Gmean: 0.8897
+
+======[Dataset: Epileptic Seizure Recognition - SmoteTomek Method: Epileptic Seizure Recognition]======
+[Avg] Accuracy: 0.9117, AUC: 0.8858, F1: 0.7925, AP: 0.6621, Gmean: 0.8847
+[Std] Accuracy: 0.0030, AUC: 0.0041, F1: 0.0065, AP: 0.0092, Gmean: 0.0042
+[Best] Accuracy: 0.9200, AUC: 0.8944, F1: 0.8098, AP: 0.6872, Gmean: 0.8933
+
+======[Dataset: Epileptic Seizure Recognition - SmoteTomek Method: Epileptic Seizure Recognition]======
+[Avg] Accuracy: 0.9124, AUC: 0.8868, F1: 0.7940, AP: 0.6641, Gmean: 0.8857
+[Std] Accuracy: 0.0026, AUC: 0.0043, F1: 0.0060, AP: 0.0083, Gmean: 0.0044
+[Best] Accuracy: 0.9195, AUC: 0.8967, F1: 0.8102, AP: 0.6869, Gmean: 0.8958

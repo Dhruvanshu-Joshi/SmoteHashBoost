@@ -1,0 +1,19 @@
+
+======[Dataset: Epileptic Seizure Recognition - Adaboost Method: Epileptic Seizure Recognition]======
+[Avg] Accuracy: 0.9391, AUC: 0.8994, F1: 0.8455, AP: 0.7486, Gmean: 0.8969
+[Std] Accuracy: 0.0020, AUC: 0.0038, F1: 0.0052, AP: 0.0075, Gmean: 0.0041
+[Best] Accuracy: 0.9432, AUC: 0.9074, F1: 0.8565, AP: 0.7645, Gmean: 0.9054
+
+======[Dataset: Epileptic Seizure Recognition - Adaboost Method: Epileptic Seizure Recognition]======
+Results for dataset: Epileptic Seizure Recognition - Adaboost Method: Epileptic Seizure Recognition
+
+Best results: Accuracy = 0.9422, AUC = 0.9076, F1 = 0.8547, Ap = 0.7606, Accuracy = 0.9057
+
+[Avg] Accuracy: 0.9386, AUC: 0.8992, F1: 0.8445, AP: 0.7470, Gmean: 0.8967
+[Std] Accuracy: 0.0020, AUC: 0.0040, F1: 0.0053, AP: 0.0076, Gmean: 0.0043
+[Best] Accuracy: 0.9422, AUC: 0.9076, F1: 0.8547, AP: 0.7606, Gmean: 0.9057
+
+======[Dataset: Epileptic Seizure Recognition - SmoteBoost Method: Epileptic Seizure Recognition]======
+[Avg] Accuracy: 0.9123, AUC: 0.8866, F1: 0.7938, AP: 0.6638, Gmean: 0.8855
+[Std] Accuracy: 0.0024, AUC: 0.0041, F1: 0.0057, AP: 0.0078, Gmean: 0.0042
+[Best] Accuracy: 0.9165, AUC: 0.8937, F1: 0.8040, AP: 0.6778, Gmean: 0.8929

@@ -1,0 +1,19 @@
+
+======[Dataset: Sonar - Adaboost Method: Sonar]======
+[Avg] Accuracy: 0.7142, AUC: 0.7125, F1: 0.6909, AP: 0.6314, Gmean: 0.7075
+[Std] Accuracy: 0.0199, AUC: 0.0193, F1: 0.0207, AP: 0.0212, Gmean: 0.0194
+[Best] Accuracy: 0.7599, AUC: 0.7580, F1: 0.7440, AP: 0.6755, Gmean: 0.7525
+
+======[Dataset: Sonar - Adaboost Method: Sonar]======
+Results for dataset: Sonar - Adaboost Method: Sonar
+
+Best results: Accuracy = 0.7497, AUC = 0.7516, F1 = 0.7394, Ap = 0.6593, Accuracy = 0.7478
+
+[Avg] Accuracy: 0.7092, AUC: 0.7082, F1: 0.6866, AP: 0.6241, Gmean: 0.7031
+[Std] Accuracy: 0.0262, AUC: 0.0262, F1: 0.0296, AP: 0.0248, Gmean: 0.0287
+[Best] Accuracy: 0.7497, AUC: 0.7516, F1: 0.7394, AP: 0.6593, Gmean: 0.7478
+
+======[Dataset: Sonar - SmoteBoost Method: Sonar]======
+[Avg] Accuracy: 0.7118, AUC: 0.7096, F1: 0.6855, AP: 0.6288, Gmean: 0.7050
+[Std] Accuracy: 0.0320, AUC: 0.0321, F1: 0.0352, AP: 0.0324, Gmean: 0.0327
+[Best] Accuracy: 0.7740, AUC: 0.7704, F1: 0.7470, AP: 0.7021, Gmean: 0.7676

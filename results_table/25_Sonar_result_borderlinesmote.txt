@@ -1,0 +1,5 @@
+
+======[Dataset: Sonar - Borderline Smote Method: Sonar]======
+[Avg] Accuracy: 0.7120, AUC: 0.7108, F1: 0.6909, AP: 0.6267, Gmean: 0.7071
+[Std] Accuracy: 0.0240, AUC: 0.0246, F1: 0.0307, AP: 0.0239, Gmean: 0.0251
+[Best] Accuracy: 0.7453, AUC: 0.7474, F1: 0.7399, AP: 0.6563, Gmean: 0.7427

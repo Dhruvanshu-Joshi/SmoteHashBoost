@@ -1,0 +1,5 @@
+
+======[Dataset: CarGood - SmoteTomek Method: CarGood]======
+[Avg] Accuracy: 0.9861, AUC: 0.9130, F1: 0.8278, AP: 0.7098, Gmean: 0.9062
+[Std] Accuracy: 0.0038, AUC: 0.0294, F1: 0.0474, AP: 0.0661, Gmean: 0.0344
+[Best] Accuracy: 0.9919, AUC: 0.9542, F1: 0.9019, AP: 0.8235, Gmean: 0.9525

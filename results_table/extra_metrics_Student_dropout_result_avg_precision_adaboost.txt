@@ -1,0 +1,19 @@
+
+======[Dataset: Student_dropout - Adaboost Method: Student_dropout]======
+[Avg] Accuracy: 0.7616, AUC: 0.6086, F1: 0.3572, AP: 0.2422, Gmean: 0.5587
+[Std] Accuracy: 0.0047, AUC: 0.0089, F1: 0.0142, AP: 0.0072, Gmean: 0.0134
+[Best] Accuracy: 0.7715, AUC: 0.6265, F1: 0.3858, AP: 0.2572, Gmean: 0.5838
+
+======[Dataset: Student_dropout - Adaboost Method: Student_dropout]======
+Results for dataset: Student_dropout - Adaboost Method: Student_dropout
+
+Best results: Accuracy = 0.7672, AUC = 0.6225, F1 = 0.3795, Ap = 0.2537, Accuracy = 0.5794
+
+[Avg] Accuracy: 0.7611, AUC: 0.6082, F1: 0.3567, AP: 0.2419, Gmean: 0.5585
+[Std] Accuracy: 0.0054, AUC: 0.0066, F1: 0.0104, AP: 0.0057, Gmean: 0.0095
+[Best] Accuracy: 0.7672, AUC: 0.6225, F1: 0.3795, AP: 0.2537, Gmean: 0.5794
+
+======[Dataset: Student_dropout - SmoteBoost Method: Student_dropout]======
+[Avg] Accuracy: 0.7547, AUC: 0.6131, F1: 0.3644, AP: 0.2439, Gmean: 0.5710
+[Std] Accuracy: 0.0058, AUC: 0.0096, F1: 0.0147, AP: 0.0079, Gmean: 0.0133
+[Best] Accuracy: 0.7590, AUC: 0.6264, F1: 0.3842, AP: 0.2533, Gmean: 0.5908

@@ -1,0 +1,15 @@
+
+======[Dataset: Wine - Smote ENN Method: Wine]======
+[Avg] Accuracy: 0.9458, AUC: 0.9389, F1: 0.9030, AP: 0.8463, Gmean: 0.9370
+[Std] Accuracy: 0.0151, AUC: 0.0190, F1: 0.0268, AP: 0.0375, Gmean: 0.0202
+[Best] Accuracy: 0.9665, AUC: 0.9574, F1: 0.9396, AP: 0.9037, Gmean: 0.9567
+
+======[Dataset: Wine - Smote ENN Method: Wine]======
+[Avg] Accuracy: 0.9370, AUC: 0.9302, F1: 0.8898, AP: 0.8266, Gmean: 0.9283
+[Std] Accuracy: 0.0201, AUC: 0.0212, F1: 0.0306, AP: 0.0459, Gmean: 0.0217
+[Best] Accuracy: 0.9665, AUC: 0.9585, F1: 0.9355, AP: 0.9010, Gmean: 0.9563
+
+======[Dataset: Wine - Smote ENN Method: Wine]======
+[Avg] Accuracy: 0.9463, AUC: 0.9384, F1: 0.9038, AP: 0.8466, Gmean: 0.9370
+[Std] Accuracy: 0.0174, AUC: 0.0175, F1: 0.0289, AP: 0.0463, Gmean: 0.0178
+[Best] Accuracy: 0.9719, AUC: 0.9612, F1: 0.9462, AP: 0.9171, Gmean: 0.9603

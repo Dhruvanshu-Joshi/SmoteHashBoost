@@ -1,0 +1,5 @@
+
+======[Dataset: Flare-F - SmoteTomek Method: Flare-F]======
+[Avg] Accuracy: 0.9335, AUC: 0.5511, F1: 0.1383, AP: 0.0695, Gmean: 0.2957
+[Std] Accuracy: 0.0063, AUC: 0.0265, F1: 0.0535, AP: 0.0170, Gmean: 0.0992
+[Best] Accuracy: 0.9400, AUC: 0.6029, F1: 0.2331, AP: 0.0895, Gmean: 0.4701

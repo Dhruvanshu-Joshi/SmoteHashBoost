@@ -1,0 +1,25 @@
+
+======[Dataset: Diabetes - Method: Reciprocal]======
+[Avg] Accuracy: 0.9602, AUC: 0.9618, F1: 0.9495, AP: 0.9149, Gmean: 0.9616
+[Std] Accuracy: 0.0067, AUC: 0.0065, F1: 0.0083, AP: 0.0137, Gmean: 0.0065
+[Best] Accuracy: 0.9712, AUC: 0.9728, F1: 0.9632, AP: 0.9361, Gmean: 0.9727
+
+======[Dataset: Diabetes - Method: Random]======
+[Avg] Accuracy: 0.9530, AUC: 0.9573, F1: 0.9414, AP: 0.8975, Gmean: 0.9569
+[Std] Accuracy: 0.0042, AUC: 0.0038, F1: 0.0052, AP: 0.0093, Gmean: 0.0039
+[Best] Accuracy: 0.9615, AUC: 0.9641, F1: 0.9517, AP: 0.9176, Gmean: 0.9636
+
+======[Dataset: Diabetes - Method: Linearity]======
+[Avg] Accuracy: 0.9578, AUC: 0.9595, F1: 0.9465, AP: 0.9102, Gmean: 0.9592
+[Std] Accuracy: 0.0078, AUC: 0.0074, F1: 0.0097, AP: 0.0161, Gmean: 0.0076
+[Best] Accuracy: 0.9731, AUC: 0.9725, F1: 0.9652, AP: 0.9435, Gmean: 0.9724
+
+======[Dataset: Diabetes - Method: Negexp]======
+[Avg] Accuracy: 0.9555, AUC: 0.9578, F1: 0.9439, AP: 0.9049, Gmean: 0.9575
+[Std] Accuracy: 0.0070, AUC: 0.0062, F1: 0.0085, AP: 0.0152, Gmean: 0.0062
+[Best] Accuracy: 0.9673, AUC: 0.9650, F1: 0.9573, AP: 0.9350, Gmean: 0.9648
+
+======[Dataset: Diabetes - Method: Limit]======
+[Avg] Accuracy: 0.9516, AUC: 0.9540, F1: 0.9390, AP: 0.8973, Gmean: 0.9537
+[Std] Accuracy: 0.0059, AUC: 0.0055, F1: 0.0072, AP: 0.0127, Gmean: 0.0056
+[Best] Accuracy: 0.9635, AUC: 0.9638, F1: 0.9533, AP: 0.9227, Gmean: 0.9637

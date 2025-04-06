@@ -1,0 +1,5 @@
+
+======[Dataset: Glass - SmoteTomek Method: Glass]======
+[Avg] Accuracy: 0.9496, AUC: 0.9091, F1: 0.8250, AP: 0.7200, Gmean: 0.9045
+[Std] Accuracy: 0.0092, AUC: 0.0124, F1: 0.0265, AP: 0.0427, Gmean: 0.0129
+[Best] Accuracy: 0.9672, AUC: 0.9359, F1: 0.8799, AP: 0.7976, Gmean: 0.9336

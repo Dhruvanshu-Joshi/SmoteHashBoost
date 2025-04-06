@@ -1,0 +1,110 @@
+
+======[Dataset: default of credit card clients - Method: Reciprocal]======
+Run 1/20 completed in 10767.90 ms
+Run 2/20 completed in 10763.41 ms
+Run 3/20 completed in 10722.27 ms
+Run 4/20 completed in 10702.66 ms
+Run 5/20 completed in 10710.79 ms
+Run 6/20 completed in 10751.25 ms
+Run 7/20 completed in 10706.47 ms
+Run 8/20 completed in 10696.40 ms
+Run 9/20 completed in 10630.98 ms
+Run 10/20 completed in 10669.62 ms
+Run 11/20 completed in 10717.46 ms
+Run 12/20 completed in 10693.66 ms
+Run 13/20 completed in 10679.57 ms
+Run 14/20 completed in 10680.24 ms
+Run 15/20 completed in 10678.77 ms
+Run 16/20 completed in 10749.42 ms
+Run 17/20 completed in 10700.30 ms
+Run 18/20 completed in 10699.04 ms
+Run 19/20 completed in 10655.06 ms
+Run 20/20 completed in 10695.46 ms
+
+======[Dataset: default of credit card clients - Method: Random]======
+Run 1/20 completed in 10634.93 ms
+Run 2/20 completed in 10688.91 ms
+Run 3/20 completed in 10777.39 ms
+Run 4/20 completed in 10655.20 ms
+Run 5/20 completed in 10671.90 ms
+Run 6/20 completed in 10754.40 ms
+Run 7/20 completed in 10674.75 ms
+Run 8/20 completed in 10555.95 ms
+Run 9/20 completed in 10548.61 ms
+Run 10/20 completed in 10530.62 ms
+Run 11/20 completed in 10592.15 ms
+Run 12/20 completed in 10716.12 ms
+Run 13/20 completed in 10643.22 ms
+Run 14/20 completed in 10635.42 ms
+Run 15/20 completed in 10718.40 ms
+Run 16/20 completed in 10657.95 ms
+Run 17/20 completed in 10634.16 ms
+Run 18/20 completed in 10613.66 ms
+Run 19/20 completed in 10894.89 ms
+Run 20/20 completed in 10630.62 ms
+
+======[Dataset: default of credit card clients - Method: Linearity]======
+Run 1/20 completed in 10759.19 ms
+Run 2/20 completed in 10680.87 ms
+Run 3/20 completed in 10741.20 ms
+Run 4/20 completed in 10743.02 ms
+Run 5/20 completed in 10665.45 ms
+Run 6/20 completed in 10712.38 ms
+Run 7/20 completed in 10810.71 ms
+Run 8/20 completed in 11030.35 ms
+Run 9/20 completed in 10976.18 ms
+Run 10/20 completed in 11099.39 ms
+Run 11/20 completed in 11116.70 ms
+Run 12/20 completed in 10998.55 ms
+Run 13/20 completed in 10971.38 ms
+Run 14/20 completed in 10968.90 ms
+Run 15/20 completed in 10970.23 ms
+Run 16/20 completed in 11098.93 ms
+Run 17/20 completed in 11115.26 ms
+Run 18/20 completed in 11015.12 ms
+Run 19/20 completed in 11074.98 ms
+Run 20/20 completed in 11056.95 ms
+
+======[Dataset: default of credit card clients - Method: Negexp]======
+Run 1/20 completed in 11214.49 ms
+Run 2/20 completed in 11149.33 ms
+Run 3/20 completed in 11048.45 ms
+Run 4/20 completed in 11041.43 ms
+Run 5/20 completed in 11181.39 ms
+Run 6/20 completed in 11306.88 ms
+Run 7/20 completed in 11368.28 ms
+Run 8/20 completed in 11145.57 ms
+Run 9/20 completed in 11082.87 ms
+Run 10/20 completed in 11017.11 ms
+Run 11/20 completed in 11107.63 ms
+Run 12/20 completed in 11030.18 ms
+Run 13/20 completed in 10974.81 ms
+Run 14/20 completed in 11012.90 ms
+Run 15/20 completed in 10976.55 ms
+Run 16/20 completed in 10974.32 ms
+Run 17/20 completed in 11015.15 ms
+Run 18/20 completed in 11067.77 ms
+Run 19/20 completed in 11124.47 ms
+Run 20/20 completed in 11076.40 ms
+
+======[Dataset: default of credit card clients - Method: Limit]======
+Run 1/20 completed in 11077.38 ms
+Run 2/20 completed in 10994.78 ms
+Run 3/20 completed in 10978.90 ms
+Run 4/20 completed in 11000.34 ms
+Run 5/20 completed in 10943.72 ms
+Run 6/20 completed in 11142.52 ms
+Run 7/20 completed in 10871.67 ms
+Run 8/20 completed in 10928.22 ms
+Run 9/20 completed in 10958.47 ms
+Run 10/20 completed in 10918.44 ms
+Run 11/20 completed in 11086.13 ms
+Run 12/20 completed in 10993.85 ms
+Run 13/20 completed in 10973.91 ms
+Run 14/20 completed in 11009.01 ms
+Run 15/20 completed in 10857.55 ms
+Run 16/20 completed in 11097.16 ms
+Run 17/20 completed in 10953.23 ms
+Run 18/20 completed in 10997.78 ms
+Run 19/20 completed in 10967.96 ms
+Run 20/20 completed in 10988.02 ms

@@ -1,0 +1,5 @@
+
+======[Dataset: Student_dropout - Method: Student_dropout]======
+[Avg] Accuracy: 0.7547, AUC: 0.6155, F1: 0.3679, AP: 0.2453, Gmean: 0.5751
+[Std] Accuracy: 0.0052, AUC: 0.0072, F1: 0.0110, AP: 0.0061, Gmean: 0.0094
+[Best] Accuracy: 0.7631, AUC: 0.6239, F1: 0.3809, AP: 0.2533, Gmean: 0.5842

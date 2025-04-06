@@ -1,0 +1,39 @@
+
+======[Dataset: Flare-F - Adaboost Method: Flare-F]======
+Results for dataset: Flare-F - Adaboost Method: Flare-F
+
+Best results: Accuracy = 0.9456, AUC = 0.5712, F1 = 0.1799, Ap = 0.0846, Accuracy = 0.3457
+
+[Avg] Accuracy: 0.9429, AUC: 0.5414, F1: 0.1225, AP: 0.0688, Gmean: 0.2366
+[Std] Accuracy: 0.0036, AUC: 0.0184, F1: 0.0421, AP: 0.0114, Gmean: 0.0829
+[Best] Accuracy: 0.9456, AUC: 0.5712, F1: 0.1799, AP: 0.0846, Gmean: 0.3457
+
+======[Dataset: Flare-F - Rusboost Method: Flare-F]======
+[Avg] Accuracy: 0.8164, AUC: 0.7987, F1: 0.2550, AP: 0.1304, Gmean: 0.7934
+[Std] Accuracy: 0.0052, AUC: 0.0195, F1: 0.0139, AP: 0.0092, Gmean: 0.0257
+[Best] Accuracy: 0.8265, AUC: 0.8324, F1: 0.2825, AP: 0.1512, Gmean: 0.8316
+
+======[Dataset: Flare-F - Borderline Smote Method: Flare-F]======
+[Avg] Accuracy: 0.9285, AUC: 0.5524, F1: 0.1530, AP: 0.0718, Gmean: 0.3280
+[Std] Accuracy: 0.0419, AUC: 0.0305, F1: 0.0370, AP: 0.0159, Gmean: 0.0586
+[Best] Accuracy: 0.9428, AUC: 0.5804, F1: 0.2072, AP: 0.1039, Gmean: 0.3670
+
+======[Dataset: Flare-F - SmoteBoost Method: Flare-F]======
+[Avg] Accuracy: 0.9348, AUC: 0.5588, F1: 0.1481, AP: 0.0690, Gmean: 0.3263
+[Std] Accuracy: 0.0047, AUC: 0.0196, F1: 0.0379, AP: 0.0120, Gmean: 0.0724
+[Best] Accuracy: 0.9418, AUC: 0.5679, F1: 0.1817, AP: 0.0767, Gmean: 0.3852
+
+======[Dataset: Flare-F - Smote ENN Method: Flare-F]======
+[Avg] Accuracy: 0.9259, AUC: 0.6673, F1: 0.2902, AP: 0.1315, Gmean: 0.5807
+[Std] Accuracy: 0.0056, AUC: 0.0302, F1: 0.0476, AP: 0.0262, Gmean: 0.0622
+[Best] Accuracy: 0.9362, AUC: 0.7127, F1: 0.3759, AP: 0.1770, Gmean: 0.6644
+
+======[Dataset: Flare-F - SmoteTomek Method: Flare-F]======
+[Avg] Accuracy: 0.9340, AUC: 0.5501, F1: 0.1325, AP: 0.0669, Gmean: 0.2880
+[Std] Accuracy: 0.0039, AUC: 0.0269, F1: 0.0435, AP: 0.0153, Gmean: 0.0831
+[Best] Accuracy: 0.9428, AUC: 0.6178, F1: 0.2428, AP: 0.1068, Gmean: 0.4768
+
+======[Dataset: Flare-F - Adasyn Method: Flare-F]======
+[Avg] Accuracy: 0.9008, AUC: 0.5383, F1: 0.1528, AP: 0.0709, Gmean: 0.3155
+[Std] Accuracy: 0.1628, AUC: 0.1020, F1: 0.0510, AP: 0.0201, Gmean: 0.0953
+[Best] Accuracy: 0.9484, AUC: 0.6045, F1: 0.2643, AP: 0.1104, Gmean: 0.4695

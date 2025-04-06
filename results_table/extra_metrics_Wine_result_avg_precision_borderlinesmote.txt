@@ -1,0 +1,15 @@
+
+======[Dataset: Wine - Borderline Smote Method: Wine]======
+[Avg] Accuracy: 0.9694, AUC: 0.9604, F1: 0.9424, AP: 0.9108, Gmean: 0.9588
+[Std] Accuracy: 0.0123, AUC: 0.0188, F1: 0.0230, AP: 0.0333, Gmean: 0.0199
+[Best] Accuracy: 0.9943, AUC: 0.9962, F1: 0.9895, AP: 0.9800, Gmean: 0.9961
+
+======[Dataset: Wine - Borderline Smote Method: Wine]======
+[Avg] Accuracy: 0.9745, AUC: 0.9661, F1: 0.9521, AP: 0.9250, Gmean: 0.9651
+[Std] Accuracy: 0.0098, AUC: 0.0143, F1: 0.0189, AP: 0.0282, Gmean: 0.0150
+[Best] Accuracy: 0.9887, AUC: 0.9850, F1: 0.9787, AP: 0.9653, Gmean: 0.9847
+
+======[Dataset: Wine - Borderline Smote Method: Wine]======
+[Avg] Accuracy: 0.9706, AUC: 0.9619, F1: 0.9452, AP: 0.9158, Gmean: 0.9604
+[Std] Accuracy: 0.0137, AUC: 0.0201, F1: 0.0272, AP: 0.0383, Gmean: 0.0214
+[Best] Accuracy: 0.9889, AUC: 0.9800, F1: 0.9789, AP: 0.9711, Gmean: 0.9795

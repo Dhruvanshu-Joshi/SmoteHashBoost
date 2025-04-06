@@ -1,0 +1,5 @@
+
+======[Dataset: Diabetes - SmoteTomek Method: Diabetes]======
+[Avg] Accuracy: 0.9632, AUC: 0.9624, F1: 0.9525, AP: 0.9244, Gmean: 0.9621
+[Std] Accuracy: 0.0057, AUC: 0.0058, F1: 0.0072, AP: 0.0115, Gmean: 0.0059
+[Best] Accuracy: 0.9750, AUC: 0.9750, F1: 0.9676, AP: 0.9465, Gmean: 0.9748

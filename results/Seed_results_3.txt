@@ -1,0 +1,141 @@
+
+======[Dataset: Seed - Method: Reciprocal]======
+[Avg] Accuracy: 0.9702, AUC: 0.9709, F1: 0.9568, AP: 0.9277, Gmean: 0.9704
+[Std] Accuracy: 0.0075, AUC: 0.0071, F1: 0.0105, AP: 0.0176, Gmean: 0.0073
+[Best] Accuracy: 0.9857, AUC: 0.9857, F1: 0.9788, AP: 0.9639, Gmean: 0.9856
+
+======[Dataset: Seed - Method: Random]======
+[Avg] Accuracy: 0.9702, AUC: 0.9695, F1: 0.9563, AP: 0.9283, Gmean: 0.9690
+[Std] Accuracy: 0.0067, AUC: 0.0071, F1: 0.0098, AP: 0.0164, Gmean: 0.0071
+[Best] Accuracy: 0.9857, AUC: 0.9821, F1: 0.9783, AP: 0.9676, Gmean: 0.9818
+
+======[Dataset: Seed - Method: Linearity]======
+[Avg] Accuracy: 0.9702, AUC: 0.9711, F1: 0.9569, AP: 0.9276, Gmean: 0.9706
+[Std] Accuracy: 0.0090, AUC: 0.0084, F1: 0.0123, AP: 0.0199, Gmean: 0.0086
+[Best] Accuracy: 0.9810, AUC: 0.9786, F1: 0.9714, AP: 0.9544, Gmean: 0.9784
+
+======[Dataset: Seed - Method: Negexp]======
+[Avg] Accuracy: 0.9705, AUC: 0.9711, F1: 0.9571, AP: 0.9281, Gmean: 0.9706
+[Std] Accuracy: 0.0079, AUC: 0.0063, F1: 0.0106, AP: 0.0192, Gmean: 0.0064
+[Best] Accuracy: 0.9857, AUC: 0.9821, F1: 0.9783, AP: 0.9676, Gmean: 0.9818
+
+======[Dataset: Seed - Method: Limit]======
+[Avg] Accuracy: 0.9695, AUC: 0.9702, F1: 0.9554, AP: 0.9249, Gmean: 0.9697
+[Std] Accuracy: 0.0083, AUC: 0.0089, F1: 0.0124, AP: 0.0198, Gmean: 0.0092
+[Best] Accuracy: 0.9905, AUC: 0.9893, F1: 0.9857, AP: 0.9771, Gmean: 0.9891
+
+======[Dataset: Seed - Method: Seed]======
+[Best] Accuracy: 0.9857, AUC: 0.9821
+[Best] Accuracy: 0.9857, AUC: 0.9821
+
+======[Dataset: Seed - Adaboost Method: Seed]======
+Results for dataset: Seed - Adaboost Method: Seed
+Run 1: Accuracy = 0.8667, AUC = 0.8571
+Run 2: Accuracy = 0.9048, AUC = 0.8857
+Run 3: Accuracy = 0.8857, AUC = 0.8714
+Run 4: Accuracy = 0.8905, AUC = 0.8821
+Run 5: Accuracy = 0.8905, AUC = 0.8893
+Run 6: Accuracy = 0.8905, AUC = 0.8750
+Run 7: Accuracy = 0.8667, AUC = 0.8464
+Run 8: Accuracy = 0.8714, AUC = 0.8571
+Run 9: Accuracy = 0.8762, AUC = 0.8571
+Run 10: Accuracy = 0.8952, AUC = 0.8821
+Run 11: Accuracy = 0.8762, AUC = 0.8571
+Run 12: Accuracy = 0.9000, AUC = 0.8893
+Run 13: Accuracy = 0.8857, AUC = 0.8750
+Run 14: Accuracy = 0.8810, AUC = 0.8679
+Run 15: Accuracy = 0.9048, AUC = 0.8929
+Run 16: Accuracy = 0.9048, AUC = 0.8821
+Run 17: Accuracy = 0.8857, AUC = 0.8821
+Run 18: Accuracy = 0.9000, AUC = 0.8857
+Run 19: Accuracy = 0.9095, AUC = 0.8929
+Run 20: Accuracy = 0.8857, AUC = 0.8714
+
+Best results: Accuracy = 0.9095, AUC = 0.8929
+
+[Best] Accuracy: 0.9095, AUC: 0.8929
+[Best] Accuracy: 0.9095, AUC: 0.8929
+
+======[Dataset: Seed - Borderline Smote Method: Seed]======
+[Best] Accuracy: 0.9810, AUC: 0.9750
+[Best] Accuracy: 0.9810, AUC: 0.9750
+
+======[Dataset: Seed - SmoteBoost Method: Seed]======
+[Best] Accuracy: 0.9857, AUC: 0.9857
+[Best] Accuracy: 0.9857, AUC: 0.9857
+
+======[Dataset: Seed - Smote ENN Method: Seed]======
+[Best] Accuracy: 0.9857, AUC: 0.9857
+[Best] Accuracy: 0.9857, AUC: 0.9857
+
+======[Dataset: Seed - SmoteTomek Method: Seed]======
+[Best] Accuracy: 0.9857, AUC: 0.9857
+[Best] Accuracy: 0.9857, AUC: 0.9821
+
+======[Dataset: Seed - Adasyn Method: Seed]======
+[Best] Accuracy: 0.9762, AUC: 0.9750
+[Best] Accuracy: 0.9762, AUC: 0.9714
+
+======[Dataset: Seed - Method: Reciprocal]======
+[Avg] Accuracy: 0.9702, AUC: 0.9696, F1: 0.9563, AP: 0.9285, Gmean: 0.9691
+[Std] Accuracy: 0.0070, AUC: 0.0074, F1: 0.0104, AP: 0.0168, Gmean: 0.0078
+[Best] Accuracy: 0.9810, AUC: 0.9821, F1: 0.9733, AP: 0.9557, Gmean: 0.9821
+
+======[Dataset: Seed - Method: Random]======
+[Avg] Accuracy: 0.9721, AUC: 0.9709, F1: 0.9589, AP: 0.9331, Gmean: 0.9704
+[Std] Accuracy: 0.0100, AUC: 0.0096, F1: 0.0142, AP: 0.0233, Gmean: 0.0098
+[Best] Accuracy: 0.9857, AUC: 0.9821, F1: 0.9783, AP: 0.9677, Gmean: 0.9820
+
+======[Dataset: Seed - Method: Linearity]======
+[Avg] Accuracy: 0.9681, AUC: 0.9688, F1: 0.9535, AP: 0.9220, Gmean: 0.9683
+[Std] Accuracy: 0.0092, AUC: 0.0087, F1: 0.0130, AP: 0.0219, Gmean: 0.0089
+[Best] Accuracy: 0.9857, AUC: 0.9857, F1: 0.9788, AP: 0.9638, Gmean: 0.9855
+
+======[Dataset: Seed - Method: Negexp]======
+[Avg] Accuracy: 0.9738, AUC: 0.9738, F1: 0.9615, AP: 0.9360, Gmean: 0.9733
+[Std] Accuracy: 0.0061, AUC: 0.0064, F1: 0.0092, AP: 0.0152, Gmean: 0.0066
+[Best] Accuracy: 0.9857, AUC: 0.9857, F1: 0.9788, AP: 0.9638, Gmean: 0.9855
+
+======[Dataset: Seed - Method: Limit]======
+[Avg] Accuracy: 0.9695, AUC: 0.9693, F1: 0.9554, AP: 0.9266, Gmean: 0.9687
+[Std] Accuracy: 0.0073, AUC: 0.0072, F1: 0.0103, AP: 0.0168, Gmean: 0.0074
+[Best] Accuracy: 0.9810, AUC: 0.9821, F1: 0.9719, AP: 0.9505, Gmean: 0.9820
+
+======[Dataset: Seed - Method: Seed]======
+[Avg] Accuracy: 0.9738, AUC: 0.9730, F1: 0.9617, AP: 0.9372, Gmean: 0.9726
+[Std] Accuracy: 0.0065, AUC: 0.0058, F1: 0.0088, AP: 0.0152, Gmean: 0.0059
+[Best] Accuracy: 0.9810, AUC: 0.9786, F1: 0.9708, AP: 0.9543, Gmean: 0.9780
+
+======[Dataset: Seed - Adaboost Method: Seed]======
+Results for dataset: Seed - Adaboost Method: Seed
+
+Best results: Accuracy = 0.9190, AUC = 0.9036, F1 = 0.8763, Ap = 0.8213, Accuracy = 0.9014
+
+[Avg] Accuracy: 0.8888, AUC: 0.8730, F1: 0.8300, AP: 0.7565, Gmean: 0.8690
+[Std] Accuracy: 0.0148, AUC: 0.0180, F1: 0.0246, AP: 0.0300, Gmean: 0.0201
+[Best] Accuracy: 0.9190, AUC: 0.9036, F1: 0.8763, AP: 0.8213, Gmean: 0.9014
+
+======[Dataset: Seed - Borderline Smote Method: Seed]======
+[Avg] Accuracy: 0.9614, AUC: 0.9584, F1: 0.9428, AP: 0.9093, Gmean: 0.9579
+[Std] Accuracy: 0.0093, AUC: 0.0099, F1: 0.0134, AP: 0.0214, Gmean: 0.0100
+[Best] Accuracy: 0.9810, AUC: 0.9786, F1: 0.9708, AP: 0.9543, Gmean: 0.9780
+
+======[Dataset: Seed - SmoteBoost Method: Seed]======
+[Avg] Accuracy: 0.9705, AUC: 0.9679, F1: 0.9559, AP: 0.9304, Gmean: 0.9672
+[Std] Accuracy: 0.0114, AUC: 0.0125, F1: 0.0172, AP: 0.0263, Gmean: 0.0131
+[Best] Accuracy: 0.9905, AUC: 0.9893, F1: 0.9857, AP: 0.9771, Gmean: 0.9891
+
+======[Dataset: Seed - Smote ENN Method: Seed]======
+[Avg] Accuracy: 0.9724, AUC: 0.9704, F1: 0.9598, AP: 0.9366, Gmean: 0.9699
+[Std] Accuracy: 0.0091, AUC: 0.0085, F1: 0.0124, AP: 0.0204, Gmean: 0.0087
+[Best] Accuracy: 0.9857, AUC: 0.9821, F1: 0.9783, AP: 0.9676, Gmean: 0.9818
+
+======[Dataset: Seed - SmoteTomek Method: Seed]======
+[Avg] Accuracy: 0.9726, AUC: 0.9709, F1: 0.9592, AP: 0.9337, Gmean: 0.9705
+[Std] Accuracy: 0.0082, AUC: 0.0097, F1: 0.0126, AP: 0.0194, Gmean: 0.0100
+[Best] Accuracy: 0.9857, AUC: 0.9821, F1: 0.9783, AP: 0.9677, Gmean: 0.9820
+
+======[Dataset: Seed - Adasyn Method: Seed]======
+[Avg] Accuracy: 0.9612, AUC: 0.9587, F1: 0.9424, AP: 0.9086, Gmean: 0.9580
+[Std] Accuracy: 0.0128, AUC: 0.0120, F1: 0.0180, AP: 0.0300, Gmean: 0.0122
+[Best] Accuracy: 0.9810, AUC: 0.9786, F1: 0.9714, AP: 0.9544, Gmean: 0.9784

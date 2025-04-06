@@ -1,0 +1,110 @@
+
+======[Dataset: Student_dropout - Method: Reciprocal]======
+Run 1/20 completed in 847.91 ms
+Run 2/20 completed in 832.51 ms
+Run 3/20 completed in 802.46 ms
+Run 4/20 completed in 764.72 ms
+Run 5/20 completed in 766.60 ms
+Run 6/20 completed in 777.40 ms
+Run 7/20 completed in 809.20 ms
+Run 8/20 completed in 827.27 ms
+Run 9/20 completed in 776.91 ms
+Run 10/20 completed in 760.79 ms
+Run 11/20 completed in 746.81 ms
+Run 12/20 completed in 789.06 ms
+Run 13/20 completed in 835.76 ms
+Run 14/20 completed in 839.29 ms
+Run 15/20 completed in 774.15 ms
+Run 16/20 completed in 774.89 ms
+Run 17/20 completed in 815.28 ms
+Run 18/20 completed in 746.76 ms
+Run 19/20 completed in 814.57 ms
+Run 20/20 completed in 871.63 ms
+
+======[Dataset: Student_dropout - Method: Random]======
+Run 1/20 completed in 783.92 ms
+Run 2/20 completed in 763.65 ms
+Run 3/20 completed in 749.05 ms
+Run 4/20 completed in 765.80 ms
+Run 5/20 completed in 794.29 ms
+Run 6/20 completed in 780.64 ms
+Run 7/20 completed in 748.94 ms
+Run 8/20 completed in 748.65 ms
+Run 9/20 completed in 807.69 ms
+Run 10/20 completed in 725.15 ms
+Run 11/20 completed in 736.41 ms
+Run 12/20 completed in 794.21 ms
+Run 13/20 completed in 804.33 ms
+Run 14/20 completed in 778.48 ms
+Run 15/20 completed in 754.37 ms
+Run 16/20 completed in 771.19 ms
+Run 17/20 completed in 785.33 ms
+Run 18/20 completed in 808.35 ms
+Run 19/20 completed in 783.68 ms
+Run 20/20 completed in 744.20 ms
+
+======[Dataset: Student_dropout - Method: Linearity]======
+Run 1/20 completed in 867.27 ms
+Run 2/20 completed in 755.02 ms
+Run 3/20 completed in 778.77 ms
+Run 4/20 completed in 808.57 ms
+Run 5/20 completed in 837.93 ms
+Run 6/20 completed in 841.18 ms
+Run 7/20 completed in 840.41 ms
+Run 8/20 completed in 808.82 ms
+Run 9/20 completed in 838.13 ms
+Run 10/20 completed in 796.38 ms
+Run 11/20 completed in 764.45 ms
+Run 12/20 completed in 836.34 ms
+Run 13/20 completed in 798.85 ms
+Run 14/20 completed in 781.36 ms
+Run 15/20 completed in 760.93 ms
+Run 16/20 completed in 805.43 ms
+Run 17/20 completed in 781.55 ms
+Run 18/20 completed in 781.99 ms
+Run 19/20 completed in 748.17 ms
+Run 20/20 completed in 742.76 ms
+
+======[Dataset: Student_dropout - Method: Negexp]======
+Run 1/20 completed in 793.57 ms
+Run 2/20 completed in 821.80 ms
+Run 3/20 completed in 871.28 ms
+Run 4/20 completed in 721.85 ms
+Run 5/20 completed in 764.52 ms
+Run 6/20 completed in 816.94 ms
+Run 7/20 completed in 802.77 ms
+Run 8/20 completed in 823.83 ms
+Run 9/20 completed in 770.84 ms
+Run 10/20 completed in 777.07 ms
+Run 11/20 completed in 764.32 ms
+Run 12/20 completed in 830.75 ms
+Run 13/20 completed in 801.67 ms
+Run 14/20 completed in 819.37 ms
+Run 15/20 completed in 751.89 ms
+Run 16/20 completed in 754.15 ms
+Run 17/20 completed in 772.34 ms
+Run 18/20 completed in 814.75 ms
+Run 19/20 completed in 804.62 ms
+Run 20/20 completed in 809.71 ms
+
+======[Dataset: Student_dropout - Method: Limit]======
+Run 1/20 completed in 811.24 ms
+Run 2/20 completed in 742.69 ms
+Run 3/20 completed in 777.71 ms
+Run 4/20 completed in 840.97 ms
+Run 5/20 completed in 785.51 ms
+Run 6/20 completed in 740.36 ms
+Run 7/20 completed in 754.64 ms
+Run 8/20 completed in 762.09 ms
+Run 9/20 completed in 784.54 ms
+Run 10/20 completed in 748.69 ms
+Run 11/20 completed in 763.42 ms
+Run 12/20 completed in 751.41 ms
+Run 13/20 completed in 782.52 ms
+Run 14/20 completed in 775.46 ms
+Run 15/20 completed in 741.29 ms
+Run 16/20 completed in 765.91 ms
+Run 17/20 completed in 790.42 ms
+Run 18/20 completed in 789.58 ms
+Run 19/20 completed in 720.52 ms
+Run 20/20 completed in 746.68 ms

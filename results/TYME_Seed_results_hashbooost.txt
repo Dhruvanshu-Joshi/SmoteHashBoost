@@ -1,0 +1,15 @@
+
+======[Dataset: Seed - Method: Reciprocal]======
+======[Time: 93.92404556274414]======
+
+======[Dataset: Seed - Method: Random]======
+======[Time: 49.826622009277344]======
+
+======[Dataset: Seed - Method: Linearity]======
+======[Time: 132.46417045593262]======
+
+======[Dataset: Seed - Method: Negexp]======
+======[Time: 57.88922309875488]======
+
+======[Dataset: Seed - Method: Limit]======
+======[Time: 69.73409652709961]======

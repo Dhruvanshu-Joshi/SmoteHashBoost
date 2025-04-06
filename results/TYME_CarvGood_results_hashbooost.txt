@@ -1,0 +1,15 @@
+
+======[Dataset: CarvGood - Method: Reciprocal]======
+======[Time: 262.04991340637207]======
+
+======[Dataset: CarvGood - Method: Random]======
+======[Time: 212.70132064819336]======
+
+======[Dataset: CarvGood - Method: Linearity]======
+======[Time: 291.5170192718506]======
+
+======[Dataset: CarvGood - Method: Negexp]======
+======[Time: 257.08675384521484]======
+
+======[Dataset: CarvGood - Method: Limit]======
+======[Time: 216.2928581237793]======

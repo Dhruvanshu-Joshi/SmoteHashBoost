@@ -1,0 +1,25 @@
+
+======[Dataset: Sonar - SmoteHashBoost Method: Reciprocal]======
+[Avg] Accuracy: 0.7146, AUC: 0.7155, F1: 0.7039, AP: 0.6300, Gmean: 0.7110
+[Std] Accuracy: 0.0361, AUC: 0.0358, F1: 0.0356, AP: 0.0331, Gmean: 0.0367
+[Best] Accuracy: 0.7836, AUC: 0.7870, F1: 0.7795, AP: 0.6944, Gmean: 0.7834
+
+======[Dataset: Sonar - SmoteHashBoost Method: Random]======
+[Avg] Accuracy: 0.7440, AUC: 0.7431, F1: 0.7247, AP: 0.6597, Gmean: 0.7384
+[Std] Accuracy: 0.0243, AUC: 0.0248, F1: 0.0294, AP: 0.0245, Gmean: 0.0259
+[Best] Accuracy: 0.7891, AUC: 0.7893, F1: 0.7736, AP: 0.7024, Gmean: 0.7861
+
+======[Dataset: Sonar - SmoteHashBoost Method: Linearity]======
+[Avg] Accuracy: 0.7238, AUC: 0.7244, F1: 0.7111, AP: 0.6386, Gmean: 0.7203
+[Std] Accuracy: 0.0291, AUC: 0.0288, F1: 0.0309, AP: 0.0296, Gmean: 0.0293
+[Best] Accuracy: 0.7835, AUC: 0.7837, F1: 0.7692, AP: 0.6975, Gmean: 0.7791
+
+======[Dataset: Sonar - SmoteHashBoost Method: Negexp]======
+[Avg] Accuracy: 0.7187, AUC: 0.7185, F1: 0.7021, AP: 0.6338, Gmean: 0.7143
+[Std] Accuracy: 0.0258, AUC: 0.0261, F1: 0.0286, AP: 0.0273, Gmean: 0.0258
+[Best] Accuracy: 0.7791, AUC: 0.7784, F1: 0.7597, AP: 0.6956, Gmean: 0.7739
+
+======[Dataset: Sonar - SmoteHashBoost Method: Limit]======
+[Avg] Accuracy: 0.7140, AUC: 0.7150, F1: 0.7025, AP: 0.6282, Gmean: 0.7115
+[Std] Accuracy: 0.0238, AUC: 0.0234, F1: 0.0244, AP: 0.0212, Gmean: 0.0244
+[Best] Accuracy: 0.7545, AUC: 0.7556, F1: 0.7445, AP: 0.6698, Gmean: 0.7520

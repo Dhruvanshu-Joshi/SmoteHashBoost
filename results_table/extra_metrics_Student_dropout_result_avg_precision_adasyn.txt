@@ -1,0 +1,5 @@
+
+======[Dataset: Student_dropout - Adasyn Method: Student_dropout]======
+[Avg] Accuracy: 0.7526, AUC: 0.6176, F1: 0.3709, AP: 0.2461, Gmean: 0.5797
+[Std] Accuracy: 0.0043, AUC: 0.0063, F1: 0.0093, AP: 0.0049, Gmean: 0.0089
+[Best] Accuracy: 0.7613, AUC: 0.6263, F1: 0.3840, AP: 0.2542, Gmean: 0.5890

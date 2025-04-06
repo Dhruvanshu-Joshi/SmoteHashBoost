@@ -1,0 +1,110 @@
+
+======[Dataset: Epileptic Seizure Recognition - Method: Reciprocal]======
+Run 1/20 completed in 42661.97 ms
+Run 2/20 completed in 44099.64 ms
+Run 3/20 completed in 43036.58 ms
+Run 4/20 completed in 43473.41 ms
+Run 5/20 completed in 43176.36 ms
+Run 6/20 completed in 42646.61 ms
+Run 7/20 completed in 43703.19 ms
+Run 8/20 completed in 43065.92 ms
+Run 9/20 completed in 43609.54 ms
+Run 10/20 completed in 42728.95 ms
+Run 11/20 completed in 43340.07 ms
+Run 12/20 completed in 42926.89 ms
+Run 13/20 completed in 43254.84 ms
+Run 14/20 completed in 54286.98 ms
+Run 15/20 completed in 78941.90 ms
+Run 16/20 completed in 74287.46 ms
+Run 17/20 completed in 73378.90 ms
+Run 18/20 completed in 72615.85 ms
+Run 19/20 completed in 75676.33 ms
+Run 20/20 completed in 72063.69 ms
+
+======[Dataset: Epileptic Seizure Recognition - Method: Random]======
+Run 1/20 completed in 75916.08 ms
+Run 2/20 completed in 77843.94 ms
+Run 3/20 completed in 80586.65 ms
+Run 4/20 completed in 75812.64 ms
+Run 5/20 completed in 74246.40 ms
+Run 6/20 completed in 76127.79 ms
+Run 7/20 completed in 75987.76 ms
+Run 8/20 completed in 76417.84 ms
+Run 9/20 completed in 76836.86 ms
+Run 10/20 completed in 78653.08 ms
+Run 11/20 completed in 77687.11 ms
+Run 12/20 completed in 77072.64 ms
+Run 13/20 completed in 74420.47 ms
+Run 14/20 completed in 72490.56 ms
+Run 15/20 completed in 75539.40 ms
+Run 16/20 completed in 76089.12 ms
+Run 17/20 completed in 74029.47 ms
+Run 18/20 completed in 78221.19 ms
+Run 19/20 completed in 76896.82 ms
+Run 20/20 completed in 74744.41 ms
+
+======[Dataset: Epileptic Seizure Recognition - Method: Linearity]======
+Run 1/20 completed in 73783.12 ms
+Run 2/20 completed in 71819.30 ms
+Run 3/20 completed in 69399.35 ms
+Run 4/20 completed in 71300.23 ms
+Run 5/20 completed in 71079.33 ms
+Run 6/20 completed in 71597.23 ms
+Run 7/20 completed in 72308.87 ms
+Run 8/20 completed in 70907.65 ms
+Run 9/20 completed in 69955.45 ms
+Run 10/20 completed in 70695.07 ms
+Run 11/20 completed in 69781.71 ms
+Run 12/20 completed in 72165.02 ms
+Run 13/20 completed in 72287.61 ms
+Run 14/20 completed in 73151.00 ms
+Run 15/20 completed in 74036.84 ms
+Run 16/20 completed in 70552.51 ms
+Run 17/20 completed in 70129.73 ms
+Run 18/20 completed in 73533.88 ms
+Run 19/20 completed in 75222.15 ms
+Run 20/20 completed in 73061.14 ms
+
+======[Dataset: Epileptic Seizure Recognition - Method: Negexp]======
+Run 1/20 completed in 75176.26 ms
+Run 2/20 completed in 73959.10 ms
+Run 3/20 completed in 72899.82 ms
+Run 4/20 completed in 72433.15 ms
+Run 5/20 completed in 72694.29 ms
+Run 6/20 completed in 74101.56 ms
+Run 7/20 completed in 74169.61 ms
+Run 8/20 completed in 72797.89 ms
+Run 9/20 completed in 70624.35 ms
+Run 10/20 completed in 71530.61 ms
+Run 11/20 completed in 74883.42 ms
+Run 12/20 completed in 73715.16 ms
+Run 13/20 completed in 71813.97 ms
+Run 14/20 completed in 71593.98 ms
+Run 15/20 completed in 70432.05 ms
+Run 16/20 completed in 71590.05 ms
+Run 17/20 completed in 74217.22 ms
+Run 18/20 completed in 70280.60 ms
+Run 19/20 completed in 73053.82 ms
+Run 20/20 completed in 75707.35 ms
+
+======[Dataset: Epileptic Seizure Recognition - Method: Limit]======
+Run 1/20 completed in 71746.62 ms
+Run 2/20 completed in 69552.73 ms
+Run 3/20 completed in 70291.27 ms
+Run 4/20 completed in 69716.00 ms
+Run 5/20 completed in 72424.00 ms
+Run 6/20 completed in 70105.65 ms
+Run 7/20 completed in 70586.13 ms
+Run 8/20 completed in 69431.00 ms
+Run 9/20 completed in 87322.05 ms
+Run 10/20 completed in 67330.66 ms
+Run 11/20 completed in 69873.09 ms
+Run 12/20 completed in 70303.35 ms
+Run 13/20 completed in 128702.44 ms
+Run 14/20 completed in 142950.83 ms
+Run 15/20 completed in 142757.12 ms
+Run 16/20 completed in 146767.14 ms
+Run 17/20 completed in 140861.45 ms
+Run 18/20 completed in 138891.15 ms
+Run 19/20 completed in 142979.74 ms
+Run 20/20 completed in 144301.43 ms

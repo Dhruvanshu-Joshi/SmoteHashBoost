@@ -1,0 +1,5 @@
+
+======[Dataset: CarvGood - Rusboost Method: CarvGood]======
+[Avg] Accuracy: 0.9876, AUC: 0.9935, F1: 0.8639, AP: 0.7673, Gmean: 0.9935
+[Std] Accuracy: 0.0015, AUC: 0.0008, F1: 0.0150, AP: 0.0246, Gmean: 0.0008
+[Best] Accuracy: 0.9896, AUC: 0.9946, F1: 0.8857, AP: 0.8046, Gmean: 0.9946

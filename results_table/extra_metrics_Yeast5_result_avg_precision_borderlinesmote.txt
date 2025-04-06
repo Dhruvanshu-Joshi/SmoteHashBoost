@@ -1,0 +1,15 @@
+
+======[Dataset: Yeast5 - Borderline Smote Method: Yeast5]======
+[Avg] Accuracy: 0.9793, AUC: 0.8550, F1: 0.6728, AP: 0.4834, Gmean: 0.8390
+[Std] Accuracy: 0.0029, AUC: 0.0331, F1: 0.0520, AP: 0.0669, Gmean: 0.0404
+[Best] Accuracy: 0.9845, AUC: 0.9059, F1: 0.7594, AP: 0.5938, Gmean: 0.8999
+
+======[Dataset: Yeast5 - Borderline Smote Method: Yeast5]======
+[Avg] Accuracy: 0.9789, AUC: 0.8598, F1: 0.6712, AP: 0.4792, Gmean: 0.8452
+[Std] Accuracy: 0.0024, AUC: 0.0274, F1: 0.0387, AP: 0.0513, Gmean: 0.0319
+[Best] Accuracy: 0.9838, AUC: 0.9056, F1: 0.7499, AP: 0.5836, Gmean: 0.8985
+
+======[Dataset: Yeast5 - Borderline Smote Method: Yeast5]======
+[Avg] Accuracy: 0.9791, AUC: 0.8414, F1: 0.6574, AP: 0.4646, Gmean: 0.8210
+[Std] Accuracy: 0.0019, AUC: 0.0284, F1: 0.0347, AP: 0.0415, Gmean: 0.0367
+[Best] Accuracy: 0.9805, AUC: 0.9038, F1: 0.7107, AP: 0.5319, Gmean: 0.8958

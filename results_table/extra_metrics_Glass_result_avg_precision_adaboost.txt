@@ -1,0 +1,19 @@
+
+======[Dataset: Glass - Adaboost Method: Glass]======
+[Avg] Accuracy: 0.9002, AUC: 0.8095, F1: 0.6904, AP: 0.6162, Gmean: 0.7679
+[Std] Accuracy: 0.1446, AUC: 0.1624, F1: 0.1851, AP: 0.1687, Gmean: 0.2057
+[Best] Accuracy: 0.9907, AUC: 0.9476, F1: 0.8933, AP: 0.8380, Gmean: 0.9390
+
+======[Dataset: Glass - Adaboost Method: Glass]======
+Results for dataset: Glass - Adaboost Method: Glass
+
+Best results: Accuracy = 0.9906, AUC = 0.9476, F1 = 0.8667, Ap = 0.8047, Accuracy = 0.9390
+
+[Avg] Accuracy: 0.8637, AUC: 0.7977, F1: 0.6977, AP: 0.6243, Gmean: 0.7728
+[Std] Accuracy: 0.1159, AUC: 0.1145, F1: 0.1215, AP: 0.1291, Gmean: 0.1201
+[Best] Accuracy: 0.9906, AUC: 0.9476, F1: 0.8667, AP: 0.8047, Gmean: 0.9390
+
+======[Dataset: Glass - SmoteBoost Method: Glass]======
+[Avg] Accuracy: 0.9458, AUC: 0.8928, F1: 0.8026, AP: 0.6923, Gmean: 0.8847
+[Std] Accuracy: 0.0101, AUC: 0.0168, F1: 0.0335, AP: 0.0478, Gmean: 0.0189
+[Best] Accuracy: 0.9627, AUC: 0.9192, F1: 0.8578, AP: 0.7870, Gmean: 0.9101

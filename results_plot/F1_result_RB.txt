@@ -1,0 +1,180 @@
+
+======[Dataset: Flare-F]======
+0.2761
+
+======[Dataset: Yeast5]======
+0.6649
+
+======[Dataset: CarvGood]======
+0.8994
+
+======[Dataset: CarGood]======
+0.8197
+
+======[Dataset: Yeast5-ERL]======
+0.9
+
+======[Dataset: Glass]======
+0.9138
+
+======[Dataset: ILPD]======
+0.5083
+
+======[Dataset: Seed]======
+0.9788
+
+======[Dataset: Wine]======
+0.9905
+
+======[Dataset: Breast Cancer Wisconsin]======
+0.9617
+
+======[Dataset: Diabetes]======
+0.9823
+
+======[Dataset: Sonar]======
+0.8032
+
+======[Dataset: Flare-F]======
+0.2761
+
+======[Dataset: Yeast5]======
+0.6649
+
+======[Dataset: CarvGood]======
+0.8994
+
+======[Dataset: CarGood]======
+0.8197
+
+======[Dataset: Yeast5-ERL]======
+0.9
+
+======[Dataset: Glass]======
+0.9138
+
+======[Dataset: ILPD]======
+0.5083
+
+======[Dataset: Seed]======
+0.9788
+
+======[Dataset: Wine]======
+0.9905
+
+======[Dataset: Breast Cancer Wisconsin]======
+0.9617
+
+======[Dataset: Diabetes]======
+0.9823
+
+======[Dataset: Sonar]======
+0.8032
+
+======[Dataset: Flare-F]======
+0.2761
+
+======[Dataset: Yeast5]======
+0.6649
+
+======[Dataset: CarvGood]======
+0.8994
+
+======[Dataset: CarGood]======
+0.8197
+
+======[Dataset: Yeast5-ERL]======
+0.9
+
+======[Dataset: Glass]======
+0.9138
+
+======[Dataset: ILPD]======
+0.5083
+
+======[Dataset: Seed]======
+0.9788
+
+======[Dataset: Wine]======
+0.9905
+
+======[Dataset: Breast Cancer Wisconsin]======
+0.9617
+
+======[Dataset: Diabetes]======
+0.9823
+
+======[Dataset: Sonar]======
+0.8032
+
+======[Dataset: Flare-F]======
+0.2761
+
+======[Dataset: Yeast5]======
+0.6649
+
+======[Dataset: CarvGood]======
+0.8994
+
+======[Dataset: CarGood]======
+0.8197
+
+======[Dataset: Yeast5-ERL]======
+0.9
+
+======[Dataset: Glass]======
+0.9138
+
+======[Dataset: ILPD]======
+0.5083
+
+======[Dataset: Seed]======
+0.9788
+
+======[Dataset: Wine]======
+0.9905
+
+======[Dataset: Breast Cancer Wisconsin]======
+0.9617
+
+======[Dataset: Diabetes]======
+0.9823
+
+======[Dataset: Sonar]======
+0.8032
+
+======[Dataset: Flare-F]======
+0.2761
+
+======[Dataset: Yeast5]======
+0.6649
+
+======[Dataset: CarvGood]======
+0.8994
+
+======[Dataset: CarGood]======
+0.8197
+
+======[Dataset: Yeast5-ERL]======
+0.9
+
+======[Dataset: Glass]======
+0.9138
+
+======[Dataset: ILPD]======
+0.5083
+
+======[Dataset: Seed]======
+0.9788
+
+======[Dataset: Wine]======
+0.9905
+
+======[Dataset: Breast Cancer Wisconsin]======
+0.9617
+
+======[Dataset: Diabetes]======
+0.9823
+
+======[Dataset: Sonar]======
+0.8032

@@ -1,0 +1,5 @@
+
+======[Dataset: Diabetes - Method: Diabetes]======
+[Avg] Accuracy: 0.9608, AUC: 0.9599, F1: 0.9495, AP: 0.9196, Gmean: 0.9597
+[Std] Accuracy: 0.0082, AUC: 0.0087, F1: 0.0107, AP: 0.0165, Gmean: 0.0088
+[Best] Accuracy: 0.9731, AUC: 0.9734, F1: 0.9655, AP: 0.9426, Gmean: 0.9733

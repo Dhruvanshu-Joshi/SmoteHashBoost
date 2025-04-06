@@ -1,0 +1,25 @@
+
+======[Dataset: ILPD - Method: Reciprocal]======
+[Avg] Accuracy: 0.6261, AUC: 0.6622, F1: 0.5333, AP: 0.3848, Gmean: 0.6550
+[Std] Accuracy: 0.0133, AUC: 0.0149, F1: 0.0158, AP: 0.0122, Gmean: 0.0145
+[Best] Accuracy: 0.6603, AUC: 0.7045, F1: 0.5776, AP: 0.4192, Gmean: 0.6964
+
+======[Dataset: ILPD - Method: Random]======
+[Avg] Accuracy: 0.6079, AUC: 0.6652, F1: 0.5386, AP: 0.3842, Gmean: 0.6492
+[Std] Accuracy: 0.0110, AUC: 0.0102, F1: 0.0101, AP: 0.0079, Gmean: 0.0103
+[Best] Accuracy: 0.6276, AUC: 0.6795, F1: 0.5516, AP: 0.3973, Gmean: 0.6676
+
+======[Dataset: ILPD - Method: Linearity]======
+[Avg] Accuracy: 0.6279, AUC: 0.6618, F1: 0.5328, AP: 0.3854, Gmean: 0.6551
+[Std] Accuracy: 0.0133, AUC: 0.0153, F1: 0.0161, AP: 0.0124, Gmean: 0.0150
+[Best] Accuracy: 0.6518, AUC: 0.7003, F1: 0.5722, AP: 0.4168, Gmean: 0.6903
+
+======[Dataset: ILPD - Method: Negexp]======
+[Avg] Accuracy: 0.6289, AUC: 0.6628, F1: 0.5343, AP: 0.3864, Gmean: 0.6561
+[Std] Accuracy: 0.0191, AUC: 0.0197, F1: 0.0201, AP: 0.0162, Gmean: 0.0195
+[Best] Accuracy: 0.6449, AUC: 0.6898, F1: 0.5627, AP: 0.4086, Gmean: 0.6814
+
+======[Dataset: ILPD - Method: Limit]======
+[Avg] Accuracy: 0.6245, AUC: 0.6565, F1: 0.5272, AP: 0.3811, Gmean: 0.6504
+[Std] Accuracy: 0.0129, AUC: 0.0142, F1: 0.0151, AP: 0.0110, Gmean: 0.0137
+[Best] Accuracy: 0.6449, AUC: 0.6849, F1: 0.5576, AP: 0.4054, Gmean: 0.6777

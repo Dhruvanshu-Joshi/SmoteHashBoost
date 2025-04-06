@@ -1,0 +1,3 @@
+[Avg] Accuracy: 0.3833, AUC: 0.5424, F1: 0.3726, AP: 0.2371, Gmean: 0.4613
+[Std] Accuracy: 0.0021, AUC: 0.0020, F1: 0.0013, AP: 0.0008, Gmean: 0.0025
+[Best] Accuracy: 0.3862, AUC: 0.5459, F1: 0.3750, AP: 0.2385, Gmean: 0.4647

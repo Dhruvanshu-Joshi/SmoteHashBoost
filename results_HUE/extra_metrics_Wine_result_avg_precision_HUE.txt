@@ -1,0 +1,25 @@
+
+======[Dataset: Wine - Method: Reciprocal]======
+[Avg] Accuracy: 0.9599, AUC: 0.9651, F1: 0.9313, AP: 0.8801, Gmean: 0.9644
+[Std] Accuracy: 0.0090, AUC: 0.0081, F1: 0.0136, AP: 0.0218, Gmean: 0.0086
+[Best] Accuracy: 0.9773, AUC: 0.9774, F1: 0.9577, AP: 0.9256, Gmean: 0.9771
+
+======[Dataset: Wine - Method: Random]======
+[Avg] Accuracy: 0.9609, AUC: 0.9657, F1: 0.9333, AP: 0.8856, Gmean: 0.9649
+[Std] Accuracy: 0.0122, AUC: 0.0116, F1: 0.0202, AP: 0.0325, Gmean: 0.0119
+[Best] Accuracy: 0.9775, AUC: 0.9846, F1: 0.9610, AP: 0.9273, Gmean: 0.9844
+
+======[Dataset: Wine - Method: Linearity]======
+[Avg] Accuracy: 0.9560, AUC: 0.9621, F1: 0.9262, AP: 0.8734, Gmean: 0.9612
+[Std] Accuracy: 0.0094, AUC: 0.0077, F1: 0.0139, AP: 0.0239, Gmean: 0.0080
+[Best] Accuracy: 0.9665, AUC: 0.9769, F1: 0.9452, AP: 0.9005, Gmean: 0.9764
+
+======[Dataset: Wine - Method: Negexp]======
+[Avg] Accuracy: 0.9559, AUC: 0.9606, F1: 0.9243, AP: 0.8705, Gmean: 0.9596
+[Std] Accuracy: 0.0087, AUC: 0.0085, F1: 0.0147, AP: 0.0250, Gmean: 0.0088
+[Best] Accuracy: 0.9722, AUC: 0.9746, F1: 0.9539, AP: 0.9212, Gmean: 0.9740
+
+======[Dataset: Wine - Method: Limit]======
+[Avg] Accuracy: 0.9126, AUC: 0.9335, F1: 0.8643, AP: 0.7719, Gmean: 0.9308
+[Std] Accuracy: 0.0180, AUC: 0.0131, F1: 0.0236, AP: 0.0364, Gmean: 0.0141
+[Best] Accuracy: 0.9494, AUC: 0.9654, F1: 0.9149, AP: 0.8448, Gmean: 0.9646

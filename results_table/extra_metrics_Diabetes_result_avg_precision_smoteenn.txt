@@ -1,0 +1,15 @@
+
+======[Dataset: Diabetes - Smote ENN Method: Diabetes]======
+[Avg] Accuracy: 0.9166, AUC: 0.9259, F1: 0.9000, AP: 0.8288, Gmean: 0.9245
+[Std] Accuracy: 0.0119, AUC: 0.0107, F1: 0.0130, AP: 0.0203, Gmean: 0.0111
+[Best] Accuracy: 0.9365, AUC: 0.9437, F1: 0.9219, AP: 0.8626, Gmean: 0.9431
+
+======[Dataset: Diabetes - Smote ENN Method: Diabetes]======
+[Avg] Accuracy: 0.9153, AUC: 0.9233, F1: 0.8977, AP: 0.8273, Gmean: 0.9221
+[Std] Accuracy: 0.0117, AUC: 0.0112, F1: 0.0136, AP: 0.0205, Gmean: 0.0114
+[Best] Accuracy: 0.9365, AUC: 0.9419, F1: 0.9213, AP: 0.8650, Gmean: 0.9415
+
+======[Dataset: Diabetes - Smote ENN Method: Diabetes]======
+[Avg] Accuracy: 0.9185, AUC: 0.9265, F1: 0.9013, AP: 0.8322, Gmean: 0.9253
+[Std] Accuracy: 0.0106, AUC: 0.0094, F1: 0.0119, AP: 0.0192, Gmean: 0.0098
+[Best] Accuracy: 0.9423, AUC: 0.9466, F1: 0.9282, AP: 0.8772, Gmean: 0.9461

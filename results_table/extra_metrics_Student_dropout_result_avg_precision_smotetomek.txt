@@ -1,0 +1,15 @@
+
+======[Dataset: Student_dropout - SmoteTomek Method: Student_dropout]======
+[Avg] Accuracy: 0.7560, AUC: 0.6154, F1: 0.3680, AP: 0.2454, Gmean: 0.5743
+[Std] Accuracy: 0.0049, AUC: 0.0072, F1: 0.0109, AP: 0.0059, Gmean: 0.0100
+[Best] Accuracy: 0.7633, AUC: 0.6231, F1: 0.3800, AP: 0.2525, Gmean: 0.5830
+
+======[Dataset: Student_dropout - SmoteTomek Method: Student_dropout]======
+[Avg] Accuracy: 0.7537, AUC: 0.6109, F1: 0.3609, AP: 0.2420, Gmean: 0.5679
+[Std] Accuracy: 0.0051, AUC: 0.0090, F1: 0.0139, AP: 0.0070, Gmean: 0.0134
+[Best] Accuracy: 0.7651, AUC: 0.6330, F1: 0.3948, AP: 0.2602, Gmean: 0.5983
+
+======[Dataset: Student_dropout - SmoteTomek Method: Student_dropout]======
+[Avg] Accuracy: 0.7544, AUC: 0.6112, F1: 0.3615, AP: 0.2425, Gmean: 0.5681
+[Std] Accuracy: 0.0073, AUC: 0.0107, F1: 0.0165, AP: 0.0090, Gmean: 0.0140
+[Best] Accuracy: 0.7622, AUC: 0.6273, F1: 0.3858, AP: 0.2570, Gmean: 0.5896

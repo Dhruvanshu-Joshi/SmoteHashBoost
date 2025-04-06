@@ -1,0 +1,20 @@
+
+======[Dataset: default of credit card clients - Adaboost Method: default of credit card clients]======
+Results for dataset: default of credit card clients - Adaboost Method: default of credit card clients
+
+======[Dataset: default of credit card clients - Adaboost Method: default of credit card clients]======
+Results for dataset: default of credit card clients - Adaboost Method: default of credit card clients
+
+======[Dataset: default of credit card clients - Adaboost Method: default of credit card clients]======
+Results for dataset: default of credit card clients - Adaboost Method: default of credit card clients
+
+======[Dataset: default of credit card clients - Adaboost Method: default of credit card clients]======
+Results for dataset: default of credit card clients - Adaboost Method: default of credit card clients
+
+Best results: Accuracy = 0.7272, AUC = 0.6159, F1 = 0.4029, Ap = 0.2918, Accuracy = 0.5826
+
+[Avg] Accuracy: 0.7237, AUC: 0.6117, F1: 0.3967, AP: 0.2880, Gmean: 0.5776
+[Std] Accuracy: 0.0022, AUC: 0.0034, F1: 0.0052, AP: 0.0028, Gmean: 0.0046
+[Best] Accuracy: 0.7272, AUC: 0.6159, F1: 0.4029, AP: 0.2918, Gmean: 0.5826
+
+======[Dataset: default of credit card clients - Rusboost Method: default of credit card clients]======

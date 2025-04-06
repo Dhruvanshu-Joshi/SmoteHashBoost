@@ -1,0 +1,15 @@
+
+======[Dataset: Diabetes - SmoteTomek Method: Diabetes]======
+[Avg] Accuracy: 0.9613, AUC: 0.9602, F1: 0.9501, AP: 0.9215, Gmean: 0.9598
+[Std] Accuracy: 0.0068, AUC: 0.0070, F1: 0.0087, AP: 0.0135, Gmean: 0.0071
+[Best] Accuracy: 0.9769, AUC: 0.9747, F1: 0.9698, AP: 0.9543, Gmean: 0.9745
+
+======[Dataset: Diabetes - SmoteTomek Method: Diabetes]======
+[Avg] Accuracy: 0.9614, AUC: 0.9609, F1: 0.9505, AP: 0.9205, Gmean: 0.9607
+[Std] Accuracy: 0.0055, AUC: 0.0054, F1: 0.0069, AP: 0.0115, Gmean: 0.0054
+[Best] Accuracy: 0.9692, AUC: 0.9684, F1: 0.9602, AP: 0.9366, Gmean: 0.9684
+
+======[Dataset: Diabetes - SmoteTomek Method: Diabetes]======
+[Avg] Accuracy: 0.9624, AUC: 0.9620, F1: 0.9519, AP: 0.9231, Gmean: 0.9617
+[Std] Accuracy: 0.0077, AUC: 0.0074, F1: 0.0095, AP: 0.0156, Gmean: 0.0074
+[Best] Accuracy: 0.9750, AUC: 0.9759, F1: 0.9680, AP: 0.9454, Gmean: 0.9759

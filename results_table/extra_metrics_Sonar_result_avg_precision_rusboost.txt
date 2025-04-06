@@ -1,0 +1,5 @@
+
+======[Dataset: Sonar - Rusboost Method: Sonar]======
+[Avg] Accuracy: 0.7802, AUC: 0.7761, F1: 0.7497, AP: 0.7089, Gmean: 0.7697
+[Std] Accuracy: 0.0209, AUC: 0.0212, F1: 0.0256, AP: 0.0241, Gmean: 0.0224
+[Best] Accuracy: 0.8223, AUC: 0.8204, F1: 0.8032, AP: 0.7527, Gmean: 0.8186

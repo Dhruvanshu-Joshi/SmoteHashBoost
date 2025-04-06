@@ -1,0 +1,5 @@
+
+======[Dataset: CarGood - Rusboost Method: CarGood]======
+[Avg] Accuracy: 0.9786, AUC: 0.9878, F1: 0.7942, AP: 0.6639, Gmean: 0.9877
+[Std] Accuracy: 0.0030, AUC: 0.0049, F1: 0.0235, AP: 0.0326, Gmean: 0.0052
+[Best] Accuracy: 0.9832, AUC: 0.9913, F1: 0.8275, AP: 0.7076, Gmean: 0.9912

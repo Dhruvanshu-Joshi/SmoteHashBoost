@@ -1,0 +1,5 @@
+
+======[Dataset: Sonar - Method: Sonar]======
+[Avg] Accuracy: 0.7212, AUC: 0.7187, F1: 0.6928, AP: 0.6368, Gmean: 0.7133
+[Std] Accuracy: 0.0180, AUC: 0.0188, F1: 0.0256, AP: 0.0184, Gmean: 0.0202
+[Best] Accuracy: 0.7496, AUC: 0.7485, F1: 0.7314, AP: 0.6673, Gmean: 0.7468

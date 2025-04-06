@@ -1,0 +1,15 @@
+
+======[Dataset: ILPD - SmoteTomek Method: ILPD]======
+[Avg] Accuracy: 0.6641, AUC: 0.6043, F1: 0.4405, AP: 0.3529, Gmean: 0.5849
+[Std] Accuracy: 0.0140, AUC: 0.0160, F1: 0.0226, AP: 0.0124, Gmean: 0.0193
+[Best] Accuracy: 0.6896, AUC: 0.6195, F1: 0.4520, AP: 0.3685, Gmean: 0.5922
+
+======[Dataset: ILPD - SmoteTomek Method: ILPD]======
+[Avg] Accuracy: 0.6601, AUC: 0.5981, F1: 0.4307, AP: 0.3487, Gmean: 0.5761
+[Std] Accuracy: 0.0153, AUC: 0.0236, F1: 0.0370, AP: 0.0180, Gmean: 0.0318
+[Best] Accuracy: 0.6844, AUC: 0.6404, F1: 0.4924, AP: 0.3791, Gmean: 0.6302
+
+======[Dataset: ILPD - SmoteTomek Method: ILPD]======
+[Avg] Accuracy: 0.6635, AUC: 0.6041, F1: 0.4404, AP: 0.3524, Gmean: 0.5845
+[Std] Accuracy: 0.0155, AUC: 0.0172, F1: 0.0243, AP: 0.0152, Gmean: 0.0204
+[Best] Accuracy: 0.6948, AUC: 0.6479, F1: 0.5051, AP: 0.3915, Gmean: 0.6374

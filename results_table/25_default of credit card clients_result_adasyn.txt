@@ -1,0 +1,5 @@
+
+======[Dataset: default of credit card clients - Adasyn Method: default of credit card clients]======
+[Avg] Accuracy: 0.7190, AUC: 0.6124, F1: 0.3987, AP: 0.2876, Gmean: 0.5817
+[Std] Accuracy: 0.0027, AUC: 0.0029, F1: 0.0041, AP: 0.0025, Gmean: 0.0034
+[Best] Accuracy: 0.7238, AUC: 0.6182, F1: 0.4072, AP: 0.2927, Gmean: 0.5885

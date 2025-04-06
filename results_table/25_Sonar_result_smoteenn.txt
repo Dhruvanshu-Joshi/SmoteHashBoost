@@ -1,0 +1,5 @@
+
+======[Dataset: Sonar - Smote ENN Method: Sonar]======
+[Avg] Accuracy: 0.7155, AUC: 0.7106, F1: 0.6720, AP: 0.6386, Gmean: 0.7015
+[Std] Accuracy: 0.0367, AUC: 0.0366, F1: 0.0394, AP: 0.0390, Gmean: 0.0355
+[Best] Accuracy: 0.7696, AUC: 0.7664, F1: 0.7291, AP: 0.6915, Gmean: 0.7534

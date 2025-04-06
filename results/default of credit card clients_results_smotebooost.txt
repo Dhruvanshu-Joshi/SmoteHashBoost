@@ -1,0 +1,5 @@
+
+======[Dataset: default of credit card clients - Method: default of credit card clients]======
+[Avg] Accuracy: 0.7215, AUC: 0.6129, F1: 0.3990, AP: 0.2884, Gmean: 0.5810
+[Std] Accuracy: 0.0023, AUC: 0.0027, F1: 0.0041, AP: 0.0023, Gmean: 0.0036
+[Best] Accuracy: 0.7240, AUC: 0.6166, F1: 0.4047, AP: 0.2915, Gmean: 0.5857

@@ -1,0 +1,30 @@
+
+======[Dataset: default of credit card clients - Method: Reciprocal]======
+======[Time: 11207.25703239441]======
+
+======[Dataset: default of credit card clients - Method: Random]======
+======[Time: 11162.676334381104]======
+
+======[Dataset: default of credit card clients - Method: Linearity]======
+======[Time: 11364.823579788208]======
+
+======[Dataset: default of credit card clients - Method: Negexp]======
+======[Time: 11465.232610702515]======
+
+======[Dataset: default of credit card clients - Method: Limit]======
+======[Time: 11102.53119468689]======
+
+======[Dataset: default of credit card clients - Method: Reciprocal]======
+======[Time: 19321.921586990356]======
+
+======[Dataset: default of credit card clients - Method: Random]======
+======[Time: 18107.881546020508]======
+
+======[Dataset: default of credit card clients - Method: Linearity]======
+======[Time: 20235.288619995117]======
+
+======[Dataset: default of credit card clients - Method: Negexp]======
+======[Time: 17894.187927246094]======
+
+======[Dataset: default of credit card clients - Method: Limit]======
+======[Time: 25999.85647201538]======

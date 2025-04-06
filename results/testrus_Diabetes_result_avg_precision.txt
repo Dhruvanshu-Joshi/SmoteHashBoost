@@ -1,0 +1,7 @@
+
+======[Dataset: Diabetes - Rusboost Method: Diabetes]======
+
+======[Dataset: Diabetes - Rusboost Method: Diabetes]======
+[Avg] Accuracy: 0.9779, AUC: 0.9767, F1: 0.9713, AP: 0.9549, Gmean: 0.9766
+[Std] Accuracy: 0.0041, AUC: 0.0045, F1: 0.0053, AP: 0.0085, Gmean: 0.0046
+[Best] Accuracy: 0.9846, AUC: 0.9828, F1: 0.9798, AP: 0.9702, Gmean: 0.9826

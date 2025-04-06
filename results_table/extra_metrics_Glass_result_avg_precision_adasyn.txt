@@ -1,0 +1,5 @@
+
+======[Dataset: Glass - Adasyn Method: Glass]======
+[Avg] Accuracy: 0.9516, AUC: 0.9145, F1: 0.8304, AP: 0.7313, Gmean: 0.9093
+[Std] Accuracy: 0.0113, AUC: 0.0158, F1: 0.0321, AP: 0.0477, Gmean: 0.0183
+[Best] Accuracy: 0.9672, AUC: 0.9392, F1: 0.8816, AP: 0.8005, Gmean: 0.9370

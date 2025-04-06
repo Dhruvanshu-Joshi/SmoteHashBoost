@@ -1,0 +1,22 @@
+
+======[Dataset: default of credit card clients - Method: Reciprocal]======
+[Avg] Accuracy: 0.6740, AUC: 0.6809, F1: 0.4848, AP: 0.3263, Gmean: 0.6808
+[Std] Accuracy: 0.0018, AUC: 0.0020, F1: 0.0022, AP: 0.0017, Gmean: 0.0020
+[Best] Accuracy: 0.6775, AUC: 0.6853, F1: 0.4896, AP: 0.3300, Gmean: 0.6851
+
+======[Dataset: default of credit card clients - Method: Random]======
+[Avg] Accuracy: 0.6463, AUC: 0.6736, F1: 0.4747, AP: 0.3169, Gmean: 0.6718
+[Std] Accuracy: 0.0020, AUC: 0.0021, F1: 0.0022, AP: 0.0016, Gmean: 0.0021
+[Best] Accuracy: 0.6516, AUC: 0.6772, F1: 0.4787, AP: 0.3200, Gmean: 0.6756
+
+======[Dataset: default of credit card clients - Method: Linearity]======
+[Avg] Accuracy: 0.6729, AUC: 0.6796, F1: 0.4834, AP: 0.3252, Gmean: 0.6795
+[Std] Accuracy: 0.0018, AUC: 0.0017, F1: 0.0019, AP: 0.0014, Gmean: 0.0017
+[Best] Accuracy: 0.6761, AUC: 0.6822, F1: 0.4863, AP: 0.3275, Gmean: 0.6821
+
+======[Dataset: default of credit card clients - Method: Negexp]======
+[Avg] Accuracy: 0.6739, AUC: 0.6802, F1: 0.4841, AP: 0.3258, Gmean: 0.6801
+[Std] Accuracy: 0.0017, AUC: 0.0017, F1: 0.0018, AP: 0.0014, Gmean: 0.0017
+[Best] Accuracy: 0.6760, AUC: 0.6848, F1: 0.4889, AP: 0.3293, Gmean: 0.6846
+
+======[Dataset: default of credit card clients - Method: Limit]======

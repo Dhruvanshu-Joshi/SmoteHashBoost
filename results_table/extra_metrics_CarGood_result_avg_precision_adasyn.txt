@@ -1,0 +1,5 @@
+
+======[Dataset: CarGood - Adasyn Method: CarGood]======
+[Avg] Accuracy: 0.9854, AUC: 0.9105, F1: 0.8222, AP: 0.6961, Gmean: 0.9052
+[Std] Accuracy: 0.0031, AUC: 0.0225, F1: 0.0367, AP: 0.0572, Gmean: 0.0247
+[Best] Accuracy: 0.9902, AUC: 0.9607, F1: 0.8871, AP: 0.8006, Gmean: 0.9595

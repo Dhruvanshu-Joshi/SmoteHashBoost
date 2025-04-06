@@ -1,0 +1,9 @@
+
+======[Dataset: Diabetes - Smote ENN Method: Diabetes]======
+
+======[Dataset: Diabetes - Smote ENN Method: Diabetes]======
+
+======[Dataset: Diabetes - Smote ENN Method: Diabetes]======
+[Avg] Accuracy: 0.9177, AUC: 0.9258, F1: 0.9006, AP: 0.8313, Gmean: 0.9248
+[Std] Accuracy: 0.0095, AUC: 0.0088, F1: 0.0105, AP: 0.0160, Gmean: 0.0090
+[Best] Accuracy: 0.9346, AUC: 0.9403, F1: 0.9191, AP: 0.8608, Gmean: 0.9399

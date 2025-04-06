@@ -1,0 +1,110 @@
+
+======[Dataset: Diabetes - Method: Reciprocal]======
+Run 1/20 completed in 36.05 ms
+Run 2/20 completed in 34.05 ms
+Run 3/20 completed in 34.39 ms
+Run 4/20 completed in 33.89 ms
+Run 5/20 completed in 34.88 ms
+Run 6/20 completed in 33.74 ms
+Run 7/20 completed in 35.90 ms
+Run 8/20 completed in 33.99 ms
+Run 9/20 completed in 33.94 ms
+Run 10/20 completed in 33.10 ms
+Run 11/20 completed in 33.14 ms
+Run 12/20 completed in 32.89 ms
+Run 13/20 completed in 30.90 ms
+Run 14/20 completed in 32.89 ms
+Run 15/20 completed in 32.79 ms
+Run 16/20 completed in 31.95 ms
+Run 17/20 completed in 30.96 ms
+Run 18/20 completed in 38.09 ms
+Run 19/20 completed in 32.90 ms
+Run 20/20 completed in 37.38 ms
+
+======[Dataset: Diabetes - Method: Random]======
+Run 1/20 completed in 32.16 ms
+Run 2/20 completed in 29.98 ms
+Run 3/20 completed in 33.21 ms
+Run 4/20 completed in 28.85 ms
+Run 5/20 completed in 29.74 ms
+Run 6/20 completed in 29.90 ms
+Run 7/20 completed in 30.42 ms
+Run 8/20 completed in 29.17 ms
+Run 9/20 completed in 30.41 ms
+Run 10/20 completed in 29.84 ms
+Run 11/20 completed in 31.04 ms
+Run 12/20 completed in 32.67 ms
+Run 13/20 completed in 30.80 ms
+Run 14/20 completed in 30.84 ms
+Run 15/20 completed in 30.94 ms
+Run 16/20 completed in 30.90 ms
+Run 17/20 completed in 32.89 ms
+Run 18/20 completed in 29.90 ms
+Run 19/20 completed in 30.90 ms
+Run 20/20 completed in 30.90 ms
+
+======[Dataset: Diabetes - Method: Linearity]======
+Run 1/20 completed in 30.90 ms
+Run 2/20 completed in 32.01 ms
+Run 3/20 completed in 31.95 ms
+Run 4/20 completed in 32.14 ms
+Run 5/20 completed in 31.89 ms
+Run 6/20 completed in 31.34 ms
+Run 7/20 completed in 31.07 ms
+Run 8/20 completed in 30.90 ms
+Run 9/20 completed in 31.89 ms
+Run 10/20 completed in 31.90 ms
+Run 11/20 completed in 32.39 ms
+Run 12/20 completed in 30.90 ms
+Run 13/20 completed in 33.52 ms
+Run 14/20 completed in 34.38 ms
+Run 15/20 completed in 31.95 ms
+Run 16/20 completed in 30.84 ms
+Run 17/20 completed in 30.90 ms
+Run 18/20 completed in 31.89 ms
+Run 19/20 completed in 30.90 ms
+Run 20/20 completed in 29.95 ms
+
+======[Dataset: Diabetes - Method: Negexp]======
+Run 1/20 completed in 29.53 ms
+Run 2/20 completed in 29.90 ms
+Run 3/20 completed in 30.25 ms
+Run 4/20 completed in 31.11 ms
+Run 5/20 completed in 31.83 ms
+Run 6/20 completed in 33.40 ms
+Run 7/20 completed in 29.97 ms
+Run 8/20 completed in 30.89 ms
+Run 9/20 completed in 30.43 ms
+Run 10/20 completed in 29.89 ms
+Run 11/20 completed in 29.90 ms
+Run 12/20 completed in 29.96 ms
+Run 13/20 completed in 30.94 ms
+Run 14/20 completed in 28.90 ms
+Run 15/20 completed in 28.88 ms
+Run 16/20 completed in 29.90 ms
+Run 17/20 completed in 28.90 ms
+Run 18/20 completed in 29.96 ms
+Run 19/20 completed in 31.03 ms
+Run 20/20 completed in 29.96 ms
+
+======[Dataset: Diabetes - Method: Limit]======
+Run 1/20 completed in 30.25 ms
+Run 2/20 completed in 29.89 ms
+Run 3/20 completed in 30.91 ms
+Run 4/20 completed in 30.61 ms
+Run 5/20 completed in 29.90 ms
+Run 6/20 completed in 30.41 ms
+Run 7/20 completed in 29.96 ms
+Run 8/20 completed in 32.88 ms
+Run 9/20 completed in 30.90 ms
+Run 10/20 completed in 29.90 ms
+Run 11/20 completed in 29.96 ms
+Run 12/20 completed in 28.90 ms
+Run 13/20 completed in 28.90 ms
+Run 14/20 completed in 29.90 ms
+Run 15/20 completed in 29.63 ms
+Run 16/20 completed in 28.88 ms
+Run 17/20 completed in 29.94 ms
+Run 18/20 completed in 29.82 ms
+Run 19/20 completed in 32.51 ms
+Run 20/20 completed in 32.56 ms

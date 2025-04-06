@@ -1,0 +1,15 @@
+
+======[Dataset: Yeast5 - Method: Reciprocal]======
+======[Time: 825.0608444213867]======
+
+======[Dataset: Yeast5 - Method: Random]======
+======[Time: 469.28906440734863]======
+
+======[Dataset: Yeast5 - Method: Linearity]======
+======[Time: 592.9677486419678]======
+
+======[Dataset: Yeast5 - Method: Negexp]======
+======[Time: 491.54186248779297]======
+
+======[Dataset: Yeast5 - Method: Limit]======
+======[Time: 501.25789642333984]======

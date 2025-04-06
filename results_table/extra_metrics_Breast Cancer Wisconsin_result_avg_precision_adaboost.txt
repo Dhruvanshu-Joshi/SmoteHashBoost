@@ -1,0 +1,19 @@
+
+======[Dataset: Breast Cancer Wisconsin - Adaboost Method: Breast Cancer Wisconsin]======
+[Avg] Accuracy: 0.9251, AUC: 0.9222, F1: 0.9007, AP: 0.8464, Gmean: 0.9217
+[Std] Accuracy: 0.0081, AUC: 0.0081, F1: 0.0103, AP: 0.0157, Gmean: 0.0082
+[Best] Accuracy: 0.9367, AUC: 0.9371, F1: 0.9175, AP: 0.8662, Gmean: 0.9368
+
+======[Dataset: Breast Cancer Wisconsin - Adaboost Method: Breast Cancer Wisconsin]======
+Results for dataset: Breast Cancer Wisconsin - Adaboost Method: Breast Cancer Wisconsin
+
+Best results: Accuracy = 0.9438, AUC = 0.9419, F1 = 0.9252, Ap = 0.8812, Accuracy = 0.9417
+
+[Avg] Accuracy: 0.9286, AUC: 0.9246, F1: 0.9045, AP: 0.8541, Gmean: 0.9240
+[Std] Accuracy: 0.0071, AUC: 0.0076, F1: 0.0094, AP: 0.0141, Gmean: 0.0078
+[Best] Accuracy: 0.9438, AUC: 0.9419, F1: 0.9252, AP: 0.8812, Gmean: 0.9417
+
+======[Dataset: Breast Cancer Wisconsin - SmoteBoost Method: Breast Cancer Wisconsin]======
+[Avg] Accuracy: 0.9317, AUC: 0.9287, F1: 0.9092, AP: 0.8596, Gmean: 0.9282
+[Std] Accuracy: 0.0077, AUC: 0.0072, F1: 0.0095, AP: 0.0161, Gmean: 0.0072
+[Best] Accuracy: 0.9455, AUC: 0.9401, F1: 0.9266, AP: 0.8902, Gmean: 0.9393

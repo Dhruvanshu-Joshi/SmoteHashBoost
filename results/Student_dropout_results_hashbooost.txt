@@ -1,0 +1,75 @@
+
+======[Dataset: Student_dropout - Method: Reciprocal]======
+[Avg] Accuracy: 0.6923, AUC: 0.7275, F1: 0.4774, AP: 0.3082, Gmean: 0.7253
+[Std] Accuracy: 0.0038, AUC: 0.0050, F1: 0.0051, AP: 0.0042, Gmean: 0.0048
+[Best] Accuracy: 0.6982, AUC: 0.7315, F1: 0.4825, AP: 0.3127, Gmean: 0.7294
+
+======[Dataset: Student_dropout - Method: Random]======
+[Avg] Accuracy: 0.6784, AUC: 0.7286, F1: 0.4739, AP: 0.3056, Gmean: 0.7241
+[Std] Accuracy: 0.0044, AUC: 0.0067, F1: 0.0064, AP: 0.0054, Gmean: 0.0062
+[Best] Accuracy: 0.6869, AUC: 0.7467, F1: 0.4905, AP: 0.3198, Gmean: 0.7406
+
+======[Dataset: Student_dropout - Method: Linearity]======
+[Avg] Accuracy: 0.6923, AUC: 0.7287, F1: 0.4783, AP: 0.3090, Gmean: 0.7262
+[Std] Accuracy: 0.0034, AUC: 0.0034, F1: 0.0035, AP: 0.0029, Gmean: 0.0033
+[Best] Accuracy: 0.6949, AUC: 0.7334, F1: 0.4830, AP: 0.3128, Gmean: 0.7302
+
+======[Dataset: Student_dropout - Method: Negexp]======
+[Avg] Accuracy: 0.6941, AUC: 0.7279, F1: 0.4782, AP: 0.3087, Gmean: 0.7258
+[Std] Accuracy: 0.0041, AUC: 0.0036, F1: 0.0039, AP: 0.0032, Gmean: 0.0035
+[Best] Accuracy: 0.6966, AUC: 0.7340, F1: 0.4842, AP: 0.3137, Gmean: 0.7314
+
+======[Dataset: Student_dropout - Method: Limit]======
+[Avg] Accuracy: 0.6673, AUC: 0.7005, F1: 0.4481, AP: 0.2849, Gmean: 0.6982
+[Std] Accuracy: 0.0047, AUC: 0.0061, F1: 0.0056, AP: 0.0044, Gmean: 0.0057
+[Best] Accuracy: 0.6731, AUC: 0.7113, F1: 0.4585, AP: 0.2928, Gmean: 0.7086
+
+======[Dataset: Student_dropout - Method: Reciprocal]======
+[Avg] Accuracy: 0.6921, AUC: 0.7282, F1: 0.4777, AP: 0.3084, Gmean: 0.7257
+[Std] Accuracy: 0.0056, AUC: 0.0042, F1: 0.0047, AP: 0.0039, Gmean: 0.0041
+[Best] Accuracy: 0.7030, AUC: 0.7393, F1: 0.4903, AP: 0.3188, Gmean: 0.7370
+
+======[Dataset: Student_dropout - Method: Random]======
+[Avg] Accuracy: 0.6756, AUC: 0.7263, F1: 0.4713, AP: 0.3036, Gmean: 0.7217
+[Std] Accuracy: 0.0070, AUC: 0.0055, F1: 0.0059, AP: 0.0048, Gmean: 0.0056
+[Best] Accuracy: 0.6885, AUC: 0.7305, F1: 0.4783, AP: 0.3096, Gmean: 0.7271
+
+======[Dataset: Student_dropout - Method: Linearity]======
+[Avg] Accuracy: 0.6942, AUC: 0.7295, F1: 0.4795, AP: 0.3100, Gmean: 0.7272
+[Std] Accuracy: 0.0051, AUC: 0.0060, F1: 0.0062, AP: 0.0051, Gmean: 0.0058
+[Best] Accuracy: 0.7012, AUC: 0.7377, F1: 0.4883, AP: 0.3170, Gmean: 0.7353
+
+======[Dataset: Student_dropout - Method: Negexp]======
+[Avg] Accuracy: 0.6926, AUC: 0.7285, F1: 0.4781, AP: 0.3088, Gmean: 0.7260
+[Std] Accuracy: 0.0042, AUC: 0.0060, F1: 0.0061, AP: 0.0050, Gmean: 0.0057
+[Best] Accuracy: 0.6978, AUC: 0.7396, F1: 0.4885, AP: 0.3175, Gmean: 0.7363
+
+======[Dataset: Student_dropout - Method: Limit]======
+[Avg] Accuracy: 0.6650, AUC: 0.6965, F1: 0.4443, AP: 0.2821, Gmean: 0.6944
+[Std] Accuracy: 0.0068, AUC: 0.0080, F1: 0.0081, AP: 0.0061, Gmean: 0.0079
+[Best] Accuracy: 0.6781, AUC: 0.7128, F1: 0.4610, AP: 0.2947, Gmean: 0.7107
+
+======[Dataset: Student_dropout - Method: Reciprocal]======
+[Avg] Accuracy: 0.6928, AUC: 0.7280, F1: 0.4780, AP: 0.3088, Gmean: 0.7257
+[Std] Accuracy: 0.0044, AUC: 0.0050, F1: 0.0051, AP: 0.0042, Gmean: 0.0048
+[Best] Accuracy: 0.6982, AUC: 0.7349, F1: 0.4851, AP: 0.3151, Gmean: 0.7324
+
+======[Dataset: Student_dropout - Method: Random]======
+[Avg] Accuracy: 0.6792, AUC: 0.7282, F1: 0.4739, AP: 0.3057, Gmean: 0.7239
+[Std] Accuracy: 0.0037, AUC: 0.0057, F1: 0.0053, AP: 0.0044, Gmean: 0.0053
+[Best] Accuracy: 0.6872, AUC: 0.7366, F1: 0.4829, AP: 0.3129, Gmean: 0.7325
+
+======[Dataset: Student_dropout - Method: Linearity]======
+[Avg] Accuracy: 0.6924, AUC: 0.7290, F1: 0.4784, AP: 0.3090, Gmean: 0.7264
+[Std] Accuracy: 0.0048, AUC: 0.0062, F1: 0.0063, AP: 0.0052, Gmean: 0.0060
+[Best] Accuracy: 0.7009, AUC: 0.7361, F1: 0.4871, AP: 0.3161, Gmean: 0.7339
+
+======[Dataset: Student_dropout - Method: Negexp]======
+[Avg] Accuracy: 0.6924, AUC: 0.7276, F1: 0.4774, AP: 0.3081, Gmean: 0.7253
+[Std] Accuracy: 0.0038, AUC: 0.0034, F1: 0.0038, AP: 0.0031, Gmean: 0.0033
+[Best] Accuracy: 0.7007, AUC: 0.7325, F1: 0.4837, AP: 0.3133, Gmean: 0.7304
+
+======[Dataset: Student_dropout - Method: Limit]======
+[Avg] Accuracy: 0.6680, AUC: 0.6992, F1: 0.4472, AP: 0.2842, Gmean: 0.6972
+[Std] Accuracy: 0.0051, AUC: 0.0058, F1: 0.0056, AP: 0.0043, Gmean: 0.0054
+[Best] Accuracy: 0.6770, AUC: 0.7127, F1: 0.4607, AP: 0.2950, Gmean: 0.7103

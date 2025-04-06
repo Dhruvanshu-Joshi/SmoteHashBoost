@@ -1,0 +1,5 @@
+
+======[Dataset: Yeast5-ERL - Method: Yeast5-ERL]======
+[Avg] Accuracy: 0.5890, AUC: 0.5247, F1: 0.4090, AP: 0.3879, Gmean: 0.4597
+[Std] Accuracy: 0.2488, AUC: 0.3158, F1: 0.3508, AP: 0.3339, Gmean: 0.3901
+[Best] Accuracy: 0.9993, AUC: 0.9997, F1: 0.9333, AP: 0.9000, Gmean: 0.9997

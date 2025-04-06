@@ -1,0 +1,5 @@
+
+======[Dataset: CarGood - Smote ENN Method: CarGood]======
+[Avg] Accuracy: 0.9811, AUC: 0.9226, F1: 0.7874, AP: 0.6444, Gmean: 0.9180
+[Std] Accuracy: 0.0039, AUC: 0.0306, F1: 0.0447, AP: 0.0651, Gmean: 0.0348
+[Best] Accuracy: 0.9878, AUC: 0.9595, F1: 0.8609, AP: 0.7514, Gmean: 0.9587

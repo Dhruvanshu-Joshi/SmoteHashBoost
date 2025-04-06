@@ -1,0 +1,14 @@
+
+======[Dataset: Seed - Adaboost Method: Seed]======
+Results for dataset: Seed - Adaboost Method: Seed
+
+Best results: Accuracy = 0.9095, AUC = 0.8964, F1 = 0.8643, Ap = 0.8007, Accuracy = 0.8942
+
+[Avg] Accuracy: 0.8840, AUC: 0.8693, F1: 0.8241, AP: 0.7480, Gmean: 0.8654
+[Std] Accuracy: 0.0164, AUC: 0.0202, F1: 0.0257, AP: 0.0311, Gmean: 0.0215
+[Best] Accuracy: 0.9095, AUC: 0.8964, F1: 0.8643, AP: 0.8007, Gmean: 0.8942
+
+======[Dataset: Seed - SmoteBoost Method: Seed]======
+[Avg] Accuracy: 0.9707, AUC: 0.9684, F1: 0.9563, AP: 0.9301, Gmean: 0.9678
+[Std] Accuracy: 0.0093, AUC: 0.0097, F1: 0.0135, AP: 0.0220, Gmean: 0.0098
+[Best] Accuracy: 0.9810, AUC: 0.9786, F1: 0.9708, AP: 0.9543, Gmean: 0.9780

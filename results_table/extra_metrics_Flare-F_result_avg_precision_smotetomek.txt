@@ -1,0 +1,15 @@
+
+======[Dataset: Flare-F - SmoteTomek Method: Flare-F]======
+[Avg] Accuracy: 0.9349, AUC: 0.5579, F1: 0.1481, AP: 0.0710, Gmean: 0.3179
+[Std] Accuracy: 0.0044, AUC: 0.0238, F1: 0.0442, AP: 0.0146, Gmean: 0.0790
+[Best] Accuracy: 0.9315, AUC: 0.5879, F1: 0.1949, AP: 0.0900, Gmean: 0.4302
+
+======[Dataset: Flare-F - SmoteTomek Method: Flare-F]======
+[Avg] Accuracy: 0.9350, AUC: 0.5457, F1: 0.1274, AP: 0.0667, Gmean: 0.2732
+[Std] Accuracy: 0.0043, AUC: 0.0150, F1: 0.0324, AP: 0.0173, Gmean: 0.0500
+[Best] Accuracy: 0.9456, AUC: 0.5832, F1: 0.2114, AP: 0.1248, Gmean: 0.3295
+
+======[Dataset: Flare-F - SmoteTomek Method: Flare-F]======
+[Avg] Accuracy: 0.9338, AUC: 0.5549, F1: 0.1421, AP: 0.0696, Gmean: 0.3074
+[Std] Accuracy: 0.0049, AUC: 0.0237, F1: 0.0475, AP: 0.0180, Gmean: 0.0762
+[Best] Accuracy: 0.9437, AUC: 0.6141, F1: 0.2720, AP: 0.1145, Gmean: 0.4906

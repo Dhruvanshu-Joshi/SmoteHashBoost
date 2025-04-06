@@ -1,0 +1,10 @@
+
+======[Dataset: Yeast5-ERL - Method: Reciprocal]======
+
+======[Dataset: Yeast5-ERL - Method: Random]======
+
+======[Dataset: Yeast5-ERL - Method: Linearity]======
+
+======[Dataset: Yeast5-ERL - Method: Negexp]======
+
+======[Dataset: Yeast5-ERL - Method: Limit]======

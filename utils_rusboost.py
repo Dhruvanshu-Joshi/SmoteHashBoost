@@ -1,4 +1,5 @@
-from sklearn.metrics import accuracy_score, roc_auc_score, roc_curve
+from sklearn.metrics import accuracy_score, roc_auc_score, roc_curve, f1_score, average_precision_score
+from imblearn.metrics import geometric_mean_score
 from imblearn.ensemble import RUSBoostClassifier  # Import RUSBoost from imbalanced-learn library
 from sklearn.model_selection import StratifiedKFold
 import numpy as np
@@ -137,31 +138,37 @@ def evaluate_rus(
     with open(output_file, 'a') as file:
         file.write("\n")
         file.write(f"======[Dataset: {name}]======\n")
+    tm_output_file = output_file+"_runtime_"
+    with open(tm_output_file, 'a') as file:
+        file.write("\n")
+        file.write(f"======[Dataset: {name}]======\n")
 
     np.random.seed(random_state)
 
     # Output template
-    OUTPUT = "[{}] Accuracy: {:.4f}, AUC: {:.4f}"
+    OUTPUT = "[{}] Accuracy: {:.4f}, AUC: {:.4f}, F1: {:.4f}, AP: {:.4f}, Gmean: {:.4f}"
 
     # Prepare the data (Make it Binary)
     X, y = prepare_rus(X, y, minority_class, verbose)
 
     best_roc_data = None
-    best_metrics = [-np.inf, -np.inf]  # [accuracy, AUC]
+    best_metrics = [-np.inf, -np.inf, -np.inf, -np.inf, -np.inf]  # [accuracy, AUC]
 
-    folds = np.zeros((n_runs, 2))
+    folds = np.zeros((n_runs, 5))
 
     start_time = time.time()
-
+    start_time1 = time.time()
+    a=0
     for run in tqdm(range(n_runs)):
-
+        a = a+1
         # Applying k-Fold cross-validation (Stratified K-Fold)
         kFold = StratifiedKFold(n_splits=k, shuffle=True)
 
-        metrics = np.zeros((k, 2))
+        metrics = np.zeros((k, 5))
         fpr_list =  []
         tpr_list = []
         # Store metrics in this variable
+        
         for fold, (trIndexes, tsIndexes) in enumerate(kFold.split(X, y)):
             # Split data into training and test sets
             Xtr, ytr = X[trIndexes], y[trIndexes]
@@ -189,6 +196,9 @@ def evaluate_rus(
             predicted = model.predict(Xts)
             auc_score = roc_auc_score(yts, predicted)
             accuracy = accuracy_score(yts, predicted)
+            rf_f1 = f1_score(yts, predicted)
+            ap_score = average_precision_score(yts, predicted)
+            gmean = geometric_mean_score(yts, predicted)
 
             # Collect ROC curve data
             fpr, tpr, _ = roc_curve(yts, predicted)
@@ -199,7 +209,7 @@ def evaluate_rus(
                     continue
             fpr_list.append(fpr)
             tpr_list.append(tpr)
-            metrics[fold, :] = [accuracy, auc_score]
+            metrics[fold, :] = [accuracy, auc_score, rf_f1, ap_score, gmean]
         
         run_metrics = np.mean(metrics, axis=0)
         final_fpr = np.mean(np.vstack(fpr_list), axis=0)
@@ -209,11 +219,21 @@ def evaluate_rus(
         if np.all(run_metrics > best_metrics):
             best_metrics = run_metrics
             best_roc_data = (final_fpr, final_tpr, run_metrics[1])
+        
+        end_time1 = time.time()
+        elapsed1 = start_time1 - end_time1
+        start_time1 = end_time1
+
+        with open(tm_output_file, 'a') as file:
+            file.write(f"======[Run: {a} Time: {elapsed1}]======\n")
 
     # End timing the loop
     end_time = time.time()
     elapsed_time = (end_time - start_time) * 1000  # Convert seconds to milliseconds
     tqdm.write(f"Run completed in {elapsed_time:.2f} ms")
+
+    avg_metrics = np.mean(folds, axis=0)
+    std_metrics = np.std(folds, axis=0)
 
     print()
     print(OUTPUT.format(
@@ -227,8 +247,12 @@ def evaluate_rus(
         *best_metrics
     ))
 
+    with open(tm_output_file, 'a') as file:
+        file.write(f"======[Time: {elapsed_time}]======\n")
+
     with open(output_file, 'a') as file:
-        file.write(OUTPUT.format("Best", *np.max(folds, axis=0)) + "\n")
+        file.write(OUTPUT.format("Avg", *avg_metrics) + "\n")
+        file.write(OUTPUT.format("Std", *std_metrics) + "\n")
         file.write(OUTPUT.format("Best", *best_metrics) + "\n")
 
     return best_roc_data

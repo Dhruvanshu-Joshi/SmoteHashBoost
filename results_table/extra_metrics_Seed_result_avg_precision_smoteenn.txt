@@ -1,0 +1,15 @@
+
+======[Dataset: Seed - Smote ENN Method: Seed]======
+[Avg] Accuracy: 0.9721, AUC: 0.9693, F1: 0.9587, AP: 0.9353, Gmean: 0.9687
+[Std] Accuracy: 0.0126, AUC: 0.0131, F1: 0.0185, AP: 0.0288, Gmean: 0.0135
+[Best] Accuracy: 0.9857, AUC: 0.9821, F1: 0.9783, AP: 0.9676, Gmean: 0.9818
+
+======[Dataset: Seed - Smote ENN Method: Seed]======
+[Avg] Accuracy: 0.9710, AUC: 0.9670, F1: 0.9565, AP: 0.9334, Gmean: 0.9663
+[Std] Accuracy: 0.0088, AUC: 0.0095, F1: 0.0127, AP: 0.0199, Gmean: 0.0097
+[Best] Accuracy: 0.9857, AUC: 0.9821, F1: 0.9783, AP: 0.9676, Gmean: 0.9818
+
+======[Dataset: Seed - Smote ENN Method: Seed]======
+[Avg] Accuracy: 0.9726, AUC: 0.9691, F1: 0.9593, AP: 0.9371, Gmean: 0.9686
+[Std] Accuracy: 0.0085, AUC: 0.0090, F1: 0.0122, AP: 0.0188, Gmean: 0.0091
+[Best] Accuracy: 0.9857, AUC: 0.9821, F1: 0.9783, AP: 0.9676, Gmean: 0.9818

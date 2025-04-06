@@ -1,0 +1,15 @@
+
+======[Dataset: Glass - Borderline Smote Method: Glass]======
+[Avg] Accuracy: 0.9509, AUC: 0.8999, F1: 0.8204, AP: 0.7175, Gmean: 0.8931
+[Std] Accuracy: 0.0114, AUC: 0.0138, F1: 0.0333, AP: 0.0502, Gmean: 0.0143
+[Best] Accuracy: 0.9672, AUC: 0.9219, F1: 0.8713, AP: 0.7904, Gmean: 0.9171
+
+======[Dataset: Glass - Borderline Smote Method: Glass]======
+[Avg] Accuracy: 0.9466, AUC: 0.8988, F1: 0.8068, AP: 0.6953, Gmean: 0.8917
+[Std] Accuracy: 0.0095, AUC: 0.0152, F1: 0.0301, AP: 0.0448, Gmean: 0.0180
+[Best] Accuracy: 0.9626, AUC: 0.9192, F1: 0.8587, AP: 0.7700, Gmean: 0.9146
+
+======[Dataset: Glass - Borderline Smote Method: Glass]======
+[Avg] Accuracy: 0.9489, AUC: 0.8967, F1: 0.8146, AP: 0.7065, Gmean: 0.8905
+[Std] Accuracy: 0.0103, AUC: 0.0168, F1: 0.0344, AP: 0.0510, Gmean: 0.0190
+[Best] Accuracy: 0.9672, AUC: 0.9392, F1: 0.8779, AP: 0.8005, Gmean: 0.9352

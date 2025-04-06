@@ -1,0 +1,5 @@
+
+======[Dataset: Flare-F - Method: Flare-F]======
+[Avg] Accuracy: 0.9350, AUC: 0.5615, F1: 0.1571, AP: 0.0731, Gmean: 0.3332
+[Std] Accuracy: 0.0043, AUC: 0.0224, F1: 0.0473, AP: 0.0156, Gmean: 0.0777
+[Best] Accuracy: 0.9418, AUC: 0.5891, F1: 0.2334, AP: 0.1096, Gmean: 0.4335

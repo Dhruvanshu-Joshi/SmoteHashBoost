@@ -1,0 +1,75 @@
+
+======[Dataset: Yeast5-ERL - Method: Reciprocal]======
+[Avg] Accuracy: 0.9799, AUC: 0.9899, F1: 0.4141, AP: 0.3088, Gmean: 0.9898
+[Std] Accuracy: 0.0059, AUC: 0.0029, F1: 0.0834, AP: 0.0928, Gmean: 0.0030
+[Best] Accuracy: 0.9879, AUC: 0.9939, F1: 0.5952, AP: 0.5221, Gmean: 0.9939
+
+======[Dataset: Yeast5-ERL - Method: Random]======
+[Avg] Accuracy: 0.9815, AUC: 0.9907, F1: 0.4092, AP: 0.2963, Gmean: 0.9906
+[Std] Accuracy: 0.0058, AUC: 0.0029, F1: 0.0861, AP: 0.0927, Gmean: 0.0029
+[Best] Accuracy: 0.9885, AUC: 0.9943, F1: 0.5441, AP: 0.4333, Gmean: 0.9942
+
+======[Dataset: Yeast5-ERL - Method: Linearity]======
+[Avg] Accuracy: 0.9810, AUC: 0.9905, F1: 0.3818, AP: 0.2696, Gmean: 0.9904
+[Std] Accuracy: 0.0035, AUC: 0.0017, F1: 0.0681, AP: 0.0739, Gmean: 0.0018
+[Best] Accuracy: 0.9865, AUC: 0.9932, F1: 0.5200, AP: 0.4143, Gmean: 0.9932
+
+======[Dataset: Yeast5-ERL - Method: Negexp]======
+[Avg] Accuracy: 0.9800, AUC: 0.9900, F1: 0.4152, AP: 0.3070, Gmean: 0.9899
+[Std] Accuracy: 0.0059, AUC: 0.0029, F1: 0.0668, AP: 0.0713, Gmean: 0.0030
+[Best] Accuracy: 0.9886, AUC: 0.9943, F1: 0.5267, AP: 0.4182, Gmean: 0.9942
+
+======[Dataset: Yeast5-ERL - Method: Limit]======
+[Avg] Accuracy: 0.9726, AUC: 0.9862, F1: 0.4105, AP: 0.3116, Gmean: 0.9860
+[Std] Accuracy: 0.0124, AUC: 0.0062, F1: 0.1040, AP: 0.1042, Gmean: 0.0064
+[Best] Accuracy: 0.9852, AUC: 0.9926, F1: 0.5452, AP: 0.4840, Gmean: 0.9925
+
+======[Dataset: Yeast5-ERL - Method: Reciprocal]======
+[Avg] Accuracy: 0.9815, AUC: 0.9907, F1: 0.4208, AP: 0.3117, Gmean: 0.9906
+[Std] Accuracy: 0.0052, AUC: 0.0026, F1: 0.0748, AP: 0.0816, Gmean: 0.0026
+[Best] Accuracy: 0.9912, AUC: 0.9956, F1: 0.4667, AP: 0.3133, Gmean: 0.9956
+
+======[Dataset: Yeast5-ERL - Method: Random]======
+[Avg] Accuracy: 0.9800, AUC: 0.9900, F1: 0.3797, AP: 0.2644, Gmean: 0.9899
+[Std] Accuracy: 0.0056, AUC: 0.0028, F1: 0.0798, AP: 0.0729, Gmean: 0.0028
+[Best] Accuracy: 0.9892, AUC: 0.9946, F1: 0.5000, AP: 0.3515, Gmean: 0.9946
+
+======[Dataset: Yeast5-ERL - Method: Linearity]======
+[Avg] Accuracy: 0.9794, AUC: 0.9897, F1: 0.4186, AP: 0.3046, Gmean: 0.9895
+[Std] Accuracy: 0.0054, AUC: 0.0027, F1: 0.0863, AP: 0.0888, Gmean: 0.0027
+[Best] Accuracy: 0.9825, AUC: 0.9912, F1: 0.5400, AP: 0.4825, Gmean: 0.9911
+
+======[Dataset: Yeast5-ERL - Method: Negexp]======
+[Avg] Accuracy: 0.9803, AUC: 0.9901, F1: 0.3959, AP: 0.2828, Gmean: 0.9900
+[Std] Accuracy: 0.0062, AUC: 0.0031, F1: 0.0966, AP: 0.0965, Gmean: 0.0032
+[Best] Accuracy: 0.9885, AUC: 0.9943, F1: 0.5752, AP: 0.4654, Gmean: 0.9942
+
+======[Dataset: Yeast5-ERL - Method: Limit]======
+[Avg] Accuracy: 0.9765, AUC: 0.9882, F1: 0.4528, AP: 0.3473, Gmean: 0.9880
+[Std] Accuracy: 0.0117, AUC: 0.0059, F1: 0.0779, AP: 0.0735, Gmean: 0.0060
+[Best] Accuracy: 0.9939, AUC: 0.9970, F1: 0.5800, AP: 0.4500, Gmean: 0.9970
+
+======[Dataset: Yeast5-ERL - Method: Reciprocal]======
+[Avg] Accuracy: 0.9807, AUC: 0.9903, F1: 0.3850, AP: 0.2753, Gmean: 0.9902
+[Std] Accuracy: 0.0035, AUC: 0.0017, F1: 0.0687, AP: 0.0750, Gmean: 0.0018
+[Best] Accuracy: 0.9885, AUC: 0.9942, F1: 0.4964, AP: 0.3867, Gmean: 0.9942
+
+======[Dataset: Yeast5-ERL - Method: Random]======
+[Avg] Accuracy: 0.9781, AUC: 0.9890, F1: 0.3629, AP: 0.2554, Gmean: 0.9889
+[Std] Accuracy: 0.0060, AUC: 0.0030, F1: 0.0792, AP: 0.0790, Gmean: 0.0030
+[Best] Accuracy: 0.9865, AUC: 0.9932, F1: 0.3816, AP: 0.2483, Gmean: 0.9932
+
+======[Dataset: Yeast5-ERL - Method: Linearity]======
+[Avg] Accuracy: 0.9809, AUC: 0.9904, F1: 0.4025, AP: 0.2889, Gmean: 0.9903
+[Std] Accuracy: 0.0051, AUC: 0.0026, F1: 0.0950, AP: 0.0989, Gmean: 0.0026
+[Best] Accuracy: 0.9912, AUC: 0.9956, F1: 0.6364, AP: 0.5533, Gmean: 0.9956
+
+======[Dataset: Yeast5-ERL - Method: Negexp]======
+[Avg] Accuracy: 0.9797, AUC: 0.9898, F1: 0.3738, AP: 0.2583, Gmean: 0.9897
+[Std] Accuracy: 0.0050, AUC: 0.0025, F1: 0.0698, AP: 0.0729, Gmean: 0.0025
+[Best] Accuracy: 0.9879, AUC: 0.9939, F1: 0.5108, AP: 0.4000, Gmean: 0.9939
+
+======[Dataset: Yeast5-ERL - Method: Limit]======
+[Avg] Accuracy: 0.9691, AUC: 0.9845, F1: 0.4219, AP: 0.3171, Gmean: 0.9841
+[Std] Accuracy: 0.0187, AUC: 0.0094, F1: 0.1236, AP: 0.1139, Gmean: 0.0099
+[Best] Accuracy: 0.9939, AUC: 0.9970, F1: 0.6000, AP: 0.4733, Gmean: 0.9970

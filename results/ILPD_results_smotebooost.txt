@@ -1,0 +1,5 @@
+
+======[Dataset: ILPD - Method: ILPD]======
+[Avg] Accuracy: 0.6589, AUC: 0.6037, F1: 0.4409, AP: 0.3531, Gmean: 0.5855
+[Std] Accuracy: 0.0180, AUC: 0.0208, F1: 0.0286, AP: 0.0163, Gmean: 0.0243
+[Best] Accuracy: 0.6845, AUC: 0.6477, F1: 0.5033, AP: 0.3882, Gmean: 0.6390

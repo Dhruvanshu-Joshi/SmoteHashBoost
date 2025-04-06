@@ -1,0 +1,5 @@
+
+======[Dataset: Wine - Adasyn Method: Wine]======
+[Avg] Accuracy: 0.9685, AUC: 0.9592, F1: 0.9404, AP: 0.9065, Gmean: 0.9578
+[Std] Accuracy: 0.0127, AUC: 0.0183, F1: 0.0249, AP: 0.0374, Gmean: 0.0192
+[Best] Accuracy: 0.9832, AUC: 0.9750, F1: 0.9682, AP: 0.9509, Gmean: 0.9744

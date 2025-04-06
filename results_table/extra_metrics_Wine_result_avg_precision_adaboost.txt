@@ -1,0 +1,21 @@
+
+======[Dataset: Wine - Adaboost Method: Wine]======
+[Avg] Accuracy: 0.9617, AUC: 0.9504, F1: 0.9275, AP: 0.8877, Gmean: 0.9486
+[Std] Accuracy: 0.0139, AUC: 0.0202, F1: 0.0275, AP: 0.0394, Gmean: 0.0216
+[Best] Accuracy: 0.9832, AUC: 0.9823, F1: 0.9694, AP: 0.9474, Gmean: 0.9820
+
+======[Dataset: Wine - Adaboost Method: Wine]======
+
+======[Dataset: Wine - Adaboost Method: Wine]======
+Results for dataset: Wine - Adaboost Method: Wine
+
+Best results: Accuracy = 0.9886, AUC = 0.9923, F1 = 0.9789, Ap = 0.9600, Accuracy = 0.9922
+
+[Avg] Accuracy: 0.9682, AUC: 0.9609, F1: 0.9414, AP: 0.9065, Gmean: 0.9599
+[Std] Accuracy: 0.0125, AUC: 0.0167, F1: 0.0230, AP: 0.0345, Gmean: 0.0173
+[Best] Accuracy: 0.9886, AUC: 0.9923, F1: 0.9789, AP: 0.9600, Gmean: 0.9922
+
+======[Dataset: Wine - SmoteBoost Method: Wine]======
+[Avg] Accuracy: 0.9677, AUC: 0.9607, F1: 0.9406, AP: 0.9048, Gmean: 0.9597
+[Std] Accuracy: 0.0082, AUC: 0.0126, F1: 0.0156, AP: 0.0227, Gmean: 0.0132
+[Best] Accuracy: 0.9776, AUC: 0.9774, F1: 0.9605, AP: 0.9320, Gmean: 0.9768

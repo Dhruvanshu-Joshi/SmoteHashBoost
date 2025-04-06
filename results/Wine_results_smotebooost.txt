@@ -1,0 +1,5 @@
+
+======[Dataset: Wine - Method: Wine]======
+[Avg] Accuracy: 0.9689, AUC: 0.9623, F1: 0.9430, AP: 0.9093, Gmean: 0.9611
+[Std] Accuracy: 0.0126, AUC: 0.0165, F1: 0.0227, AP: 0.0337, Gmean: 0.0175
+[Best] Accuracy: 0.9832, AUC: 0.9812, F1: 0.9701, AP: 0.9502, Gmean: 0.9807

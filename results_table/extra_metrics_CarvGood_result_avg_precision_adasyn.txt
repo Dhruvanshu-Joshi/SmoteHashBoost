@@ -1,0 +1,5 @@
+
+======[Dataset: CarvGood - Adasyn Method: CarvGood]======
+[Avg] Accuracy: 0.9977, AUC: 0.9815, F1: 0.9695, AP: 0.9434, Gmean: 0.9809
+[Std] Accuracy: 0.0010, AUC: 0.0096, F1: 0.0138, AP: 0.0252, Gmean: 0.0100
+[Best] Accuracy: 0.9994, AUC: 0.9997, F1: 0.9926, AP: 0.9857, Gmean: 0.9997

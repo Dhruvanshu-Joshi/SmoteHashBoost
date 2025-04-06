@@ -1,0 +1,15 @@
+
+======[Dataset: CarGood - SmoteTomek Method: CarGood]======
+[Avg] Accuracy: 0.9871, AUC: 0.9200, F1: 0.8405, AP: 0.7274, Gmean: 0.9146
+[Std] Accuracy: 0.0023, AUC: 0.0172, F1: 0.0276, AP: 0.0443, Gmean: 0.0189
+[Best] Accuracy: 0.9919, AUC: 0.9410, F1: 0.8963, AP: 0.8170, Gmean: 0.9379
+
+======[Dataset: CarGood - SmoteTomek Method: CarGood]======
+[Avg] Accuracy: 0.9874, AUC: 0.9233, F1: 0.8447, AP: 0.7332, Gmean: 0.9186
+[Std] Accuracy: 0.0027, AUC: 0.0221, F1: 0.0354, AP: 0.0569, Gmean: 0.0248
+[Best] Accuracy: 0.9919, AUC: 0.9542, F1: 0.9027, AP: 0.8267, Gmean: 0.9527
+
+======[Dataset: CarGood - SmoteTomek Method: CarGood]======
+[Avg] Accuracy: 0.9864, AUC: 0.9068, F1: 0.8272, AP: 0.7048, Gmean: 0.9003
+[Std] Accuracy: 0.0037, AUC: 0.0300, F1: 0.0493, AP: 0.0753, Gmean: 0.0341
+[Best] Accuracy: 0.9902, AUC: 0.9459, F1: 0.8799, AP: 0.7837, Gmean: 0.9438

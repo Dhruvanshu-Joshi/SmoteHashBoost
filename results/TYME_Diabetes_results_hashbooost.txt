@@ -1,0 +1,30 @@
+
+======[Dataset: Diabetes - Method: Reciprocal]======
+======[Time: 34.82341766357422]======
+
+======[Dataset: Diabetes - Method: Random]======
+======[Time: 32.96494483947754]======
+
+======[Dataset: Diabetes - Method: Linearity]======
+======[Time: 30.896663665771484]======
+
+======[Dataset: Diabetes - Method: Negexp]======
+======[Time: 32.08756446838379]======
+
+======[Dataset: Diabetes - Method: Limit]======
+======[Time: 30.963420867919922]======
+
+======[Dataset: Diabetes - Method: Reciprocal]======
+======[Time: 34.08384323120117]======
+
+======[Dataset: Diabetes - Method: Random]======
+======[Time: 32.999277114868164]======
+
+======[Dataset: Diabetes - Method: Linearity]======
+======[Time: 33.99991989135742]======
+
+======[Dataset: Diabetes - Method: Negexp]======
+======[Time: 31.496524810791016]======
+
+======[Dataset: Diabetes - Method: Limit]======
+======[Time: 30.999183654785156]======

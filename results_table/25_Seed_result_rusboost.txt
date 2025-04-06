@@ -1,0 +1,5 @@
+
+======[Dataset: Seed - Rusboost Method: Seed]======
+[Avg] Accuracy: 0.9760, AUC: 0.9743, F1: 0.9644, AP: 0.9434, Gmean: 0.9737
+[Std] Accuracy: 0.0097, AUC: 0.0097, F1: 0.0134, AP: 0.0202, Gmean: 0.0102
+[Best] Accuracy: 0.9857, AUC: 0.9857, F1: 0.9788, AP: 0.9639, Gmean: 0.9856

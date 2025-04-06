@@ -1,0 +1,5 @@
+
+======[Dataset: Yeast5-ERL - Borderline Smote Method: Yeast5-ERL]======
+[Avg] Accuracy: 0.6691, AUC: 0.6247, F1: 0.5240, AP: 0.4995, Gmean: 0.5797
+[Std] Accuracy: 0.1926, AUC: 0.2641, F1: 0.3061, AP: 0.2914, Gmean: 0.3398
+[Best] Accuracy: 0.7993, AUC: 0.7997, F1: 0.7333, AP: 0.7000, Gmean: 0.7997

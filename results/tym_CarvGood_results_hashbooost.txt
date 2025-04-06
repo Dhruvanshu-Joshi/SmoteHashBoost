@@ -1,0 +1,10 @@
+
+======[Dataset: CarvGood - Method: Reciprocal]======
+
+======[Dataset: CarvGood - Method: Random]======
+
+======[Dataset: CarvGood - Method: Linearity]======
+
+======[Dataset: CarvGood - Method: Negexp]======
+
+======[Dataset: CarvGood - Method: Limit]======

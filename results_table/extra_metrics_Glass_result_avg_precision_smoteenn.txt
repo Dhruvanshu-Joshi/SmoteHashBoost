@@ -1,0 +1,15 @@
+
+======[Dataset: Glass - Smote ENN Method: Glass]======
+[Avg] Accuracy: 0.9472, AUC: 0.9055, F1: 0.8129, AP: 0.6998, Gmean: 0.9002
+[Std] Accuracy: 0.0095, AUC: 0.0156, F1: 0.0288, AP: 0.0444, Gmean: 0.0175
+[Best] Accuracy: 0.9625, AUC: 0.9298, F1: 0.8560, AP: 0.7645, Gmean: 0.9247
+
+======[Dataset: Glass - Smote ENN Method: Glass]======
+[Avg] Accuracy: 0.9414, AUC: 0.8962, F1: 0.7914, AP: 0.6721, Gmean: 0.8887
+[Std] Accuracy: 0.0120, AUC: 0.0212, F1: 0.0414, AP: 0.0577, Gmean: 0.0246
+[Best] Accuracy: 0.9628, AUC: 0.9225, F1: 0.8629, AP: 0.7853, Gmean: 0.9156
+
+======[Dataset: Glass - Smote ENN Method: Glass]======
+[Avg] Accuracy: 0.9433, AUC: 0.9025, F1: 0.8023, AP: 0.6856, Gmean: 0.8967
+[Std] Accuracy: 0.0122, AUC: 0.0215, F1: 0.0424, AP: 0.0587, Gmean: 0.0244
+[Best] Accuracy: 0.9628, AUC: 0.9365, F1: 0.8775, AP: 0.7997, Gmean: 0.9344

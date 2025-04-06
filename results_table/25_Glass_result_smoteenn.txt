@@ -1,0 +1,5 @@
+
+======[Dataset: Glass - Smote ENN Method: Glass]======
+[Avg] Accuracy: 0.9456, AUC: 0.9023, F1: 0.8080, AP: 0.6928, Gmean: 0.8968
+[Std] Accuracy: 0.0070, AUC: 0.0129, F1: 0.0238, AP: 0.0370, Gmean: 0.0150
+[Best] Accuracy: 0.9627, AUC: 0.9332, F1: 0.8709, AP: 0.7844, Gmean: 0.9305

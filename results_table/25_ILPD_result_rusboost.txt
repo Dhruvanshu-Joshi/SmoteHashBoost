@@ -1,0 +1,5 @@
+
+======[Dataset: ILPD - Rusboost Method: ILPD]======
+[Avg] Accuracy: 0.6981, AUC: 0.6312, F1: 0.4725, AP: 0.3786, Gmean: 0.6089
+[Std] Accuracy: 0.0106, AUC: 0.0136, F1: 0.0197, AP: 0.0129, Gmean: 0.0165
+[Best] Accuracy: 0.7204, AUC: 0.6553, F1: 0.5075, AP: 0.4010, Gmean: 0.6370

@@ -1,0 +1,15 @@
+
+======[Dataset: default of credit card clients - SmoteTomek Method: default of credit card clients]======
+[Avg] Accuracy: 0.7231, AUC: 0.6137, F1: 0.4001, AP: 0.2893, Gmean: 0.5814
+[Std] Accuracy: 0.0025, AUC: 0.0026, F1: 0.0038, AP: 0.0023, Gmean: 0.0031
+[Best] Accuracy: 0.7292, AUC: 0.6183, F1: 0.4066, AP: 0.2940, Gmean: 0.5854
+
+======[Dataset: default of credit card clients - SmoteTomek Method: default of credit card clients]======
+[Avg] Accuracy: 0.7232, AUC: 0.6141, F1: 0.4007, AP: 0.2896, Gmean: 0.5820
+[Std] Accuracy: 0.0017, AUC: 0.0018, F1: 0.0027, AP: 0.0016, Gmean: 0.0024
+[Best] Accuracy: 0.7246, AUC: 0.6170, F1: 0.4051, AP: 0.2921, Gmean: 0.5859
+
+======[Dataset: default of credit card clients - SmoteTomek Method: default of credit card clients]======
+[Avg] Accuracy: 0.7229, AUC: 0.6139, F1: 0.4005, AP: 0.2895, Gmean: 0.5819
+[Std] Accuracy: 0.0021, AUC: 0.0029, F1: 0.0045, AP: 0.0024, Gmean: 0.0040
+[Best] Accuracy: 0.7252, AUC: 0.6175, F1: 0.4058, AP: 0.2925, Gmean: 0.5864

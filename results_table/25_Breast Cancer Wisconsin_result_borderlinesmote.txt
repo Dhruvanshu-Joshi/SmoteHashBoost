@@ -1,0 +1,5 @@
+
+======[Dataset: Breast Cancer Wisconsin - Borderline Smote Method: Breast Cancer Wisconsin]======
+[Avg] Accuracy: 0.9259, AUC: 0.9248, F1: 0.9027, AP: 0.8469, Gmean: 0.9243
+[Std] Accuracy: 0.0107, AUC: 0.0110, F1: 0.0139, AP: 0.0206, Gmean: 0.0112
+[Best] Accuracy: 0.9403, AUC: 0.9390, F1: 0.9216, AP: 0.8750, Gmean: 0.9389

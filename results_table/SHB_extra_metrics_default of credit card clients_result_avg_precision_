@@ -1,0 +1,25 @@
+
+======[Dataset: default of credit card clients - SmoteHashBoost Method: Reciprocal]======
+[Avg] Accuracy: 0.7119, AUC: 0.6171, F1: 0.4070, AP: 0.2894, Gmean: 0.5931
+[Std] Accuracy: 0.0018, AUC: 0.0032, F1: 0.0046, AP: 0.0024, Gmean: 0.0043
+[Best] Accuracy: 0.7143, AUC: 0.6226, F1: 0.4149, AP: 0.2936, Gmean: 0.6004
+
+======[Dataset: default of credit card clients - SmoteHashBoost Method: Random]======
+[Avg] Accuracy: 0.7622, AUC: 0.6375, F1: 0.4350, AP: 0.3195, Gmean: 0.5969
+[Std] Accuracy: 0.0020, AUC: 0.0029, F1: 0.0048, AP: 0.0030, Gmean: 0.0040
+[Best] Accuracy: 0.7659, AUC: 0.6421, F1: 0.4425, AP: 0.3248, Gmean: 0.6024
+
+======[Dataset: default of credit card clients - SmoteHashBoost Method: Linearity]======
+[Avg] Accuracy: 0.7113, AUC: 0.6183, F1: 0.4089, AP: 0.2901, Gmean: 0.5953
+[Std] Accuracy: 0.0023, AUC: 0.0032, F1: 0.0046, AP: 0.0026, Gmean: 0.0041
+[Best] Accuracy: 0.7143, AUC: 0.6223, F1: 0.4146, AP: 0.2935, Gmean: 0.6000
+
+======[Dataset: default of credit card clients - SmoteHashBoost Method: Negexp]======
+[Avg] Accuracy: 0.7118, AUC: 0.6178, F1: 0.4081, AP: 0.2899, Gmean: 0.5943
+[Std] Accuracy: 0.0029, AUC: 0.0027, F1: 0.0037, AP: 0.0023, Gmean: 0.0031
+[Best] Accuracy: 0.7169, AUC: 0.6232, F1: 0.4156, AP: 0.2947, Gmean: 0.6000
+
+======[Dataset: default of credit card clients - SmoteHashBoost Method: Limit]======
+[Avg] Accuracy: 0.7116, AUC: 0.6178, F1: 0.4081, AP: 0.2898, Gmean: 0.5943
+[Std] Accuracy: 0.0024, AUC: 0.0030, F1: 0.0042, AP: 0.0024, Gmean: 0.0037
+[Best] Accuracy: 0.7162, AUC: 0.6248, F1: 0.4180, AP: 0.2957, Gmean: 0.6028

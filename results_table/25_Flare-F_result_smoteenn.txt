@@ -1,0 +1,5 @@
+
+======[Dataset: Flare-F - Smote ENN Method: Flare-F]======
+[Avg] Accuracy: 0.9258, AUC: 0.6846, F1: 0.3127, AP: 0.1432, Gmean: 0.6131
+[Std] Accuracy: 0.0060, AUC: 0.0244, F1: 0.0344, AP: 0.0211, Gmean: 0.0457
+[Best] Accuracy: 0.9259, AUC: 0.7166, F1: 0.3491, AP: 0.1586, Gmean: 0.6740

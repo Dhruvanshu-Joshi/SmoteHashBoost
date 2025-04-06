@@ -1,0 +1,30 @@
+
+======[Dataset: Sonar - Method: Reciprocal]======
+======[Time: 70.81770896911621]======
+
+======[Dataset: Sonar - Method: Random]======
+======[Time: 63.78936767578125]======
+
+======[Dataset: Sonar - Method: Linearity]======
+======[Time: 69.40579414367676]======
+
+======[Dataset: Sonar - Method: Negexp]======
+======[Time: 66.77937507629395]======
+
+======[Dataset: Sonar - Method: Limit]======
+======[Time: 66.72954559326172]======
+
+======[Dataset: Sonar - Method: Reciprocal]======
+======[Time: 75.06132125854492]======
+
+======[Dataset: Sonar - Method: Random]======
+======[Time: 84.47861671447754]======
+
+======[Dataset: Sonar - Method: Linearity]======
+======[Time: 71.99883460998535]======
+
+======[Dataset: Sonar - Method: Negexp]======
+======[Time: 72.62921333312988]======
+
+======[Dataset: Sonar - Method: Limit]======
+======[Time: 65.11950492858887]======

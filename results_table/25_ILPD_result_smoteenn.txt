@@ -1,0 +1,5 @@
+
+======[Dataset: ILPD - Smote ENN Method: ILPD]======
+[Avg] Accuracy: 0.6356, AUC: 0.6435, F1: 0.5089, AP: 0.3740, Gmean: 0.6401
+[Std] Accuracy: 0.0136, AUC: 0.0166, F1: 0.0194, AP: 0.0130, Gmean: 0.0172
+[Best] Accuracy: 0.6603, AUC: 0.6762, F1: 0.5461, AP: 0.3994, Gmean: 0.6741

@@ -1,0 +1,19 @@
+
+======[Dataset: CarvGood - Adaboost Method: CarvGood]======
+[Avg] Accuracy: 0.9976, AUC: 0.9829, F1: 0.9678, AP: 0.9411, Gmean: 0.9823
+[Std] Accuracy: 0.0014, AUC: 0.0123, F1: 0.0185, AP: 0.0325, Gmean: 0.0129
+[Best] Accuracy: 0.9994, AUC: 0.9923, F1: 0.9920, AP: 0.9852, Gmean: 0.9922
+
+======[Dataset: CarvGood - Adaboost Method: CarvGood]======
+Results for dataset: CarvGood - Adaboost Method: CarvGood
+
+Best results: Accuracy = 0.9988, AUC = 0.9920, F1 = 0.9846, Ap = 0.9709, Accuracy = 0.9919
+
+[Avg] Accuracy: 0.9978, AUC: 0.9800, F1: 0.9693, AP: 0.9440, Gmean: 0.9792
+[Std] Accuracy: 0.0011, AUC: 0.0130, F1: 0.0162, AP: 0.0276, Gmean: 0.0139
+[Best] Accuracy: 0.9988, AUC: 0.9920, F1: 0.9846, AP: 0.9709, Gmean: 0.9919
+
+======[Dataset: CarvGood - SmoteBoost Method: CarvGood]======
+[Avg] Accuracy: 0.9971, AUC: 0.9771, F1: 0.9614, AP: 0.9289, Gmean: 0.9764
+[Std] Accuracy: 0.0014, AUC: 0.0132, F1: 0.0188, AP: 0.0336, Gmean: 0.0138
+[Best] Accuracy: 0.9988, AUC: 0.9920, F1: 0.9846, AP: 0.9709, Gmean: 0.9919

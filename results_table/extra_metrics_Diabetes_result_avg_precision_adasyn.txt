@@ -1,0 +1,5 @@
+
+======[Dataset: Diabetes - Adasyn Method: Diabetes]======
+[Avg] Accuracy: 0.9663, AUC: 0.9654, F1: 0.9565, AP: 0.9307, Gmean: 0.9652
+[Std] Accuracy: 0.0056, AUC: 0.0056, F1: 0.0070, AP: 0.0118, Gmean: 0.0056
+[Best] Accuracy: 0.9769, AUC: 0.9747, F1: 0.9697, AP: 0.9543, Gmean: 0.9745

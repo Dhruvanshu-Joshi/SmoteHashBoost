@@ -1,0 +1,5 @@
+
+======[Dataset: Breast Cancer Wisconsin - Method: Breast Cancer Wisconsin]======
+[Avg] Accuracy: 0.9314, AUC: 0.9291, F1: 0.9090, AP: 0.8579, Gmean: 0.9286
+[Std] Accuracy: 0.0089, AUC: 0.0090, F1: 0.0116, AP: 0.0182, Gmean: 0.0091
+[Best] Accuracy: 0.9438, AUC: 0.9417, F1: 0.9254, AP: 0.8815, Gmean: 0.9415

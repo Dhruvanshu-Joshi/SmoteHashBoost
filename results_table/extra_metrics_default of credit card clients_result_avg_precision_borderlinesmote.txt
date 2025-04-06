@@ -1,0 +1,15 @@
+
+======[Dataset: default of credit card clients - Borderline Smote Method: default of credit card clients]======
+[Avg] Accuracy: 0.7207, AUC: 0.6143, F1: 0.4014, AP: 0.2892, Gmean: 0.5837
+[Std] Accuracy: 0.0027, AUC: 0.0030, F1: 0.0044, AP: 0.0026, Gmean: 0.0035
+[Best] Accuracy: 0.7246, AUC: 0.6208, F1: 0.4112, AP: 0.2947, Gmean: 0.5922
+
+======[Dataset: default of credit card clients - Borderline Smote Method: default of credit card clients]======
+[Avg] Accuracy: 0.7207, AUC: 0.6152, F1: 0.4029, AP: 0.2899, Gmean: 0.5853
+[Std] Accuracy: 0.0021, AUC: 0.0029, F1: 0.0044, AP: 0.0024, Gmean: 0.0040
+[Best] Accuracy: 0.7238, AUC: 0.6208, F1: 0.4113, AP: 0.2946, Gmean: 0.5927
+
+======[Dataset: default of credit card clients - Borderline Smote Method: default of credit card clients]======
+[Avg] Accuracy: 0.7202, AUC: 0.6142, F1: 0.4013, AP: 0.2891, Gmean: 0.5839
+[Std] Accuracy: 0.0022, AUC: 0.0030, F1: 0.0045, AP: 0.0024, Gmean: 0.0041
+[Best] Accuracy: 0.7239, AUC: 0.6181, F1: 0.4069, AP: 0.2925, Gmean: 0.5882

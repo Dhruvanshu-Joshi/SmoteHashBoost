@@ -1,0 +1,15 @@
+
+======[Dataset: CarvGood - Smote ENN Method: CarvGood]======
+[Avg] Accuracy: 0.9951, AUC: 0.9771, F1: 0.9382, AP: 0.8883, Gmean: 0.9764
+[Std] Accuracy: 0.0022, AUC: 0.0144, F1: 0.0267, AP: 0.0476, Gmean: 0.0149
+[Best] Accuracy: 0.9988, AUC: 0.9994, F1: 0.9852, AP: 0.9714, Gmean: 0.9994
+
+======[Dataset: CarvGood - Smote ENN Method: CarvGood]======
+[Avg] Accuracy: 0.9949, AUC: 0.9752, F1: 0.9342, AP: 0.8805, Gmean: 0.9742
+[Std] Accuracy: 0.0022, AUC: 0.0175, F1: 0.0295, AP: 0.0519, Gmean: 0.0184
+[Best] Accuracy: 0.9983, AUC: 0.9991, F1: 0.9783, AP: 0.9590, Gmean: 0.9991
+
+======[Dataset: CarvGood - Smote ENN Method: CarvGood]======
+[Avg] Accuracy: 0.9944, AUC: 0.9705, F1: 0.9285, AP: 0.8718, Gmean: 0.9693
+[Std] Accuracy: 0.0018, AUC: 0.0164, F1: 0.0225, AP: 0.0381, Gmean: 0.0174
+[Best] Accuracy: 0.9971, AUC: 0.9837, F1: 0.9623, AP: 0.9295, Gmean: 0.9834
