@@ -90,3 +90,11 @@ Best results: Accuracy = 0.9048, AUC = 0.8929
 ======[Dataset: Seed - Adasyn Method: Seed]======
 [Best] Accuracy: 0.9810, AUC: 0.9750
 [Best] Accuracy: 0.9762, AUC: 0.9750
+
+======[Dataset: Method: Seed]======
+[Best] Accuracy: 0.9810, AUC: 0.9786, F1: 0.9714, AP: 0.9544, Gmean: 0.9784
+[Mean] Accuracy: 0.9660, AUC: 0.9643, F1: 0.9497, AP: 0.9188, Gmean: 0.9637
+[Std] Accuracy: 0.0086, AUC: 0.0093, F1: 0.0125, AP: 0.0198, Gmean: 0.0095
+Avg Time per run: 279.35 ms
+Total Time for 20 runs: 5590.06 ms
+Average time over 20 runs: 279.50 ms

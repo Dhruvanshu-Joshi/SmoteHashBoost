@@ -1,0 +1,8 @@
+
+======[Dataset: CarvGood]======
+[Best] Accuracy: 0.9983, AUC: 0.9991, F1: 0.9783, AP: 0.9590, Gmean: 0.9991
+[Mean] Accuracy: 0.9966, AUC: 0.9856, F1: 0.9559, AP: 0.9189, Gmean: 0.9852
+[Std] Accuracy: 0.0012, AUC: 0.0125, F1: 0.0152, AP: 0.0269, Gmean: 0.0131
+Avg Time per run: 1687.75 ms
+Total Time for 20 runs: 33758.98 ms
+Average time over 20 runs: 1687.95 ms

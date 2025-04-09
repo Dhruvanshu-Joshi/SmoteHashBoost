@@ -124,3 +124,11 @@ Best results: Accuracy = 0.9953, AUC = 0.9976
 ======[Dataset: Glass - Adasyn Method: Glass]======
 [Best] Accuracy: 0.9674, AUC: 0.9392
 [Best] Accuracy: 0.9672, AUC: 0.9392
+
+======[Dataset: Method: Glass]======
+[Best] Accuracy: 0.9581, AUC: 0.9342, F1: 0.8623, AP: 0.7719, Gmean: 0.9322
+[Mean] Accuracy: 0.9411, AUC: 0.9035, F1: 0.7972, AP: 0.6766, Gmean: 0.8981
+[Std] Accuracy: 0.0109, AUC: 0.0200, F1: 0.0360, AP: 0.0530, Gmean: 0.0220
+Avg Time per run: 151.15 ms
+Total Time for 20 runs: 3028.98 ms
+Average time over 20 runs: 151.45 ms

@@ -1,0 +1,8 @@
+
+======[Dataset: Flare-F]======
+[Best] Accuracy: 0.9343, AUC: 0.6680, F1: 0.3330, AP: 0.1477, Gmean: 0.5963
+[Mean] Accuracy: 0.9210, AUC: 0.6160, F1: 0.2213, AP: 0.0955, Gmean: 0.4842
+[Std] Accuracy: 0.0065, AUC: 0.0355, F1: 0.0532, AP: 0.0234, Gmean: 0.0840
+Avg Time per run: 1397.58 ms
+Total Time for 20 runs: 27963.77 ms
+Average time over 20 runs: 1398.19 ms

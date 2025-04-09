@@ -90,3 +90,11 @@ Best results: Accuracy = 0.9994, AUC = 0.9997
 ======[Dataset: CarvGood - Adasyn Method: CarvGood]======
 [Best] Accuracy: 0.9988, AUC: 0.9994
 [Best] Accuracy: 0.9988, AUC: 0.9846
+
+======[Dataset: Method: CarvGood]======
+[Best] Accuracy: 0.9994, AUC: 0.9997, F1: 0.9926, AP: 0.9857, Gmean: 0.9997
+[Mean] Accuracy: 0.9979, AUC: 0.9830, F1: 0.9721, AP: 0.9484, Gmean: 0.9825
+[Std] Accuracy: 0.0012, AUC: 0.0123, F1: 0.0162, AP: 0.0286, Gmean: 0.0129
+Avg Time per run: 899.10 ms
+Total Time for 20 runs: 17983.93 ms
+Average time over 20 runs: 899.20 ms

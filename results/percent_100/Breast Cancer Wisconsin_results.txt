@@ -1,0 +1,8 @@
+
+======[Dataset: Breast Cancer Wisconsin]======
+[Best] Accuracy: 0.9437, AUC: 0.9426, F1: 0.9249, AP: 0.8807, Gmean: 0.9418
+[Mean] Accuracy: 0.9235, AUC: 0.9224, F1: 0.8995, AP: 0.8418, Gmean: 0.9220
+[Std] Accuracy: 0.0111, AUC: 0.0119, F1: 0.0144, AP: 0.0210, Gmean: 0.0119
+Avg Time per run: 1227.67 ms
+Total Time for 20 runs: 24572.98 ms
+Average time over 20 runs: 1228.65 ms

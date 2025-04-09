@@ -1,0 +1,8 @@
+
+======[Dataset: default of credit card clients]======
+[Best] Accuracy: 0.6832, AUC: 0.6333, F1: 0.4317, AP: 0.2953, Gmean: 0.6273
+[Mean] Accuracy: 0.6777, AUC: 0.6271, F1: 0.4240, AP: 0.2907, Gmean: 0.6204
+[Std] Accuracy: 0.0026, AUC: 0.0029, F1: 0.0036, AP: 0.0021, Gmean: 0.0033
+Avg Time per run: 1552669.63 ms
+Total Time for 20 runs: 31053418.16 ms
+Average time over 20 runs: 1552670.91 ms

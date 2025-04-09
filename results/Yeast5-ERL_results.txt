@@ -89,3 +89,11 @@ Best results: Accuracy = 0.9993, AUC = 0.9997
 
 ======[Dataset: Yeast5-ERL - Adasyn Method: Yeast5-ERL]======
 [ADASYN Failed] Not any neigbours belong to the majority class. This case will induce a NaN case with a division by zero. ADASYN is not suited for this specific dataset. Use SMOTE instead.
+
+======[Dataset: Method: Yeast5-ERL]======
+[Best] Accuracy: 0.7993, AUC: 0.7997, F1: 0.7333, AP: 0.7000, Gmean: 0.7997
+[Mean] Accuracy: 0.6192, AUC: 0.5797, F1: 0.4933, AP: 0.4719, Gmean: 0.5397
+[Std] Accuracy: 0.2441, AUC: 0.2992, F1: 0.3267, AP: 0.3118, Gmean: 0.3582
+Avg Time per run: 170.83 ms
+Total Time for 20 runs: 3418.91 ms
+Average time over 20 runs: 170.95 ms

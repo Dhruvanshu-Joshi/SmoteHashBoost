@@ -90,3 +90,11 @@ Best results: Accuracy = 0.9988, AUC = 0.9920
 ======[Dataset: CarGood - Adasyn Method: CarGood]======
 [Best] Accuracy: 0.9925, AUC: 0.9577
 [Best] Accuracy: 0.9925, AUC: 0.9476
+
+======[Dataset: Method: CarGood]======
+[Best] Accuracy: 0.9942, AUC: 0.9652, F1: 0.9287, AP: 0.8686, Gmean: 0.9641
+[Mean] Accuracy: 0.9894, AUC: 0.9256, F1: 0.8645, AP: 0.7638, Gmean: 0.9210
+[Std] Accuracy: 0.0027, AUC: 0.0304, F1: 0.0378, AP: 0.0603, Gmean: 0.0338
+Avg Time per run: 910.75 ms
+Total Time for 20 runs: 18220.96 ms
+Average time over 20 runs: 911.05 ms

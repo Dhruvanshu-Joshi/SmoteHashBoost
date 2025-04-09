@@ -90,3 +90,11 @@ Best results: Accuracy = 0.9852, AUC = 0.8497
 ======[Dataset: Yeast5 - Adasyn Method: Yeast5]======
 [Best] Accuracy: 0.9859, AUC: 0.9271
 [Best] Accuracy: 0.9838, AUC: 0.9271
+
+======[Dataset: Method: Yeast5]======
+[Best] Accuracy: 0.9852, AUC: 0.9156, F1: 0.7712, AP: 0.6113, Gmean: 0.9112
+[Mean] Accuracy: 0.9796, AUC: 0.8570, F1: 0.6790, AP: 0.4919, Gmean: 0.8418
+[Std] Accuracy: 0.0025, AUC: 0.0257, F1: 0.0404, AP: 0.0523, Gmean: 0.0316
+Avg Time per run: 629.42 ms
+Total Time for 20 runs: 12591.48 ms
+Average time over 20 runs: 629.57 ms

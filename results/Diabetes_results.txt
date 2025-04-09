@@ -1,0 +1,24 @@
+
+======[Dataset: Method: Diabetes]======
+
+======[Dataset: Method: Diabetes]======
+
+======[Dataset: Method: Diabetes]======
+
+======[Dataset: Method: Diabetes]======
+
+======[Dataset: Method: Diabetes]======
+
+======[Dataset: Method: Diabetes]======
+
+======[Dataset: Method: Diabetes]======
+
+======[Dataset: Method: Diabetes]======
+
+======[Dataset: Method: Diabetes]======
+[Best] Accuracy: 0.9673, AUC: 0.9662, F1: 0.9577, AP: 0.9356, Gmean: 0.9662
+[Mean] Accuracy: 0.9619, AUC: 0.9611, F1: 0.9509, AP: 0.9215, Gmean: 0.9609
+[Std] Accuracy: 0.0038, AUC: 0.0039, F1: 0.0048, AP: 0.0082, Gmean: 0.0040
+Avg Time per run: 10525.31 ms
+Total Time for 20 runs: 210552.23 ms
+Average time over 20 runs: 10527.61 ms

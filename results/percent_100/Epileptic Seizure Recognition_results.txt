@@ -1,0 +1,8 @@
+
+======[Dataset: Epileptic Seizure Recognition]======
+[Best] Accuracy: 0.9205, AUC: 0.9006, F1: 0.8139, AP: 0.6918, Gmean: 0.8999
+[Mean] Accuracy: 0.9133, AUC: 0.8899, F1: 0.7970, AP: 0.6679, Gmean: 0.8890
+[Std] Accuracy: 0.0030, AUC: 0.0047, F1: 0.0069, AP: 0.0097, Gmean: 0.0048
+Avg Time per run: 404528.85 ms
+Total Time for 20 runs: 8090590.77 ms
+Average time over 20 runs: 404529.54 ms

@@ -1,0 +1,8 @@
+
+======[Dataset: Sonar]======
+[Best] Accuracy: 0.7643, AUC: 0.7649, F1: 0.7488, AP: 0.6794, Gmean: 0.7608
+[Mean] Accuracy: 0.7152, AUC: 0.7138, F1: 0.6915, AP: 0.6302, Gmean: 0.7085
+[Std] Accuracy: 0.0243, AUC: 0.0254, F1: 0.0321, AP: 0.0246, Gmean: 0.0264
+Avg Time per run: 458.09 ms
+Total Time for 20 runs: 9166.84 ms
+Average time over 20 runs: 458.34 ms

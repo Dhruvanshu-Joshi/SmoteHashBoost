@@ -1,0 +1,8 @@
+
+======[Dataset: Seed]======
+[Best] Accuracy: 0.9810, AUC: 0.9786, F1: 0.9714, AP: 0.9560, Gmean: 0.9784
+[Mean] Accuracy: 0.9726, AUC: 0.9705, F1: 0.9592, AP: 0.9345, Gmean: 0.9701
+[Std] Accuracy: 0.0070, AUC: 0.0072, F1: 0.0101, AP: 0.0169, Gmean: 0.0073
+Avg Time per run: 1013.13 ms
+Total Time for 20 runs: 20272.96 ms
+Average time over 20 runs: 1013.65 ms

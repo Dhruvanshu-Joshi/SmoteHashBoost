@@ -1,0 +1,8 @@
+
+======[Dataset: ILPD]======
+[Best] Accuracy: 0.6672, AUC: 0.6589, F1: 0.5233, AP: 0.3927, Gmean: 0.6543
+[Mean] Accuracy: 0.6366, AUC: 0.6228, F1: 0.4811, AP: 0.3614, Gmean: 0.6191
+[Std] Accuracy: 0.0130, AUC: 0.0206, F1: 0.0260, AP: 0.0158, Gmean: 0.0218
+Avg Time per run: 2897.98 ms
+Total Time for 20 runs: 57969.93 ms
+Average time over 20 runs: 2898.50 ms

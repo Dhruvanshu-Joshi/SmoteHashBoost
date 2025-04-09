@@ -1,0 +1,8 @@
+
+======[Dataset: Method: Student_dropout]======
+[Best] Accuracy: 0.7199, AUC: 0.6576, F1: 0.4176, AP: 0.2666, Gmean: 0.6493
+[Mean] Accuracy: 0.7088, AUC: 0.6400, F1: 0.3963, AP: 0.2528, Gmean: 0.6304
+[Std] Accuracy: 0.0046, AUC: 0.0068, F1: 0.0081, AP: 0.0049, Gmean: 0.0080
+Avg Time per run: 32636.52 ms
+Total Time for 20 runs: 652741.48 ms
+Average time over 20 runs: 32637.07 ms

@@ -1,0 +1,8 @@
+
+======[Dataset: Wine]======
+[Best] Accuracy: 0.9886, AUC: 0.9850, F1: 0.9777, AP: 0.9635, Gmean: 0.9847
+[Mean] Accuracy: 0.9581, AUC: 0.9537, F1: 0.9250, AP: 0.8785, Gmean: 0.9526
+[Std] Accuracy: 0.0131, AUC: 0.0154, F1: 0.0228, AP: 0.0355, Gmean: 0.0158
+Avg Time per run: 731.84 ms
+Total Time for 20 runs: 14649.65 ms
+Average time over 20 runs: 732.48 ms

@@ -1,0 +1,8 @@
+
+======[Dataset: Yeast5]======
+[Best] Accuracy: 0.9832, AUC: 0.9253, F1: 0.7587, AP: 0.5943, Gmean: 0.9230
+[Mean] Accuracy: 0.9775, AUC: 0.8960, F1: 0.6853, AP: 0.5013, Gmean: 0.8891
+[Std] Accuracy: 0.0024, AUC: 0.0187, F1: 0.0300, AP: 0.0404, Gmean: 0.0214
+Avg Time per run: 1200.26 ms
+Total Time for 20 runs: 24015.03 ms
+Average time over 20 runs: 1200.75 ms

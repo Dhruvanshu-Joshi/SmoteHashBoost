@@ -178,3 +178,13 @@ Best results: Accuracy = 0.9889, AUC = 0.9800
 ======[Dataset: Wine - Method: Wine]======
 [Best] Accuracy: 0.9889, AUC: 0.9862
 [Best] Accuracy: 0.9889, AUC: 0.9862
+
+======[Dataset: Method: Wine]======
+
+======[Dataset: Method: Wine]======
+[Best] Accuracy: 0.9778, AUC: 0.9774, F1: 0.9596, AP: 0.9381, Gmean: 0.9771
+[Mean] Accuracy: 0.9623, AUC: 0.9518, F1: 0.9299, AP: 0.8918, Gmean: 0.9502
+[Std] Accuracy: 0.0121, AUC: 0.0175, F1: 0.0235, AP: 0.0344, Gmean: 0.0184
+Avg Time per run: 196.72 ms
+Total Time for 20 runs: 3937.35 ms
+Average time over 20 runs: 196.87 ms

@@ -1,0 +1,8 @@
+
+======[Dataset: CarGood]======
+[Best] Accuracy: 0.9890, AUC: 0.9565, F1: 0.8671, AP: 0.7612, Gmean: 0.9558
+[Mean] Accuracy: 0.9818, AUC: 0.9262, F1: 0.7968, AP: 0.6591, Gmean: 0.9226
+[Std] Accuracy: 0.0030, AUC: 0.0169, F1: 0.0277, AP: 0.0410, Gmean: 0.0189
+Avg Time per run: 1776.71 ms
+Total Time for 20 runs: 35537.73 ms
+Average time over 20 runs: 1776.89 ms

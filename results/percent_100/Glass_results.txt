@@ -1,0 +1,8 @@
+
+======[Dataset: Glass]======
+[Best] Accuracy: 0.9580, AUC: 0.9338, F1: 0.8536, AP: 0.7489, Gmean: 0.9323
+[Mean] Accuracy: 0.9378, AUC: 0.9028, F1: 0.7910, AP: 0.6678, Gmean: 0.8982
+[Std] Accuracy: 0.0123, AUC: 0.0156, F1: 0.0335, AP: 0.0488, Gmean: 0.0162
+Avg Time per run: 427.40 ms
+Total Time for 20 runs: 8557.09 ms
+Average time over 20 runs: 427.85 ms

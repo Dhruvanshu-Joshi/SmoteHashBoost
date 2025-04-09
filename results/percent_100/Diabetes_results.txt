@@ -1,0 +1,16 @@
+
+======[Dataset: Diabetes]======
+[Best] Accuracy: 0.9769, AUC: 0.9756, F1: 0.9704, AP: 0.9546, Gmean: 0.9756
+[Mean] Accuracy: 0.9641, AUC: 0.9635, F1: 0.9538, AP: 0.9261, Gmean: 0.9632
+[Std] Accuracy: 0.0063, AUC: 0.0059, F1: 0.0079, AP: 0.0136, Gmean: 0.0060
+Avg Time per run: 14039.19 ms
+Total Time for 20 runs: 280793.00 ms
+Average time over 20 runs: 14039.65 ms
+
+======[Dataset: Diabetes]======
+[Best] Accuracy: 0.9731, AUC: 0.9716, F1: 0.9649, AP: 0.9471, Gmean: 0.9714
+[Mean] Accuracy: 0.9615, AUC: 0.9605, F1: 0.9504, AP: 0.9216, Gmean: 0.9602
+[Std] Accuracy: 0.0085, AUC: 0.0083, F1: 0.0108, AP: 0.0179, Gmean: 0.0083
+Avg Time per run: 23872.21 ms
+Total Time for 20 runs: 477450.99 ms
+Average time over 20 runs: 23872.55 ms
