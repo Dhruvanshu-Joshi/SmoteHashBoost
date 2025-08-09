@@ -9,17 +9,17 @@ from sklearn.model_selection import StratifiedKFold
 from tqdm import tqdm
 import numpy as np
 
-DATASETS = dict()
+# DATASETS = dict()
 
-"""Wine Dataset"""
-X, y = load_wine(return_X_y=True)
-DATASETS.update({
-    'Wine': {
-        'data': [X, y],
-        'extra': {
-        }
-    }
-})
+# """Wine Dataset"""
+# X, y = load_wine(return_X_y=True)
+# DATASETS.update({
+#     'Wine': {
+#         'data': [X, y],
+#         'extra': {
+#         }
+#     }
+# })
 
 # """Flare-F"""
 # data = pd.read_csv('data/raw/flare-F.dat', header=None)
@@ -122,7 +122,201 @@ DATASETS.update({
 # #             'minority_class': 'ERL'
 # #         }
 # #     }
-# # })
+# # })'
+
+DATASETS = dict()
+
+# """Wine Dataset"""
+# X, y = load_wine(return_X_y=True)
+# DATASETS.update({
+#     'Wine': {
+#         'data': [X, y],
+#         'extra': {
+#         }
+#     }
+# })
+
+# """Flare-F"""
+# data = pd.read_csv('data/raw/flare-F.dat', header=None)
+# objects = data.select_dtypes(include=['object'])
+# for col in objects.columns:
+#     if col == len(data.columns) - 1:
+#         continue
+#     data.iloc[:, col] = LabelEncoder().fit_transform(data.values[:, col])
+
+# DATASETS.update({
+#     'Flare-F': {
+#         'data': [data.values[:, :-1], data.values[:, -1]],
+#         'extra': {
+
+#         }
+#     }
+# })
+
+# """Yeast5"""
+# data = pd.read_csv('data/raw/yeast5.dat', header=None)
+# DATASETS.update({
+#     'Yeast5': {
+#         'data': [data.values[:, :-1], data.values[:, -1]],
+#         'extra': {}
+#     }
+# })
+
+# """Car vGood"""
+# data = pd.read_csv('data/raw/car.data', header=None)
+# DATASETS.update({
+#     'CarvGood': {
+#         'data': [
+#             OrdinalEncoder().fit_transform(data.values[:, :-1]),
+#             data.values[:, -1]
+#         ],
+#         'extra': {
+#             'minority_class': 'vgood'
+#         }
+#     }
+# })
+
+
+# """Car Good"""
+# data = pd.read_csv('data/raw/car.data', header=None)
+# DATASETS.update({
+#     'CarGood': {
+#         'data': [
+#             OrdinalEncoder().fit_transform(data.values[:, :-1]),
+#             data.values[:, -1]
+#         ],
+#         'extra': {
+#             'minority_class': 'good'
+#         }
+#     }
+# })
+
+# """Seed"""
+# data = pd.read_csv('data/raw/seeds_dataset.txt', header=None)
+# DATASETS.update({
+#     'Seed': {
+#         'data': [data.values[:, :-1], data.values[:, -1]],
+#         'extra': {
+#             'minority_class': 2
+#         }
+#     }
+# })
+
+# """Glass"""
+# data = pd.read_csv('data/raw/glass.csv', header=None)
+# DATASETS.update({
+#     'Glass': {
+#         'data': [data.values[:, :-1], data.values[:, -1]],
+#         'extra': {
+#             'minority_class': 7
+#         }
+#     }
+# })
+
+# """ILPD"""
+# data = pd.read_csv('data/raw/Indian Liver Patient Dataset (ILPD).csv', header=None)
+# data.fillna(data.mean(), inplace=True)
+
+# #Encode
+# data.iloc[:, 1] = LabelEncoder().fit_transform(data.values[:, 1])
+
+# DATASETS.update({
+#     'ILPD': {
+#         'data': [data.values[:, :-1], data.values[:, -1]],
+#         'extra': {}
+#     }
+# })
+
+# """Yeast5-ERL"""
+# data = pd.read_csv('data/raw/yeast5.data', header=None)
+# DATASETS.update({
+#     'Yeast5-ERL': {
+#         'data': [data.values[:, 1:-1], data.values[:, -1]],
+#         'extra': {
+#             # 'minority_class': 'ME1'
+#             'minority_class': 'ERL'
+#         }
+#     }
+# })
+
+# # Load the Epileptic Seizure Recognition dataset
+# data = pd.read_csv('data/raw/seizure.csv', header=0, low_memory=False)
+
+# DATASETS.update({
+#     'Epileptic Seizure Recognition': {
+#         'data': [OrdinalEncoder().fit_transform(data.values[:, :-1]), data.values[:, -1]],
+#         'extra': {}
+#     }
+# })
+
+
+# Load the breast cancer dataset
+data = pd.read_csv('data/raw/breast_cancer.csv', header=None)
+
+# Encode categorical features if necessary
+objects = data.select_dtypes(include=['object'])
+for col in objects.columns:
+    if col == data.shape[1] - 1:  # Skip the last column if it's the target
+        continue
+    data.iloc[:, col] = LabelEncoder().fit_transform(data.iloc[:, col])
+
+# Update the DATASETS dictionary
+DATASETS.update({
+    'Breast Cancer Wisconsin': {
+        'data': [data.iloc[:, :-1].values, data.iloc[:, -1].values],  # Features and target
+        'extra': {
+
+        }
+    }
+})
+
+
+'''Diabetes'''
+data = pd.read_csv('data/raw/diabetes_data.csv', header=0)
+
+data.fillna(data.mean(), inplace=True)
+
+DATASETS.update({
+    'Diabetes': {
+        'data': [OrdinalEncoder().fit_transform(data.values[:, :-1]), data.values[:, -1]],
+        'extra': {}
+    }
+})
+
+
+'''sonar'''
+data = pd.read_csv('data/raw/sonar_all_data.csv', header=None)
+
+DATASETS.update({
+    'Sonar': {
+        'data': [OrdinalEncoder().fit_transform(data.values[:, :-1]), data.values[:, -1]],
+        'extra': {}
+    }
+})
+
+
+'''student_dropout'''
+data = pd.read_csv('data/raw/student_dropout.csv', header=0)
+
+DATASETS.update({
+    'Student_dropout': {
+        'data': [OrdinalEncoder().fit_transform(data.values[:, :-1]), data.values[:, -1]],
+        'extra': {}
+    }
+})
+
+
+# '''default of credit card clients'''
+# data = pd.read_excel('data/raw/default of credit card clients.xls', header=0)
+
+# DATASETS.update({
+#     'default of credit card clients': {
+#         'data': [OrdinalEncoder().fit_transform(data.values[:, :-1]), data.values[:, -1]],
+#         'extra': {}
+#     }
+# })
+
+
 def evaluate_1(
         name,
         base_classifier,
@@ -208,6 +402,7 @@ for name, value in DATASETS.items():
             DecisionTreeClassifier(),
             *value.get('data'),
             **value.get('extra'),
+            excel_path=f'results_{name}.xlsx',
             k=5,
             verbose=True,
             sampling=method
